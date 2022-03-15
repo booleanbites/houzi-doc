@@ -1,5 +1,5 @@
 ---
-title: Welcome to Houzi Documentation
+title: Welcome
 ---
 
 This is setup documentation for Houzi Flutter App.
