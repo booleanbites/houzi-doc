@@ -1,7 +1,7 @@
 ---
 title: Change Website URL
-category: Media
-order: 2
+category: App Setup
+order: 1
 ---
 
 open the `houzi > packages > houzi_package > lib > common > constants.dart` file, and look for `WORDPRESS_URL_DOMAIN` and `WORDPESS_URL_SCHEME`. Replace with your own domain and scheme.
