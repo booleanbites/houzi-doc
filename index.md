@@ -2,6 +2,8 @@
 title: Welcome
 ---
 
+![Houzi real estate](touch-icon.png)
+
 This is setup documentation for Houzi Flutter App.
 
 Houzi a real estate mobile application that connects with Houzez Wordpress theme. Its build with Flutter so it can be deployed to Android and iOS.
@@ -18,3 +20,7 @@ This section addresses all the tools and other environment configurations you ne
 #### App Setup
 
 This section guides through all the steps related to app setup and customization.
+
+### Try the demo app here:
+
+ [![Houzi real estate](images/apple_store.png)](https://apps.apple.com/us/app/id1598357211)  [![Houzi real estate](images/google_play.png)](https://play.google.com/store/apps/details?id=com.booleanbites.houzez)

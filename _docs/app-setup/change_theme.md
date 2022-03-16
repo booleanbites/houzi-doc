@@ -11,7 +11,7 @@ houzi > packages > houzi_package > lib > files > app_preferences > app_preferenc
 
 Go to the ‘Colors’ section.
 
-If you want to change the primary color of the app. Define a custom color code map with RGB value of color with different opacities. After defining the map, define the custom app primary color as MaterialColor with the hex value of color and the defined map. Example below:
+If you want to change the primary color of the app. Define a custom color code map with RGB value of color with different opacities. After defining the map, define the custom app primary color as `MaterialColor` with the hex value of color and the defined map. Example below:
 ```
 /// Define your custom color swatches.
 Map<int, Color> primaryColorCodes = {
