@@ -4,7 +4,6 @@ category: Tools
 order: 4
 ---
 
-## Change app bundle identifier & version:
 
 > **Mandatory** App bundle identifiers are unique identifiers for your apps, they’re globally unique. Most of the time, you can reverse your website domain to create an identifier for your app. For example: `com.domain.app_name`
 
@@ -16,7 +15,9 @@ you’ve to change package info in two places. Build.gradle and AndroidManifest.
 
 ### Change applicationId in build.gradle:
 
-`open Project_HOME > android > app > build.gradle`
+Open following file:
+
+`Project_HOME > android > app > build.gradle`
 
 Look for `applicationId` and replace the value with your own.
 
