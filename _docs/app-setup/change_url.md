@@ -15,18 +15,21 @@ const String WORDPRESS_URL_PATH = "";
 
 if your website URL does not contain a subpath then leave `WORDPRESS_URL_PATH` as it is.
 
+You nedd to provide following URL to your website pages
+
 ```
 //Optional
-String APP_TERMS_URL = "https://domain.com/terms.html";
-String APP_PRIVACY_URL = "https://domain.com/privacy.html";
-String WORDPRESS_URL_GDPR_AGREEMENT = "https://domain.com/gdpr.";
+const String APP_TERMS_URL = "https://domain.com/terms.html";
+const String APP_PRIVACY_URL = "https://domain.com/privacy.html";
+const String APP_TERMS_OF_USE_URL = "https://domain.com/terms.html";
+const String WORDPRESS_URL_GDPR_AGREEMENT = "https://domain.com/gdpr.html";
 
 /// Your Company Related
 String COMPANY_NAME = "BooleanBites Ltd.";
 String COMPANY_URL = "https://booleanbites.com";
 ```
 
-> Important: If you are using non secure domain, add your domain to following files for mobile systems to allow communication to non-secure domain: 
+> **Important**: If you are using non secure domain, add your domain to following files for mobile systems to allow communication to non-secure domain: 
 
 - Android: `network_security_config.xml`
 - iOS: `NSAppTransportSecurity` key in `info.plist`
