@@ -8,18 +8,13 @@ Houzi a real estate mobile application that connects with Houzez Wordpress theme
 
 Visit website here: https://houzi.booleanbites.com
 
-### Features
 
-Explore more of ChatApp by reading about our features:
+This documentation consist of two parts.
 
-#### Media
+### Tools
 
-Send images, videos and other media to people. Sources include your computer, phone and Facebook.
+This section addresses all the tools and other environment configurations you need to do get the development started.
 
-#### Contact Syncing
+#### App Setup
 
-Sync your contact list with your phone and/or Facebook contacts. Never lose your contacts between devices again!
-
-#### Devices
-
-ChatApp is available everywhere. Find out how to set it up on your all your devices.
+This section guides through all the steps related to app setup and customization.
