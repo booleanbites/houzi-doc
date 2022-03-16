@@ -1,7 +1,7 @@
 ---
-title: App bundle identifier & version:
+title: App bundle identifier & version
 category: Tools
-order: 1
+order: 4
 ---
 
 ## Change app bundle identifier & version:
