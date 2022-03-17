@@ -1,6 +1,6 @@
 ---
 title: Upgrading with future updates
-category: Tools
+category: Tools Setup
 order: 17
 ---
 

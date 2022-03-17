@@ -1,6 +1,6 @@
 ---
 title: App bundle identifier & version
-category: Tools
+category: Tools Setup
 order: 4
 ---
 

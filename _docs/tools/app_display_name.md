@@ -1,6 +1,6 @@
 ---
 title: App display Name
-category: Tools
+category: Tools Setup
 order: 5
 ---
 

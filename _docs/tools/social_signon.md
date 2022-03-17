@@ -1,6 +1,6 @@
 ---
 title: Setup Social Sign On
-category: Tools
+category: Tools Setup
 order: 15
 ---
 

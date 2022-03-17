@@ -1,6 +1,6 @@
 ---
 title: Setup a Maps api key for Android and iOS projects
-category: Tools
+category: Tools Setup
 order: 8
 ---
 

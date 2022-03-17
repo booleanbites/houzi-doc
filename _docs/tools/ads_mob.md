@@ -1,6 +1,6 @@
 ---
 title: Google AdMob integration
-category: Tools
+category: Tools Setup
 order: 16
 ---
 

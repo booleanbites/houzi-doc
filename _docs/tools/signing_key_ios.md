@@ -1,6 +1,6 @@
 ---
 title: Setup signing key for iOS Project
-category: Tools
+category: Tools Setup
 order: 10
 ---
 

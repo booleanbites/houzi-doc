@@ -2,7 +2,7 @@
 title: Welcome
 ---
 
-![Houzi real estate](touch-icon.png)
+![Houzi real estate](images/banner.jpg)
 
 This is setup documentation for Houzi Flutter App.
 

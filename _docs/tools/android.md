@@ -1,6 +1,6 @@
 ---
 title: Android Studio Setup
-category: Tools
+category: Tools Setup
 order: 1
 ---
 

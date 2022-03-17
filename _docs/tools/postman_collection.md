@@ -1,6 +1,6 @@
 ---
 title: Import postman collection
-category: Tools
+category: Tools Setup
 order: 13
 ---
 

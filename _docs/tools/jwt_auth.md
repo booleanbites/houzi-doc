@@ -1,6 +1,6 @@
 ---
 title: Setup JWT Authentication for WP REST API plugin on Wordpress
-category: Tools
+category: Tools Setup
 order: 12
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Push Notification integration
-category: Tools
+category: Tools Setup
 order: 14
 ---
 

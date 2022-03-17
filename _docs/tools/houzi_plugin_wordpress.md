@@ -1,6 +1,6 @@
 ---
 title: Setup Houzez-Rest-Api plugin on Wordpress
-category: Tools
+category: Tools Setup
 order: 11
 ---
 

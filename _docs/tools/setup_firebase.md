@@ -1,6 +1,6 @@
 ---
 title: Setup Firebase
-category: Tools
+category: Tools Setup
 order: 6
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Xcode Setup
-category: Tools
+category: Tools Setup
 order: 1
 ---
 

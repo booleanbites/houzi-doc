@@ -1,6 +1,6 @@
 ---
 title: Flutter Setup
-category: Tools
+category: Tools Setup
 order: 2
 ---
 
