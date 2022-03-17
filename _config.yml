@@ -11,13 +11,15 @@ show_full_navigation: true
 logo: /siteicon.png
 description: Documentation for Houzi real estate app.
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Adil Soomro
+  email: houziapp@gmail.com
+  twitter: booleanbites
 social:
   name: Houzi
   links:
     - https://houzi.booleanbites.com
+    - https://play.google.com/store/apps/details?id=com.booleanbites.houzez
+    - https://apps.apple.com/us/app/id1598357211
 
 # -----
 # Build
