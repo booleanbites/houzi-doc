@@ -2,8 +2,8 @@
 # Site
 
 title: Houzi Docs
-url: "https://houzi.booleanbites.com"
-baseurl:
+url: "https://houzi-doc.booleanbites.com"
+baseurl: https://houzi-doc.booleanbites.com
 google_analytics_key:
 show_full_navigation: true
 
