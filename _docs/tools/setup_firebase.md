@@ -16,8 +16,6 @@ https://firebase.google.com/docs/ios/setup
 
 After acquiring the json and plists for both platforms. Place them at following places:
 
-#### Android: 
-Project_HOME > android > app > google-services.json
+- Android: `Project_HOME > android > app > google-services.json`
+- iOS: `Project_HOME > ios > Runner > GoogleServices-Info.plist`
 
-#### iOS: 
-Project_HOME > ios > Runner > GoogleServices-Info.plist
