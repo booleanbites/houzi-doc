@@ -1,14 +1,14 @@
 ---
-title: Setup Social Sign On
+title: Setup social sign in
 category: Tools Setup
 order: 15
 ---
 
-Houzi supports social sign ons. Android app offers Google and Facebook SSO, and iPhone app offer SSO with Apple, Google and Facebook.
+Houzi supports social sign ins. Android app offers Google and Facebook SSO, and iPhone app offer SSO with Apple, Google and Facebook.
 
 > **Note**: If your iOS app offers social login with either facebook or Google, Apple login is a must in order to get the iOS app approved from Apple, its required to support Sign in with Apple, you cannot disable it on iPhone app and keep facebook or Google.
 
-## Google Sign On
+## Google sign in
 The keystore that you intend to use to sign the Android app will be used in this step. YOu might have already created this keystore in previous sections. After generating a signing key, the next step is to add SHA-1 and SHA-256 certificates to the firebase project. You go to the `Firebase console > project > project settings > Add fingerprint`
 Here you add your SHA-1 and SHA-256 certificates, that you generated from your signing key and from the Google play console.
 
@@ -18,6 +18,9 @@ https://developers.google.com/android/guides/client-auth#using_keytool_on_the_ce
 To get SHA-1 and SHA-256 certificates from the Google play console:
 https://developers.google.com/android/guides/client-auth#using_play_app_signing
 
+
+> You might also want to set the project name and email in Firebase > Settings > General > Public settings 
+
 After adding the certificates, download the `google-services.json`. Place it at following place:
 
 - Android: `Project_HOME > android > app > google-services.json`
@@ -26,25 +29,27 @@ Also download the `GoogleServices-Info.plist` for iOS and place it here:
 
 - iOS: `Project_HOME > ios > Runner > GoogleServices-Info.plist`
 
-For iOS you need to provide a URL scheme for Google Sign On, open the `GoogleService-Info.plist` configuration file, and look for the `REVERSED_CLIENT_ID` key. Copy the value of that key, and paste it into the URL Schemes box on the configuration page
+For iOS you need to provide a URL scheme for Google sign in, open the `GoogleService-Info.plist` configuration file, and look for the `REVERSED_CLIENT_ID` key. Copy the value of that key, and paste it into the URL Schemes box on the configuration page
 
 `Project_HOME > ios > Runner > Info Tab > URL Types section > Google Login Scheme`
 
 
-On completing above mentioned steps, google sign on is functional.(No additional work is required).
+On completing above mentioned steps, google sign in is functional.(No additional work is required).
 
 You might need to copy your PlayStore sha1 in your firebase as well to get the google login working.
 
-### Apple Sign On
-Integrate Apple Sign on by following:
+### Apple sign in
+Integrate Apple sign in by following:
 [sign_in_with_apple | Flutter Package (pub.dev)](https://pub.dev/packages/sign_in_with_apple#integration)
 
 You can skip the Android and Web sections.
 
-After integrating, go to `Project_HOME > packages > houzi_package > lib > common > constants.dart` and look for `APPLE_SIGN_ON_CLIENT_ID` add `APPLE_SIGN_ON_REDIRECT_URI`. Replace their values with your own Service ID and Redirect Uri.
+If you want to enable Android, then follow the steps in library guide and then go to `Project_HOME > packages > houzi_package > lib > common > constants.dart` and look for `APPLE_SIGN_ON_CLIENT_ID` add `APPLE_SIGN_ON_REDIRECT_URI`. Replace their values with your own Service ID and Redirect Uri. 
 
-### Facebook Sign On
-For Facebook signOn, first you need to register as a Facebook developer. Follow this link:
+> These constants not needed if you just want to enable Apple sign in for iOS only.
+
+### Facebook sign in
+For Facebook sign in, first you need to register as a Facebook developer. Follow this link:
 https://developers.facebook.com/docs/development/register/
 
 Then you have to create an app. Follow this link:
@@ -80,5 +85,5 @@ Also look for the Facebook Login Scheme in the URL types `(CFBundleURLTypes)` se
 
 fb1122334455667788
 
-Save changes and facebook Sign on is complete.
+Save changes and facebook sign in is complete.
 
