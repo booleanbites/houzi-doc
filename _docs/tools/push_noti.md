@@ -1,8 +1,8 @@
----
+<!-- ---
 title: Push Notification integration
 category: Tools Setup
 order: 14
----
+--- -->
 
 We’re using OneSignal for the push notification purpose. You can set up OneSignal on your wordpress and your app.
 

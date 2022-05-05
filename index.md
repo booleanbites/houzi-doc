@@ -13,11 +13,11 @@ Visit website here: https://houzi.booleanbites.com
 
 This documentation consist of two parts.
 
-### Tools
+### [Tools](tools/tools)
 
 This section addresses all the tools and other environment configurations you need to do get the development started.
 
-#### App Setup
+#### [App Setup](app-setup/change_url)
 
 This section guides through all the steps related to app setup and customization.
 

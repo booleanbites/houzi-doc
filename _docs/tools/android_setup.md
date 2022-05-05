@@ -1,7 +1,7 @@
 ---
 title: Android Studio Setup
 category: Tools Setup
-order: 1
+order: 2
 ---
 
 ### Install Android Studio
