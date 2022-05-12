@@ -13,7 +13,7 @@ Visit website here: https://houzi.booleanbites.com
 
 This documentation consist of two parts.
 
-### [Tools](tools/tools)
+### [Tools](tools/xcode_setup)
 
 This section addresses all the tools and other environment configurations you need to do get the development started.
 
