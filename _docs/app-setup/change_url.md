@@ -4,7 +4,7 @@ category: App Setup
 order: 1
 ---
 
-open the `houzi > packages > houzi_package > lib > common > constants.dart` file, and look for `WORDPRESS_URL_DOMAIN` and `WORDPESS_URL_SCHEME`. Replace with your own domain and scheme.
+Open the `houzi > packages > houzi_package > lib > common > constants.dart` file, and look for `WORDPRESS_URL_DOMAIN` and `WORDPESS_URL_SCHEME`. Replace with your own domain and scheme.
 
 ```
 //Mandatory
@@ -15,7 +15,7 @@ const String WORDPRESS_URL_PATH = "";
 
 if your website URL does not contain a subpath then leave `WORDPRESS_URL_PATH` as it is.
 
-You nedd to provide following URL to your website pages
+You need to provide following URL to your website pages
 
 ```
 //Optional
