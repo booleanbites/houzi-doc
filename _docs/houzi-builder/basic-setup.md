@@ -11,7 +11,7 @@ Please follow these steps for the `Basic Setup` of your Mobile app.
 3. Provide `Wordpress URL` in the required field. 
     > **Note**: To provide Wordpress URL, just click on `Wordpress URL Text Field`. A dialog will open. Provide the `Wordpress URL Scheme`, `Wordpress URL Domain` and `Wordpress URL Path` in their respective fields. If your website URL does not contain a subpath then leave `Wordpress URL Path` field as it is.
 4. Provide `Terms and Conditions URL` in the required field.
-5. Provide `Privacu Policy URL` in the required field.
+5. Provide `Privacy Policy URL` in the required field.
 6. Provide `Terms of Use URL` in the required field.
 7. Provide `GDPR Agreement URL` in the required field.
 8. Provide `Company URL` in the required field.
