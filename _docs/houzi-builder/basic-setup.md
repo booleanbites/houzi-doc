@@ -4,7 +4,7 @@ category: Houzi Builder
 order: 19
 ---
 
-> **Important**: You are required to install the Houzi Plug-in on your Houzez wordpress. To install the Plug-in click on [Houzi Plug-in Link](https://github.com/AdilSoomro/houzez-mobile-api)
+> **Important**: You are required to install the Houzi Plug-in on your Houzez wordpress. To install the Plug-in click on [Houzi Plug-in Link](https://github.com/AdilSoomro/houzez-mobile-api).
 
 Please follow these steps for the `Basic Setup` of your Mobile app.
 
