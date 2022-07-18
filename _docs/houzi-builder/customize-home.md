@@ -54,6 +54,8 @@ On the Right side, there is a cloumn with options to customize the **Home Screen
     - If selected List-Type is `property_city` and you want to show listings according to some particular list-type value (i.e. some particular city), select your desired option.
     - If selected List-Type is `property_area` and you want to show listings according to some particular list-type value (i.e. some particular area), select your desired option.
     - If selected List-Type is `property_country` and you want to show listings according to some particular list-type value (i.e. some particular country), select your desired option.
+    > Click `Done` to *add* the new section.  
+    Click `Cancel` to *discard* the action.
 * You can `Re-arrange` the sections on **Home Screen** just by dragging them *upwards* or *downwards*.
 * You can `Edit` the sections just by clicking on *Edit* icon of respective section. You can perform following opertions in editing a section:
   - You can change the **Type** of any section.
