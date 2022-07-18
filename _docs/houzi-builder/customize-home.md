@@ -31,8 +31,8 @@ On the Right side, there is a cloumn with options to customize the **Home Screen
     - featured_properties.
     - property.
     - term.   
-    > You can choose from *Design # 01* to *Design # 08* for the first three sections. Section *term* has only two designs i.e. *Design # 01* and *Design # 02*.  
-    *Design* for non-proprety related sections can not be defined.
+    > You can choose from *Design # 01* to *Design # 08* for the first three sections. Section **term** has only two designs i.e. *Design # 01* and *Design # 02*.  
+    **Design** for non-proprety related sections can not be defined.
   - Forth, you can define **List-Type** of any Property related section. List-Types are as follows:
     - `all` (If you want to show latest listings. It is by default selected option).
     - `property_type` (If you want to show listings by their **Types** e.g. Apartments, Offices, Shops etc.).
