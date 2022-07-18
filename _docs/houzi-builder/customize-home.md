@@ -14,14 +14,6 @@ Go to the `Home` section.
 
 On the Right side, there is a cloumn with options to customize the **Home Screen**. You can do customization as follows:  
 * You can add or reduce the **Search Type** options with the help of stepper.
-* You can `Re-arrange` the sections on **Home Screen** just by dragging them *upwards* or *downwards*.
-* You can `Edit` the sections just by clicking on *Edit* icon of respective section. You can perform following opertions in editing a section:
-  - You can change the **Type** of any section.
-  - You can **Rename** any section.
-  - You can change the **Design** of any Property related section.
-  -  You can change the **Listing Type** of any Property related section (e.g. you can show *all properties* or just the properties based on their *property_type* or *property_status* etc.).
-  -  You can change the **Listing Type Value** of any Property related section (e.g. you can show *all properties* of particular selected Listing Type or just the properties based on that selected Listing Type Value (i.e. if selected Listing Type is *Property_type*, you can choose the selected Listing Type Value to be *all* or one of the selected Listing Type values (e.g. apartment, office etc.))).
-* You can `Remove/Delete` any section just by clicking on *Delete* icon of respective section.
 * You can `Add` a new section to **Home Screen** by following these steps:
   - There is a **Add** button at the bottom of the column. Press this button and a dialog box will open.
   - First of all, you have to define the **Widget Type** of the section that you want to add to *Home Screen*. There are many widget types as:
@@ -62,3 +54,11 @@ On the Right side, there is a cloumn with options to customize the **Home Screen
     - If selected List-Type is `property_city` and you want to show listings according to some particular list-type value (i.e. some particular city), select your desired option.
     - If selected List-Type is `property_area` and you want to show listings according to some particular list-type value (i.e. some particular area), select your desired option.
     - If selected List-Type is `property_country` and you want to show listings according to some particular list-type value (i.e. some particular country), select your desired option.
+* You can `Re-arrange` the sections on **Home Screen** just by dragging them *upwards* or *downwards*.
+* You can `Edit` the sections just by clicking on *Edit* icon of respective section. You can perform following opertions in editing a section:
+  - You can change the **Type** of any section.
+  - You can **Rename** any section.
+  - You can change the **Design** of any Property related section.
+  -  You can change the **Listing Type** of any Property related section (e.g. you can show *all properties* or just the properties based on their *property_type* or *property_status* etc.).
+  -  You can change the **Listing Type Value** of any Property related section (e.g. you can show *all properties* of particular selected Listing Type or just the properties based on that selected Listing Type Value (i.e. if selected Listing Type is *Property_type*, you can choose the selected Listing Type Value to be *all* or one of the selected Listing Type values (e.g. apartment, office etc.))).
+* You can `Remove/Delete` any section just by clicking on *Delete* icon of respective section.
