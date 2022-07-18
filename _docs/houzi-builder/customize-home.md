@@ -63,4 +63,6 @@ On the Right side, there is a cloumn with options to customize the **Home Screen
   - You can change the **Design** of any Property related section.
   -  You can change the **Listing Type** of any Property related section (e.g. you can show *all properties* or just the properties based on their *property_type* or *property_status* etc.).
   -  You can change the **Listing Type Value** of any Property related section (e.g. you can show *all properties* of particular selected Listing Type or just the properties based on that selected Listing Type Value (i.e. if selected Listing Type is *Property_type*, you can choose the selected Listing Type Value to be *all* or one of the selected Listing Type values (e.g. apartment, office etc.))).
-* You can `Remove/Delete` any section just by clicking on *Delete* icon of respective section.
+* You can `Remove/Delete` any section just by clicking on **Delete Icon** of respective section. A delete confirmation dialog will open.  
+    > Click `Yes` if you want to *delete* the section.  
+    Click `Cancel` if you want to *discard* the action.
