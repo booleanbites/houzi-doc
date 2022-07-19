@@ -60,7 +60,7 @@ On the Right side, there is a cloumn with options to customize the **Search Scre
     - If selected *Widget Type* is `location_picker`, you can choose either to show **Search By City** or **Search By Location**.  
         > If you want to show both sections (i.e. `Search By City` and `Search By Location`, simply select both.)
     - If selected *Widget Type* is `range_picker`, you can define the minimun and maximun range of section in **Min Value** and **Max Value** fields.
-  > Click `Done` to *add* the new section.  
+> Click `Done` to *add* the new section.  
     Click `Cancel` to *discard* the action.
 * You can `Re-arrange` the sections on **Search Screen** just by dragging them *upwards* or *downwards*.
 * You can `Remove/Delete` any section just by clicking on **Delete Icon** of respective section. A delete confirmation dialog will open.  
