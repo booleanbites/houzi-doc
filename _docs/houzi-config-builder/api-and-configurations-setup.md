@@ -1,6 +1,6 @@
 ---
 title: Api and Configurations Setup
-category: Houzi Builder
+category: Houzi Configuration Builder
 order: 25
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Basic App Setup
-category: Houzi Builder
+category: Houzi Configuration Builder
 order: 19
 ---
 

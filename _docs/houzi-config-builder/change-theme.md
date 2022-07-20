@@ -1,6 +1,6 @@
 ---
 title: Changing Theme Colors
-category: Houzi Builder
+category: Houzi Configuration Builder
 order: 20
 ---
 

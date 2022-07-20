@@ -1,6 +1,6 @@
 ---
 title: Customize Home Screen
-category: Houzi Builder
+category: Houzi Configuration Builder
 order: 21
 ---
 

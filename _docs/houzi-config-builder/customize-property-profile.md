@@ -1,6 +1,6 @@
 ---
 title: Customize Property Profile Screen
-category: Houzi Builder
+category: Houzi Configuration Builder
 order: 24
 ---
 

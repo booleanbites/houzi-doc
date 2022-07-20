@@ -1,6 +1,6 @@
 ---
 title: Customize Drawer Menu
-category: Houzi Builder
+category: Houzi Configuration Builder
 order: 22
 ---
 
