@@ -13,7 +13,7 @@ Go to the `Api & Config` section.
 * Provide `Google Maps Api Key` in the respective field.  
   > **Google Maps Api Key** is prerequisite. If you do not have *Google Maps Api Key*, you can aquire key by following these steps:   
     1. [Setup Google Cloud Project Console](/tools/setup_google_cloud)
-    2. Once you have setup the project on [Google Cloud](https://developers.google.com/maps/documentation/android-sdk/start#get-key), you need to [Aquire the Maps Api Key](https://developers.google.com/maps/documentation/android-sdk/start#get-key).
+    2. Once you have setup the project on Google Cloud, you need to [Aquire the Maps Api Key](https://developers.google.com/maps/documentation/android-sdk/start#get-key) for Android and iOS separately.
  * Provide `Android/IOS Native Ad Id` in the respective fields.  
    > **AdMob App ID** is prerequisite. If you do not have *AdMob App ID*, you can aquire *AdMob App ID* by registering your app as an AdMob app. Simply follow these steps:   
     1. [Sign in](https://admob.google.com/home/) to or [Sign up](https://support.google.com/admob/answer/7356219) for an AdMob account.
