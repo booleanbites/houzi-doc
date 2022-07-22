@@ -8,9 +8,10 @@ order: 27
 
 If you want to **Edit/Update** configurations of your app (e.g. the changing the Theme Color etc.), follow these steps:
 1. Press the **Upload from File** button. A dialogbox will open, Select the `configurations.json` file of you project.  
-  **configurations.json** file path:  
-  `Project_HOME > assets > configurations > configurations.json`
-    
+   
+    **configurations.json** file path:  
+    `Project_HOME > assets > configurations > configurations.json`
+
     > `Upload from File` button is on the right side of top bar.  
     
     After selecting the file, all the data will be filled in the respective fields.
