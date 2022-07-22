@@ -15,4 +15,4 @@ Once you have filled all the required fields, follow these steps:
     > 
     > `Project_HOME > assets > configurations > configurations.json`
 
-4. [Optional Task] At the bottom of dialogbox, you will see a checkbox named as `Increase configurations version number`. If you are [Editing/Updating](/houzi-config-builder/edit-or-update-configurations.md) the configurations of your app, then *checkmark* it, else leave it unchecked.
+4. [Optional Task] At the bottom of dialogbox, you will see a checkbox named as `Increase configurations version number`. If you are [Editing/Updating](/houzi-config-builder/edit-or-update-configurations) the configurations of your app, then *checkmark* it, else leave it unchecked.
