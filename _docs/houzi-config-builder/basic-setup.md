@@ -15,7 +15,7 @@ Please follow these steps for the `Basic Setup` of your Mobile app.
     > **Note**: To provide Wordpress URL, just click on `Wordpress URL Text Field`. A dialog will open. Provide the `Wordpress URL Scheme`, `Wordpress URL Domain` and `Wordpress URL Path` in their respective fields.  
     If your website URL does not contain a subpath then leave `Wordpress URL Path` field as it is.
      
-    <img src="https://houzi-docs.booleanbites.com/images/add-url-screenshot.png" alt="add-url-screenshot" title="add-url-screenshot" height="400" width = "300" border= "1px solid"/> 
+    <img src="https://houzi-docs.booleanbites.com/images/add-url-screenshot.png" alt="add-url-screenshot" title="add-url-screenshot" height="500" width = "400" border= "3px solid"/> 
 
     ```
     Example 1 (Website Url with path):
