@@ -24,6 +24,7 @@ On the Right side, there is a cloumn with options to customize the **Drawer Menu
 <img src="https://houzi-docs.booleanbites.com/images/drawer-edit-section-screenshot.png" alt="drawer-edit-section-screenshot" title="drawer-edit-section-screenshot" border= "1px solid"/>
     > Click `Done` if you want to *Rename* the section.  
     Click `Cancel` if you want to *discard* the action.
-* You can `show/hide` any section just by clicking on **Visibility / Invisibility Icon** of respective section.
-<img src="https://houzi-docs.booleanbites.com/images/drawer-list-tile-screenshot.png" alt="drawer-list-tile-screenshot" title="drawer-list-tile-screenshot" border= "1px solid"/>
-<img src="https://houzi-docs.booleanbites.com/images/drawer-list-tile-01-screenshot.png" alt="drawer-list-tile-01-screenshot" title="drawer-list-tile-01-screenshot" border= "1px solid"/>
+* You can `show/hide` any section just by clicking on **Visibility / Invisibility Icon** of respective section.  
+ 
+    <img src="https://houzi-docs.booleanbites.com/images/drawer-list-tile-screenshot.png" alt="drawer-list-tile-screenshot" title="drawer-list-tile-screenshot" border= "1px solid"/>
+    <img src="https://houzi-docs.booleanbites.com/images/drawer-list-tile-01-screenshot.png" alt="drawer-list-tile-01-screenshot" title="drawer-list-tile-01-screenshot" border= "1px solid"/>
