@@ -23,7 +23,10 @@ Go to the `Api & Config` section.
 * If your website use `wp/v2/houzez_agency` or `wp/v2/translated_agency_name` instead of `wp/v2/agencies`, then define *houzez_agency* or *translated_agency_name* as **Rest Api Agency Route**.
 * If you want to **limit** the `Places Api` to specific *country* or *countries*, follow these steps:  
   1. **Check mark** the *lock Places Api to specific country or countries* checkbox.
-  2. Specify **Country/Countries Tags** (e.g. US, UK etc.) in required field.
+  3. Specify **Country/Countries Tags** (e.g. US, UK etc.) in required field.  
+    <img src="https://houzi-docs.booleanbites.com/images/api-and-config-lock-places-section-screenshot.png" alt="api-and-config-lock-places-section-screenshot" title="api-and-config-lock-places-section-screenshot" border= "1px solid"/>
 * You can *enable* or *disable* `Social Sign-On` (i.e. Sign-in with *Facebook*, *Google* and *Apple*.)
     > *Sign-in with Apple* is only available in **IOS**.  
-    > Prerequisite: [Social Sign-on Configuration](/tools/social_signon).
+    > Prerequisite: [Social Sign-on Configuration](/tools/social_signon).  
+
+    <img src="https://houzi-docs.booleanbites.com/images/api-and-config-social-sign-on-section-screenshot.png" alt="api-and-config-social-sign-on-section-screenshot" title="api-and-config-social-sign-on-section-screenshot" border= "1px solid"/>
