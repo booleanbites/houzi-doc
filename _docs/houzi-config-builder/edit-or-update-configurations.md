@@ -13,6 +13,8 @@ If you want to **Edit/Update** configurations of your app (e.g. the changing the
     `Project_HOME > assets > configurations > configurations.json`
 
     > `Upload from File` button is on the right side of top bar.  
+
+    <img src="https://houzi-docs.booleanbites.com/images/upload-config-from-file-screenshot.png" alt="upload-config-from-file-screenshot" title="upload-config-from-file-screenshot" border= "1px solid"/>
     
     After selecting the file, all the data will be filled in the respective fields.
 2. Click the **Wordpress Url** field. A dialogbox will open with all the respective filled fields. Just click `Done` so that app verifies Houzi Plug-in is installation.
