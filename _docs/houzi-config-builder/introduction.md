@@ -10,12 +10,12 @@ This is setup documentation for **Houzi Builder App**.
 
 This documentation consist of these parts:
 
-### [Basic App Setup](/houzi-config-builder/basic-setup)
-### [Changing Theme Color](/houzi-config-builder/basic-setup)
-### [Customize Home Screen](/houzi-config-builder/basic-setup)
-### [Customize Drawer Menu](/houzi-config-builder/basic-setup)
-### [Customize Search Screen](/houzi-config-builder/basic-setup)
-### [Customize Property Profile Screen](/houzi-config-builder/basic-setup)
-### [Api and Configurations Setup](/houzi-config-builder/basic-setup)
-### [Export Configurations](/houzi-config-builder/basic-setup)
-### [Edit/Update Configurations](/houzi-config-builder/basic-setup)
+#### [Basic App Setup](/houzi-config-builder/basic-setup)
+#### [Changing Theme Color](/houzi-config-builder/change-theme)
+#### [Customize Home Screen](/houzi-config-builder/customize-home)
+#### [Customize Drawer Menu](/houzi-config-builder/customize-drawer)
+#### [Customize Search Screen](/houzi-config-builder/customize-search)
+#### [Customize Property Profile Screen](/houzi-config-builder/customize-property-profile)
+#### [Api and Configurations Setup](/houzi-config-builder/api-and-configurations-setup)
+#### [Export Configurations](/houzi-config-builder/export-configurations)
+#### [Edit/Update Configurations](/houzi-config-builder/edit-or-update-configurations)
