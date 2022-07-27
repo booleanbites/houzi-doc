@@ -1,7 +1,7 @@
 ---
 title: Customize Home Screen
 category: Houzi Configuration Builder
-order: 21
+order: 22
 ---
 
 > **Important**: You are required to install the Houzi Plug-in on your Houzez wordpress. To install the Plug-in, click on [Houzi Plug-in Link](https://github.com/AdilSoomro/houzez-mobile-api).
