@@ -25,6 +25,11 @@ Go to the `Api & Config` section.
   1. **Check mark** the *lock Places Api to specific country or countries* checkbox.
   3. Specify **Country/Countries Tags** (e.g. US, UK etc.) in required field.  
     <img src="https://houzi-docs.booleanbites.com/images/api-and-config-lock-places-section-screenshot.png" alt="api-and-config-lock-places-section-screenshot" title="api-and-config-lock-places-section-screenshot" border= "1px solid"/>
+* You can *enable* or *disable* `Ads`. 
+    > Prerequisite: **Android/IOS Native Ad Id**.  
+
+    <img src="https://houzi-docs.booleanbites.com/images/api-and-config-show-ads-section-screenshot.png" alt="api-and-config-show-ads-section-screenshot" title="api-and-config-show-ads-section-screenshot" border= "1px solid"/>
+
 * You can *enable* or *disable* `Social Sign-On` (i.e. Sign-in with *Facebook*, *Google* and *Apple*.)
     > *Sign-in with Apple* is only available in **IOS**.  
     > Prerequisite: [Social Sign-on Configuration](/tools/social_signon).  
