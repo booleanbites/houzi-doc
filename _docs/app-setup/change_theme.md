@@ -4,6 +4,8 @@ category: App Setup
 order: 2
 ---
 
+> **Note**: You can use Houzi Config Builder to configure the theme via desktop app.
+
 Open the file 
 ```
 houzi > packages > houzi_package > lib > files > app_preferences > app_preferences.dart
