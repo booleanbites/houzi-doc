@@ -10,7 +10,7 @@ If you want to change the design of any section in Property detail page, you nee
 
 Look for the `getWidgetHook()` method. The sections are provided to you, look for your desired section and pass it the widget that you want to replace. eg: 
 ```
-…
+  …
     else if (hook == 'article_features') {
 
         return null;
@@ -21,7 +21,7 @@ Look for the `getWidgetHook()` method. The sections are provided to you, look fo
 
         return null;
     }
-…
+  …
 
 // your customDescriptionWidget 
 static Widget customDescriptionWidget(BuildContext context, Article article) {
