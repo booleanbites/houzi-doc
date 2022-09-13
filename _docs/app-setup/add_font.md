@@ -32,18 +32,15 @@ Fonts:
 ```
 #### Register font at app level
 If you want to apply the font at application level, open following file:
-`Project_HOME > packages > houzi_package > lib > main.dart`
-Look for the `build()` method and find the darkTheme and theme for MaterialApp object. And change the fontFamily: attribute as follow:
+`Project_HOME  > lib > Hooks.dart`
+Look for the `getFontHook()` method and add your font name as follow:
 ```
 //you can also add a condition to change font for multiple locales as well:
-darkTheme: ThemeData(
-    …
-    fontFamily: "FontNameYouWroteInPubSpec",
-),
-theme: ThemeData(
-    …
-    fontFamily: "FontNameYouWroteInPubSpec",
-)
+FontsHook fontsHook = (Locale locale) {
+
+    return "FontNameYouDesire";
+
+};
 
 //You can also use this font in a TextStyle like this
 TextStyle(
