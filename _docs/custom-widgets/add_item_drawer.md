@@ -40,4 +40,5 @@ Look for the `getDrawerItems()` method. Add the DrawerItem objects into the list
   }
   …
 ```
+The Icons.xxxxx are coded from Google Material icons here: https://fonts.google.com/icons
 

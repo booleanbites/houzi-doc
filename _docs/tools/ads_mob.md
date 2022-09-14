@@ -31,5 +31,5 @@ Make sure set the value of `show_ads: true` to turn on the ads
 
 
 ## Add/Change AdMob Native ids by editing constants.dart
-Copy that native ad unit and go to the `houzi > packages > houzi_package > lib > common > constants.dart` file, and look for `ANDROID_NATIVE_AD_ID` for android and `IOS_NATIVE_AD_ID` for IOS. Replace its value with your own native ad unit.
+Copy that native ad unit and go to the `Project_HOME > packages > houzi_package > lib > common > constants.dart` file, and look for `ANDROID_NATIVE_AD_ID` for android and `IOS_NATIVE_AD_ID` for IOS. Replace its value with your own native ad unit.
 Make sure set the value of `SHOW_ADS=true` to turn on the ads
