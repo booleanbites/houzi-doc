@@ -1,7 +1,7 @@
 ---
 title: Add item in drawer
 category: App Setup
-order: 12
+order: 13
 ---
 
 If you want to add item in drawer, you need to open following file:
