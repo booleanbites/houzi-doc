@@ -1,7 +1,7 @@
 ---
 title: Add item in drawer
-category: App Setup
-order: 13
+category: Custom Widgets
+order: 1
 ---
 
 If you want to add item in drawer, you need to open following file:

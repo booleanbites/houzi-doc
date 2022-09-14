@@ -1,7 +1,7 @@
 ---
 title: Showing feature icon in property details
-category: App Setup
-order: 7
+category: Custom Widgets
+order: 5
 ---
 
 If you want to show feature icon for your translated property feature, you need to open following file:

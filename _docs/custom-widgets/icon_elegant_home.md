@@ -1,7 +1,7 @@
 ---
 title: Showing term icon in home
-category: App Setup
-order: 8
+category: Custom Widgets
+order: 4
 ---
 
 If you want to show term icon for your translated term, you need to open following file:

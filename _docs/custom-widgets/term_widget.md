@@ -1,7 +1,7 @@
 ---
 title: Change design of Term
-category: App Setup
-order: 10
+category: Custom Widgets
+order: 8
 ---
 
 If you want to change Term design, you need to open following file:

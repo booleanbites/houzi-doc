@@ -1,7 +1,7 @@
 ---
 title: Change design of any section in property detail page
-category: App Setup
-order: 9
+category: Custom Widgets
+order: 6
 ---
 
 If you want to change the design of any section in Property detail page, you need to open following file:

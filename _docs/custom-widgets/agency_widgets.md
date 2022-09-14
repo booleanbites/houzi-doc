@@ -1,7 +1,7 @@
 ---
 title: Change design of Agency listing
-category: App Setup
-order: 12
+category: Custom Widgets
+order: 2
 ---
 
 If you want to change property listing, you need to open following file:

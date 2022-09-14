@@ -1,7 +1,7 @@
 ---
 title: Change design of property listing
-category: App Setup
-order: 9
+category: Custom Widgets
+order: 7
 ---
 
 If you want to change property listing, you need to open following file:

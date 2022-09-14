@@ -13,15 +13,19 @@ Visit website here: https://houzi.booleanbites.com
 
 This documentation consist of three parts.
 
-### [Tools](https://houzi-docs.booleanbites.com/tools/xcode_setup)
+### [Tools](tools/xcode_setup)
 
 This section addresses all the tools and other environment configurations you need to do get the development started.
 
-#### [App Setup](https://houzi-docs.booleanbites.com/app-setup/change_url)
+#### [App Setup](app-setup/change_url)
 
 This section guides through all the steps related to app setup and customization.
 
-#### [Houzi Config Builder](https://houzi-docs.booleanbites.com/houzi-config-builder/introduction)
+#### [Custom Widgets](app-setup/add_item_drawer)
+
+This section guides through all the steps that how can to add icons and customs widgets.
+
+#### [Houzi Config Builder](houzi-config-builder/introduction)
 
 This section talks about designing and generating configuration with Houzi Builder, that can be used in the app.
 
