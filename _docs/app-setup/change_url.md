@@ -5,7 +5,7 @@ order: 1
 ---
 
 ## Change URL by Houzi Config
- [Change URL by Houzi Config](houzi-config-builder/basic-setup). 
+ [Change URL by Houzi Config](/houzi-config-builder/basic-setup). 
 
 ## Change URL by editing config.json
 Open the `houzi > assests > configuration > configuration.json` file, and look for `wordpress_url_domain` and `wordpress_url_scheme`. Replace with your own domain and scheme.
