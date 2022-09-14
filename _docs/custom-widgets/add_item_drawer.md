@@ -15,13 +15,13 @@ Look for the `getDrawerItems()` method. Add the DrawerItem objects into the list
     DrawerHook drawerHook = (BuildContext context) {
       // make an item of drawer like this
       DrawerItem drawerItem = DrawerItem(
-        sectionType: "section_name",        // name of the section
-        title: "Your title here",         // title of the section
-        checkLogin: false,          // login is required to see this section
-        enable: true,               // hide or show
-        insertAt: 5,                // give position where you want to place
-        icon: Icons.real_estate_agent, // give icon to your section
-        onTap: () {                 // perform some action on tap 
+        sectionType: "section_name",    // name of the section
+        title: "Your title here",       // title of the section
+        checkLogin: false,              // login is required to see this section
+        enable: true,                   // hide or show
+        insertAt: 5,                    // give position where you want to place
+        icon: Icons.real_estate_agent   // give icon to your section
+        onTap: () {                     // perform some action on tap 
           Navigator.push(
             context,
             MaterialPageRoute(

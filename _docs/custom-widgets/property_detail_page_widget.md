@@ -1,5 +1,5 @@
 ---
-title: Change design of any section in property detail page
+title: Change design of any section in Property Detail Page
 category: Custom Widgets
 order: 6
 ---

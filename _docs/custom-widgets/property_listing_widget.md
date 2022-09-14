@@ -1,5 +1,5 @@
 ---
-title: Change design of property listing
+title: Change design of Property listing
 category: Custom Widgets
 order: 7
 ---

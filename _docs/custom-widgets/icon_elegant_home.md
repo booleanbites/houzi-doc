@@ -1,5 +1,5 @@
 ---
-title: Showing term icon in home
+title: Showing term icon in Home
 category: Custom Widgets
 order: 4
 ---

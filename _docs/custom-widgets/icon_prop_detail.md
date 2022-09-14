@@ -1,5 +1,5 @@
 ---
-title: Showing feature icon in property details
+title: Showing feature icon in Property Detail Page
 category: Custom Widgets
 order: 5
 ---
