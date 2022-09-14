@@ -18,5 +18,18 @@ After getting your app AdMob App ID go to:
 
 Create a native ad unit. Follow this link to get it: https://support.google.com/admob/answer/7187428#step1
 
+
+## Add/Change AdMob Native ids by Houzi Config
+Open houzi config and go to the section `Api & Config`. Enter your Android and iOS native ads id here
+
+<img src="https://houzi-docs.booleanbites.com/images/enter-ad-mob-key.JPG" alt="enter-ad-mob-key.JPG" title="enter-ad-mob-key.JPG" border= "1px solid"/>
+
+
+## Add/Change AdMob Native ids by editing config.json
+Copy that native ad unit and go to the `Project_HOME > assests > configuration > configuration.json` file, and look for `android_native_ad_id` for android and `ios_native_ad_id` for IOS. Replace its value with your own native ad unit.
+Make sure set the value of `show_ads: true` to turn on the ads
+
+
+## Add/Change AdMob Native ids by editing constants.dart
 Copy that native ad unit and go to the `houzi > packages > houzi_package > lib > common > constants.dart` file, and look for `ANDROID_NATIVE_AD_ID` for android and `IOS_NATIVE_AD_ID` for IOS. Replace its value with your own native ad unit.
 Make sure set the value of `SHOW_ADS=true` to turn on the ads
