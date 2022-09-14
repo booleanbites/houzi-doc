@@ -18,7 +18,7 @@ Go to `Android Studio > Tool > AppLinksAssistance > Associate Website` Fill the 
  To setup DeepLink in app for iOS go to `houzi > iOS > Runner > Info.plist` file, look for key `CFBundleURLName`, replace it with your host and `CFBundleURLSchemes` replace it with your host.
 
 
- ## These two files are related to deep links:
+## These two files are related to deep links:
 
 1. apple-app-site-association
 2. assetlinks.json
