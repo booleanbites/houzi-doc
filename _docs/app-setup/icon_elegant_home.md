@@ -1,5 +1,5 @@
 ---
-title: Showing term icon in elegant home
+title: Showing term icon in home
 category: App Setup
 order: 8
 ---

@@ -4,7 +4,7 @@ category: Houzi Configuration Builder
 order: 28
 ---
 
-> **Important**: You are required to install the Houzi Plug-in on your Houzez wordpress. To install the Plug-in, click on [Houzi Plug-in Link](https://github.com/AdilSoomro/houzez-mobile-api).
+> **Important**: You are required to install the Houzi Plug-in on your Houzez wordpress. To install the Plug-in, click on [Houzi Plug-in Link](https://github.com/AdilSoomro/houzi-rest-api).
 
 If you want to **Edit/Update** configurations of your app (e.g. the changing the Theme Color etc.), follow these steps:
 1. Press the **Upload from File** button. A dialogbox will open, Select the `configurations.json` file of you project.  

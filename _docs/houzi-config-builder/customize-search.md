@@ -4,7 +4,7 @@ category: Houzi Configuration Builder
 order: 24
 ---
 
-> **Important**: You are required to install the Houzi Plug-in on your Houzez wordpress. To install the Plug-in, click on [Houzi Plug-in Link](https://github.com/AdilSoomro/houzez-mobile-api).
+> **Important**: You are required to install the Houzi Plug-in on your Houzez wordpress. To install the Plug-in, click on [Houzi Plug-in Link](https://github.com/AdilSoomro/houzi-rest-api).
 
 You can fully customize the **Search Screen** of your app. You can **add** new sections to your search screen and you can also **re-arrange** them according to your likings. You can also **remove** undesired sections from the Search screen. You can easily **Edit** an existing section and modify it as you like.
 

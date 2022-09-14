@@ -4,7 +4,7 @@ category: Houzi Configuration Builder
 order: 25
 ---
 
-> **Important**: You are required to install the Houzi Plug-in on your Houzez wordpress. To install the Plug-in, click on [Houzi Plug-in Link](https://github.com/AdilSoomro/houzez-mobile-api).
+> **Important**: You are required to install the Houzi Plug-in on your Houzez wordpress. To install the Plug-in, click on [Houzi Plug-in Link](https://github.com/AdilSoomro/houzi-rest-api).
 
 You can perform following operations to customize the **Property Profile Screen** of your app: 
 * You can **re-arrange** the sections according to your likings.
