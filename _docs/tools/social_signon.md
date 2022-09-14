@@ -55,8 +55,14 @@ https://developers.facebook.com/docs/development/register/
 Then you have to create an app. Follow this link:
 https://developers.facebook.com/docs/development/create-an-app
 
+If you integrate Facebook login in your mobile app, Facebook cross-checks your app's ownership on your website at following address:
 
-### Android
+https://domain.com/app-ads.txt
+
+Go to `Project_HOME  > server_files` Open and edit the app-ads.txt file and replace FB_APP_ID_GOES_HERE with your Facebook app id. And then upload to your website root folder.
+
+
+#### Android
 After creating app you will refer to app dashboard, on the top left your app id is mentioned, copy the app id and go to strings.xml file
 
 `Project_HOME > android > app > src > main > res > values > strings.xml` and look for `facebook_app_id`. Replace its value with your own app id.
@@ -72,7 +78,7 @@ https://developers.facebook.com/docs/facebook-login/android?locale=en_US#6--prov
 **OR** to quickly find your hash key, copy your SHA-1 certificate and go to this website http://tomeko.net/online_tools/hex_to_base64.php paste it in the hex string field and you will get your key hashes in the output field.
 
 
-### IOS
+#### IOS
 On facebook dashboard, go to `Settings > Basic` at the end of the page click on Add platform and fill in the details.
 
 Open `Project_HOME > ios > Runner > Info >`
