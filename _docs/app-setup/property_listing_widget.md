@@ -11,7 +11,7 @@ If you want to change property listing, you need to open following file:
 Look for the `getPropertyItemHook()` method. The Property/Article instance is provided to you, return the widget that you want to show. eg: 
 ```
   …
-    PropertyItemHook propertyItemHook = (BuildContext context, Article article, Function() onTap) {
+    PropertyItemHook propertyItemHook = (BuildContext context, Article article) {
 
       return Container(
         child: Center(child: Text(article.title)),

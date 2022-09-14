@@ -38,7 +38,7 @@ On completing above mentioned steps, google sign in is functional.(No additional
 
 You might need to copy your PlayStore sha1 in your firebase as well to get the google login working.
 
-### Apple sign in
+## Apple sign in
 Integrate Apple sign in by following:
 [sign_in_with_apple | Flutter Package (pub.dev)](https://pub.dev/packages/sign_in_with_apple#integration)
 
@@ -48,7 +48,7 @@ If you want to enable Android, then follow the steps in library guide and then g
 
 > These constants not needed if you just want to enable Apple sign in for iOS only.
 
-### Facebook sign in
+## Facebook sign in
 For Facebook sign in, first you need to register as a Facebook developer. Follow this link:
 https://developers.facebook.com/docs/development/register/
 
@@ -56,7 +56,7 @@ Then you have to create an app. Follow this link:
 https://developers.facebook.com/docs/development/create-an-app
 
 
-#### Android
+### Android
 After creating app you will refer to app dashboard, on the top left your app id is mentioned, copy the app id and go to strings.xml file
 
 `Project_HOME > android > app > src > main > res > values > strings.xml` and look for `facebook_app_id`. Replace its value with your own app id.
@@ -72,7 +72,7 @@ https://developers.facebook.com/docs/facebook-login/android?locale=en_US#6--prov
 **OR** to quickly find your hash key, copy your SHA-1 certificate and go to this website http://tomeko.net/online_tools/hex_to_base64.php paste it in the hex string field and you will get your key hashes in the output field.
 
 
-#### IOS
+### IOS
 On facebook dashboard, go to `Settings > Basic` at the end of the page click on Add platform and fill in the details.
 
 Open `Project_HOME > ios > Runner > Info >`
