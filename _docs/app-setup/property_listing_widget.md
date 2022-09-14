@@ -19,6 +19,5 @@ Look for the `getPropertyItemHook()` method. The Property/Article instance is pr
 
     };
   …
-
 ```
 
