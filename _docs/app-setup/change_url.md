@@ -5,7 +5,8 @@ order: 1
 ---
 
 ## Change URL by Houzi Config
- [Change URL by Houzi Config](/houzi-config-builder/basic-setup). 
+ You can use Houzi Config Builder to [Change URL by Houzi Config](/houzi-config-builder/basic-setup). 
+
 
 ## Change URL by editing config.json
 Open the `houzi > assests > configuration > configuration.json` file, and look for `wordpress_url_domain` and `wordpress_url_scheme`. Replace with your own domain and scheme.
@@ -32,6 +33,7 @@ You need to provide following URL to your website pages
 "company_url": "https://booleanbites.com",
 
 ```
+
 
 ## Change URL by editing constants.dart
 Open the `houzi > packages > houzi_package > lib > common > constants.dart` file, and look for `WORDPRESS_URL_DOMAIN` and `WORDPESS_URL_SCHEME`. Replace with your own domain and scheme.
