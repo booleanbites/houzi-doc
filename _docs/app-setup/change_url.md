@@ -5,7 +5,7 @@ order: 1
 ---
 
 ## Change URL by Houzi Config
- You can use Houzi Config Builder to [Change URL by Houzi Config](/houzi-config-builder/basic-setup). 
+ You can use Houzi Config Builder to [Change URL](/houzi-config-builder/basic-setup). 
 
 
 ## Change URL by editing config.json
