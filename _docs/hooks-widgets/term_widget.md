@@ -1,6 +1,6 @@
 ---
 title: Change design of Term
-category: Custom Widgets
+category: Hooks & Widgets
 order: 8
 ---
 

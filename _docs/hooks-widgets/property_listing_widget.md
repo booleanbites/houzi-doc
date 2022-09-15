@@ -1,6 +1,6 @@
 ---
 title: Change design of Property listing
-category: Custom Widgets
+category: Hooks & Widgets
 order: 7
 ---
 

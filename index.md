@@ -21,9 +21,9 @@ This section addresses all the tools and other environment configurations you ne
 
 This section guides through all the steps related to app setup and customization.
 
-#### [Custom Widgets](app-setup/add_item_drawer)
+#### [Custom Widgets](hooks-widgets/add_item_drawer)
 
-This section guides through all the steps that how can to add icons and customs widgets.
+This section explains all the available hooks and how you can use them to customise styles, designs and provide additional info to the app.
 
 #### [Houzi Config Builder](houzi-config-builder/introduction)
 

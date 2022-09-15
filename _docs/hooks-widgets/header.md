@@ -1,6 +1,6 @@
 ---
 title: Add Header in webservice
-category: Custom Widgets
+category: Hooks & Widgets
 order: 9
 ---
 

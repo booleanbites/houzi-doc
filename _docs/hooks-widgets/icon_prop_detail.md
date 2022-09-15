@@ -1,6 +1,6 @@
 ---
 title: Showing feature icon in Property Detail Page
-category: Custom Widgets
+category: Hooks & Widgets
 order: 5
 ---
 

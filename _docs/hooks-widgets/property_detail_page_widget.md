@@ -1,6 +1,6 @@
 ---
 title: Change design of any section in Property Detail Page
-category: Custom Widgets
+category: Hooks & Widgets
 order: 6
 ---
 

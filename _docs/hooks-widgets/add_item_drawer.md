@@ -1,6 +1,6 @@
 ---
 title: Add item in drawer
-category: Custom Widgets
+category: Hooks & Widgets
 order: 1
 ---
 

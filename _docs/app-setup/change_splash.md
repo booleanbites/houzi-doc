@@ -11,7 +11,9 @@ Follow instructions for changing splash from one place.
 ## Manual method
 You can manually change splash screen in Android and iOS projects at following places:
 
-#### Android: `Project_HOME > android > app > src > main > res > values > strings.xml`
+#### Android:
+
+`Project_HOME > android > app > src > main > res > values > strings.xml`
 
 ##### Background Color
 Change the "backgroundColor" with hex color like this:

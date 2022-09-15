@@ -1,6 +1,6 @@
 ---
 title: Change design of Agency listing
-category: Custom Widgets
+category: Hooks & Widgets
 order: 2
 ---
 

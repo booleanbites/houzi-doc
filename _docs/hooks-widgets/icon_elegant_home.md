@@ -1,6 +1,6 @@
 ---
 title: Showing term icon in Home
-category: Custom Widgets
+category: Hooks & Widgets
 order: 4
 ---
 
