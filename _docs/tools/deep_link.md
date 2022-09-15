@@ -9,9 +9,10 @@ Deep links or Universal link is the ability of your application being launch aft
 > **Note**: Right now application consider permalinks when it finds patterns as domain.com/property/, so make sure you are using this format in your website settings. Otherwise you can make changes to the URL supported in Android and iOS code.
 
 ## Setup Application:
- To setup Deep Link in app for `Android` go to `Project_HOME > android > app > src > main > res > values > strings.xml` file, look for `scheme`,`host` and `path_prefix`. Replace its value with your own scheme (http or https) and domain host.
-
- To setup Deep Link in app for `iOS` go to `Project_HOME > iOS > Runner > Info.plist` file, look for key `CFBundleURLName`, replace it with your host and `CFBundleURLSchemes` replace it with your scheme. Example below:
+### Android:
+ To setup Deep Link in app, go to `Project_HOME > android > app > src > main > res > values > strings.xml` file, look for `scheme`,`host` and `path_prefix`. Replace its value with your own scheme (http or https) and domain host.
+### iOS:
+ To setup Deep Link in app for iOS go to `Project_HOME > iOS > Runner > Info.plist` file, look for key `CFBundleURLName`, replace it with your host and `CFBundleURLSchemes` replace it with your scheme. Example below:
 ```
 <key>CFBundleURLTypes</key>
 <array>
