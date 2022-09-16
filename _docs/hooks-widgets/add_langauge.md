@@ -11,14 +11,12 @@ First open `Project_HOME  > assets > localization`, add your localized strings f
 
 
 #### Step 2
-Then you also have to mention the path in `pubspec.yaml`. Go to `Project_HOME > pubspec.yaml` and find the assets section. Copy your localized strings file name and mention it.
+Then you also have to mention the path in `pubspec.yaml`. Go to `Project_HOME > pubspec.yaml` and find the assets section. Copy your localized strings file name and mention it like following example.
 ```
 assets:
   ...
-
     - assets/localization/en_localization.json
     - assets/localization/YOUR-LANGUAGE-CODE_localization.json
-
   ...
 ```
 
