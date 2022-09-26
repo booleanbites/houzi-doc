@@ -1,7 +1,7 @@
 ---
 title: Setup Deep Link
 category: Tools Setup
-order: 18
+order: 19
 ---
 
 Deep links or Universal link is the ability of your application being launch after user open website url and you want to open the URL in the application. We have added the ability to open property profile, when a property URL is opened on mobile.
