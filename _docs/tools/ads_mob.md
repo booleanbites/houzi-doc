@@ -1,7 +1,7 @@
 ---
 title: Google AdMob integration
 category: Tools Setup
-order: 17
+order: 19
 ---
 
 Register your app as an AdMob app by completing the following steps:

@@ -1,10 +1,11 @@
 ---
-title: Setup Phone Sign In
+title: Setup Google social sign in
 category: Tools Setup
-order: 18
+order: 15
 ---
 
-The keystore that you intend to use to sign the Android app will be used in this step. You might have already created this keystore in previous sections. After generating a signing key, the next step is to add SHA-1 and SHA-256 certificates to the firebase project. You go to the `Firebase console > project > project settings > Add fingerprint`
+## Google sign in
+The keystore that you intend to use to sign the Android app will be used in this step. YOu might have already created this keystore in previous sections. After generating a signing key, the next step is to add SHA-1 and SHA-256 certificates to the firebase project. You go to the `Firebase console > project > project settings > Add fingerprint`
 Here you add your SHA-1 and SHA-256 certificates, that you generated from your signing key and from the Google play console.
 
 To generate SHA-1 and SHA-256 certificates from the key:
@@ -28,20 +29,10 @@ For iOS you need to provide a URL scheme for Google sign in, open the `GoogleSer
 
 `Project_HOME > ios > Runner > Info Tab > URL Types section > Google Login Scheme`
 
-Now with Phone Sign In setup, ensure you have followed these steps:
 
-#### Step 1
-Enable Phone as a Sign-In method in the Firebase console. Go to `Firebase console > Authentication > Enable Phone` 
+On completing above mentioned steps, google sign in is functional.(No additional work is required).
 
-
-#### Step 2
-Make sure to add SHA-1 and SHA-256 certificates to the firebase project
-
-
-#### Step 3
-Go to Google cloud and enable `Android Device Verification`
-
-After these step you are good to go sign in with Phone
+You might need to copy your PlayStore sha1 in your firebase as well to get the google login working.
 
 
 
