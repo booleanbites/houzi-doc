@@ -1,5 +1,5 @@
 ---
-title: Setup social sign in
+title: Setup Facebook sign in
 category: Tools Setup
 order: 17
 ---
