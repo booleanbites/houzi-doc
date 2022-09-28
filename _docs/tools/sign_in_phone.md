@@ -1,5 +1,5 @@
 ---
-title: Setup Phone Sign In
+title: Setup Phone sign In
 category: Tools Setup
 order: 18
 ---
