@@ -1,7 +1,7 @@
 ---
 title: Add Header in webservice
 category: Hooks & Widgets
-order: 9
+order: 11
 ---
 
 If you want to add Header in webservice, you need to open following file:
