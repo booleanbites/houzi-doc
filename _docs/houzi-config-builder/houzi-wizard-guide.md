@@ -59,6 +59,8 @@ On pressing the `Done` button, **Houzi Wizard** will analyze your website for th
 
     If `Purchase code` verification failed on your Houzez wordpress and you have the **Purchase code**, click on `Enter Code` button, in-front of the issue. An input field for the Purchase code will be displayed. Enter your **Purchase code** in the field and press **Verify Purchase Code** button.
 
+    <img src="../../images/houzi-wizard-screenshot-failure-purchase-code.png" alt="houzi-wizard-screenshot-failure-purchase-code" title="houzi-wizard-screenshot-failure-purchase-code" border= "1px solid"/> 
+
     If all the issues are resloved, click on `Next` button. You will be navigated to the `HouziBuilder` screen.
 
      > **Note**: You can navigate directly to the `HouziBuilder` screen without analyzing your Houzez wordpress website either by clicking on the `HouziBuilder` text on the top or by clicking the `Skip` text below the screen.
