@@ -1,7 +1,7 @@
 ---
 title: Export Configurations
 category: Houzi Configuration Builder
-order: 27
+order: 9
 ---
 
 > **Important**: You are required to install the Houzi Plug-in on your Houzez wordpress. To install the Plug-in, click on [Houzi Plug-in Link](https://github.com/AdilSoomro/houzi-rest-api).

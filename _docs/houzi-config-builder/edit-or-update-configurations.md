@@ -1,7 +1,7 @@
 ---
 title: Edit/Update Configurations
 category: Houzi Configuration Builder
-order: 28
+order: 10
 ---
 
 > **Important**: You are required to install the Houzi Plug-in on your Houzez wordpress. To install the Plug-in, click on [Houzi Plug-in Link](https://github.com/AdilSoomro/houzi-rest-api).
