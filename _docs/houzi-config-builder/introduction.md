@@ -11,6 +11,4 @@ This is setup documentation for **Houzi Builder App**.
 
 <!-- ![Houzi app builder for Houzez](../../images/houzi-app-builder-for-houzez.png) -->
 
-<img src="../../images/houzi-wizard-screenshot-idle.png" alt="houzi-wizard-screenshot-idle" title="houzi-wizard-screenshot-idle" border= "1px solid"/> 
-
 <img src="../../images/houzi-app-builder-for-houzez.png" alt="houzi-app-builder-for-houzez" title="houzi-app-builder-for-houzez" border= "1px solid"/>
