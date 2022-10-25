@@ -40,6 +40,6 @@ On pressing the `Done` button, **Houzi Wizard** will analyze your website for th
    3. JWT Auth Key setup verification.
    4. Purchase code verification.
 
-If none issue is detected then you will be taken to the `HouziBuilder` screen. 
+   If none issue is detected then you will be taken to the `HouziBuilder` screen. 
 
 > **Note**: If you have already defined `App Config` on `wordpress-admin-panel > Houzi Api` then the **HouziBuilder** feilds will be filled with the values of this **App Config**.
