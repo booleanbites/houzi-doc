@@ -1,7 +1,7 @@
 ---
 title: Introduction
 category: Houzi Configuration Builder
-order: 19
+order: 1
 ---
 
 This is setup documentation for **Houzi Builder App**.
