@@ -76,7 +76,17 @@
 			</div>
 			<article class="content">
 				{{ content }}
+				
+				{% if page.previous %}
+				<a class="doc-prev-btn" href="{{ page.previous.url }}">Previous: {{ page.previous.title }}</a>
+		  		{% endif %}
+				
+				{% if page.next %}
+  					<a class="doc-next-btn float-right" href="{{ page.next.url }}">Next: {{ page.next.title }}</a>
+				{% endif %}
+				
 			</article>
+			
 		</section>
 
 		<script>

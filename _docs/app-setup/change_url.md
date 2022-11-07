@@ -67,7 +67,7 @@ String COMPANY_URL = "https://booleanbites.com";
 
 Read guides here:
 
-- Android: https://developer.android.com/training/articles/security-config
-- iOS: https://developer.apple.com/documentation/bundleresources/information_property_list/nsapptransportsecurity
+- Android: [Network security configuration](https://developer.android.com/training/articles/security-config)
+- iOS: [NSAppTransportSecurity](https://developer.apple.com/documentation/bundleresources/information_property_list/nsapptransportsecurity)
 
 
