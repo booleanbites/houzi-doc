@@ -7,11 +7,11 @@ order: 9
 If you want to add new langauge, you have to follow some few steps:
 
 #### Step 1
-First open `Project_HOME  > assets > localization`, add your localized strings file here. Your file name must be contain language code like YOUR-LANGUAGE-CODE_localization.json (e.g en_localization.json)
+First open `Project_HOME  > assets > localization`, simply make a copy of English localization and rename it as YOUR-LANGUAGE-CODE_localization.json then translate the right side of sentences in your language. IMPORTANT Your file name must be contain language code like YOUR-LANGUAGE-CODE_localization.json (e.g en_localization.json)
 
 
 #### Step 2
-Then you also have to mention the path in `pubspec.yaml`. Go to `Project_HOME > pubspec.yaml` and find the assets section. Copy your localized strings file name and mention it like following example.
+You need to add the new files path in `pubspec.yaml`, so it can be bundled in final app binary after compile. Open file `Project_HOME > pubspec.yaml` and find the assets section. Copy your localized strings file name and mention it like following example.
 ```
 assets:
   ...
