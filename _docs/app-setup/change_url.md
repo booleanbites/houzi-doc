@@ -16,7 +16,6 @@ Open the `Project_HOME > assests > configuration > configuration.json` file, and
 "wordpress_url_scheme": "https",
 "wordpress_url_domain": "domain.com",
 "wordpress_url_path": "",
-
 ```
 if your website URL does not contain a subpath then leave `wordpress_url_path` as it is.
 
