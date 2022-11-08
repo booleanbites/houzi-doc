@@ -22,7 +22,8 @@ There are two types of items that you can add to `Settings`:
 1. Single Settings Menu item.
 2. Settings Menu Section with Menu items.
 
-### Steps to Add **Single Settings Menu item:**
+### Steps to Add **Single Settings Menu item:**  
+
 1. Copy and paste the sample code of **singleSettingsMenuItem**.
    
    ```
@@ -105,7 +106,8 @@ Widget descriptionSettingsMenuItem = genericWidgetRow(
 
 ```
 
-### Steps to Add **Settings Menu Section with Menu items:**
+### Steps to Add **Settings Menu Section with Menu items:**  
+
 1. Copy and paste the sample code of **settingsMenuSectionWithItems**.
    
    ```
