@@ -61,7 +61,7 @@ There are two types of items that you can add to `Settings`:
 11. Finally add the Widget Map name to the List `settingsItemHookList`.
 12. Restart the App.
 
-### Example code for **Single Settings Menu item:**
+#### Example code for **Single Settings Menu item:**
 
 ```
 
@@ -143,7 +143,7 @@ Widget descriptionSettingsMenuItem = genericWidgetRow(
 12. Finally add the Widget Map name to the List `settingsItemHookList`.
 13. Restart the App.
 
-### Example code for `Settings Menu Section with items:`
+#### Example code for `Settings Menu Section with items:`
 
 ```
 
