@@ -22,7 +22,7 @@ There are two types of items that you can add to `Settings`:
 1. Single Settings Menu item.
 2. Settings Menu Section with Menu items.
 
-Steps to Add **Single Settings Menu item:**
+### Steps to Add **Single Settings Menu item:**
 1. Copy and paste the sample code of **singleSettingsMenuItem**.
    
    ```
@@ -56,12 +56,12 @@ Steps to Add **Single Settings Menu item:**
 
     > If you want to place the menu item in specific section, define the section type (**preferences** or **community_standards_and_legal_policies**) against the `sectionType` key in `singleSettingsMenuItemMap`.
 
-9.  Add the widget name (e.g. **singleSettingsMenuItem**, if not changed) against the 'menuItem' key in **singleSettingsMenuItemMap**.
+9.  Add the widget name (e.g. **singleSettingsMenuItem**, if not changed) against the `menuItem` key in **singleSettingsMenuItemMap**.
 10. Rename the widget **singleSettingsMenuItemMap**, as you like.
 11. Finally add the Widget Map name to the List `settingsItemHookList`.
 12. Restart the App.
 
-Example code for **Single Settings Menu item:**
+### Example code for **Single Settings Menu item:**
 
 ```
 
@@ -105,7 +105,7 @@ Widget descriptionSettingsMenuItem = genericWidgetRow(
 
 ```
 
-Steps to Add **Settings Menu Section with Menu items:**
+### Steps to Add **Settings Menu Section with Menu items:**
 1. Copy and paste the sample code of **settingsMenuSectionWithItems**.
    
    ```
@@ -143,7 +143,7 @@ Steps to Add **Settings Menu Section with Menu items:**
 12. Finally add the Widget Map name to the List `settingsItemHookList`.
 13. Restart the App.
 
-Example code for `Settings Menu Section with items:`
+### Example code for `Settings Menu Section with items:`
 
 ```
 
