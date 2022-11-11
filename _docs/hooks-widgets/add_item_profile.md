@@ -18,9 +18,7 @@ static getProfileItemHook(){
   }
 ```
 
-You can add item to to `Profile Page` by following these steps:
-
-### Steps to Add **Menu item:**  
+### Steps to Add Menu item: 
 
 1. Copy and paste the sample code of **menuItem**.
    
@@ -46,7 +44,7 @@ You can add item to to `Profile Page` by following these steps:
 8. Finally add the Widget to the List `profileItemHookList`.
 9. Restart the App.
 
-#### Example code for **Menu item:**
+#### Example code for Menu item:
 
 ```
 
