@@ -1,11 +1,11 @@
 ---
-title: Add item in Profile
+title: Add item in Profile tab
 category: Hooks & Widgets
 order: 15
 ---
 
 
-If you want to add item in Settings, go to `Project_HOME  > lib > Hooks.dart`. Look for the `getProfileItemHook()` method.
+If you want to add item in profile tab, go to `Project_HOME  > lib > Hooks.dart`. Look for the `getProfileItemHook()` method.
 
 ```
 static getProfileItemHook(){
