@@ -1,51 +1,52 @@
 ---
-title: Customize Search By Id
+title: Customize Home Right Bar Button Id Widget
 category: Hooks & Widgets
 order: 16
 ---
 
 
-If you want to add item in Settings, go to `Project_HOME  > lib > Hooks.dart`. Look for the `getSearchByIdHook()` method.
+If you want to add item in Settings, go to `Project_HOME  > lib > Hooks.dart`. Look for the `getHomeRightBarButtonWidgetHook()` method.
 
 ```
-static getProfileItemHook(){
-    SearchByIdWidgetHook searchByIdWidgetHook = (context) {
-      Widget searchByIdWidget = null;
-      // Widget searchByIdWidget = SearchByIdWidget();
+static getHomeRightBarButtonWidgetHook() {
+    HomeRightBarButtonWidgetHook homeRightBarButtonWidgetHook = (context) {
 
-      return searchByIdWidget;
+      Widget? rightBarButtonHook;
+      // Widget rightBarButtonHook = DefaultRightBarButtonIdWidget();
+
+      return rightBarButtonHook;
     };
   }
 ```
 
-### Steps to Customize Search By Id Button Widget: 
+### Steps to Customize Home Right Bar Button Id Widget: 
 
-1. If you want to hide the **Search By Id Button Widget**, define **null** against `searchByIdWidget`.
-2. If you want to show the default **Search By Id Button Widget**, define **SearchByIdWidget()** against `searchByIdWidget`.
-3. If you want to show your custom widget, define **yourWidget()** against `searchByIdWidget`.
-4. Finally return the widget `searchByIdWidget`.
+1. If you want to hide the **Home Right Bar Button Id Widget**, define **null** against `rightBarButtonHook`.
+2. If you want to show the default **Home Right Bar Button Id Widget**, define **DefaultRightBarButtonIdWidget()** against `rightBarButtonHook`.
+3. If you want to show your custom widget, define **yourWidget()** against `rightBarButtonHook`.
+4. Finally return the widget `rightBarButtonHook`.
 5. Restart the App.
 
 #### Example code snippets:
 
 ```
 
-// Hide Search By Id Button Widget
-Widget searchByIdWidget = null;
-return searchByIdWidget;
+// Hide Home Right Bar Button Id Widget
+Widget rightBarButtonHook = null;
+return rightBarButtonHook;
 
-// Default Search By Id Button Widget
-Widget searchByIdWidget = SearchByIdWidget();
-return searchByIdWidget;
+// Default Home Right Bar Button Id Widget
+Widget rightBarButtonHook = DefaultRightBarButtonIdWidget();
+return rightBarButtonHook;
 
 // Custom Widget
- Widget searchByIdWidget = GestureDetector(
+ Widget rightBarButtonHook = GestureDetector(
   child: Icon(Icons.search_outlined),
   onTap: () {
     // Perform Some Function here
   },
 );
 
-return searchByIdWidget;
+return rightBarButtonHook;
 
 ```
