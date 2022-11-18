@@ -1,5 +1,5 @@
 ---
-title: Set Marker Title
+title: Set Marker Title in Map View
 category: Hooks & Widgets
 order: 17
 ---
