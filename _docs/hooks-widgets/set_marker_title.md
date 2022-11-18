@@ -10,7 +10,6 @@ Set title to the marker in MapView. Instance of Article/Property is provided. Yo
 
 ```
 static getMarkerTitleHook() {
-    
     MarkerTitleHook markerTitleHook = (Article article) {
       /// If you want to set price as a title, use this piece of code
       // String propertyPrice = "";
