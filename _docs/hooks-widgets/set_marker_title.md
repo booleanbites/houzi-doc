@@ -28,7 +28,7 @@ static getMarkerTitleHook() {
       // return _finalPrice;
 
       String markerTitle = article.title!;
-      return markerTitle; // return title (should be string type) here
+      return markerTitle; // return title here (should be string type) 
     };
 
     return markerTitleHook;
