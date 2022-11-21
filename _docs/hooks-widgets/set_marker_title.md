@@ -4,7 +4,7 @@ category: Hooks & Widgets
 order: 17
 ---
 
-If you want to set Marker Title in Map View, go to `Project_HOME  > lib > Hooks.dart`. Look for the `getMarkerTitleHook()` method.
+You can set Marker Title in Map View, go to `Project_HOME  > lib > Hooks.dart`. Look for the `getMarkerTitleHook()` method.
 
 Set title to the marker in MapView. Instance of Article/Property is provided. You can choose whatever the title you want to set, it can be property title, id, price or anything
 
