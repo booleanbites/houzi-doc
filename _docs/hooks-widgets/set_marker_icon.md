@@ -9,7 +9,7 @@ order: 18
 ```    
   ...
     assets:
-         - assets/IMAGE-NAME.png
+      - assets/IMAGE-NAME.png
   ...
 ```
 
@@ -17,7 +17,6 @@ Then go to `Project_HOME  > lib > Hooks.dart`. Look for the `getMarkerIconHook()
 
 ```
 static getMarkerIconHook() {
-
     MarkerIconHook markerIconHook = () {
       // If you want to set the default Pin Point marker return null
       // else return the path of the image
