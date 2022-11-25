@@ -65,14 +65,15 @@ On the Right side, there is a cloumn with options to customize the **Drawer Menu
     
     - Select the *Sub-Term/Sub-Terms* from the **Sub-Term** dropdown menu.
     
-        <img src="../../images/drawer-add-widget-select-sub-term.png" alt="drawer-add-widget-select-sub-term" title="drawer-add-widget-select-sub-term" border= "1px solid"/>
+        <img src="../../images/drawer-add-widget-select-sub-term.png" alt="drawer-add-widget-select-sub-term" title="drawer-add-widget-select-sub-term" border= "1px solid"/> 
     
-    - Click *Done* if you want to perfrom the action else click *cancel* to discard the action.  
-    
-        <img src="../../images/drawer-add-widget-term-initialized-data.png" alt="drawer-add-widget-term-initialized-data" title="drawer-add-widget-term-initialized-data" border= "1px solid"/>
-    
+    > Click `Done` to *perfrom* the action.  
+    Click `Cancel` to *discard* the action.
 
-    Once you have initialized the Data, click *Done* if you want to *add* the widget else click *cancel* to discard the action. 
+    <img src="../../images/drawer-add-widget-term-initialized-data.png" alt="drawer-add-widget-term-initialized-data" title="drawer-add-widget-term-initialized-data" border= "1px solid"/> 
+
+    > Click `Done` to *add* the new section.  
+    Click `Cancel` to *discard* the action.
     
     <img src="../../images/drawer-add-widget-term.png" alt="drawer-add-widget-term" title="drawer-add-widget-term" border= "1px solid"/>
 
