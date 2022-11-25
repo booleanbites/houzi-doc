@@ -78,9 +78,9 @@ On the Right side, there is a cloumn with options to customize the **Drawer Menu
     <img src="../../images/drawer-add-widget-term.png" alt="drawer-add-widget-term" title="drawer-add-widget-term" border= "1px solid"/>
 
 
-    > New widget will be added to the **last** of menu items. You can *re-arrange* its position (as already mentioned above).
+> New widget will be added to the **last** of menu items. You can *re-arrange* its position (as already mentioned above).
     
-    <img src="../../images/drawer-screenshot-widget-added.png" alt="drawer-screenshot-widget-added" title="drawer-screenshot-widget-added" border= "1px solid"/>
+<img src="../../images/drawer-screenshot-widget-added.png" alt="drawer-screenshot-widget-added" title="drawer-screenshot-widget-added" border= "1px solid"/>
   
    
 
