@@ -6,21 +6,29 @@ order: 19
 
 You can set your own price format method in app. There are two price formatter using in Houzi. 
 
-1. 
-Marker Title in Map View, go to `Project_HOME  > lib > Hooks.dart`. Look for the `getMarkerTitleHook()` method.
-
-Set title to the marker in MapView. Instance of Article/Property is provided. You can choose whatever the title you want to set, it can be property title, id, price or anything
+1. If you want to format price in Property detail page or any other place, use this method. If you want to use Houzi pre define formatter than return null. Go to `Project_HOME  > lib > Hooks.dart`. Look for the `getPriceFormatterHook()` method. For e.g:
 
 ```
-static getMarkerTitleHook() {
-    MarkerTitleHook markerTitleHook = (Article article) {
-  
-      String markerTitle = article.title!;
-      return markerTitle; // return title here (should be string type) 
+static getPriceFormatterHook() {
+    PriceFormatterHook priceFormatterHook = (String propertyPrice, String firstPrice) {
+      // Define you own method here and return the formatted string
+      return null; 
     };
 
-    return markerTitleHook;
+    return priceFormatterHook;
+  }
+```
 
+2. If you want to format price on Property Card use this method. If you want to use Houzi pre define formatter than return null. Go to `Project_HOME  > lib > Hooks.dart`. Look for the `getPropertyCardPriceHook()` method. For e.g:
+
+```
+static getPropertyCardPriceHook() {
+    PropertyCardPriceHook propertyCardPriceHook = (String inputPrice) {
+      // Define you own method here and return the formatted string
+      return null;
+    };
+
+    return propertyCardPriceHook;
   }
 ```
 
