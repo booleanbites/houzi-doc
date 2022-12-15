@@ -11,7 +11,7 @@ You can set your own price format method in app. There are two price formatter u
 ```
 static getPriceFormatterHook() {
     PriceFormatterHook priceFormatterHook = (String propertyPrice, String firstPrice) {
-      // Define you own method here and return the formatted string
+      // Define your own method here and return the formatted string
       return null; 
     };
 
@@ -24,7 +24,7 @@ static getPriceFormatterHook() {
 ```
 static getPropertyCardPriceHook() {
     PropertyCardPriceHook propertyCardPriceHook = (String inputPrice) {
-      // Define you own method here and return the formatted string
+      // Define your own method here and return the formatted string
       return null;
     };
 
