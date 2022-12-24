@@ -10,16 +10,16 @@ You can fully customize the **Search Screen** of your app. You can **add** new s
 
 > A **Mobile App View** is provided in the center of screen, so you can see how the modifications will look on real device.  
 
-<img src="https://houzi-docs.booleanbites.com/images/search-screenshot.png" alt="search-screenshot" title="search-screenshot" border= "1px solid"/>
+<img src="../../images/search-screenshot.png" alt="search-screenshot" title="search-screenshot" border= "1px solid"/>
 
 Go to the `Search` section.
 
 On the Right side, there is a cloumn with options to customize the **Search Screen**. You can do customization as follows:
 * You can `Add` a new section to **Search Screen** by following these steps:
   - There is a **Add** button at the bottom of the column. Press this button and a dialog box will open.  
-  <img src="https://houzi-docs.booleanbites.com/images/search-add-section-screenshot.png" alt="search-add-section-screenshot" title="search-add-section-screenshot" border= "1px solid"/>
+  <img src="../../images/search-add-section-screenshot.png" alt="search-add-section-screenshot" title="search-add-section-screenshot" border= "1px solid"/>
   - **First of all**, you have to define the **Widget Type** of the section that you want to add to *Search Screen*. There are many widget types as:  
-  <img src="https://houzi-docs.booleanbites.com/images/search-widget-types-screenshot.png" alt="search-widget-types-screenshot" title="search-widget-types-screenshot" border= "1px solid"/>
+  <img src="../../images/search-widget-types-screenshot.png" alt="search-widget-types-screenshot" title="search-widget-types-screenshot" border= "1px solid"/>
       1. `term_picker:` If you want to search properties w.r.t. their
          - **Types** (e.g. apartment, office etc.)
          - **Status** (e.g. for-rent, for-sale etc.)
@@ -40,43 +40,43 @@ On the Right side, there is a cloumn with options to customize the **Search Scre
   - **Second**, you have to define the **Title** of the section.
   - **Third**, you have to define the **Data Type** of the section as follows:
     - If selected *Widget Type* is `term_picker`, you can select from following data types:  
-    <img src="https://houzi-docs.booleanbites.com/images/search-property-type-datatype-screenshot.png" alt="search-property-type-datatype-screenshot" title="search-property-type-datatype-screenshot" border= "1px solid"/>
+    <img src="../../images/search-property-type-datatype-screenshot.png" alt="search-property-type-datatype-screenshot" title="search-property-type-datatype-screenshot" border= "1px solid"/>
       - **property_type** (To search properties w.r.t. their type e.g. apartment, office etc.)
       - **property_status** (To search properties w.r.t. their status e.g. for-rent, for-sale etc.)
       - **property_label** (To search properties w.r.t. their Label e.g. hot-offer, open-house etc.)
       - **property_feature** (To search properties w.r.t. their features e.g. Air-Conditioning, Swimming-pool etc.)
     - If selected *Widget Type* is `range_picker`, you can select from following data types:  
-    <img src="https://houzi-docs.booleanbites.com/images/search-range-picker-area-datatype-screenshot.png" alt="search-range-picker-area-datatype-screenshot" title="search-range-picker-area-datatype-screenshot" border= "1px solid"/>
+    <img src="../../images/search-range-picker-area-datatype-screenshot.png" alt="search-range-picker-area-datatype-screenshot" title="search-range-picker-area-datatype-screenshot" border= "1px solid"/>
       - **area** (To search properties within specific range of *area*)
       - **price** (To search properties within specific range of *price*)
     - If selected *Widget Type* is `string_picker`, you can select from following data types:  
-    <img src="https://houzi-docs.booleanbites.com/images/search-string-picker-bedrooms-datatype-screenshot.png" alt="search-string-picker-bedrooms-datatype-screenshot" title="search-string-picker-bedrooms-datatype-screenshot" border= "1px solid"/>
+    <img src="../../images/search-string-picker-bedrooms-datatype-screenshot.png" alt="search-string-picker-bedrooms-datatype-screenshot" title="search-string-picker-bedrooms-datatype-screenshot" border= "1px solid"/>
       - **bedrooms** (To search properties w.r.t. specific number of *bedrooms*)
       - **bathrooms** (To search properties w.r.t. specific number of *bathrooms*)
         > All the other *Widget Types* have *Default* Data Types. 
   - **Forth**, each section has by default **Api Value**.
   - **Fifth**, you have to define the **Picker Type** of the section as follows:
     - If selected *Widget Type* is `term_picker`, you can select from following picker types:  
-    <img src="https://houzi-docs.booleanbites.com/images/search-term-picker-pickertype-screenshot.png" alt="search-term-picker-pickertype-screenshot" title="search-term-picker-pickertype-screenshot" border= "1px solid"/>
+    <img src="../../images/search-term-picker-pickertype-screenshot.png" alt="search-term-picker-pickertype-screenshot" title="search-term-picker-pickertype-screenshot" border= "1px solid"/>
       - **tabs and chips** (To view properties related categories and sub-categories data in the form of `Tabs and Chips`.)
       - **dropdown** (To view properties related categories and sub-categories data in the form of `Dropdown`.)
     - If selected *Widget Type* is `string_picker`, you can select from following picker types:  
-    <img src="https://houzi-docs.booleanbites.com/images/search-string-picker-pickertype-screenshot.png" alt="search-string-picker-pickertype-screenshot" title="search-string-picker-pickertype-screenshot" border= "1px solid"/>
+    <img src="../../images/search-string-picker-pickertype-screenshot.png" alt="search-string-picker-pickertype-screenshot" title="search-string-picker-pickertype-screenshot" border= "1px solid"/>
       - **chips** (To view properties related arrtibutes in the form of `Chips`.)
       - **tabs** (To view properties related arrtibutes in the form of `Tabs`.)
         > All the other *Widget Types* have *Default* Picker Type. 
   - **Sixth**, for the following *Widget Types* you can define some **Additional fields**.
     - If selected *Widget Type* is `location_picker`, you can choose either to show **Search By City** or **Search By Location**.  
-    <img src="https://houzi-docs.booleanbites.com/images/search-location-picker-screenshot.png" alt="search-location-picker-screenshot" title="search-location-picker-screenshot" border= "1px solid"/>
+    <img src="../../images/search-location-picker-screenshot.png" alt="search-location-picker-screenshot" title="search-location-picker-screenshot" border= "1px solid"/>
         > If you want to show both sections (i.e. `Search By City` and `Search By Location`, simply select both.)
     - If selected *Widget Type* is `range_picker`, you can define the minimun and maximun range of section in **Min Value** and **Max Value** fields.  
-    <img src="https://houzi-docs.booleanbites.com/images/search-range-picker-screenshot.png" alt="search-range-picker-screenshot" title="search-range-picker-screenshot" border= "1px solid"/>
+    <img src="../../images/search-range-picker-screenshot.png" alt="search-range-picker-screenshot" title="search-range-picker-screenshot" border= "1px solid"/>
 > Click `Done` to *add* the new section.  
     Click `Cancel` to *discard* the action.
 * You can `Re-arrange` the sections on **Search Screen** just by dragging them *upwards* or *downwards*.
 * You can `Remove/Delete` any section just by clicking on **Delete Icon** of respective section. A delete confirmation dialog will open.  
-  <img src="https://houzi-docs.booleanbites.com/images/search-list-tile-screenshot.png" alt="search-list-tile-screenshot" title="search-list-tile-screenshot" border= "1px solid"/>
-  <img src="https://houzi-docs.booleanbites.com/images/search-delete-section-screenshot.png" alt="search-delete-section-screenshot" title="search-delete-section-screenshot" border= "1px solid"/>
+  <img src="../../images/search-list-tile-screenshot.png" alt="search-list-tile-screenshot" title="search-list-tile-screenshot" border= "1px solid"/>
+  <img src="../../images/search-delete-section-screenshot.png" alt="search-delete-section-screenshot" title="search-delete-section-screenshot" border= "1px solid"/>
     > Click `Yes` if you want to *delete* the section.  
     Click `Cancel` if you want to *discard* the action.
 * You can `Edit` the sections just by clicking on **Edit Icon** of respective section. You can perform following opertions in editing a section:

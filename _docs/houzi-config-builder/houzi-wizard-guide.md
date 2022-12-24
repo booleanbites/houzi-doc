@@ -10,7 +10,7 @@ On opening the `HouziBuilder` application, The First screen, that you will encou
 
 <img src="../../images/houzi-wizard-screenshot-idle.png" alt="houzi-wizard-screenshot-idle" title="houzi-wizard-screenshot-idle" border= "1px solid"/> 
 
-Please follow these steps.
+Please follow these steps:
 
 1. Open the `HouziBuilder` application. (You will encounter the `Houzi Wizard` screen)
 2. Provide `Wordpress URL` in the required field.
@@ -45,7 +45,7 @@ On pressing the `Done` button, **Houzi Wizard** will analyze your website for th
 
    <img src="../../images/houzi-wizard-screenshot-success.png" alt="houzi-wizard-screenshot-success" title="houzi-wizard-screenshot-success" border= "1px solid"/> 
 
-    > **Note**: If you have already defined `App Config` on `wordpress-admin-panel > Houzi Api` then the **HouziBuilder** feilds will be filled with the values of this **App Config**.
+    > **Note**: If you have already defined `App Config` on `wordpress-admin-panel > Houzi Api` then the **HouziBuilder** feilds will be filled with the values of that **App Config**.
 
     If `Houzi API Plugin` is not installed on your Houzez wordpress or if there is any issue regarding `JWT` or if the `Purchase code` is not varified, you will remain on `Houzi Wizard` screen. You will be notified regarding the issue and also about its solution (if any).
 

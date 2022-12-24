@@ -10,7 +10,7 @@ You can fully customize the **Home Screen** of your app. You can **add** new sec
 
 > A **Mobile App View** is provided in the center of screen, so you can see how the modifications will look on real device.
 
-<img src="https://houzi-docs.booleanbites.com/images/home-screenshot.png" alt="home-screenshot" title="home-screenshot" border= "1px solid"/>
+<img src="../../images/home-screenshot.png" alt="home-screenshot" title="home-screenshot" border= "1px solid"/>
 
 Go to the `Home` section.
 
@@ -19,9 +19,9 @@ On the Right side, there is a cloumn with options to customize the **Home Screen
 * You can `Add` a new section to **Home Screen** by following these steps:
   - There is a **Add** button at the bottom of the column. Press this button and a dialog box will open.  
    
-    <img src="https://houzi-docs.booleanbites.com/images/home-add-section-screenshot.png" alt="home-add-section-screenshot" title="home-add-section-screenshot" border= "1px solid"/>
+    <img src="../../images/home-add-section-screenshot.png" alt="home-add-section-screenshot" title="home-add-section-screenshot" border= "1px solid"/>
   - First of all, you have to define the **Widget Type** of the section that you want to add to *Home Screen*. There are many widget types as:   
-    <img src="https://houzi-docs.booleanbites.com/images/home-add-section-widget-types-screenshot.png" alt="home-add-section-widget-types-screenshot" title="home-add-section-widget-types-screenshot" border= "1px solid"/> 
+    <img src="../../images/home-add-section-widget-types-screenshot.png" alt="home-add-section-widget-types-screenshot" title="home-add-section-widget-types-screenshot" border= "1px solid"/> 
       - `ad` (If you want to show **Ad** on *Home Screen*).
       - `recent_searches` (If you want to show **Recent Searches** on *Home Screen*).
       - `all_properties` (If you want to show **Latest Properties** on *Home Screen*).
@@ -39,10 +39,10 @@ On the Right side, there is a cloumn with options to customize the **Home Screen
     > You can choose from *Design # 01* to *Design # 08* for the first three sections. Section **term** has only two designs i.e. *Design # 01* and *Design # 02*.  
     **Design** for non-proprety related sections can not be defined.    
     
-     <img src="https://houzi-docs.booleanbites.com/images/home-add-section-property-designs-screenshot.png" alt="home-add-section-property-designs-screenshot" title="home-add-section-property-designs-screenshot" border= "1px solid"/>    
-    <img src="https://houzi-docs.booleanbites.com/images/home-add-section-term-designs-screenshot.png" alt="home-add-section-term-designs-screenshot" title="home-add-section-term-designs-screenshot" border= "1px solid"/> 
+     <img src="../../images/home-add-section-property-designs-screenshot.png" alt="home-add-section-property-designs-screenshot" title="home-add-section-property-designs-screenshot" border= "1px solid"/>    
+    <img src="../../images/home-add-section-term-designs-screenshot.png" alt="home-add-section-term-designs-screenshot" title="home-add-section-term-designs-screenshot" border= "1px solid"/> 
   - Forth, you can define **List-Type** of any Property related section. List-Types are as follows:  
-    <img src="https://houzi-docs.booleanbites.com/images/home-add-section-list-types-screenshot.png" alt="home-add-section-list-types-screenshot" title="home-add-section-list-types-screenshot" border= "1px solid"/> 
+    <img src="../../images/home-add-section-list-types-screenshot.png" alt="home-add-section-list-types-screenshot" title="home-add-section-list-types-screenshot" border= "1px solid"/> 
     - `all` (If you want to show latest listings. It is by default selected option).
     - `property_type` (If you want to show listings by their **Types** e.g. Apartments, Offices, Shops etc.).
     - `property_status` (If you want to show listings by their **Status** e.g. for-rent, for-sale etc.).
@@ -67,8 +67,8 @@ On the Right side, there is a cloumn with options to customize the **Home Screen
     Click `Cancel` to *discard* the action.
 * You can `Re-arrange` the sections on **Home Screen** just by dragging them *upwards* or *downwards*.
 * You can `Edit` the sections just by clicking on *Edit* icon of respective section.   
-  <img src="https://houzi-docs.booleanbites.com/images/home-screenshot-list-tile.png" alt="home-screenshot-list-tile" title="home-screenshot-list-tile" border= "1px solid"/>   
-  <img src="https://houzi-docs.booleanbites.com/images/home-edit-section-screenshot.png" alt="home-edit-section-screenshot" title="home-edit-section-screenshot" border= "1px solid"/> 
+  <img src="../../images/home-screenshot-list-tile.png" alt="home-screenshot-list-tile" title="home-screenshot-list-tile" border= "1px solid"/>   
+  <img src="../../images/home-edit-section-screenshot.png" alt="home-edit-section-screenshot" title="home-edit-section-screenshot" border= "1px solid"/> 
 
   You can perform following opertions in editing a section:
   - You can change the **Type** of any section.
@@ -77,7 +77,7 @@ On the Right side, there is a cloumn with options to customize the **Home Screen
   -  You can change the **Listing Type** of any Property related section (e.g. you can show *all properties* or just the properties based on their *property_type* or *property_status* etc.).
   -  You can change the **Listing Type Value** of any Property related section (e.g. you can show *all properties* of particular selected Listing Type or just the properties based on that selected Listing Type Value (i.e. if selected Listing Type is *Property_type*, you can choose the selected Listing Type Value to be *all* or one of the selected Listing Type values (e.g. apartment, office etc.))).
 * You can `Remove/Delete` any section just by clicking on **Delete Icon** of respective section. A delete confirmation dialog will open.   
-  <img src="https://houzi-docs.booleanbites.com/images/home-screenshot-list-tile.png" alt="home-screenshot-list-tile" title="home-screenshot-list-tile" border= "1px solid"/>    
-  <img src="https://houzi-docs.booleanbites.com/images/home-delete-section-screenshot.png" alt="home-delete-section-screenshot" title="home-delete-section-screenshot" border= "1px solid"/>  
+  <img src="../../images/home-screenshot-list-tile.png" alt="home-screenshot-list-tile" title="home-screenshot-list-tile" border= "1px solid"/>    
+  <img src="../../images/home-delete-section-screenshot.png" alt="home-delete-section-screenshot" title="home-delete-section-screenshot" border= "1px solid"/>  
     > Click `Yes` if you want to *delete* the section.  
     Click `Cancel` if you want to *discard* the action.
