@@ -4,7 +4,11 @@ category: Tools Setup
 order: 20
 ---
 
-Always make a backup before updating to the next version. Starting 1.1.2 we’ve adopted the flutter package approach to make the updates easy. Also, all your configurations are independant of the Houzi code. Starting 1.1.4, we adopted hooks to provide custom designs, fonts, headers and many customisation from your main project. It allows you to preserve the configs in your android and iOS app. 
+Always make a backup before updating to the next version.
+
+Starting 1.1.4, we adopted hooks to provide custom designs, fonts, headers and many customisation from your main project. It allows you to preserve the configs in your android and iOS app. 
+
+Starting 1.1.2 we’ve adopted the flutter package approach to make the updates easy. Also, all your configurations are independant of the Houzi code. 
 
 ## Update from 1.1.4
 Backup before doing anything with the update.
