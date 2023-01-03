@@ -5,7 +5,7 @@ order: 15
 ---
 
 
-If you want to add item in profile tab, go to `Project_HOME  > lib > Hooks.dart`. Look for the `getProfileItemHook()` method.
+If you want to add item in profile tab, go to `Project_HOME  > lib > hooks_v2.dart`. Look for the `getProfileItemHook()` method.
 
 ```
 static getProfileItemHook(){

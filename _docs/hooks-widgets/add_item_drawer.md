@@ -6,7 +6,7 @@ order: 1
 
 If you want to add item in drawer, you need to open following file:
 
-`Project_HOME  > lib > Hooks.dart`
+`Project_HOME  > lib > hooks_v2.dart`
 
 Look for the `getDrawerItems()` method. Add the DrawerItem objects into the list. eg: 
 ```

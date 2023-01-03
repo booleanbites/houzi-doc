@@ -13,7 +13,7 @@ order: 18
   ...
 ```
 
-Then go to `Project_HOME  > lib > Hooks.dart`. Look for the `getMarkerIconHook()` method.
+Then go to `Project_HOME  > lib > hooks_v2.dart`. Look for the `getMarkerIconHook()` method.
 
 ```
 static getMarkerIconHook() {

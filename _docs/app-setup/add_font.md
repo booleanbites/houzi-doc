@@ -32,7 +32,7 @@ Fonts:
 ```
 #### Register font at app level
 If you want to apply the font at application level, open following file:
-`Project_HOME  > lib > Hooks.dart`
+`Project_HOME  > lib > hooks_v2.dart`
 Look for the `getFontHook()` method and add your font name as follow:
 ```
 //you can also add a condition to change font for multiple locales as well:

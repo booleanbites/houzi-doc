@@ -5,7 +5,7 @@ order: 14
 ---
 
 
-If you want to add item in Settings, go to `Project_HOME  > lib > Hooks.dart`. Look for the `getSettingsItemHook()` method.
+If you want to add item in Settings, go to `Project_HOME  > lib > hooks_v2.dart`. Look for the `getSettingsItemHook()` method.
 
 ```
 static getSettingsItemHook(){

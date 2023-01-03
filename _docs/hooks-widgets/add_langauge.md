@@ -22,7 +22,7 @@ assets:
 
 
 #### Step 3
-Now go to `Project_HOME  > lib > Hooks.dart` and look for the `getLanguageCodeAndName()` method. Specify your language code and language name here e.g: 
+Now go to `Project_HOME  > lib > hooks_v2.dart` and look for the `getLanguageCodeAndName()` method. Specify your language code and language name here e.g: 
 
 ```
   …
