@@ -5,7 +5,7 @@ order: 16
 ---
 
 
-If you want to add item in Settings, go to `Project_HOME  > lib > Hooks.dart`. Look for the `getHomeRightBarButtonWidgetHook()` method.
+If you want to add item in Settings, go to `Project_HOME  > lib > hooks_v2.dart`. Look for the `getHomeRightBarButtonWidgetHook()` method.
 
 ```
 static getHomeRightBarButtonWidgetHook() {
