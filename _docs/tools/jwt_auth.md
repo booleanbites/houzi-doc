@@ -27,7 +27,7 @@ JWT Auth Plugin require a unique key to be setup in your wordpress installation.
 1. Open wp-config.php file via your preferred editor.
 2. Scroll down to Authentication Unique Keys and Salts section. (usually line # 40-60s)
 3. You should see many keys already defined. You just need to add another key to bottom of the list.
-4. How to generate key? You can use Wordpress service for this. Open this link in your browser: https://api.wordpress.org/secret-key/1.1/salt/, you should bunch of keys on every refresh.
+4. How to generate key? You can use Wordpress service for this. Open this link in your browser: https://api.wordpress.org/secret-key/1.1/salt/, you should see bunch of keys on every refresh.
 5. Copy any key from there and paste to bottom of your already defined key.
 6. Now replace the left variable or key name with  `JWT_AUTH_SECRET_KEY`
 7. Your keys should look like below screenshot.

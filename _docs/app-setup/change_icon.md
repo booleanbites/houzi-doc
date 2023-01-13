@@ -4,6 +4,12 @@ category: App Setup
 order: 3
 ---
 
+Since this is a Flutter app, and it generates both Android and iOS projects. You'll need to change icons in each platform project.
+
+
+
+#### Automatic Way
+
 **Flutter Launcher Icons** has been designed to help quickly generate launcher icons for both Android and iOS: 
 1. [Flutter Launcher Icon](https://pub.dartlang.org/packages/flutter_launcher_icons).
 
@@ -35,3 +41,30 @@ You can manually replace icons in Android and iOS projects at following places:
 - iOS: `Project_HOME > ios > Runner > Assets.xcassets`
 
 Keep in mind, in a manual method, you’ll have to generate icons in different resolutions. There’s plenty of tools available that can take your high-res icon and convert them to platform supported resolutions.
+
+
+#### Adaptive Icons (Android)
+
+Starting from Android OS 8 api 26, Android has provided adaptive icons option. An adaptive icon, or `AdaptiveIconDrawable`, can display differently depending on individual device capabilities and user theming.
+
+We also have included a sample adaptive icon in android project. Either you can provide your own adaptive icon or remove those icons.
+If you want to add your own adaptive icons, replace these files with your own:
+
+```
+res / drawable / icon_background.xml
+res / drawable / icon_foreground.xml
+```
+
+To provide your own icon as adaptive, you'll need to design your icon as an svg and then export both the background and foreground layers in separate svg files. Later either convert them to Android vector or import them using android import tool from Android Studio. [Importing an SVG or PSD file](https://developer.android.com/studio/write/vector-asset-studio#svg)
+
+If you keep the file name same as above, then nothing more need to be done. Otherwise you'll need to reference these newly imported files in `res / mipmap-anydpi-v26 / ic_launcher.xml` as foreground and background of your vector.
+
+If you want to remove adaptive icon, remove these files:
+
+```
+res / drawable / icon_background.xml
+res / drawable / icon_foreground.xml
+res / mipmap-anydpi-v26 / ic_launcher.xml
+```
+
+If you want to know more about adaptive icons, read more here: [Adaptive Icons](https://developer.android.com/develop/ui/views/launch/icon_design_adaptive)
