@@ -1,5 +1,5 @@
 ---
-title: App display Name
+title: App display name
 category: App Setup
 permalink: app-setup/change_app_display_name
 order: 3
