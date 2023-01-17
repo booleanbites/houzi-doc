@@ -1,6 +1,7 @@
 ---
 title: Add item in drawer
 category: Hooks & Widgets
+permalink: add_item_in_drawer
 order: 1
 ---
 
