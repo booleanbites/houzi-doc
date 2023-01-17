@@ -13,11 +13,11 @@ Visit website here: https://houzi.booleanbites.com
 
 This documentation consist of three parts.
 
-#### [Tools](tools/xcode_setup)
+#### [Tools](tools/tools_setup)
 
 This section addresses all the tools and other environment configurations you need to do get the development started.
 
-#### [App Setup](app-setup/change_url)
+#### [App Setup](app-setup/change_app_url)
 
 This section guides through all the steps related to app setup and customization.
 
