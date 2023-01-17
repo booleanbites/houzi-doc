@@ -1,10 +1,11 @@
 ---
 title: Change design of Term
 category: Hooks & Widgets
+permalink: term_widget_item_design_custom
 order: 12
 ---
 
-If you want to change Term design, you need to open following file:
+If you want to change Term Widget design, you need to open following file:
 
 `Project_HOME  > lib > hooks_v2.dart`
 

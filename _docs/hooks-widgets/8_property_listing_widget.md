@@ -1,6 +1,7 @@
 ---
 title: Change design of Property listing
 category: Hooks & Widgets
+permalink: property_item_design_custom
 order: 8
 ---
 

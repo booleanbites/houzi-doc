@@ -5,7 +5,7 @@ order: 8
 ---
 
 ## How to add localization
- Follow Hooks and Widget section to how to [Add Localization/Translation](/hooks-widgets/add_langauge). 
+ Follow Hooks and Widget section to how to [Add Localization/Translation](/hooks-widgets/add_new_language). 
 
 There are two types of strings that we need to handle, first one is app level/static strings and the other is for translating dynamic strings sent from the server. Both of them can be handle in one file
 

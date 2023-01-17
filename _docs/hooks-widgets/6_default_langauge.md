@@ -1,6 +1,7 @@
 ---
 title: Set default Language
 category: Hooks & Widgets
+permalink: set_default_language
 order: 6
 ---
 

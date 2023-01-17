@@ -1,6 +1,7 @@
 ---
 title: Change Segmented Control Design
 category: Hooks & Widgets
+permalink: segmented_control_design
 order: 20
 ---
 

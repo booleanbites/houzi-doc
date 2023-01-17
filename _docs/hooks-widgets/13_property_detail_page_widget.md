@@ -1,6 +1,7 @@
 ---
 title: Change design of any section in Property Detail Page
 category: Hooks & Widgets
+permalink: property_details_customization
 order: 13
 ---
 

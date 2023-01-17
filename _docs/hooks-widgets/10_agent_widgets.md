@@ -1,6 +1,7 @@
 ---
 title: Change design of Agents listing
 category: Hooks & Widgets
+permalink: agent_item_design_custom
 order: 10
 ---
 

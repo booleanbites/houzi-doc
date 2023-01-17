@@ -1,6 +1,7 @@
 ---
 title: Change design of Agency listing
 category: Hooks & Widgets
+permalink: agency_item_design_custom
 order: 9
 ---
 

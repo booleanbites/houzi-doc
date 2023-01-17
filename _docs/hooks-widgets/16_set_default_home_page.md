@@ -1,6 +1,7 @@
 ---
 title: Set default HomePage
 category: Hooks & Widgets
+permalink: default_home_page
 order: 16
 ---
 
@@ -17,4 +18,6 @@ DefaultHomePageHook defaultHomePageHook = () {
 
 };
 ```
+
+Otherwise you can set this from Houzi Builder.
 
