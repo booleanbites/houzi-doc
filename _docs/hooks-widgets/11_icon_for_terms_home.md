@@ -1,7 +1,7 @@
 ---
 title: Showing term icon in Home
 category: Hooks & Widgets
-order: 4
+order: 11
 ---
 
 If you want to show term icon for your translated term, you need to open following file:

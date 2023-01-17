@@ -1,7 +1,7 @@
 ---
 title: Add item in Profile tab
 category: Hooks & Widgets
-order: 15
+order: 2
 ---
 
 

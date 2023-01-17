@@ -1,7 +1,7 @@
 ---
 title: Set default Country Code for Phone Login
 category: Hooks & Widgets
-order: 13
+order: 7
 ---
 
 If you want to set default Country Code for Phone Login, go to `Project_HOME  > lib > hooks_v2.dart`. Look for the `getDefaultCountryCodeHook()` method.

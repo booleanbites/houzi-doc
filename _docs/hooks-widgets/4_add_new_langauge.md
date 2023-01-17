@@ -1,7 +1,7 @@
 ---
 title: Add new Language
 category: Hooks & Widgets
-order: 9
+order: 4
 ---
 
 If you want to add new langauge, you have to follow some few steps:

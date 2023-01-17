@@ -1,7 +1,7 @@
 ---
 title: Add new font
-category: App Setup
-order: 6
+category: Hooks & Widgets
+order: 5
 ---
 
 You can add new fonts to the app by copying the font with different weight in the following folder 

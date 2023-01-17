@@ -1,7 +1,7 @@
 ---
 title: Change design of Property listing
 category: Hooks & Widgets
-order: 7
+order: 8
 ---
 
 If you want to change property listing, you need to open following file:

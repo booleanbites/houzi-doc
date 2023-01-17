@@ -1,7 +1,7 @@
 ---
 title: Change design of Term
 category: Hooks & Widgets
-order: 8
+order: 12
 ---
 
 If you want to change Term design, you need to open following file:

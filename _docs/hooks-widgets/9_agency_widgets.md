@@ -1,7 +1,7 @@
 ---
 title: Change design of Agency listing
 category: Hooks & Widgets
-order: 2
+order: 9
 ---
 
 If you want to change property listing, you need to open following file:
