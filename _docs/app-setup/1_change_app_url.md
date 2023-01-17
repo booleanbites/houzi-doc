@@ -1,11 +1,12 @@
 ---
 title: Change Website URL
 category: App Setup
+permalink: app-setup/change_app_url
 order: 1
 ---
 
 ## Change URL by Houzi Config
- You can use Houzi Config Builder to [Change URL](/houzi-config-builder/basic-setup). 
+ You can use Houzi Config Builder to [Change Website URL](/houzi-config-builder/basic-setup) and provide many other URLs required for the app. 
 
 
 ## Change URL by editing config.json
@@ -33,9 +34,9 @@ You need to provide following URL to your website pages
 
 ```
 
-
+<!-- 
 ## Change URL by editing constants.dart
-Open the `Project_HOME > packages > houzi_package > lib > common > constants.dart` file, and look for `WORDPRESS_URL_DOMAIN` and `WORDPESS_URL_SCHEME`. Replace with your own domain and scheme.
+Although not advised, as these will be overriden by config.json, you can hardcode the URLs in constants.dart. Open the `Project_HOME > packages > houzi_package > lib > common > constants.dart` file, and look for `WORDPRESS_URL_DOMAIN` and `WORDPESS_URL_SCHEME`. Replace with your own domain and scheme.
 
 ```
 //Mandatory
@@ -58,7 +59,7 @@ const String WORDPRESS_URL_GDPR_AGREEMENT = "https://domain.com/gdpr.html";
 /// Your Company Related
 String COMPANY_NAME = "BooleanBites Ltd.";
 String COMPANY_URL = "https://booleanbites.com";
-```
+``` -->
 
 > **Important**: If you are using non secure domain, add your domain to following files for mobile systems to allow communication to non-secure domain: 
 

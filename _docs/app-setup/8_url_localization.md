@@ -1,7 +1,8 @@
 ---
 title: Localized URL for WPML
 category: App Setup
-order: 9
+permalink: app-setup/app_url_localization
+order: 8
 ---
 
 When you're using WPML, you provide localization of your data on langugage specific URL of your website. It can either be a parameter `(domain.com/?lang=en, domain.com/?lang=fr)` or it can be a subdirectory `(domain.com/en, domain.com/fr)`. The REST API provide localized data on localized URL. So if you want to get localized data from server you can add language name as Parameter or Directory. There is a third option if you do not want to add language name to the URL.

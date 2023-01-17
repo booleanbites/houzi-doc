@@ -1,7 +1,8 @@
 ---
 title: Changing Splash screen
 category: App Setup
-order: 7
+permalink: app-setup/change_app_splash_screen
+order: 6
 ---
 
 **Flutter command:** You can change splash background by adding this flutter library: 

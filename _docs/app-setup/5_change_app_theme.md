@@ -1,11 +1,12 @@
 ---
 title: Changing Theme Colors
 category: App Setup
-order: 3
+permalink: app-setup/change_app_theme
+order: 5
 ---
 
 ## Change Theme Colors by Houzi Config
- You can use Houzi Config Builder to [Theme Colors](/houzi-config-builder/change-theme). 
+ You can use Houzi Config Builder to change [Theme Colors](/houzi-config-builder/change-theme) and many other options. 
 
 
 ## Change Theme Colors by config.json

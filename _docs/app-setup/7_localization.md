@@ -1,12 +1,14 @@
 ---
 title: Localization (Translation)
 category: App Setup
-order: 8
+permalink: app-setup/localization
+order: 7
 ---
 
-## How to add localization
- Follow Hooks and Widget section to how to [Add Localization/Translation](/hooks-widgets/add_new_language). 
+## Add new language?
+ Follow Hooks and Widget section on how to [Add New Language](/hooks-widgets/add_new_language). 
 
+## Philosophy
 There are two types of strings that we need to handle, first one is app level/static strings and the other is for translating dynamic strings sent from the server. Both of them can be handle in one file
 
 We’ve generated an exhaustive English translation file. You can copy this file and rename it with your own language.

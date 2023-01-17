@@ -1,7 +1,8 @@
 ---
 title: App bundle identifier & version
 category: App Setup
-order: 5
+permalink: app-setup/change_app_identifier
+order: 4
 ---
 
 
