@@ -1,7 +1,7 @@
 ---
 title: Add item in Settings
 category: Hooks & Widgets
-permalink: hooks_widgets/add_item_settings
+permalink: hooks-widgets/add_item_settings
 order: 3
 ---
 

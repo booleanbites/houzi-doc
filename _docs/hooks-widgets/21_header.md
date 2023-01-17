@@ -1,7 +1,7 @@
 ---
 title: Add Header in webservice
 category: Hooks & Widgets
-permalink: hooks_widgets/set_api_header
+permalink: hooks-widgets/set_api_header
 order: 21
 ---
 

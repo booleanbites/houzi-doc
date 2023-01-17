@@ -1,7 +1,7 @@
 ---
 title: Set Marker Title in Map View
 category: Hooks & Widgets
-permalink: hooks_widgets/map_marker_title
+permalink: hooks-widgets/map_marker_title
 order: 18
 ---
 

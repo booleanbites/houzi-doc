@@ -1,7 +1,7 @@
 ---
 title: Set Custom Marker in Map View
 category: Hooks & Widgets
-permalink: hooks_widgets/custom_map_marker
+permalink: hooks-widgets/custom_map_marker
 order: 17
 ---
 

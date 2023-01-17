@@ -1,7 +1,7 @@
 ---
 title: Change design of Term
 category: Hooks & Widgets
-permalink: hooks_widgets/term_widget_item_design_custom
+permalink: hooks-widgets/term_widget_item_design_custom
 order: 12
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Set Price Format
 category: Hooks & Widgets
-permalink: hooks_widgets/price_formatter_customization
+permalink: hooks-widgets/price_formatter_customization
 order: 19
 ---
 
