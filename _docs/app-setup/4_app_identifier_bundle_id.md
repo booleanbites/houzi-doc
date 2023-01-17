@@ -2,7 +2,7 @@
 title: App bundle identifier & version
 category: App Setup
 permalink: app-setup/change_app_identifier
-order: 4
+order: 204
 ---
 
 

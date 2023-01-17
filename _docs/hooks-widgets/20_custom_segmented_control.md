@@ -2,7 +2,7 @@
 title: Change Segmented Control Design
 category: Hooks & Widgets
 permalink: hooks-widgets/segmented_control_design
-order: 20
+order: 320
 ---
 
 If you want to add your own Segmented Control design, you need to open following file:

@@ -2,7 +2,7 @@
 title: Change design of any section in Property Detail Page
 category: Hooks & Widgets
 permalink: hooks-widgets/property_details_customization
-order: 13
+order: 313
 ---
 
 If you want to change the design of any section in Property detail page, you need to open following file:

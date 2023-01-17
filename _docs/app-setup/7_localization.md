@@ -2,7 +2,7 @@
 title: Localization (Translation)
 category: App Setup
 permalink: app-setup/localization
-order: 7
+order: 207
 ---
 
 ## Add new language?

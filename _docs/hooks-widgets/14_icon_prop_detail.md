@@ -2,7 +2,7 @@
 title: Showing feature icon in Property Detail Page
 category: Hooks & Widgets
 permalink: hooks-widgets/property_details_feature_icons
-order: 14
+order: 314
 ---
 
 If you want to show feature icon for your translated property feature, you need to open following file:

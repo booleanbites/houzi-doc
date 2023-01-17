@@ -2,7 +2,7 @@
 title: Set default HomePage
 category: Hooks & Widgets
 permalink: hooks-widgets/default_home_page
-order: 16
+order: 316
 ---
 
 If you want to set default HomePage, go to `Project_HOME  > lib > hooks_v2.dart`. Look for the `getDefaultHomePageHook()` method. You can choose your default home for the app. You have four options, choose one of the following:

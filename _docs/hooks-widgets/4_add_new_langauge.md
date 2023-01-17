@@ -2,7 +2,7 @@
 title: Add new Language
 category: Hooks & Widgets
 permalink: hooks-widgets/add_new_language
-order: 4
+order: 34
 ---
 
 If you want to add new langauge, you have to follow some few steps:

@@ -2,7 +2,7 @@
 title: Change design of Term
 category: Hooks & Widgets
 permalink: hooks-widgets/term_widget_item_design_custom
-order: 12
+order: 312
 ---
 
 If you want to change Term Widget design, you need to open following file:

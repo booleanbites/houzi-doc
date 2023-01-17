@@ -2,7 +2,7 @@
 title: Set Marker Title in Map View
 category: Hooks & Widgets
 permalink: hooks-widgets/map_marker_title
-order: 18
+order: 318
 ---
 
 You can set Marker Title in Map View, go to `Project_HOME  > lib > hooks_v2.dart`. Look for the `getMarkerTitleHook()` method.

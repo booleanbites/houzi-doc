@@ -2,7 +2,7 @@
 title: Add new font
 category: Hooks & Widgets
 permalink: hooks-widgets/add_new_font
-order: 5
+order: 35
 ---
 
 You can add new fonts to the app by copying the font with different weight in the following folder 

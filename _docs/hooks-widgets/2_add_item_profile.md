@@ -2,7 +2,7 @@
 title: Add item in Profile tab
 category: Hooks & Widgets
 permalink: hooks-widgets/add_item_profile
-order: 2
+order: 32
 ---
 
 

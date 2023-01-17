@@ -2,7 +2,7 @@
 title: Set Custom Marker in Map View
 category: Hooks & Widgets
 permalink: hooks-widgets/custom_map_marker
-order: 17
+order: 317
 ---
 
  Show custom marker in MapView instead of default Pin Point marker using this hook. First you have to go to `Project_HOME  > assets` folder and paste your image. Copy your image name and go to `PROJECT_HOME > pubspec.yaml` and specify image path in asset section e.g

@@ -2,7 +2,7 @@
 title: Changing App Icon
 category: App Setup
 permalink: app-setup/change_app_icon
-order: 2
+order: 202
 ---
 
 Since this is a Flutter app, and it generates both Android and iOS projects. You'll need to change icons in each platform project.

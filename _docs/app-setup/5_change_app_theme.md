@@ -2,7 +2,7 @@
 title: Changing Theme Colors
 category: App Setup
 permalink: app-setup/change_app_theme
-order: 5
+order: 205
 ---
 
 ## Change Theme Colors by Houzi Config

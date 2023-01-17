@@ -2,7 +2,7 @@
 title: Set Price Format
 category: Hooks & Widgets
 permalink: hooks-widgets/price_formatter_customization
-order: 19
+order: 319
 ---
 
 You can set your own price format method in app. There are two price formatter using in Houzi. 

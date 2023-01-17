@@ -2,7 +2,7 @@
 title: Showing term icon in Home
 category: Hooks & Widgets
 permalink: hooks-widgets/term_icon_item_design_custom
-order: 11
+order: 311
 ---
 
 If you want to show term icon for your translated term, you need to open following file:

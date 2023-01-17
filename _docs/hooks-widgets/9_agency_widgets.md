@@ -2,7 +2,7 @@
 title: Change design of Agency listing
 category: Hooks & Widgets
 permalink: hooks-widgets/agency_item_design_custom
-order: 9
+order: 309
 ---
 
 If you want to change property listing, you need to open following file:
