@@ -1,7 +1,8 @@
 ---
 title: Xcode Setup
 category: Tools Setup
-order: 1
+permalink: tools/xcode_setup
+order: 5
 ---
 
 ### Setup a Xcode on MacOS

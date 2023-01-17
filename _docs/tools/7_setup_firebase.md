@@ -1,7 +1,8 @@
 ---
 title: Setup Firebase
 category: Tools Setup
-order: 6
+permalink: tools/firebase_setup
+order: 7
 ---
 
 > Make sure your desired app bundle identifiers are set before setting up firebase.

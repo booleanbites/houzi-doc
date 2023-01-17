@@ -1,7 +1,8 @@
 ---
 title: Flutter Setup
 category: Tools Setup
-order: 3
+permalink: tools/flutter_setup
+order: 6
 ---
 
 ### Install Flutter

@@ -1,6 +1,7 @@
 ---
 title: Setup Google Cloud Project Console
 category: Tools Setup
+permalink: tools/google_cloud_setup
 order: 7
 ---
 

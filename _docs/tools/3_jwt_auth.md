@@ -1,7 +1,8 @@
 ---
 title: Setup JWT Auth for login from app
 category: Tools Setup
-order: 12
+permalink: tools/jwt_auth_plugin_setup
+order: 3
 ---
 
 In order for the login and other user related tasks (add property, add review, CRM functionalities, admin activities), we’re using JWT (JSON Web Token) approach. For this we are using JWT Auth plugin.
