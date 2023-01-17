@@ -2,7 +2,7 @@
 title: Add item in drawer
 category: Hooks & Widgets
 permalink: hooks-widgets/add_item_in_drawer
-order: 31
+order: 301
 ---
 
 If you want to add item in drawer, you need to open following file:

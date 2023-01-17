@@ -2,7 +2,7 @@
 title: Add item in Settings
 category: Hooks & Widgets
 permalink: hooks-widgets/add_item_settings
-order: 33
+order: 303
 ---
 
 

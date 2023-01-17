@@ -2,7 +2,7 @@
 title: Change design of Property listing
 category: Hooks & Widgets
 permalink: hooks-widgets/property_item_design_custom
-order: 38
+order: 308
 ---
 
 If you want to change property listing, you need to open following file:
