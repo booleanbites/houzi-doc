@@ -1,7 +1,7 @@
 ---
 title: Customize Home Right Bar Button Id Widget
 category: Hooks & Widgets
-permalink: home_right_bar_button
+permalink: hooks_widgets/home_right_bar_button
 order: 15
 ---
 

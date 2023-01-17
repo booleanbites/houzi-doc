@@ -1,7 +1,7 @@
 ---
 title: Add new font
 category: Hooks & Widgets
-permalink: add_new_font
+permalink: hooks_widgets/add_new_font
 order: 5
 ---
 

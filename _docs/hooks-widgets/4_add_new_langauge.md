@@ -1,7 +1,7 @@
 ---
 title: Add new Language
 category: Hooks & Widgets
-permalink: add_new_language
+permalink: hooks_widgets/add_new_language
 order: 4
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Add item in Profile tab
 category: Hooks & Widgets
-permalink: add_item_profile
+permalink: hooks_widgets/add_item_profile
 order: 2
 ---
 

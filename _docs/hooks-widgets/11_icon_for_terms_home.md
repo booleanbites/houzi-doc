@@ -1,7 +1,7 @@
 ---
 title: Showing term icon in Home
 category: Hooks & Widgets
-permalink: term_icon_item_design_custom
+permalink: hooks_widgets/term_icon_item_design_custom
 order: 11
 ---
 

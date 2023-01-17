@@ -1,7 +1,7 @@
 ---
 title: App display Name
-category: Tools Setup
-order: 5
+category: App Setup
+order: 4
 ---
 
 By default the display name for the app is set to Houzi. For Android, you can change it in AndroidManifest.xml. For iOS, you can change it in info.plist.

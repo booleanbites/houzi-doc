@@ -1,7 +1,7 @@
 ---
 title: Showing feature icon in Property Detail Page
 category: Hooks & Widgets
-permalink: property_details_feature_icons
+permalink: hooks_widgets/property_details_feature_icons
 order: 14
 ---
 

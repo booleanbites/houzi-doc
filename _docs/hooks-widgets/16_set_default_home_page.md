@@ -1,7 +1,7 @@
 ---
 title: Set default HomePage
 category: Hooks & Widgets
-permalink: default_home_page
+permalink: hooks_widgets/default_home_page
 order: 16
 ---
 
