@@ -1,7 +1,7 @@
 ---
-title: Internationalization (Translation)
+title: Localization (Translation)
 category: App Setup
-order: 5
+order: 8
 ---
 
 ## How to add localization
