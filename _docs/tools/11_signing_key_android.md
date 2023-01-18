@@ -1,7 +1,8 @@
 ---
 title: Setup signing key for Android Project
 category: Tools Setup
-order: 9
+permalink: tools/setup_android_signing
+order: 11
 ---
 
 For uploading apps to PlayStore, you need to sign your builds with uniquely generated keys and keystores. Follow instructions here:

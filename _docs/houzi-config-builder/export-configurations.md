@@ -4,7 +4,7 @@ category: Houzi Configuration Builder
 order: 10
 ---
 
-> **Important**: You are required to install the Houzi Plug-in on your Houzez wordpress. To install the Plug-in, click on [Houzi Plug-in Link](https://github.com/AdilSoomro/houzi-rest-api).
+> **Important**: You are required to install the Houzi Rest Api Plugin on your Houzez wordpress. To install the Plug-in, click on [Houzi Rest Api Plugin Link](https://github.com/booleanbites/houzi-rest-api).
 
 Once you have filled all the required fields, follow these steps: 
 1. Press the **Export** button. A dialogbox will open with preview of the configurations of your app.

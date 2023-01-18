@@ -4,7 +4,7 @@ category: Houzi Configuration Builder
 order: 3
 ---
 
-> **Important**: You are required to install the Houzi Plug-in on your Houzez wordpress. To install the Plug-in, click on [Houzi Plug-in Link](https://github.com/AdilSoomro/houzi-rest-api).
+> **Important**: You are required to install the Houzi Rest Api Plugin on your Houzez wordpress. To install the Plug-in, click on [Houzi Rest Api Plugin Link](https://github.com/booleanbites/houzi-rest-api).
 
 > A **Mobile App View** is provided in the center of screen, so you can see how the modifications will look on real device.
 

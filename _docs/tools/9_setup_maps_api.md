@@ -1,7 +1,8 @@
 ---
 title: Setup a Maps api key for Android and iOS projects
 category: Tools Setup
-order: 8
+permalink: tools/setup_maps_api
+order: 9
 ---
 
 Once you have setup the project on [Google Cloud](https://developers.google.com/maps/documentation/android-sdk/start#get-key), you need to acquire the [Key](https://developers.google.com/maps/documentation/android-sdk/get-api-key), and place it in Android and iOS projects.

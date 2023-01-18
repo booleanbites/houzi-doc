@@ -4,7 +4,7 @@ category: Houzi Configuration Builder
 order: 11
 ---
 
-> **Important**: You are required to install the Houzi Plug-in on your Houzez wordpress. To install the Plug-in, click on [Houzi Plug-in Link](https://github.com/AdilSoomro/houzi-rest-api).
+> **Important**: You are required to install the Houzi Rest Api Plugin on your Houzez wordpress. To install the Plug-in, click on [Houzi Rest Api Plugin Link](https://github.com/booleanbites/houzi-rest-api).
 
 If you want to **Edit/Update** configurations of your app (e.g. the changing the Theme Color etc.), follow these steps:
 1. Press the **Upload from File** button. A dialogbox will open, Select the `configurations.json` file of you project.  
@@ -21,6 +21,6 @@ If you want to **Edit/Update** configurations of your app (e.g. the changing the
   
     <img src="../../images/edit-update-config-url-section-screenshot.png" alt="edit-update-config-url-section-screenshot" title="edit-update-config-url-section-screenshot" border= "1px solid"/>  
     
-    Just click `Done` so that app verifies Houzi Plug-in is installation.
+    Just click `Done` so that app verifies Houzi Rest Api Plugin is installation.
 3. **Edit/Update** the required sections.
 4. [**Export**](/houzi-config-builder/export-configurations) the configurations and update the `configurations.json` file of you project.

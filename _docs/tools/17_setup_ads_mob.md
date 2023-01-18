@@ -1,7 +1,8 @@
 ---
 title: Google AdMob integration
 category: Tools Setup
-order: 19
+permalink: tools/setup_admob
+order: 17
 ---
 
 Register your app as an AdMob app by completing the following steps:
@@ -14,7 +15,7 @@ After getting your app AdMob App ID go to:
 
 **iOS** `Project_HOME > ios > Runner > Info.plist` file, and look for `GADApplicationIdentifier`. Replace its value with your own AdMob App ID. 
 
-> **Good to remember:** After creating admob app, update your `GoogleServices-Info.plist` for iOS and `google-services.json` for android by downloading fresh copy from firebase.
+> **Good to remember:** After creating AdMob app, update your `GoogleServices-Info.plist` for iOS and `google-services.json` for android by downloading fresh copy from firebase.
 
 Create a native ad unit. Follow this link to get it: https://support.google.com/admob/answer/7187428#step1
 
@@ -22,7 +23,7 @@ Create a native ad unit. Follow this link to get it: https://support.google.com/
 ## Add/Change AdMob Native ids by Houzi Config
 Open houzi config and go to the section `Api & Config`. Enter your Android and iOS native ads id here
 
-<img src="https://houzi-docs.booleanbites.com/images/enter-ad-mob-key.JPG" alt="enter-ad-mob-key.JPG" title="enter-ad-mob-key.JPG" border= "1px solid"/>
+<img src="../../images/enter-ad-mob-key.JPG" alt="enter-ad-mob-key.JPG" title="enter-ad-mob-key.JPG" border= "1px solid"/>
 
 
 ## Add/Change AdMob Native ids by editing config.json

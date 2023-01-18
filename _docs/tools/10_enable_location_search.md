@@ -1,7 +1,8 @@
 ---
 title: Setup Places Api & Location Search
 category: Tools Setup
-order: 8.1
+permalink: tools/setup_places_api
+order: 10
 ---
 
 Enabling location autocomplete is done in three steps as follow:

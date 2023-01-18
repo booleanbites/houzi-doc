@@ -1,7 +1,8 @@
 ---
 title: Setup Facebook sign in
 category: Tools Setup
-order: 17
+permalink: tools/setup_facebook_signin
+order: 15
 ---
 
 ## Facebook sign in

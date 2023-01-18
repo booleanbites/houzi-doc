@@ -1,7 +1,8 @@
 ---
-title: Setup Phone sign In
+title: Setup Phone sign in
 category: Tools Setup
-order: 18
+permalink: tools/setup_phone_signin
+order: 16
 ---
 
 The keystore that you intend to use to sign the Android app will be used in this step. You might have already created this keystore in previous sections. After generating a signing key, the next step is to add SHA-1 and SHA-256 certificates to the firebase project. You go to the `Firebase console > project > project settings > Add fingerprint`

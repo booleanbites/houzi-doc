@@ -1,6 +1,7 @@
 ---
 title: Setup Apple social sign in
 category: Tools Setup
+permalink: tools/setup_apple_signin
 order: 17
 ---
 
