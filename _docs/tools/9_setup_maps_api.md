@@ -1,5 +1,5 @@
 ---
-title: Setup a Maps api key for Android and iOS projects
+title: Setup a Maps API key
 category: Tools Setup
 permalink: tools/setup_maps_api
 order: 9
@@ -17,9 +17,11 @@ Once you have setup the project on [Google Cloud](https://developers.google.com/
   "google_map_api_key": "your_key_here",
  ```
 
-## Additional stpes (mandatory)
-### Android
+### Additional stpes (mandatory)
+After adding maps key in configuration.json, its mandatory to add this in native projects as well. Because both platform use native maps sdk to show maps in flutter apps.
+
+#### Android
 Open AndroidStudio, expand `android > app > src > main > res > values` project folder,  and find  `strings.xml` file in your Android project. And look for the map key `map_api_key` and paste the key in value attributes.
 
-### iOS
+#### iOS
 Open Xcode and goto `AppDelegate.swift`, look for `GMSServices.provideAPIKey()` and paste your key in there.
