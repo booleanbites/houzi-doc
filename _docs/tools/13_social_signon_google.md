@@ -1,6 +1,7 @@
 ---
 title: Setup Google social sign in
 category: Tools Setup
+permalink: tools/setup_google_signin
 order: 15
 ---
 

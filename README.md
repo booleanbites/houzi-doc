@@ -21,7 +21,7 @@ This section addresses all the tools and other environment configurations you ne
 
 This section guides through all the steps related to app setup and customization.
 
-#### [Custom Widgets](hooks-widgets/add_item_drawer)
+#### [Custom Widgets](hooks-widgets/add_item_in_drawer)
 
 We have designed many hooks to provide way of customise styles, designs, designs and provide additional info to the app.
 
