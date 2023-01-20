@@ -4,7 +4,7 @@
 title: Houzi Docs
 url: "https://houzi-doc.booleanbites.com"
 baseurl: 
-google_analytics_key:
+google_analytics_key: G-BE9JVJ5QL4
 show_full_navigation: true
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
