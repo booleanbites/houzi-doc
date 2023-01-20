@@ -1,7 +1,8 @@
 ---
-title: Export Configurations
-category: Houzi Configuration Builder
-order: 10
+title: Export Configuration
+category: Houzi Builder
+permalink: houzi-builder/export_configuration
+order: 410
 ---
 
 > **Important**: You are required to install the Houzi Rest Api Plugin on your Houzez wordpress. To install the Plug-in, click on [Houzi Rest Api Plugin Link](https://github.com/booleanbites/houzi-rest-api).
@@ -17,6 +18,6 @@ Once you have filled all the required fields, follow these steps:
     **configurations.json** file path:  
     `Project_HOME > assets > configurations > configurations.json`
 
-1. **[Optional Task]** At the bottom of dialogbox, you will see a checkbox named as `Increase configurations version number`. If you are [**Editing/Updating**](/houzi-config-builder/edit-or-update-configurations) the configurations of your app, then *checkmark* it, else leave it unchecked.  
+1. **[Optional Task]** At the bottom of dialogbox, you will see a checkbox named as `Increase configurations version number`. If you are [**Editing/Updating**](/houzi-builder/edit_configuration) the configurations of your app, then *checkmark* it, else leave it unchecked.  
     
     <img src="../../images/export-configurations-increase-version-screenshot.png" alt="export-configurations-increase-version-screenshot" title="export-configurations-increase-version-screenshot" border= "1px solid"/>

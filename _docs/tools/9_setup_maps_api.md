@@ -1,5 +1,5 @@
 ---
-title: Setup a Maps API key
+title: Setup Maps API key
 category: Tools Setup
 permalink: tools/setup_maps_api
 order: 9
@@ -7,17 +7,19 @@ order: 9
 
 Once you have setup the project on [Google Cloud](https://developers.google.com/maps/documentation/android-sdk/start#get-key), you need to acquire the [Key](https://developers.google.com/maps/documentation/android-sdk/get-api-key), and place it in Android and iOS projects.
 
-## Setup maps api key by Houzi Config
- You can use Houzi Config Builder to save the Maps api key: [Theme Api & Config](/houzi-config-builder/api-and-configurations-setup). 
+You've to put the API key in configuration.json (automatically or manually) as well as in native project files. This API key is used for Maps, Places search and Static Maps.
 
-## Setup maps api key by config.json
+### Setup maps api key by Houzi Config
+ You can use Houzi Config Builder to save the Maps api key: [Theme Api & Config](/houzi-builder/api_config_setup). 
+
+### Setup maps api key by config.json
  You can change colors from config by replacing ******* with your own color code. Open the `Project_HOME > assests > configuration > configuration.json` file, and look for the following keys:
 
  ```
   "google_map_api_key": "your_key_here",
  ```
 
-### Additional stpes (mandatory)
+### Additional steps (mandatory)
 After adding maps key in configuration.json, its mandatory to add this in native projects as well. Because both platform use native maps sdk to show maps in flutter apps.
 
 #### Android

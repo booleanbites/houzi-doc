@@ -6,7 +6,7 @@ order: 201
 ---
 
 ## Change URL by Houzi Config
- You can use Houzi Config Builder to [Change Website URL](/houzi-config-builder/basic-setup) and provide many other URLs required for the app. 
+ You can use Houzi Config Builder to [Change Website URL](/houzi-builder/basic_setup) and provide many other URLs required for the app. 
 
 
 ## Change URL by editing config.json

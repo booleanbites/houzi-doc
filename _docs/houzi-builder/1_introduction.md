@@ -1,7 +1,8 @@
 ---
 title: Introduction
-category: Houzi Configuration Builder
-order: 1
+category: Houzi Builder
+permalink: houzi-builder/intro
+order: 401
 ---
 
 This is setup documentation for **Houzi Builder App**.

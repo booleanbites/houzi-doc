@@ -15,7 +15,7 @@ Once you have setup the project on Google Cloud, you need to enable the places a
 ## Setup maps api key
 You need to set maps api key (also used for places api) in your application.
 ### Setup maps api key by Houzi Config
- You can use Houzi Config Builder to save the Maps api key: [Theme Api & Config](/houzi-config-builder/api-and-configurations-setup). 
+ You can use Houzi Config Builder to save the Maps api key: [Theme Api & Config](/houzi-builder/api_config_setup). 
 ### Or setup maps api key manually by editing config.json
  You can change colors from config by replacing ******* with your own color code. Open the `Project_HOME > assests > configuration > configuration.json` file, and look for the following keys:
 
@@ -29,7 +29,7 @@ You need to set maps api key (also used for places api) in your application.
 
 ### Enable Location option in Houzi Config Builder
 
-Once you've enabled Places API and billing on your project, you need to enable location search via Houzi Config Builder. [Customize Search Screen](/houzi-config-builder/customize-search)
+Once you've enabled Places API and billing on your project, you need to enable location search via Houzi Config Builder. [Customize Search Screen](/houzi-builder/customize_search_filters)
 
 Or you can manually look into  `Project_HOME > assests > configuration > configuration.json` and look for following keys:
 ```

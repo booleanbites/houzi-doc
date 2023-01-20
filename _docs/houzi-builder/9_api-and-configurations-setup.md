@@ -1,7 +1,8 @@
 ---
 title: Api and Configurations Setup
-category: Houzi Configuration Builder
-order: 9
+category: Houzi Builder
+permalink: houzi-builder/api_config_setup
+order: 409
 ---
 
 > **Important**: You are required to install the Houzi Rest API Plug-in on your Houzez wordpress. To install the Plug-in, click on [Houzi Rest Api Plugin Link](https://github.com/booleanbites/houzi-rest-api).
@@ -12,7 +13,7 @@ Go to the `Api & Config` section.
 
 * Provide `Google Maps Api Key` in the respective field.  
   > **Google Maps Api Key** is prerequisite. If you do not have *Google Maps Api Key*, you can aquire key by following these steps:   
-    1. [Setup Google Cloud Project Console](/tools/setup_google_cloud)
+    1. [Setup Google Cloud Project Console](/tools/google_cloud_setup)
     2. Once you have setup the project on Google Cloud, you need to [Aquire the Maps Api Key](https://developers.google.com/maps/documentation/android-sdk/start#get-key) for Android and iOS separately.
  * Provide `Android/IOS Native Ad Id` in the respective fields.  
    > **AdMob App ID** is prerequisite. If you do not have *AdMob App ID*, you can aquire *AdMob App ID* by registering your app as an AdMob app. Simply follow these steps:   
@@ -32,6 +33,6 @@ Go to the `Api & Config` section.
 
 * You can *enable* or *disable* `Social Sign-On` (i.e. Sign-in with *Facebook*, *Google* and *Apple*.)
     > *Sign-in with Apple* is only available in **IOS**.  
-    > Prerequisite: [Social Sign-on Configuration](/tools/social_signon).  
+    > Prerequisite: [Social Sign-on Configuration](/tools/setup_google_signin).  
 
     <img src="../../images/api-and-config-social-sign-on-section-screenshot.png" alt="api-and-config-social-sign-on-section-screenshot" title="api-and-config-social-sign-on-section-screenshot" border= "1px solid"/>

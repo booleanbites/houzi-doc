@@ -25,7 +25,7 @@ This section guides through all the steps related to app setup and customization
 
 We have designed many hooks to provide way of customise styles, designs, designs and provide additional info to the app.
 
-#### [Houzi Config Builder](houzi-config-builder/introduction)
+#### [Houzi Config Builder](houzi-builder/intro)
 
 Houzi Builder is visual config builder. This section talks about designing and generating configuration with Houzi Builder, that can be used in the app.
 

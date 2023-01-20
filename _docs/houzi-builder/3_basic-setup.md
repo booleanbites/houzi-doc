@@ -1,7 +1,8 @@
 ---
 title: Basic App Setup
-category: Houzi Configuration Builder
-order: 3
+category: Houzi Builder
+permalink: houzi-builder/basic_setup
+order: 403
 ---
 
 > **Important**: You are required to install the Houzi Rest Api Plugin on your Houzez wordpress. To install the Plug-in, click on [Houzi Rest Api Plugin Link](https://github.com/booleanbites/houzi-rest-api).
