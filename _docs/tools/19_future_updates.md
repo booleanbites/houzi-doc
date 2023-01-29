@@ -7,11 +7,30 @@ order: 19
 
 Always make a backup before updating to the next version.
 
-> Starting 1.1.4, we adopted hooks to provide custom designs, fonts, headers and many customisation from your main project. It allows you to preserve the configs in your android and iOS app. 
 
-> Starting 1.1.2 we’ve adopted the flutter package approach to make the updates easy. Also, all your configurations are independant of the Houzi code. 
+## Update to 1.1.5_1
+
+We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again). Let's assume you simply want to update your houzi_package, updating to 1.1.5_1 requires you following things:
+
+- Always make a backup. (copy in separate folder or use git)
+- Copy `Project_HOME > packages > houzi_package` from 1.1.5_1 and replace houzi_package in your existing project.
+- We added two price formatting hooks. Open newer hooks file `Project_HOME > lib > Hooks.dart` and find class `CustomMethodsHook` at bottom of the file. This class contains two methods `getPriceFormatterHook()` and `getCompactPriceFormatterHook()`. Copy this `CustomMethodsHook` class and paste to your own hooks class.
+- You also need to link these new hooks in main.dart by opening file `Project_HOME > lib > main.dart` and add these hooks to hooksMap as follow:
+  ```
+    Map<String,dynamic> hooksMap = {
+      ....
+      "priceFormatter" : CustomMethodsHook.getPriceFormatterHook(),
+      "compactPriceFormatter" : CustomMethodsHook.getCompactPriceFormatterHook(),
+    };
+  ```
+- If you're using older version than flutter 3.7.0, you need to lower pinput library version in `Project_HOME /packages/houzi_package/pubspec.yaml`. Set the version to 2.2.11 for the library pinput like `pinput: 2.2.11`
+- Rest of configurations like configuration.json, you android project folders, ios project folders should remain same.
+- 
 
 ## Update from 1.1.4
+
+> Starting 1.1.4, we adopted hooks to provide custom designs, fonts, headers and many customisation from your main project. It allows you to preserve the configs in your android and iOS app. 
+
 Backup before doing anything with the update.
 
 Starting with 1.1.4, all your configuration, styling and customizations are store in configurations.json that is independant of your houzi_package. With the introduction of hooks we've added the ability to provide custom designs, fonts, headers and many customisation from your main project. This helps us preserve your settings and configurations in the event of updates.
@@ -25,6 +44,9 @@ That's pretty much it. In many cases we might add new hooks for widget and custo
 > **Note**: If you want to make changes to `houzi_package`, we suggest to always add comments with your identifier (your name or company name). So in the event of new updates, you can keep track of the changes you made in old houzi_package and those can be manually moved over.
 
 ## Update from 1.1.2
+
+> Starting 1.1.2 we’ve adopted the flutter package approach to make the updates easy. Also, all your configurations are independant of the Houzi code. 
+
 Backup before doing anything with the update.
 
 Copy the following files into a separate folder:
