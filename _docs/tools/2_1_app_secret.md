@@ -7,7 +7,7 @@ order: 2
 
 Security is really importan, so we need to make communication between app and website secure. App Secret is a secret key that is used by your app when communicating with Wordpress and Rest Api.
 
-> **Important** You need to activate your rest api plugin and also unlock it with your purchase code. Otherwise you won't be able to view Secret Key field.
+> **Important** You need to activate your rest api plugin and also unlock it with your purchase code. Otherwise you won't be able to setup Secret Key and many other configurations.
 
 ### Setup a secret key on Admin Panel
 You can enter any string of 10 to 20 characters lenght. (shouldn't be too long, though). When saved, Rest Api running on your website would look for app secret when any important communication is done, like add new property, user login, sign up or send email etc.
