@@ -26,6 +26,7 @@ We always assume, you haven't made changes to files in houzi_package. If you mad
 - If you're using older version than flutter 3.7.0, you need to lower pinput library version in `Project_HOME /packages/houzi_package/pubspec.yaml`. Set the version to 2.2.11 for the library pinput like `pinput: 2.2.11`
 - Open following file:  `PROJECT_HOME/android/app/build.gradle` and look for `targetSdkVersion` and change to 31
 - Open following file:  `PROJECT_HOME/android/app/src/main/AndroidManifest.xml` and look for `<Activity` tag and add an attribute `android:exported="true"`
+- Delete file: `Project_HOME/l10n.yaml`
 - Rest of configurations like configuration.json, you android project folders, ios project folders should remain same.
 
 ## Update from 1.1.4
