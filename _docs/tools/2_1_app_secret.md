@@ -1,5 +1,5 @@
 ---
-title: Setup Houzi Rest Api plugin
+title: Setup App Secret
 category: Tools Setup
 permalink: tools/app_secret
 order: 2
