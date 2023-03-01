@@ -36,11 +36,13 @@ Enable Phone as a Sign-In method in the Firebase console. Go to `Firebase consol
 
 
 #### Step 2
-Make sure to add SHA-1 and SHA-256 certificates to the firebase project
-
+Goto Firebase > Project Settings > Your Apps > Android app. Make sure to add SHA-1 and SHA-256 fingerprints under SHA certificate fingerprints.
 
 #### Step 3
-Go to Google cloud and enable `Android Device Verification`
+Goto Firebase > [App Check](https://console.firebase.google.com/project/_/appcheck) > Apps. And Register your app for **Play Integrity**. Read here about [App Check Documentation](https://firebase.google.com/docs/app-check/flutter/default-providers)
+
+#### Step 4
+Go to Google Cloud, APIs & Services section and enable `Google Play Integrity API`
 
 After these step you are good to go sign in with Phone
 
