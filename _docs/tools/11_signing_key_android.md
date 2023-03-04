@@ -14,13 +14,13 @@ For uploading apps to PlayStore, you need to sign your builds with uniquely gene
 5. Below the field for Key store path, click Create new.
 6. On the New Key Store window, provide the following information for your keystore and key, as shown in figure 2.
 7. Keystore
-    **Key store path:** Select the location where your keystore should be created. Also, a file name should be added to the end of the location path with the .jks extension.
-    **Password:** Create and confirm a secure password for your keystore.
+    - **Key store path:** Select the location where your keystore should be created. Also, a file name should be added to the end of the location path with the .jks extension.
+    - **Password:** Create and confirm a secure password for your keystore.
 8. Key
-    **Alias:** Enter an identifying name for your key.
-    **Password:** Create and confirm a secure password for your key. This should be the same as your keystore password. (Please refer to the known issue for more information)
-    **Validity (years):** Set the length of time in years that your key will be valid. Your key should be valid for at least 25 years, so you can sign app updates with the same key through the lifespan of your app.
-    **Certificate:** Enter some information about yourself for your certificate. This information is not displayed in your app, but is included in your certificate as part of the APK.
+    - **Alias:** Enter an identifying name for your key.
+    - **Password:** Create and confirm a secure password for your key. This should be the same as your keystore password. (Please refer to the known issue for more information)
+    - **Validity (years):** Set the length of time in years that your key will be valid. Your key should be valid for at least 25 years, so you can sign app updates with the same key through the lifespan of your app.
+    - **Certificate:** Enter some information about yourself for your certificate. This information is not displayed in your app, but is included in your certificate as part of the APK.
 
 ![Generate New Keystore](../../images/keystore.png)
 
