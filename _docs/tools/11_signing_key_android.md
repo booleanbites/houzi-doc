@@ -1,5 +1,5 @@
 ---
-title: Setup signing key for Android Project
+title: Setup signing key for Android
 category: Tools Setup
 permalink: tools/setup_android_signing
 order: 11
