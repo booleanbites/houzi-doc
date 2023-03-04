@@ -19,7 +19,7 @@ open following file:
 
 `Project_HOME  > lib > hooks_v2.dart`
 
-Look for the `getHeaderMap()` method. and find key value pair for 'app_secret' in a given map. eg: 
+Look for the `getHeaderMap()` method. and find key value pair for 'app-secret' in a given map. eg: 
 ```
   …
     Map<String, dynamic> map = {
