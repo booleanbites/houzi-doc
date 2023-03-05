@@ -7,7 +7,7 @@ order: 317
 
  If you want to show custom map pin with custom data like price on MapView instead of default Google Maps Pin, you can enable this using this hook. 
 
-Then go to `Project_HOME  > lib > hooks_v2.dart`. Look for the `getCustomMarkerHook()` method.
+Open file at `Project_HOME  > lib > hooks_v2.dart`. Look for the `getCustomMarkerHook()` method.
 
 ```
   CustomMarkerHook getCustomMarkerHook() {
