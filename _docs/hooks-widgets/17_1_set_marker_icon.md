@@ -1,5 +1,5 @@
 ---
-title: Set Custom Marker in Map View
+title: Set Custom Map Icon
 category: Hooks & Widgets
 permalink: hooks-widgets/custom_map_marker
 order: 317
