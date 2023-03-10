@@ -34,4 +34,6 @@ You can return `null` if you don't want to use custom map pin.
 
 ![Map Pins Showing price](../../images/map-pin-price.jpg)
 
+*Added in version 1.2.0*
+
 

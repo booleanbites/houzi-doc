@@ -38,3 +38,4 @@ Additionally Disable NONCE can be used to do some quick testing.
 
 
 
+*Added in version 1.2.0*
