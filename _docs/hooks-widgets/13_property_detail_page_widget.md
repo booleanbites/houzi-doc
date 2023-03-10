@@ -1,5 +1,5 @@
 ---
-title: Change section designs in Property Details
+title: Design sections in Property Details
 category: Hooks & Widgets
 permalink: hooks-widgets/property_details_customization
 order: 313
