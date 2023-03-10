@@ -7,6 +7,20 @@ order: 19
 
 Always make a backup before updating to the next version.
 
+## Update to 1.2.0
+
+Version 1.2.0 is a major upgrade. We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
+Let's assume you simply want to update your houzi_package, updating to 1.2.0 requires you following things:
+
+- Always make a backup. (copy in separate folder or use git)
+- Copy `Project_HOME > packages > houzi_package` from 1.2.0 and replace houzi_package in your existing project.
+- Migrate hooks.dart to hooks_v2.dart. HooksV2 is more simpler and fail safe. We kept the name of the hooks same, just make sure you're returning the correct data like you returned in older hooks.dart.
+  
+If you're updating from versions older than 1.1.5_1, then you'll need to:
+- Delete file: `Project_HOME/l10n.yaml`
+- Update Android targetSdkVersion to 31 in following file:  `PROJECT_HOME/android/app/build.gradle` and look for `targetSdkVersion` and change to 31
+- Add exported attribute in main Activity following file:  `PROJECT_HOME/android/app/src/main/AndroidManifest.xml` and look for `<Activity` tag and add an attribute `android:exported="true"`
+- Rest of configurations like configuration.json, you android project folders, ios project folders should remain same.
 
 ## Update to 1.1.5_1
 
