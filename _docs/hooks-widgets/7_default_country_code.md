@@ -1,5 +1,5 @@
 ---
-title: Set default Country Code for Phone Login
+title: Default Country for Phone Login
 category: Hooks & Widgets
 permalink: hooks-widgets/set_default_country_code
 order: 307

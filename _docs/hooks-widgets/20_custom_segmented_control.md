@@ -1,5 +1,5 @@
 ---
-title: Change Segmented Control Design
+title: Segmented Control Design
 category: Hooks & Widgets
 permalink: hooks-widgets/segmented_control_design
 order: 320

@@ -1,5 +1,5 @@
 ---
-title: Showing feature icon in Property Detail Page
+title: Feature icon in Property Details
 category: Hooks & Widgets
 permalink: hooks-widgets/property_details_feature_icons
 order: 314

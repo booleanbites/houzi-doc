@@ -1,5 +1,5 @@
 ---
-title: Customize Home Right Bar Button Id Widget
+title: Set Home Right Bar Button Widget
 category: Hooks & Widgets
 permalink: hooks-widgets/home_right_bar_button
 order: 315
