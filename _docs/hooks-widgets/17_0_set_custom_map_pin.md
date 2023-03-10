@@ -5,7 +5,7 @@ permalink: hooks-widgets/set_custom_marker
 order: 317
 ---
 
- If you want to show custom map pin with custom data like price on MapView instead of default Google Maps Pin, you can enable this using this hook. 
+ If you want to show custom map pin with custom dynamic string like price on MapView instead of default Google Maps Pin, you can enable this using this hook. 
 
 Open file at `Project_HOME  > lib > hooks_v2.dart`. Look for the `getCustomMarkerHook()` method.
 
