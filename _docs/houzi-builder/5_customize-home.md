@@ -11,12 +11,12 @@ You can fully customize the **Home Screen** of your app. You can **add** new sec
 
 > A **Mobile App View** is provided in the center of screen, so you can see how the modifications will look on real device.
 
-<img src="../../images/houzi-builder.png" alt="houzi-builder" title="houzi-builder" border= "1px solid"/>
+<img src="../../images/houzi-builder.png" alt="houzi-builder" title="houzi-builder"/>
 
 Go to the `Home` section.
 
 On the Right side, there is a cloumn with options to customize the **Home Screen**. You can do customization as follows:  
-* You can add or reduce the **Search Type** options with the help of stepper.
+* When you're using Home-Carousel, you can add or reduce the **Search Type** options with the help of stepper.
 
 #### Add new section to home
 * You can `Add` a new section to **Home Screen** by following these steps:
@@ -31,7 +31,7 @@ On the Right side, there is a cloumn with options to customize the **Home Screen
       - `term` (If you want to show **Particular Properties** on *Home Screen* e.g. *Properties by property_Type / property_city* etc.).
       - `agents` (If you want to show **Agents** on *Home Screen*).
       - `agencies` (If you want to show **Agencies** on *Home Screen*).
-      - `terms_with_icon` (If you want to show **Agencies** on *Home Screen*).
+      - `terms_with_icon` (If you want to show **Terms** on a circular view on *Home Screen*. i.e For Sale, For Rent etc).
   - Second, you have to define the **Title** of the section.
   - Third, you can define **Design** of any Property related section. Property related sections are as follows:
     - all_properties.
@@ -42,7 +42,7 @@ On the Right side, there is a cloumn with options to customize the **Home Screen
     **Design** for non-proprety related sections can not be defined.    
     
      <img src="../../images/home-add-section-property-designs-screenshot.png" alt="home-add-section-property-designs-screenshot" title="home-add-section-property-designs-screenshot" border= "1px solid"/>    
-    <img src="../../images/home-add-section-term-designs-screenshot.png" alt="home-add-section-term-designs-screenshot" title="home-add-section-term-designs-screenshot" border= "1px solid"/> 
+    
   - Forth, you can define **List-Type** of any Property related section. List-Types are as follows:  
     <img src="../../images/home-add-section-list-types-screenshot.png" alt="home-add-section-list-types-screenshot" title="home-add-section-list-types-screenshot" border= "1px solid"/> 
     - `all` (If you want to show latest listings. It is by default selected option).
@@ -65,8 +65,10 @@ On the Right side, there is a cloumn with options to customize the **Home Screen
     - If selected List-Type is `property_city` and you want to show listings according to some particular list-type value (i.e. some particular city), select your desired option.
     - If selected List-Type is `property_area` and you want to show listings according to some particular list-type value (i.e. some particular area), select your desired option.
     - If selected List-Type is `property_country` and you want to show listings according to some particular list-type value (i.e. some particular country), select your desired option.
-    > Click `Done` to *add* the new section.  
-    Click `Cancel` to *discard* the action.
+    - Check `Show Featured` to show Featured Properties in property section type only.
+    - Check `Show Nearby Properties` to show nearby Properties in property section type only. *Please consider the fact that you won't have properties available for all users locations. Also consider Location permission and other gps related issues as well.*
+    - Click `Done` to *add* the new section.  
+    - Click `Cancel` to *discard* the action.
 
 #### Re-arrange Re-order sections in home
 * You can `Re-arrange` the sections on **Home Screen** just by dragging them *upwards* or *downwards*.
