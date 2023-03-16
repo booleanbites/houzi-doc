@@ -11,26 +11,27 @@ You can fully customize the **Home Screen** of your app. You can **add** new sec
 
 > A **Mobile App View** is provided in the center of screen, so you can see how the modifications will look on real device.
 
-<img src="../../images/home-screenshot.png" alt="home-screenshot" title="home-screenshot" border= "1px solid"/>
+<img src="../../images/houzi-builder.png" alt="houzi-builder" title="houzi-builder" border= "1px solid"/>
 
 Go to the `Home` section.
 
 On the Right side, there is a cloumn with options to customize the **Home Screen**. You can do customization as follows:  
 * You can add or reduce the **Search Type** options with the help of stepper.
+
+#### Add new section to home
 * You can `Add` a new section to **Home Screen** by following these steps:
   - There is a **Add** button at the bottom of the column. Press this button and a dialog box will open.  
    
-    <img src="../../images/home-add-section-screenshot.png" alt="home-add-section-screenshot" title="home-add-section-screenshot" border= "1px solid"/>
+    <img src="../../images/home-add-section-screenshot.jpg" alt="home-add-section-screenshot" title="home-add-section-screenshot" border= "1px solid"/>
   - First of all, you have to define the **Widget Type** of the section that you want to add to *Home Screen*. There are many widget types as:   
-    <img src="../../images/home-add-section-widget-types-screenshot.png" alt="home-add-section-widget-types-screenshot" title="home-add-section-widget-types-screenshot" border= "1px solid"/> 
+    <img src="../../images/home-add-section-widget-types-screenshot.jpg" alt="home-add-section-widget-types-screenshot" title="home-add-section-widget-types-screenshot" border= "1px solid"/> 
       - `ad` (If you want to show **Ad** on *Home Screen*).
       - `recent_searches` (If you want to show **Recent Searches** on *Home Screen*).
-      - `all_properties` (If you want to show **Latest Properties** on *Home Screen*).
-      - `featured_properties` (If you want to show **Featured Properties** on *Home Screen*).
       - `property` (If you want to show **Specific Properties** on *Home Screen* e.g. *Properties by Rent* etc.).
       - `term` (If you want to show **Particular Properties** on *Home Screen* e.g. *Properties by property_Type / property_city* etc.).
       - `agents` (If you want to show **Agents** on *Home Screen*).
       - `agencies` (If you want to show **Agencies** on *Home Screen*).
+      - `terms_with_icon` (If you want to show **Agencies** on *Home Screen*).
   - Second, you have to define the **Title** of the section.
   - Third, you can define **Design** of any Property related section. Property related sections are as follows:
     - all_properties.
@@ -66,10 +67,14 @@ On the Right side, there is a cloumn with options to customize the **Home Screen
     - If selected List-Type is `property_country` and you want to show listings according to some particular list-type value (i.e. some particular country), select your desired option.
     > Click `Done` to *add* the new section.  
     Click `Cancel` to *discard* the action.
+
+#### Re-arrange Re-order sections in home
 * You can `Re-arrange` the sections on **Home Screen** just by dragging them *upwards* or *downwards*.
+
+#### Edit sections in home
 * You can `Edit` the sections just by clicking on *Edit* icon of respective section.   
   <img src="../../images/home-screenshot-list-tile.png" alt="home-screenshot-list-tile" title="home-screenshot-list-tile" border= "1px solid"/>   
-  <img src="../../images/home-edit-section-screenshot.png" alt="home-edit-section-screenshot" title="home-edit-section-screenshot" border= "1px solid"/> 
+  <img src="../../images/home-edit-section-screenshot.jpg" alt="home-edit-section-screenshot" title="home-edit-section-screenshot" border= "1px solid"/> 
 
   You can perform following opertions in editing a section:
   - You can change the **Type** of any section.
@@ -77,6 +82,8 @@ On the Right side, there is a cloumn with options to customize the **Home Screen
   - You can change the **Design** of any Property related section.
   -  You can change the **Listing Type** of any Property related section (e.g. you can show *all properties* or just the properties based on their *property_type* or *property_status* etc.).
   -  You can change the **Listing Type Value** of any Property related section (e.g. you can show *all properties* of particular selected Listing Type or just the properties based on that selected Listing Type Value (i.e. if selected Listing Type is *Property_type*, you can choose the selected Listing Type Value to be *all* or one of the selected Listing Type values (e.g. apartment, office etc.))).
+
+#### Delete sections in home
 * You can `Remove/Delete` any section just by clicking on **Delete Icon** of respective section. A delete confirmation dialog will open.   
   <img src="../../images/home-screenshot-list-tile.png" alt="home-screenshot-list-tile" title="home-screenshot-list-tile" border= "1px solid"/>    
   <img src="../../images/home-delete-section-screenshot.png" alt="home-delete-section-screenshot" title="home-delete-section-screenshot" border= "1px solid"/>  
