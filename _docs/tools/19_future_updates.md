@@ -15,6 +15,7 @@ Let's assume you simply want to update your houzi_package, updating to 1.2.0 req
 - Always make a backup. (copy in separate folder or use git)
 - Copy `Project_HOME > packages > houzi_package` from 1.2.0 and replace houzi_package in your existing project.
 - Migrate hooks.dart to hooks_v2.dart. HooksV2 is more simpler and fail safe. We kept the name of the hooks same, just make sure you're returning the correct data like you returned in older hooks.dart.
+- Upgrade your dart version to 2.18 or above, for null-safety support. Open your file at path: `PROJECT_HOME / pubspec.yaml` and change the sdk version to `sdk: ">=2.18.2 <3.0.0"`. 
   
 If you're updating from versions older than 1.1.5_1, then you'll need to:
 - Delete file: `Project_HOME/l10n.yaml`

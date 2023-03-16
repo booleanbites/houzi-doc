@@ -36,3 +36,5 @@ hidePropertyPrice = (userRole == ROLE_ADMINISTRATOR || userRole == USER_ROLE_HOU
 ```
 
 This will hide listing price on property cards as well as on property details pages.
+
+*Added in version 1.2.0*
