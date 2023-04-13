@@ -46,6 +46,8 @@ Keep in mind, in a manual method, you’ll have to generate icons in different r
 
 Starting from Android OS 8 api 26, Android has provided adaptive icons option. An adaptive icon, or `AdaptiveIconDrawable`, can display differently depending on individual device capabilities and user theming.
 
+<img src="../../images/adaptive-icons.png" alt="adaptive-icons-android" title="adaptive-icons-android-sample"/>
+
 We also have included a sample adaptive icon in android project. Either you can provide your own adaptive icon or remove those icons.
 If you want to add your own adaptive icons, replace these files with your own:
 
