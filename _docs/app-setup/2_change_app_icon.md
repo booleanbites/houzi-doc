@@ -7,7 +7,7 @@ order: 202
 
 Since this is a Flutter app, and it generates both Android and iOS projects. You'll need to change icons in each platform project.
 
-> **Important**: Android app is using adaptive icon approach, which is modern app icon approach. Adaptive Icon won't be set with automatic way. We've provided details about adaptive icon in separate section below. Please read that section carefully.
+> **Important**: ⚠️ Android app is using adaptive icon, a more modern app icon approach. Adaptive Icon won't be set with automatic way. We've provided details about adaptive icon in separate section below. Please read that section carefully.
 
 #### Automatic Way
 
