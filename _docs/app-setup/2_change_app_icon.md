@@ -7,6 +7,8 @@ order: 202
 
 Since this is a Flutter app, and it generates both Android and iOS projects. You'll need to change icons in each platform project.
 
+> **Important**: ⚠️ Android app is using adaptive icon, a more modern app icon approach. Adaptive Icon won't be set with automatic way. We've provided details about adaptive icon in separate section below. Please read that section carefully.
+
 #### Automatic Way
 
 **Flutter Launcher Icons** has been designed to help quickly generate launcher icons for both Android and iOS: 
@@ -45,6 +47,8 @@ Keep in mind, in a manual method, you’ll have to generate icons in different r
 #### Adaptive Icons (Android)
 
 Starting from Android OS 8 api 26, Android has provided adaptive icons option. An adaptive icon, or `AdaptiveIconDrawable`, can display differently depending on individual device capabilities and user theming.
+
+<img src="../../images/adaptive-icons.png" alt="adaptive-icons-android" title="adaptive-icons-android-sample"/>
 
 We also have included a sample adaptive icon in android project. Either you can provide your own adaptive icon or remove those icons.
 If you want to add your own adaptive icons, replace these files with your own:
