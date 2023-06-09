@@ -2,7 +2,7 @@
 title: Add Custom Widget in Property Details
 category: Hooks & Widgets
 permalink: hooks-widgets/add_custom_widget_in_property_details
-order: 323
+order: 324
 ---
 
 If you want to add a 'Custom widget' in Property Details page, you need to open following file:
