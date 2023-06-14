@@ -36,9 +36,9 @@ Then go to iOS Runner.entitlements in file:  `PROJECT_HOME/ios/Runner/Runner.ent
 ```
 ...
 <key>com.apple.developer.associated-domains</key>
-    <array>
-		<string>applinks:domain.com</string>
-	</array>
+  <array>
+	<string>applinks:domain.com</string>
+  </array>
 ...
 ```
   Replace domain.com with your domain.
