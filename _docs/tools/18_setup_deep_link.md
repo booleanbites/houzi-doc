@@ -32,6 +32,17 @@ Deep links or Universal link is the ability of your application being launch whe
 </array>
 ```
 
+Then go to iOS Runner.entitlements in file:  `PROJECT_HOME/ios/Runner/Runner.entitlements` and add following line:
+```
+...
+<key>com.apple.developer.associated-domains</key>
+    <array>
+		<string>applinks:domain.com</string>
+	</array>
+...
+```
+  Replace domain.com with your domain.
+
 ## Setup Server File:
 
 1. apple-app-site-association
