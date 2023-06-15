@@ -37,7 +37,7 @@ To add an expandable item to the drawer, you can follow a similar process with a
 
 Here's an updated example of the code:
 
-```
+```dart
 @override
 DrawerHook getDrawerItems() {
   DrawerHook drawerHook = (BuildContext context) {
