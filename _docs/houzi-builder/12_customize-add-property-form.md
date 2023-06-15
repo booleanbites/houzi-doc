@@ -79,17 +79,40 @@ You can `Add` a new Field in Section by following these steps:
       
 - The value of **Enable** field determines wether to *show/hide* the field on section. If you and to *show* the field, set the value to **true**. If you and to *hide* the field, set the value to **false**.
 
-- Enter the **Api Key** of field.
+- **[Required]** Enter the **Api Key** of field e.g. *fave_property_bedrooms etc.* The corresponding data of field will be sent to this key when **Add Property API** will be called.
+    > *Note (In following cases, 'Authentic API key not required'):   
+    > * Incase of **formMediaField** provide any key e.g. prop_media .
+    > * Incase of **formCustomField** provide any key e.g. custom_field .
 
 - If you want to **restrict** this field to some specific users e.g. *administrator, houzez_agnecy etc.*, select these specific roles from the multiselect dropdown menu.
 
 - If you want to make the field **public** (available to all users), unselect all the roles (if any role is selected).
 
-- Enter the **Title** of field.
+- Select the **Field Type** from dropdown menu.
 
-- Enter the **Hint** of field.
+    <img src="../../images/field_type_dropdown.png" alt="field-type-dropdown" title="field-type-dropdown" border= "1px solid"/> 
 
-- Enter the **Additional Hint** of field.
+    You can choose from a list of options which field you want to display. The description of *Field Type* is as follows: 
+
+    * **formTextField** should be used, if you want to take *text* input from user. e.g. Property Title, Property Price etc.
+
+    * **formMultiSelectField** should be used, if you want to take *multiple* inputs from the user. e.g. Property Features (e.g. Garage, Pool etc.), Property Type (Commercail, Office etc.) etc.
+
+    * **formDropDownField** should be used, if you want to take *single* inputs, from given list, from the user. e.g. Property Status (e.g. For Rent, For Sale etc.) etc.
+
+    * **formStepperField** should be used, if you want to take such user input in which user can *increase* or *decrease* some value with the help of steppers. e.g. Number of bedrooms, Number of bathrooms etc.
+
+    * **formMediaField** should be used, if you want to take media from user e.g. photos etc.
+
+    * **formAdditionalDetailsField** should be used, if you want to take some *additional details/features* about property from user e.g. Equipment: Grill - Gas, Deposit: 20% etc.
+
+    * **formCustomField** should be used, if you want to take user input in your custom defined Houzez fields.
+
+- **[Required]** Enter the **Title** of field.
+
+- Enter the **Hint** of field. Hint is a placeholder for the empty field.
+
+- Enter the **Additional Hint** of field. You can display some additional hint below the field, e.g. you can suggest the measuring unit of area as Sq. ft or m2 etc.
 
 - Click **Done** button and a new field will be added in the section.
 
