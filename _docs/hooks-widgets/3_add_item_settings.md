@@ -149,7 +149,6 @@ Widget descriptionSettingsMenuItem = genericWidgetRow(
 #### Example code for `Settings Menu Section with items:`
 
 ```dart
-
 Widget settingsMenuSectionWithItems = genericSettingsWidget(
     headingText: "Temporary Heading",
     headingSubTitleText: "Temporary Sub Heading",

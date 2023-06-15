@@ -9,7 +9,7 @@ order: 302
 If you want to add item in profile tab, go to `Project_HOME  > lib > hooks_v2.dart`. Look for the `getProfileItemHook()` method.
 
 ```dart
-static getProfileItemHook(){
+  static getProfileItemHook(){
     ProfileHook profileHook = (BuildContext context){
       List<Widget> profileItemHookList = [
         // Add menu item map here
@@ -23,19 +23,17 @@ static getProfileItemHook(){
 
 1. Copy and paste the sample code of **menuItem**.
    
-   ```dart
-
-   Widget menuItem = genericWidgetRow(
-        iconData: ,
-        text: ,
-        onTap: (){
-          // Some Function()
-        },
-        removeDecoration: ,
-        padding: ,
-      );
-
-      ```
+```dart
+  Widget menuItem = genericWidgetRow(
+    iconData: ,
+    text: ,
+    onTap: (){
+      // Some Function()
+    },
+    removeDecoration: ,
+    padding: ,
+  );
+```
 2. Provide **IconData** against the `iconData` field.
 3. Provide **Item Label** against the `text` field.
 4. Provide **action** that you want to perform on tap of this item, against the `onTap` field.
@@ -48,7 +46,6 @@ static getProfileItemHook(){
 #### Example code for Menu item:
 
 ```dart
-
 Widget descriptionMenuItem = genericWidgetRow(
   iconData: Icons.description_outlined,
   text: "Temporary Show Description",
