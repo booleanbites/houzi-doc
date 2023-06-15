@@ -14,7 +14,7 @@ Look for the `getWidgetHook()` method. You are provided with `hook` and `article
 You are provided with the Property Article Information as the object 'article'. You and get your desired information from the 'article' and display in your Custom Widget.
 
 For Example: If you have a custom widget named as 'custom-widget'. Just replace the 'HOOK_NAME' with 'custom-widget' and return your widget as follows:
-```
+```dart
   PropertyPageWidgetsHook detailsHook = (
       BuildContext context,
       Article article,

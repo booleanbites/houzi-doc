@@ -8,7 +8,7 @@ order: 303
 
 If you want to add item in Settings, go to `Project_HOME  > lib > hooks_v2.dart`. Look for the `getSettingsItemHook()` method.
 
-```
+```dart
 static getSettingsItemHook(){
     SettingsHook settingsHook = (BuildContext context){
       List<dynamic> settingsItemHookList = [
@@ -27,7 +27,7 @@ There are two types of items that you can add to `Settings`:
 
 1. Copy and paste the sample code of **singleSettingsMenuItem**.
    
-   ```
+   ```dart
 
    Widget singleSettingsMenuItem = genericWidgetRow(
         iconData: ,
@@ -65,7 +65,7 @@ There are two types of items that you can add to `Settings`:
 
 #### Example code for **Single Settings Menu item:**
 
-```
+```dart
 
 Widget descriptionSettingsMenuItem = genericWidgetRow(
             iconData: Icons.description_outlined,
@@ -111,7 +111,7 @@ Widget descriptionSettingsMenuItem = genericWidgetRow(
 
 1. Copy and paste the sample code of **settingsMenuSectionWithItems**.
    
-   ```
+   ```dart
 
    Widget settingsMenuSectionWithItems = genericSettingsWidget(
         headingText: "",
@@ -148,7 +148,7 @@ Widget descriptionSettingsMenuItem = genericWidgetRow(
 
 #### Example code for `Settings Menu Section with items:`
 
-```
+```dart
 
 Widget settingsMenuSectionWithItems = genericSettingsWidget(
     headingText: "Temporary Heading",

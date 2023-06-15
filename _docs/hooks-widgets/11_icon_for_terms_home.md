@@ -10,7 +10,7 @@ If you want to show term icon for your translated term, you need to open followi
 `Project_HOME  > lib > hooks_v2.dart`
 
 Look for the `getElegantHomeTermsIconMap()` method. Then look for _iconMap, and edit existing or add new entry for your desired term, add the slug-name of your term eg: 
-```
+```dart
 Map<String, dynamic> _iconMap = {
      "for-rent": Icons.vpn_key_outlined,
      "residential": Icons.apartment_outlined;

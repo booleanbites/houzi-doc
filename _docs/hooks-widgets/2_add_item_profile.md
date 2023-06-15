@@ -8,7 +8,7 @@ order: 302
 
 If you want to add item in profile tab, go to `Project_HOME  > lib > hooks_v2.dart`. Look for the `getProfileItemHook()` method.
 
-```
+```dart
 static getProfileItemHook(){
     ProfileHook profileHook = (BuildContext context){
       List<Widget> profileItemHookList = [
@@ -23,7 +23,7 @@ static getProfileItemHook(){
 
 1. Copy and paste the sample code of **menuItem**.
    
-   ```
+   ```dart
 
    Widget menuItem = genericWidgetRow(
         iconData: ,
@@ -47,7 +47,7 @@ static getProfileItemHook(){
 
 #### Example code for Menu item:
 
-```
+```dart
 
 Widget descriptionMenuItem = genericWidgetRow(
   iconData: Icons.description_outlined,

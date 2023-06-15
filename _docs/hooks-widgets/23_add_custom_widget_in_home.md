@@ -13,7 +13,7 @@ Look for the `getHomeWidgetsHook()` method. You are provided with `hookName` and
 Whenever the home is refreshed, `isRefreshed` will return true, if you want to perform anything when the home **refreshes**, you can use the `isRefreshed`.  
 
 For Example: If you have a custom widget named as `custom-widget`. Just replace the `HOOK_NAME` with `custom-widget` and return your widget as follows:
-```
+```dart
   HomeWidgetsHook homeWidgetsHook = (
         BuildContext context,
         String? hookName,

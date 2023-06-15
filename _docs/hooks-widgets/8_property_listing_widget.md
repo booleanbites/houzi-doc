@@ -10,7 +10,7 @@ If you want to change property listing, you need to open following file:
 `Project_HOME  > lib > hooks_v2.dart`
 
 Look for the `getPropertyItemHook()` method. The Property/Article instance is provided to you, return the widget that you want to show. eg: 
-```
+```dart
   …
     PropertyItemHook propertyItemHook = (BuildContext context, Article article) {
 

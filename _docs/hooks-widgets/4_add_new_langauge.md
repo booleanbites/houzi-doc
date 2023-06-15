@@ -13,7 +13,7 @@ First open `Project_HOME  > assets > localization`, simply make a copy of Englis
 
 #### Step 2
 You need to add the new files path in `pubspec.yaml`, so it can be bundled in final app binary after compile. Open file `Project_HOME > pubspec.yaml` and find the assets section. Copy your localized strings file name and mention it like following example.
-```
+```yaml
 assets:
   ...
     - assets/localization/en_localization.json
@@ -25,7 +25,7 @@ assets:
 #### Step 3
 Now go to `Project_HOME  > lib > hooks_v2.dart` and look for the `getLanguageCodeAndName()` method. Specify your language code and language name here e.g: 
 
-```
+```dart
   …
   static getLanguageCodeAndName() {
     LanguageHook languageHook = () {
