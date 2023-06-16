@@ -43,9 +43,7 @@ You can `Add` a new Page in **Add Property Form** by following these steps:
 
 - Enter the **Title** of page.
 
-- If you want to **restrict** this page to some specific users e.g. *administrator, houzez_agnecy etc.*, select these specific roles from the multiselect dropdown menu. 
-
-- If you want to make the page **public** (available to all users), unselect all the roles (if any role is selected).
+- If you want to **restrict** this page to some specific users e.g. *administrator, houzez_agnecy etc.*, select these specific roles from the **Allowed Roles** multiselect dropdown menu. If you want to make the page **public** (available to all users), unselect all the roles (if any role is selected).
 
 - Now [Add New Section/Sections](#add-new-section) in this page.
 
@@ -79,22 +77,52 @@ You can `Add` a new Field in Section by following these steps:
       
 - The value of **Enable** field determines wether to *show/hide* the field on section. If you and to *show* the field, set the value to **true**. If you and to *hide* the field, set the value to **false**.
 
-- **[Required]** Enter the **Api Key** of field e.g. *fave_property_bedrooms etc.* The corresponding data of field will be sent to this key when **Add Property API** will be called.
-    > *Note (In following cases, 'Authentic API key not required'):   
-    > * Incase of **formMediaField** provide any key e.g. prop_media .
-    > * Incase of **formCustomField** provide any key e.g. custom_field .
+- If you want to make the input of any field **required**, set the value of **Make Field Required** as *true*. Similarly if you want to make the input of any field **optional**, set the value of **Make Field Required** as *false*.
 
-- If you want to **restrict** this field to some specific users e.g. *administrator, houzez_agnecy etc.*, select these specific roles from the multiselect dropdown menu.
+- If you want to **restrict** this field to some specific users e.g. *administrator, houzez_agnecy etc.*, select these specific roles from the **Allowed Roles** multiselect dropdown menu. If you want to make the field **public** (available to all users), unselect all the roles (if any role is selected).
 
-- If you want to make the field **public** (available to all users), unselect all the roles (if any role is selected).
-
-- Select the **Field Type** from dropdown menu.
+- **Field Type** is the type of *Form Widget* that you want to display on screen. e.g. Input Text Field, Dropdown etc. Select the desired *Form Widget Type* from **Field Type** dropdown.
 
     <img src="../../images/field_type_dropdown.png" alt="field-type-dropdown" title="field-type-dropdown" border= "1px solid"/> 
 
-    You can choose from a list of options which field you want to display. The description of *Field Type* is as follows: 
+    The description of **Field Type** is as follows: 
 
-    * **formTextField** should be used, if you want to take *text* input from user. e.g. Property Title, Property Price etc.
+    * **formTextField** should be used, if you want to take *text* input from user. e.g. Property Title, Property Price etc. You can define some assisting attributes like:
+
+         <img src="../../images/form_text_field_options.png" alt="form-text-field-options" title="form-text-field-options" border= "1px solid"/>  
+        
+        * **Hint** is used as place holder for your field. e.g. *Enter property title* etc.
+
+        * **Additional Hint** is used to provide extra assisting information about the field. e.g. additional hint of property price field: *Only digits* etc.
+
+        * **Validation Types** are defined as follows:
+
+            <img src="../../images/validation_type_options.png" alt="validation-type-options" title="validation-type-options" border= "1px solid"/> 
+
+            * **String Validation** is used to check if the input is *non-empty*. Otherwise it will return error.
+
+            * **Email Validation** is used to check if the entered input is properly *email-formatted*. Otherwise it will return error.
+
+            * **Password Validation** is used to check if the entered input is properly *password-formatted*. Otherwise it will return error.
+
+            * **Phone Number Validation** is used to check if the entered input is properly *phone-number-formatted*. Otherwise it will return error.
+
+            * **User Name Validation** is used to check if the entered input is properly *user-name-formatted*. Otherwise it will return error.
+
+        * **Max Lines** is used to define the max lines of field. If you want to show a *Text Area* for any property attribute e.g. Property Description, simply set the max lines to *5* or *7* as you desire.
+        * **Keyboard Type** are defined as follows:
+
+            <img src="../../images/keyboard_type_options.png" alt="keyboard-type-options" title="keyboard-type-options" border= "1px solid"/> 
+
+            * **Text** is used to if you want to show normal keyboard for text input.
+
+            * **Number** is used to if you want to show *Numeric* keyboard for text input.
+
+            * **URL** is used to if you want to show *URL* assistive  keyboard for URL input.
+
+            * **Email** is used to if you want to show *Email* assistive  keyboard for email input.
+
+            * **MultiLine** is used to if you want to show text keyboard for *multi-line* input.
 
     * **formMultiSelectField** should be used, if you want to take *multiple* inputs from the user. e.g. Property Features (e.g. Garage, Pool etc.), Property Type (Commercail, Office etc.) etc.
 
@@ -107,6 +135,11 @@ You can `Add` a new Field in Section by following these steps:
     * **formAdditionalDetailsField** should be used, if you want to take some *additional details/features* about property from user e.g. Equipment: Grill - Gas, Deposit: 20% etc.
 
     * **formCustomField** should be used, if you want to take user input in your custom defined Houzez fields.
+
+- **[Required]** Enter the **Api Key** of field e.g. *fave_property_bedrooms etc.* The corresponding data of field will be sent to this key when **Add Property API** will be called.
+    > *Note (In following cases, 'Authentic API key not required'):   
+    > * Incase of **formMediaField** provide any key e.g. prop_media .
+    > * Incase of **formCustomField** provide any key e.g. custom_field .
 
 - **[Required]** Enter the **Title** of field.
 
