@@ -22,7 +22,7 @@ if your website URL does not contain a subpath then leave `wordpress_url_path` a
 
 You need to provide following URL to your website pages
 
-```
+```json
 //Optional
 "app_terms_url": "https://domain.com/terms.html",
 "app_privacy_url": "https://domain.com/privacy.html",

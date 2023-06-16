@@ -11,7 +11,7 @@ If you want to set default HomePage, go to `Project_HOME  > lib > hooks_v2.dart`
 3. home_2   (Home Location)
 4. home_3   (Home Tabbed)
 
-```
+```dart
 DefaultHomePageHook defaultHomePageHook = () {
   
   return "home_1";

@@ -16,7 +16,7 @@ We’ve generated an exhaustive English translation file. You can copy this file
 For translation, copy and duplicate the following file with your own locale.
 
 Go to the `Project_HOME > assets > localization > en_localization.json` and duplicate and translate the values on the right side in the new file like this:
-```
+```json
 "search": "Search"
 To Dutch like this:
 "search": "zoekopdracht"
@@ -33,6 +33,6 @@ Find json files placed in following folder:
 Add missing / non translated strings to the English file, and then copy this file in the same folder, prefix this to your locale like `ar_localization.json` for Arabic and start adding strings that are coming from your server in a json format.
 
 If you need to use this custom translation at any place, use following method:
-```
+```dart
 String localized = GenericMethods.getLocalizedString("String Key in json");
 ```

@@ -9,7 +9,7 @@ If you want to hide price on property cards or in property details page, you can
 
 Go to `Project_HOME  > lib > hooks_v2.dart`. Look for the `getHidePriceHook()` method. For e.g:
 
-```
+```dart
 @override
 HidePriceHook getHidePriceHook() {
   HidePriceHook hidePriceHook = () {
@@ -25,7 +25,7 @@ HidePriceHook getHidePriceHook() {
 
 You can return conditional checks as well, like if you want to hide price by default and show to logged in users only. Or if you want to show price to certain user roles, example below:
 
-```
+```dart
 // Use isLoggedIn, if you want to show price to logged in users.
 bool isLoggedIn = HiveStorageManager.isUserLoggedIn();
 hidePropertyPrice = isLoggedIn ? false : true;

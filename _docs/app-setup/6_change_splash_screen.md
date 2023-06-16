@@ -28,7 +28,7 @@ To change or remove the splash icon, open these files:
 - Dark: `Project_HOME > android > app > src > main > res > drawable-night > launch_background.xml`
 
 To remove the icon, remove these line:
-```
+```xml
 <item>
     <bitmap
         android:gravity="center"

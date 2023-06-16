@@ -23,7 +23,7 @@ Don’t forget to add new font entry to following file in `pubspec.yaml` fonts s
 `Project_HOME > pubspec.yaml`
 
 And add the entry in fonts section like this
-```
+```yaml
 Fonts:
 - family: FontNameYouDesire
   Fonts:
@@ -35,7 +35,7 @@ Fonts:
 If you want to apply the font at application level, open following file:
 `Project_HOME  > lib > hooks_v2.dart`
 Look for the `getFontHook()` method and add your font name as follow:
-```
+```dart
 //you can also add a condition to change font for multiple locales as well:
 FontsHook fontsHook = (Locale locale) {
 

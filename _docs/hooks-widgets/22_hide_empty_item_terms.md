@@ -20,7 +20,7 @@ Specially useful for property_area, as it can be filtered out to show only non-e
 `Project_HOME  > lib > hooks_v2.dart`
 
 Look for the `hideEmptyTerm()` method. Add key value pair in a given map. eg: 
-```
+```dart
   HideEmptyTerm shouldHide = (String termName) {
     
     if (termName == 'property_city') {

@@ -7,7 +7,7 @@ order: 307
 
 If you want to set default Country Code for Phone Login, go to `Project_HOME  > lib > hooks_v2.dart`. Look for the `getDefaultCountryCodeHook()` method.
 
-```
+```dart
 DefaultCountryCodeHook defaultCountryCodeHook = () {
     // return 2 Letter ISO Code to make it default country code for phone login
     return "PK";
