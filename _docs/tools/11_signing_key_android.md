@@ -5,7 +5,7 @@ permalink: tools/setup_android_signing
 order: 11
 ---
 
-For uploading apps to PlayStore, you need to sign your builds with uniquely generated keys and keystores. Follow instructions here:
+For uploading apps to PlayStore or configuring firebase, you need to sign your builds with uniquely generated keys and keystores. Follow instructions here:
 
 1. Creating a keystore from an Android Project is easier. So create new android dummy project. Name it Dummy.
 2. Open this project in Android Studio.
