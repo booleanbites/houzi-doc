@@ -8,7 +8,7 @@ order: 315
 
 If you want to add item in Settings, go to `Project_HOME  > lib > hooks_v2.dart`. Look for the `getHomeRightBarButtonWidgetHook()` method.
 
-```
+```dart
 static getHomeRightBarButtonWidgetHook() {
     HomeRightBarButtonWidgetHook homeRightBarButtonWidgetHook = (context) {
 
@@ -30,7 +30,7 @@ static getHomeRightBarButtonWidgetHook() {
 
 #### Example code snippets:
 
-```
+```dart
 
 // Hide Home Right Bar Button Id Widget
 Widget rightBarButtonHook = null;

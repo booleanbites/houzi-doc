@@ -14,7 +14,7 @@ order: 205
 
 **Note**: The `FF`, `4D`, `99` are used for opacity, if you want to change the opacity then modify them otherwise leave it as it is: 
 
- ```
+ ```json
  "primary_color": "#FF******",
   "secondary_color": "#FF******",
   "icon_tint_color": "#FF******",

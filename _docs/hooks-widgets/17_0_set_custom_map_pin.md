@@ -9,7 +9,7 @@ order: 317
 
 Open file at `Project_HOME  > lib > hooks_v2.dart`. Look for the `getCustomMarkerHook()` method.
 
-```
+```dart
   CustomMarkerHook getCustomMarkerHook() {
     
     CustomMarkerHook markerIconHook = (BuildContext context, Article article) {

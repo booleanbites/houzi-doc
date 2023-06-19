@@ -7,7 +7,7 @@ order: 317
 
  Show custom marker in MapView instead of default Pin Point marker using this hook. First you have to go to `Project_HOME  > assets` folder and paste your image. Copy your image name and go to `PROJECT_HOME > pubspec.yaml` and specify image path in asset section e.g
 
-```    
+```yaml
   ...
     assets:
       - assets/IMAGE-NAME.png
@@ -16,7 +16,7 @@ order: 317
 
 Then go to `Project_HOME  > lib > hooks_v2.dart`. Look for the `getMarkerIconHook()` method.
 
-```
+```dart
 static getMarkerIconHook() {
     MarkerIconHook markerIconHook = () {
       // If you want to set the default Pin Point marker return null

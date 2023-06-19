@@ -15,12 +15,12 @@ Since this is a Flutter app, and it generates both Android and iOS projects. You
 1. [Flutter Launcher Icon](https://pub.dartlang.org/packages/flutter_launcher_icons).
 
 2. Add the package to your `pubspec.yaml` file (within your Flutter project) to use it.
-```
+```yaml
 dev_dependencies:
   flutter_launcher_icons: "0.9.2"
 ```
 3. Within the `pubspec.yaml` file specify the path of the icon you wish to use for the app and then choose whether you want to use the icon for the iOS app, Android app or both.
-```
+```yaml
 flutter_icons:
   android: true
   ios: true
@@ -28,7 +28,7 @@ flutter_icons:
 ```
 
 4. After setting up the configuration, all that is left to do is run the package.
-```
+```yaml
 flutter pub get
 flutter pub run flutter_launcher_icons:main
 ```

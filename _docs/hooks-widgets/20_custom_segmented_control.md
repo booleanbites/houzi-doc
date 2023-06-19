@@ -16,7 +16,7 @@ Look for the `getCustomSegmentedControlHook()` method. The necessary items are p
 3. `onSegmentChosen` is the callback to use when a segmented item is chosen. It is better to use provided `onSegmentChosen` callback as it is handling all the necessary things rather than your own callback.
 
 Return the widget that you want to show. eg: 
-```
+```dart
   …
     CustomSegmentedControlHook customSegmentedControlHook = (context, dataList, selectionIndex, onSegmentChosen) {
 
