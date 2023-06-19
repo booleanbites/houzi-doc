@@ -8,7 +8,7 @@ Houzi a real estate mobile application for real estate agents and agencies. Its 
 
 ### Pathway
 
-We've compiled a list of the most required things that you need to do in order to launch the app on device. We assume you have a website setup with Houzez. We also assume that you've purchased Houzi app from CodeCanyon.
+We've compiled a list of the most required things that you need to do in order to launch the app on device. We assume you have a website setup with Houzez. We also assume that you've purchased [Houzi app from CodeCanyon](https://codecanyon.net/item/houzi-real-estate-app/39753350).
 
 1. [Setup Houzi plugin](tools/houzi_plugin)
 2. [Setup App Secret](tools/app_secret)
