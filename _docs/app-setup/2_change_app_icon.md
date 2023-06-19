@@ -7,8 +7,6 @@ order: 202
 
 Since this is a Flutter app, and it generates both Android and iOS projects. You'll need to change icons in each platform project.
 
-> **Important**: ⚠️ Android app is using adaptive icon, a more modern app icon approach. Adaptive Icon won't be set with automatic way. We've provided details about adaptive icon in separate section below. Please read that section carefully.
-
 #### Automatic Way
 
 **Flutter Launcher Icons** has been designed to help quickly generate launcher icons for both Android and iOS: 
@@ -57,10 +55,10 @@ We also have included a sample adaptive icon in android project. Either you can 
 
 1. replace these files with your own:
 
-```
-res / drawable / icon_background.xml
-res / drawable / icon_foreground.xml
-```
+    ```
+    res / drawable / icon_background.xml
+    res / drawable / icon_foreground.xml
+    ```
 2. rename the `res / mipmap-anydpi-v26 / ic_launcher_rename_if_required.xml` to `ic_launcher.xml`
 
 To provide your own icon as adaptive, you'll need to design your icon as an svg and then export both the background and foreground layers in separate svg files. Later either convert them to Android vector or import them using android import tool from Android Studio. [Importing an SVG or PSD file](https://developer.android.com/studio/write/vector-asset-studio#svg)
