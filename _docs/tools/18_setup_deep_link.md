@@ -12,6 +12,21 @@ Deep links or Universal link is the ability of your application being launch whe
 ## Setup Application:
 ### Android:
  To setup Deep Link in app, go to `Project_HOME > android > app > src > main > res > values > strings.xml` file, look for `scheme`,`host` and `path_prefix`. Replace its value with your own scheme (http or https) and domain host.
+
+ Make sure `flutter_deeplinking_enabled` meta tag added in `AndroidManifest.xml` file:
+ ```xml
+ <meta-data android:name= "flutter_deeplinking_enabled" android:value="true" />
+ <intent-filter android:autoVerify="true">
+      <action android:name="android.intent.action.VIEW" />
+      <category android:name="android.intent.category.DEFAULT" />
+      <category android:name="android.intent.category.BROWSABLE" />
+          <data
+              android:scheme="@string/scheme"
+              android:host="@string/host"
+              android:pathPrefix="@string/path_prefix"/>
+  </intent-filter>
+ ```
+
 ### iOS:
  To setup Deep Link in app for iOS go to `Project_HOME > iOS > Runner > Info.plist` file, look for key `CFBundleURLName`, replace it with your host and `CFBundleURLSchemes` replace it with your scheme. Example below:
 ```
@@ -32,8 +47,14 @@ Deep links or Universal link is the ability of your application being launch whe
 </array>
 ```
 
-Then go to iOS Runner.entitlements in file:  `PROJECT_HOME/ios/Runner/Runner.entitlements` and add following line:
+Make sure `FlutterDeepLinkingEnabled` added in Info.plist` file:
+```xml
+<key>FlutterDeepLinkingEnabled</key>
+  <true/>
 ```
+
+Then go to iOS Runner.entitlements in file:  `PROJECT_HOME/ios/Runner/Runner.entitlements` and add following line:
+```xml
 ...
 <key>com.apple.developer.associated-domains</key>
   <array>

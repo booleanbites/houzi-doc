@@ -60,7 +60,7 @@ DrawerHook getDrawerItems() {
     );
 
     // Add an expandable item with child items
-    DrawerItem crmExpandedDrawerItem = DrawerItem(
+    DrawerItem expandedDrawerItem = DrawerItem(
       sectionType: "section_name",
       title: "Your title here",
       checkLogin: false,
