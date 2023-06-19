@@ -12,6 +12,7 @@ Register your app as an AdMob app by completing the following steps:
 #### Setup Admob App ID
 
 After getting your app AdMob App ID go to:
+
 **- Android** `houzi > android > app > src > main > res > values > strings.xml` file, and look for `google_ads_app_id`. Replace its value with your own AdMob App ID.
 
 **- iOS** `Project_HOME > ios > Runner > Info.plist` file, and look for `GADApplicationIdentifier`. Replace its value with your own AdMob App ID. 

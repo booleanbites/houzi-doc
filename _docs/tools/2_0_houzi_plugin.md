@@ -13,7 +13,7 @@ You can find the plugin inside your downloaded folder after purchase on codecany
 ## Install & Activate
 To install this plugin, you go into your wordpress dashboard, from left menu select plugin and add new plugin
 
-![how to add houzi rest api wordpress plugin](../../images/upload-houzi-rest-api)
+![how to add houzi rest api wordpress plugin](../../images/upload-houzi-rest-api.jpg)
 
 1. Wordpress > Left Menu > Plugin
 2. From plugin choose Add New
