@@ -130,16 +130,16 @@ You can `Add` a new Field in Section by following these steps:
     * **formStepperField** should be used, if you want to take such user input in which user can *increase* or *decrease* some value with the help of steppers. e.g. Number of bedrooms, Number of bathrooms etc.
 
     * **formMediaField** should be used, if you want to take media from user e.g. photos etc.
-        > ***Note**: *formMediaField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
+        > **Note**: *formMediaField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
 
     * **formAdditionalDetailsField** should be used, if you want to take some *additional details/features* about property from user e.g. Equipment: Grill - Gas, Deposit: 20% etc.
-        > ***Note**: *formAdditionalDetailsField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
+        > **Note**: *formAdditionalDetailsField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
 
     * **formCustomField** should be used, if you want to take user input in your custom defined Houzez fields.
-        > ***Note**: *formCustomField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
+        > **Note**: *formCustomField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
     
     * **formMapField** should be used, if you want to take user location from *Google Maps* and display location as *latitude* and *longitude*.
-        > ***Note**: *formMapField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
+        > **Note**: *formMapField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
 
     * **formCheckBoxListField** should be used, if you want to show a list of any *Houzez Term Type* and take *single/multiple* input from the user. e.g. Property Features (e.g. Garage, Pool etc.) etc. You have to choose the **Term type** e.g. *property_feature* etc. from the *Term Type* dropdown.
 
@@ -159,23 +159,23 @@ You can `Add` a new Field in Section by following these steps:
         * By clicking **Cancel** button, all changes will be discarded and *Field Value* will not be added.
 
     * **floorPlansField** should be used, if you want to take user input about *Floor Plans*.
-        > ***Note**: *floorPlansField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
+        > **Note**: *floorPlansField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
 
     * **multiUnitsField** should be used, if you want to take user input about *MultiUnits/Sub-Listings*.
-        > ***Note**: *multiUnitsField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
+        > **Note**: *multiUnitsField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
 
     * **multiUnitsIdsField** should be used, if you want to add other properties as multiunits or sub-listings of some particular property.
-        > ***Note**: 
+        > **Note**: 
         > - *multiUnitsIdsField* is restricted to **Administrator** use only.
         > - *multiUnitsIdsField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
 
     * **realtorContactInformationField** should be used, if you want to display any particular realtor (e.g. *admin, agency, agent or other user* etc.) contact information in the property details.
-        > ***Note**: 
+        > **Note**: 
         > - *realtorContactInformationField* is restricted to **administrator & houzez_agnecy** use only.
         > - *realtorContactInformationField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
 
      * **formGDPRAgreementField** should be used, if you want to display any particular realtor (e.g. *admin, agency, agent or other user* etc.) contact information in the property details.
-        > ***Note** *formGDPRAgreementField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
+        > **Note** *formGDPRAgreementField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
 
 - **[Required]** **Api Key:** Select the *Api key* from the dropdown menu. The corresponding data of field will be sent to this key when **Add Property API** will be called. e.g. the data related to Property Title field will be sent against *prop_title* key etc.
 
@@ -238,18 +238,18 @@ You can `Add` a new Field in Section by following these steps:
     * **virtual_tour** must be selected if you are taking user input related to *Property Virtual Tour*.
 
     * **prop_featured** must be selected if you are taking user input related to *Making Property Featured*.
-        > ***Note**: *prop_featured* is restricted to **Administrator** use only.
+        > **Note**: *prop_featured* is restricted to **Administrator** use only.
 
     * **login-required** must be selected if you are taking user input related to *Making sure that user is Logged-in to view the Property Details*.
-        > ***Note**: *login-required* is restricted to **Administrator** use only.
+        > **Note**: *login-required* is restricted to **Administrator** use only.
 
     * **fave_property_disclaimer** must be selected if you are taking user input related to *Property Disclaimer*.
-        > ***Note**: *fave_property_disclaimer* is restricted to **Administrator** use only.
+        > **Note**: *fave_property_disclaimer* is restricted to **Administrator** use only.
 
     * **fave_private_note** must be selected if you are taking user input related to *Property Private Note*.
 
 - **[Required]** Enter the **Title** of field.
-    > ***Note**: *Title* of some fields (e.g. *Additional Details, FLoor Plans* etc.) will be non-editable.
+    > **Note**: *Title* of some fields (e.g. *Additional Details, FLoor Plans* etc.) will be non-editable.
 
 - Click **Done** button and a new field will be added in the section.
 
