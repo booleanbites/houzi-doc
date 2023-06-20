@@ -20,16 +20,7 @@ This section guides through all the steps related to adding new Form Page.
 This section guides through all the steps related to adding new Form Section.    
 
 [Add New Field](#add-new-field)  
-This section guides through all the steps related to adding new Form Field.   
-
-[Edit Page](#edit-page)  
-This section guides through all the steps related to editing Form Page.    
-
-[Edit Section](#edit-section)  
-This section guides through all the steps related to editing Form Section.    
-
-[Edit Field](#edit-field)  
-This section guides through all the steps related to editing Form Field.  
+This section guides through all the steps related to adding new Form Field.  
 
 
 # Add New Page  
@@ -124,35 +115,142 @@ You can `Add` a new Field in Section by following these steps:
 
             * **MultiLine** is used to if you want to show text keyboard for *multi-line* input.
 
-    * **formMultiSelectField** should be used, if you want to take *multiple* inputs from the user. e.g. Property Features (e.g. Garage, Pool etc.), Property Type (Commercail, Office etc.) etc.
+    * **formMultiSelectField** should be used, if you want to take *single/multiple* inputs of any *Houzez Term Type*, from the user. e.g. Property Features (e.g. Garage, Pool etc.), Property Type (Commercail, Office etc.) etc. You have to choose the **Term type** e.g. *property_type, property_status, property_feature* etc. from the *Term Type* dropdown. You can define some assisting attributes like:
 
-    * **formDropDownField** should be used, if you want to take *single* inputs, from given list, from the user. e.g. Property Status (e.g. For Rent, For Sale etc.) etc.
+        * **Hint** is used as place holder for your field. e.g. *Select Property Type* etc.
+
+        * **Additional Hint** is used to provide extra assisting information about the field. e.g. additional hint of property price field: *Only digits* etc.
+
+    * **formDropDownField** should be used, if you want to take **single** input of any *Houzez Term Type*, from the user. e.g. Property Features (e.g. Garage, Pool etc.), Property Type (Commercail, Office etc.) etc. You have to choose the **Term type** e.g. *property_type, property_status, property_feature* etc. from the *Term Type* dropdown. You can define some assisting attributes like:
+
+        * **Hint** is used as place holder for your field. e.g. *Select Property Type* etc.
+
+        * **Additional Hint** is used to provide extra assisting information about the field. e.g. additional hint of property price field: *Only digits* etc.
 
     * **formStepperField** should be used, if you want to take such user input in which user can *increase* or *decrease* some value with the help of steppers. e.g. Number of bedrooms, Number of bathrooms etc.
 
     * **formMediaField** should be used, if you want to take media from user e.g. photos etc.
+        > ***Note**: *formMediaField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
 
     * **formAdditionalDetailsField** should be used, if you want to take some *additional details/features* about property from user e.g. Equipment: Grill - Gas, Deposit: 20% etc.
+        > ***Note**: *formAdditionalDetailsField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
 
     * **formCustomField** should be used, if you want to take user input in your custom defined Houzez fields.
+        > ***Note**: *formCustomField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
+    
+    * **formMapField** should be used, if you want to take user location from *Google Maps* and display location as *latitude* and *longitude*.
+        > ***Note**: *formMapField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
 
-- **[Required]** Enter the **Api Key** of field e.g. *fave_property_bedrooms etc.* The corresponding data of field will be sent to this key when **Add Property API** will be called.
-    > *Note (In following cases, 'Authentic API key not required'):   
-    > * Incase of **formMediaField** provide any key e.g. prop_media .
-    > * Incase of **formCustomField** provide any key e.g. custom_field .
+    * **formCheckBoxListField** should be used, if you want to show a list of any *Houzez Term Type* and take *single/multiple* input from the user. e.g. Property Features (e.g. Garage, Pool etc.) etc. You have to choose the **Term type** e.g. *property_feature* etc. from the *Term Type* dropdown.
+
+    * **formRadioButtonField** should be used, if you want to take user input from *Radio Group*. You can define the **Radio Option** through **Field Values** as follows:
+        * Click on Field Values text area, a dialog will open.
+
+            <img src="../../images/add_field_value_dialog.png" alt="add-field-value-dialog" title="add-field-value-dialog" border= "1px solid"/> 
+        
+        * Click on *Add Field Values* button, two field will be display. You can add *options* in 'key value' pair. *Key* will be the option to diplay on screen and its *Value* will be sent against the *Api key*. e.g. Key: "No", Value: "0", Key: "Yes", Value: "1", etc.
+
+            <img src="../../images/add_field_value_dialog_01.png" alt="add-field-value-dialog-01" title="add-field-value-dialog-01" border= "1px solid"/> 
+
+        * By clicking **(x)** button, the key-value pair option will be discarded.
+
+        * Click **Done** button and a *Field Value* will be added.
+
+        * By clicking **Cancel** button, all changes will be discarded and *Field Value* will not be added.
+
+    * **floorPlansField** should be used, if you want to take user input about *Floor Plans*.
+        > ***Note**: *floorPlansField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
+
+    * **multiUnitsField** should be used, if you want to take user input about *MultiUnits/Sub-Listings*.
+        > ***Note**: *multiUnitsField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
+
+    * **multiUnitsIdsField** should be used, if you want to add other properties as multiunits or sub-listings of some particular property.
+        > ***Note**: 
+        > - *multiUnitsIdsField* is restricted to **Administrator** use only.
+        > - *multiUnitsIdsField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
+
+    * **realtorContactInformationField** should be used, if you want to display any particular realtor (e.g. *admin, agency, agent or other user* etc.) contact information in the property details.
+        > ***Note**: 
+        > - *realtorContactInformationField* is restricted to **administrator & houzez_agnecy** use only.
+        > - *realtorContactInformationField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
+
+     * **formGDPRAgreementField** should be used, if you want to display any particular realtor (e.g. *admin, agency, agent or other user* etc.) contact information in the property details.
+        > ***Note** *formGDPRAgreementField* is non-editable field (attributes like "Api Key" and "Title" are fixed.)
+
+- **[Required]** **Api Key:** Select the *Api key* from the dropdown menu. The corresponding data of field will be sent to this key when **Add Property API** will be called. e.g. the data related to Property Title field will be sent against *prop_title* key etc.
+
+    <img src="../../images/api_key_dropdown.png" alt="api-key-dropdown" title="api-key-dropdown" border= "1px solid"/> 
+
+    The description of **Api Keys** is as follows: 
+
+    * **prop_title** must be selected if you are taking user input related to *Property Title*.
+
+    * **prop_des** must be selected if you are taking user input related to *Property Description*.
+
+    * **prop_type[]** must be selected if you are taking user input related to *Property Type*. e.g. Commercial, Residential, Office, Appartment etc.
+
+    * **prop_status[]** must be selected if you are taking user input related to *Property Status*. e.g. For-Rent, For-Sale etc.
+
+    * **prop_label[]** must be selected if you are taking user input related to *Property Label*. e.g. Hot Offer, Open House etc.
+
+    * **prop_price** must be selected if you are taking user input related to *Property Price*.
+
+    * **prop_label** must be selected if you are taking user input related to *Property After Price*. e.g. Monthly etc.
+
+    * **prop_price_prefix** must be selected if you are taking user input related to *Property Price Prefix*. e.g. Starts from etc.
+
+    * **prop_sec_price** must be selected if you are taking user input related to *Property Second Price*.
+
+    * **prop_video_url** must be selected if you are taking user input related to *Property Video URL*. (Video could be uploaded on Youtube, Vimeo or as SWF File, MOV Files etc.)
+
+    * **prop_beds** must be selected if you are taking user input related to *Property Bedrooms*.
+
+    * **prop_baths** must be selected if you are taking user input related to *Property Bathrooms*.
+
+    * **prop_size** must be selected if you are taking user input related to *Property Size*.
+
+    * **prop_size_prefix** must be selected if you are taking user input related to *Property Size Prefix*. e.g. sq ft etc.
+
+    * **prop_land_area** must be selected if you are taking user input related to *Property Land Area Size*.
+
+    * **prop_land_area_prefix** must be selected if you are taking user input related to *Property Land Area Size Prefix*. e.g. sq ft etc.
+
+    * **prop_garage** must be selected if you are taking user input related to *Property Garage*.
+
+    * **prop_garage_size** must be selected if you are taking user input related to *Property Garage Size*.
+
+    * **prop_year_built** must be selected if you are taking user input related to *Property Year Built*.
+
+    * **prop_features[]** must be selected if you are taking user input related to *Property Features*. e.g. Air Conditioning, Lawn, Swimming Pool, Wifi etc.
+
+    * **property_map_address** must be selected if you are taking user input related to *Property Address*.
+
+    * **country** must be selected if you are taking user input related to *Property Country*.
+
+    * **administrative_area_level_1** must be selected if you are taking user input related to *Property State*.
+
+    * **locality** must be selected if you are taking user input related to *Property City*.
+
+    * **neighborhood** must be selected if you are taking user input related to *Property Area*.
+    
+    * **postal_code** must be selected if you are taking user input related to *Property Zip Code*.
+
+    * **virtual_tour** must be selected if you are taking user input related to *Property Virtual Tour*.
+
+    * **prop_featured** must be selected if you are taking user input related to *Making Property Featured*.
+        > ***Note**: *prop_featured* is restricted to **Administrator** use only.
+
+    * **login-required** must be selected if you are taking user input related to *Making sure that user is Logged-in to view the Property Details*.
+        > ***Note**: *login-required* is restricted to **Administrator** use only.
+
+    * **fave_property_disclaimer** must be selected if you are taking user input related to *Property Disclaimer*.
+        > ***Note**: *fave_property_disclaimer* is restricted to **Administrator** use only.
+
+    * **fave_private_note** must be selected if you are taking user input related to *Property Private Note*.
 
 - **[Required]** Enter the **Title** of field.
-
-- Enter the **Hint** of field. Hint is a placeholder for the empty field.
-
-- Enter the **Additional Hint** of field. You can display some additional hint below the field, e.g. you can suggest the measuring unit of area as Sq. ft or m2 etc.
+    > ***Note**: *Title* of some fields (e.g. *Additional Details, FLoor Plans* etc.) will be non-editable.
 
 - Click **Done** button and a new field will be added in the section.
 
 - By clicking **Cancel** button, all changes will be discarded and field will not be added in the section.
-
-# Edit Page  
-
-# Edit Section
-
-# Edit Field
