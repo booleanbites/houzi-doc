@@ -9,16 +9,22 @@ Register your app as an AdMob app by completing the following steps:
 1. [Sign in](https://admob.google.com/home/) to or [Sign up](https://support.google.com/admob/answer/7356219) for an AdMob account.
 2. Register your app with AdMob. This step creates an AdMob app with a unique AdMob App ID for each platform.
 
+#### Setup Admob App ID
+
 After getting your app AdMob App ID go to:
 
-**Android** `houzi > android > app > src > main > res > values > strings.xml` file, and look for `google_ads_app_id`. Replace its value with your own AdMob App ID.
+**- Android** `houzi > android > app > src > main > res > values > strings.xml` file, and look for `google_ads_app_id`. Replace its value with your own AdMob App ID.
 
-**iOS** `Project_HOME > ios > Runner > Info.plist` file, and look for `GADApplicationIdentifier`. Replace its value with your own AdMob App ID. 
+**- iOS** `Project_HOME > ios > Runner > Info.plist` file, and look for `GADApplicationIdentifier`. Replace its value with your own AdMob App ID. 
+
+#### Enable iOS App Tracking Transparency 
+You need to enable App Tracking Transparency in iOS Project. Follow here: [Setup iOS ads tracking](tools/setup_ads_tracking)
 
 > **Good to remember:** After creating AdMob app, update your `GoogleServices-Info.plist` for iOS and `google-services.json` for android by downloading fresh copy from firebase.
 
-Create a native ad unit. Follow this link to get it: https://support.google.com/admob/answer/7187428#step1
-
+#### Create a native ad unit.
+We use native ad units in the app. To create a native ad unit. follow this link to get it: [Create a native ad unit](https://support.google.com/admob/answer/7187428#step1).
+When you've acquired Native Ad Unit IDs, configure it in the app in the steps below.
 
 #### Add/Change AdMob Native ids by Houzi Config
 Open houzi config and go to the section `Api & Config`. Enter your Android and iOS native ads id here
