@@ -14,13 +14,31 @@ order: 411
 This guide consists of following sections.
 
 [Add New Page](#add-new-page)  
-This section guides through all the steps related to adding new Form Page.    
+This section guides through all the steps related to adding new Form Page. You can have *single* or *multiple* form pages (as per you desired) for **Add Property** purposes.
 
 [Add New Section](#add-new-section)  
-This section guides through all the steps related to adding new Form Section.    
+This section guides through all the steps related to adding new Form Section. In a Form Page, you can have *single* or *multiple* form sections (as per you desired).
 
 [Add New Field](#add-new-field)  
-This section guides through all the steps related to adding new Form Field.  
+This section guides through all the steps related to adding new Form Field. In a Form Page, you can have *single* or *multiple* form fields (as per you desired). 
+
+[Edit Page](#edit-page)  
+This section guides through all the steps related to editing Form Page. You can *Re-arrange, Hide or Delete* a form page. You can also *Add new sections or Remove existing sections* in the form page.
+
+[Edit Section](#edit-section)  
+This section guides through all the steps related to editing Form Section. You can *Re-arrange, Hide or Delete* a form section. You can also *Add new fields or Remove existing fields* in the form section.
+
+[Edit Field](#edit-field)  
+This section guides through all the steps related to editing Form Field.  You can *Re-arrange, Hide or Delete* a form field. You can also *customize* the existing form field.
+
+[Re-arrange a Form Page](#re-arrange-a-page)  
+This section guides through all the steps related to *Re-arrange* a Form Page.
+
+[Re-arrange a Form Section](#re-arrange-a-section)  
+This section guides through all the steps related to *Re-arrange* a Form Section.
+
+[Re-arrange a Form Field](#re-arrange-a-field)  
+This section guides through all the steps related to *Re-arrange* a Form Field.
 
 
 # Add New Page  
@@ -41,6 +59,8 @@ You can `Add` a new Page in **Add Property Form** by following these steps:
 - Click **Done** button and a new page will be added in the **Add Property Form**.
 
 - By clicking **Cancel** button, all changes will be discarded and page will not be added in the **Add Property Form**.
+
+- If you have *multiple* form pages and you want to re-arrnage the posotion of a particular form page, you can simply [Re-arrange the form page](#re-arrange-a-page) as per your desire.
 
 # Add New Section
 You can `Add` a new Section in Page by following these steps:
@@ -254,3 +274,42 @@ You can `Add` a new Field in Section by following these steps:
 - Click **Done** button and a new field will be added in the section.
 
 - By clicking **Cancel** button, all changes will be discarded and field will not be added in the section.
+
+
+# Edit Page 
+
+### Form Page Item Screenshot:
+
+<img src="../../images/page_item_screenshot.png" alt="page-item-screenshot" title="page-item-screenshot" width= 480 height= 140 border= "1px solid"/>   
+
+You can perform following opertions while **Editing** a page.  
+
+* [Re-arrange](#re-arrange-a-page)
+* [Show/Hide](#show-/-hide-a-page)
+* [Delete](#delete-a-page)
+* [Edit](#edit-a-page)
+
+## Show / Hide a Page
+
+You can **show/hide** a form page just by clicking on *show/hide* icon of form page item.
+
+## Delete a Page
+
+You can **delete** a form page just by clicking on *delete* icon of form page item.
+
+## Edit a Page
+
+# Edit Section
+
+# Edit Field
+
+# Re-Arrange a Page
+You can `Re-arrange` the Page/Pages just by dragging them *upwards* or *downwards*.
+
+<img src="../../images/re_arrange_form_pages_01.png" alt="re-arrange-form-pages-01" title="re-arrange-form-pages-01" width= 400 height= 350 border= "1px solid"/> 
+
+<img src="../../images/re_arrange_form_pages_02.png" alt="re-arrange-form-pages-02" title="re-arrange-form-pages-02" width= 400 height= 350 border= "1px solid"/> 
+
+# Re-Arrange a Section
+
+# Re-Arrange a Field
