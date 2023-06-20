@@ -28,7 +28,7 @@ You can `Add` a new Page in **Add Property Form** by following these steps:
 
 - Press the **Add Page** button at the right bottom of the screen, a dialog box will open.   
 
-<p align="center"> <img src="../../images/add_new_page_dialog.png" alt="add-new-page-dialog" title="add-new-page-dialog" width= 250 height= 450 border= "1px solid"/>  </p>
+    <img src="../../images/add_new_page_dialog.png" alt="add-new-page-dialog" title="add-new-page-dialog" width= 300 height= 550 border= "1px solid"/>  
       
 - The value of **Enable** field determines wether to *show/hide* the page. If you and to *show* the page, set the value to **true**. If you and to *hide* the page, set the value to **false**.
 
@@ -47,7 +47,7 @@ You can `Add` a new Section in Page by following these steps:
 
 - Press the **Add Section** button at the right bottom of the screen, a dialog box will open.   
 
-    <p align="center"> <img src="../../images/add_new_section_dialog.png" alt="add-new-section-dialog" title="add-new-section-dialog" width= 250 height= 450 border= "1px solid"/>  </p>
+    <img src="../../images/add_new_section_dialog.png" alt="add-new-section-dialog" title="add-new-section-dialog" width= 300 height= 550 border= "1px solid"/>  
       
 - The value of **Enable** field determines wether to *show/hide* the section on page. If you and to *show* the section, set the value to **true**. If you and to *hide* the section, set the value to **false**.
 
@@ -64,7 +64,7 @@ You can `Add` a new Field in Section by following these steps:
 
 - Press the **Add Field** button at the right bottom of the screen, a dialog box will open.   
 
-    <p align="center"> <img src="../../images/add_new_field_dialog.png" alt="add-new-field-dialog" title="add-new-field-dialog" width= 250 height= 450 border= "1px solid"/>  </p>
+    <img src="../../images/add_new_field_dialog.png" alt="add-new-field-dialog" title="add-new-field-dialog" width= 300 height= 550 border= "1px solid"/>  
       
 - The value of **Enable** field determines wether to *show/hide* the field on section. If you and to *show* the field, set the value to **true**. If you and to *hide* the field, set the value to **false**.
 
@@ -74,13 +74,13 @@ You can `Add` a new Field in Section by following these steps:
 
 - **Field Type** is the type of *Form Widget* that you want to display on screen. e.g. Input Text Field, Dropdown etc. Select the desired *Form Widget Type* from **Field Type** dropdown.
 
-    <p align="center"> <img src="../../images/field_type_dropdown.png" alt="field-type-dropdown" title="field-type-dropdown" width= 250 height= 450 border= "1px solid"/> </p>
+    <img src="../../images/field_type_dropdown.png" alt="field-type-dropdown" title="field-type-dropdown" width= 300 height= 550 border= "1px solid"/> 
 
     The description of **Field Type** is as follows: 
 
     * **formTextField** should be used, if you want to take *text* input from user. e.g. Property Title, Property Price etc. You can define some assisting attributes like:
 
-         <p align="center"> <img src="../../images/form_text_field_options.png" alt="form-text-field-options" title="form-text-field-options" width= 250 height= 450 border= "1px solid"/>  </p>
+         <img src="../../images/form_text_field_options.png" alt="form-text-field-options" title="form-text-field-options" width= 300 height= 550 border= "1px solid"/>  
         
         * **Hint** is used as place holder for your field. e.g. *Enter property title* etc.
 
@@ -88,7 +88,7 @@ You can `Add` a new Field in Section by following these steps:
 
         * **Validation Types** are defined as follows:
 
-            <p align="center"> <img src="../../images/validation_type_options.png" alt="validation-type-options" title="validation-type-options" width= 250 height= 160 border= "1px solid"/> </p>
+            <img src="../../images/validation_type_options.png" alt="validation-type-options" title="validation-type-options" width= 400 height= 250 border= "1px solid"/> 
 
             * **String Validation** is used to check if the input is *non-empty*. Otherwise it will return error.
 
@@ -103,7 +103,7 @@ You can `Add` a new Field in Section by following these steps:
         * **Max Lines** is used to define the max lines of field. If you want to show a *Text Area* for any property attribute e.g. Property Description, simply set the max lines to *5* or *7* as you desire.
         * **Keyboard Type** are defined as follows:
 
-            <p align="center"> <img src="../../images/keyboard_type_options.png" alt="keyboard-type-options" title="keyboard-type-options" width= 250 height= 160 border= "1px solid"/> </p>
+            <img src="../../images/keyboard_type_options.png" alt="keyboard-type-options" title="keyboard-type-options" width= 400 height= 250 border= "1px solid"/> 
 
             * **Text** is used to if you want to show normal keyboard for text input.
 
@@ -146,11 +146,11 @@ You can `Add` a new Field in Section by following these steps:
     * **formRadioButtonField** should be used, if you want to take user input from *Radio Group*. You can define the **Radio Option** through **Field Values** as follows:
         * Click on Field Values text area, a dialog will open.
 
-            <p align="center"> <img src="../../images/add_field_value_dialog.png" alt="add-field-value-dialog" title="add-field-value-dialog" width= 250 height= 360 border= "1px solid"/> </p>
+            <img src="../../images/add_field_value_dialog.png" alt="add-field-value-dialog" title="add-field-value-dialog" width= 300 height= 460 border= "1px solid"/> 
         
         * Click on *Add Field Values* button, two field will be display. You can add *options* in 'key value' pair. *Key* will be the option to diplay on screen and its *Value* will be sent against the *Api key*. e.g. Key: "No", Value: "0", Key: "Yes", Value: "1", etc.
 
-            <p align="center"> <img src="../../images/add_field_value_dialog_01.png" alt="add-field-value-dialog-01" title="add-field-value-dialog-01" width= 250 height= 360 border= "1px solid"/> </p>
+            <img src="../../images/add_field_value_dialog_01.png" alt="add-field-value-dialog-01" title="add-field-value-dialog-01" width= 300 height= 460 border= "1px solid"/> 
 
         * By clicking **(x)** button, the key-value pair option will be discarded.
 
@@ -179,7 +179,7 @@ You can `Add` a new Field in Section by following these steps:
 
 - **[Required]** **Api Key:** Select the *Api key* from the dropdown menu. The corresponding data of field will be sent to this key when **Add Property API** will be called. e.g. the data related to Property Title field will be sent against *prop_title* key etc.
 
-    <p align="center"> <img src="../../images/api_key_dropdown.png" alt="api-key-dropdown" title="api-key-dropdown" width= 250 height= 450 border= "1px solid"/> </p>
+    <img src="../../images/api_key_dropdown.png" alt="api-key-dropdown" title="api-key-dropdown" width= 300 height= 550 border= "1px solid"/> 
 
     The description of **Api Keys** is as follows: 
 
