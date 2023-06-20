@@ -14,13 +14,13 @@ order: 411
 This guide consists of following sections.
 
 [Add New Page](#add-new-page)  
-This section guides through all the steps related to adding new Form Page.    
+This section guides through all the steps related to adding new Form Page. You can have *single* or *multiple* form pages (as per you desired) for **Add Property** purposes.
 
 [Add New Section](#add-new-section)  
-This section guides through all the steps related to adding new Form Section.    
+This section guides through all the steps related to adding new Form Section. In a Form Page, you can have *single* or *multiple* form sections (as per you desired).
 
 [Add New Field](#add-new-field)  
-This section guides through all the steps related to adding new Form Field.  
+This section guides through all the steps related to adding new Form Field. In a Form Page, you can have *single* or *multiple* form fields (as per you desired).  
 
 
 # Add New Page  
