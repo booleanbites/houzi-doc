@@ -28,7 +28,7 @@ You can `Add` a new Page in **Add Property Form** by following these steps:
 
 - Press the **Add Page** button at the right bottom of the screen, a dialog box will open.   
 
-    <p align="center"> <img src="../../images/add_new_page_dialog.png" alt="add-new-page-dialog" title="add-new-page-dialog" width= 250 height= 450 border= "1px solid"/>  </p>
+<p align="center"> <img src="../../images/add_new_page_dialog.png" alt="add-new-page-dialog" title="add-new-page-dialog" width= 250 height= 450 border= "1px solid"/>  </p>
       
 - The value of **Enable** field determines wether to *show/hide* the page. If you and to *show* the page, set the value to **true**. If you and to *hide* the page, set the value to **false**.
 
