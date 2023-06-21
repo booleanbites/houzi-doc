@@ -393,9 +393,9 @@ You can `Edit` a Form Field in the Form Section by following these steps:
 
 - If you want to **restrict** this field to some specific users e.g. *administrator, houzez_agnecy etc.*, select these specific roles from the **Allowed Roles** multiselect dropdown menu. If you want to make the field **public** (available to all users), unselect all the roles (if any role is selected).
 
-- You chnage the [Field Type](#field-type) as per your desire.
+- You change the [Field Type](#field-type) as per your desire.
 
-- You chnage the [Api Key](#api-key-[-required-]) as per your desire.
+- You change the [Api Key](#api-key-[-required-]) as per your desire.
 
 - If you want to **rename** the field, simply provide the new **Title** of field.
     > **Note**: *Title* of some fields (e.g. *Additional Details, FLoor Plans* etc.) will be non-editable.
