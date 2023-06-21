@@ -24,7 +24,7 @@ At this point, the app will still show Houzi branding, but it'll show your websi
 1. Change [App Identifier](app-setup/change_app_identifier) AND [App name](app-setup/change_app_display_name) AND [App Icon](app-setup/change_app_icon) AND [Splash screen](app-setup/change_app_splash_screen)
 2. [Create your own keystore](tools/setup_android_signing)
 3. [Setup firebase](tools/firebase_setup)
-4. [Setup GoogleCloud](tools/tools/google_cloud_setup)
+4. [Setup GoogleCloud](tools/google_cloud_setup)
 5. [Change App Theme](app-setup/change_app_theme)
 6. Launch on device
 
