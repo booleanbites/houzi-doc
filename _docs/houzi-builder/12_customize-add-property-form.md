@@ -286,11 +286,11 @@ You can `Add` a new Field in Section by following these steps:
 You can perform following opertions while **Editing** a page.  
 
 * [Re-arrange](#re-arrange)
-* [Show/Hide](#show-/-hide-a-page)
+* [Show or Hide](#show-or-hide-a-page)
 * [Delete](#delete-a-page)
 * [Edit](#edit-a-page)
 
-### Show / Hide a Page
+### Show or Hide a Page
 
 You can **show/hide** a form page just by clicking on *show/hide* icon of [Form Page Item](#form-page-item-screenshot).
 
@@ -329,11 +329,11 @@ You can `Edit` a Form Page by following these steps:
 You can perform following opertions while **Editing** a section.  
 
 * [Re-arrange](#re-arrange)
-* [Show/Hide](#show-/-hide-a-section)
+* [Show or Hide](#show-or-hide-a-section)
 * [Delete](#delete-a-section)
 * [Edit](#edit-a-section)
 
-### Show / Hide a Section
+### Show or Hide a Section
 You can **show/hide** a form section just by clicking on *show/hide* icon of [Form Section Item](#form-section-item-screenshot).
 
 ### Delete a Section
@@ -368,11 +368,11 @@ You can `Edit` a Form Section in the Page by following these steps:
 You can perform following opertions while **Editing** a field.  
 
 * [Re-arrange](#re-arrange)
-* [Show/Hide](#show-/-hide-a-field)
+* [Show or Hide](#show-or-hide-a-field)
 * [Delete](#delete-a-field)
 * [Edit](#edit-a-field)
 
-### Show / Hide a Field
+### Show or Hide a Field
 You can **show/hide** a form field just by clicking on *show/hide* icon of [Form Field Item](#form-field-item-screenshot).
 
 ### Delete a Field
