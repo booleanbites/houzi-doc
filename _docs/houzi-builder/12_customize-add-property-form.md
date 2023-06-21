@@ -73,6 +73,8 @@ You can `Add` a new Section in Page by following these steps:
 
 - By clicking **Cancel** button, all changes will be discarded and section will not be added in the page.
 
+- If you have *multiple* form sections and you want to re-arrnage the posotion of a particular form section, you can simply [Re-arrange the form section](#re-arrange) as per your desire.
+
 # Add New Field
 You can `Add` a new Field in Section by following these steps: 
 
@@ -193,7 +195,7 @@ You can `Add` a new Field in Section by following these steps:
      * **formGDPRAgreementField** should be used, if you want to display any particular realtor (e.g. *admin, agency, agent or other user* etc.) contact information in the property details.
         > **Note** *formGDPRAgreementField* is non-editable field (attributes like **Api Key** and **Title** are *fixed*.)
 
--  ### Api Key [ Required ]
+- #### Api Key [ Required ]
     Select the *Api key* from the dropdown menu. The corresponding data of field will be sent to this key when **Add Property API** will be called. e.g. the data related to Property Title field will be sent against *prop_title* key etc.
 
     <img src="../../images/api_key_dropdown.png" alt="api-key-dropdown" title="api-key-dropdown" width= 300 height= 550 border= "1px solid"/> 
@@ -271,6 +273,8 @@ You can `Add` a new Field in Section by following these steps:
 - Click **Done** button and a new field will be added in the section.
 
 - By clicking **Cancel** button, all changes will be discarded and field will not be added in the section.
+
+- If you have *multiple* form fields and you want to re-arrnage the posotion of a particular form field, you can simply [Re-arrange the form field](#re-arrange) as per your desire.
 
 
 # Edit Page
