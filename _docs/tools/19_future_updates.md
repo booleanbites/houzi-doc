@@ -7,6 +7,37 @@ order: 19
 
 Always make a backup before updating to the next version.
 
+## Update to 1.3.5
+
+We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
+Let's assume you simply want to update your houzi_package, updating to 1.3.5 requires you following things:
+
+- Always make a backup. (copy in separate folder or use git)
+- Update Flutter to 3.10.0+ 
+- Copy `Project_HOME > packages > houzi_package` from 1.3.5 and replace houzi_package in your existing project.
+- Copy new main.dart and replace existing `Project_HOME > lib > main.dart` (if you have made any changes to existing main.dart, then you need to carefully review and migrate new changes from main.dart into your existing main.dart)
+
+##### If you're upgrading from older version than 1.3.0.
+- Update Android targetSdkVersion to 33 in following file:  `PROJECT_HOME/android/app/build.gradle` and look for `targetSdkVersion` and change to 33
+- Migrate hooks.dart to hooks_v2.dart. HooksV2 is more simpler and fail safe. We kept the name of the hooks same, just make sure you're returning the correct data like you returned in older hooks.dart.
+- then You need to enable Flutter Deeplinking in Android main Activity in following file:  `PROJECT_HOME/android/app/src/main/AndroidManifest.xml` and add this line `<meta-data android:name= "flutter_deeplinking_enabled" android:value="true" />` above `<intent-filter android:autoVerify="true">`.
+- Enable Flutter Deeplinking in iOS info.plist in following file:  `PROJECT_HOME/ios/Runner/Info.plist` and add following line.
+  ```
+  <key>FlutterDeepLinkingEnabled</key>
+    <true/>
+  ```
+  Then go to iOS Runner.entitlements in following file:  `PROJECT_HOME/ios/Runner/Runner.entitlements` and add following line:
+  ```
+  <key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:domain.com</string>
+	</array>
+  ```
+  Replace domain.com with your domain.
+- Open file at `Project_HOME/android/build.gradle` and update Kotlin plugin version to `'1.8.22'` at line # 2. (e.g `ext.kotlin_version = '1.8.22'`)
+
+- Rest of configurations like configuration.json, you android project folders, ios project folders should remain same.
+
 ## Update to 1.3.0
 
 Version 1.3.0 is a major upgrade. We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
