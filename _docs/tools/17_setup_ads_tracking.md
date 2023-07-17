@@ -29,8 +29,8 @@ So make sure you've setup tracking correctly.
 You'll need to do following things:
 - From Houzi Configurations, set true for showing ads. `"show_ads": true` and `"show_ios_ads": true`
 - You’ll have to add a key `NSUserTrackingUsageDescription` and its value in app’s info.plist. (as shown above).
-- 1.3.0 and above, you need to replace `REPLACE_WITH_TRACKING_KEY_IF_ADS_NEEDED` key with `NSUserTrackingUsageDescription`.
-- Declare in app privacy section on AppStoreCoonect that you’re tracking user identifier for advertisement purpose.
+- 1.3.0 and above, we already provided a placeholder key and value named `REPLACE_WITH_TRACKING_KEY_IF_ADS_NEEDED` key that you can replace with `NSUserTrackingUsageDescription`. You can edit the message if you want otherwise leave it as it is.
+- Declare in app privacy section on AppStoreConnect that you’re tracking user identifier for advertisement purpose.
 
 > NOTE: if you have enabled ads in Houzi Config, but don't have `NSUserTrackingUsageDescription` key in your info.plist, app will crash at launch.
 
