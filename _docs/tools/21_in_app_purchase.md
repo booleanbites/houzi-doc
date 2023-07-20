@@ -163,6 +163,9 @@ To configure in-app purchases on Apple Store:
 3. Fill out the remaining information.
 4. In the screenshot section, add a screenshot of the app where the "Make featured" option is visible. You can find this in app `Properties > Action button on property card`
 
+<img src="../../images/create-f-iap.png" alt="sandbox-account" title="create-f-iap" border= "1px solid"/>
+<img src="../../images/ss-f.png" alt="ss-f" title="ss-f" border= "1px solid"/>
+
 #### Pay Per Listing
 
 1. Select the "Consumable" type and create two in-app purchases—one for the featured product ID and another for the per listing product ID mentioned in the Houzi API plugin's in-app purchase tab.
