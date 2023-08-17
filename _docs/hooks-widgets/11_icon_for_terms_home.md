@@ -9,7 +9,7 @@ Each Property Type, Property Status and Property Label are called Term in the Ho
 
 When you open app, the app loads Property Type, Property Status and other taxonomies on homepage. For each term (for-sale, for-rent, house, office) we show an icon against its slug. See below screenshot
 
-![Houzi home term icon](images/houzi-home-term-icons.jpg)
+![Houzi home term icon](../../images/houzi-home-term-icons.jpg)
 
 Each Term has title, slug and other meta-data. So lets say you’ve a term Shop, and its slug is shop, you can set its icon with hooks. If you want to show term icon for your translated Term, you need to open following file:
 
