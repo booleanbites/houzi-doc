@@ -22,7 +22,8 @@ This guide will walk you through the necessary steps to configure In-App Purchas
       2. [Pay Per Listing](#pay-per-listing)
       3. [Membership](#membership)
 3. [Setup Google Play](#setup-google-play)
-   1. [Configuring In-App Purchases](#configuring-your-in-app-purchases)
+   1. [Setting Up Your Google Payments Merchant Account](#setting-up-your-google-payments-merchant-account)
+   2. [Configuring In-App Purchases](#configuring-your-in-app-purchases)
       1. [Free (Pay for featured)](#free-pay-for-featured)
       2. [Pay Per Listing](#pay-per-listing)
       3. [Membership](#membership)
@@ -205,7 +206,7 @@ Next, select the checkbox for the list, and click `Save changes`.
 
 Then, add the license testers:
    - Go back to the `All apps` view of the Google Play Console.
-   - Go to `Settings > License testing`.
+   - Go to `Setup > License testing`.
    - Add the same email addresses of the testers who need to be able to test in-app purchases.
    - Set License response to `RESPOND_NORMALLY`.
    - Click Save changes.
@@ -214,6 +215,26 @@ Then, add the license testers:
       <img src="../../images/license-testing.png" alt="license-testing" title="license-testing" border= "1px solid"/>
 
 To configure in-app purchases for Android devices on Google Play, follow these steps:
+
+### Setting Up Your Google Payments Merchant Account
+
+To enable in-app purchases for your application on the Google Play Store, you'll need to set up a Google Payments merchant account. Follow the steps below to get started:
+
+1. **Access Payments Settings:** In the Play Console, navigate to the "Setup" section and select "Payments profile."
+
+2. **Create Payments Profile:** Click on the "Create payments profile" option. Make sure you have your business information ready as you'll need it to set up your payments profile.
+
+3. **Provide Business Details:**
+   - **Name and Address:** Enter the legal name of your business exactly as you want it to appear on your payments profile. This name will be visible to your customers and on receipts. Also, input your legal business address exactly as it appears on official documents. Keep in mind that a valid physical address is required, and PO box addresses are not allowed. Remember that your bank account needs to be registered in the same country as your payments profile. [Learn more](https://support.google.com/payments/merchant/answer/7164584) about bank account requirements.
+   - **Primary Contact:** Enter the name of an authorized representative for your company. This person can be contacted by Google if there are questions regarding your payments profile. Provide an email address and an optional phone number.
+
+4. **Public Business Information:**
+   - Enter your business website.
+   - Select the category of products you sell.
+   - Provide a customer support email.
+   - Specify the business or product name that will appear on your customers' credit card statements. Ensure it's recognizable and appropriate to minimize chargebacks.
+
+5. **Submission:** Once you've filled in the required information, click the "Submit" button to finalize your payments profile setup.
 
 ### Configuring your in-app purchases
 
