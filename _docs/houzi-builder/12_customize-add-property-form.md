@@ -13,7 +13,7 @@ order: 412
 
 This guide consists of following sections.
 
-[Detailed Add Property](#detailed-add-property)  
+# Detailed Add Property 
 This section guides through all the steps related to detailed add property form. This section consists of following sub-sections.
 
 - [Add New Page](#add-new-page)  
@@ -37,7 +37,7 @@ This section guides through all the steps related to editing Form Field.  You ca
 - [Re-arrange](#re-arrange)  
 This section guides through all the steps related to *Re-arrange* a Form Page, Form Section and Form Field.
 
-[Quick Add Property](#quick-add-property)  
+# Quick Add Property  
 This section guides through all the steps related to quick add property form. This section consists of following sub-sections.
 
 - [Add New Field](#add-new-field)  
@@ -50,7 +50,7 @@ This section guides through all the steps related to editing Form Field.  You ca
 This section guides through all the steps related to *Re-arrange* a Form Page, Form Section and Form Field.
 
 
-# Add New Page  
+## Add New Page  
 You can `Add` a new Page in **Add Property Form** by following these steps:  
 
 - Press the **Add Page** button at the right bottom of the screen, a dialog box will open.   
@@ -71,7 +71,7 @@ You can `Add` a new Page in **Add Property Form** by following these steps:
 
 - If you have *multiple* form pages and you want to re-arrnage the posotion of a particular form page, you can simply [Re-arrange the form page](#re-arrange) as per your desire.
 
-# Add New Section
+## Add New Section
 You can `Add` a new Section in Page by following these steps:
 
 - Press the **Add Section** button at the right bottom of the screen, a dialog box will open.   
@@ -90,7 +90,7 @@ You can `Add` a new Section in Page by following these steps:
 
 - If you have *multiple* form sections and you want to re-arrnage the posotion of a particular form section, you can simply [Re-arrange the form section](#re-arrange) as per your desire.
 
-# Add New Field
+## Add New Field
 You can `Add` a new Field in Section by following these steps: 
 
 - Press the **Add Field** button at the right bottom of the screen, a dialog box will open.   
@@ -292,7 +292,7 @@ You can `Add` a new Field in Section by following these steps:
 - If you have *multiple* form fields and you want to re-arrnage the posotion of a particular form field, you can simply [Re-arrange the form field](#re-arrange) as per your desire.
 
 
-# Edit Page
+## Edit Page
 
 ### Form Page Item Screenshot
 
@@ -336,7 +336,7 @@ You can `Edit` a Form Page by following these steps:
 
 - By clicking **Cancel** button, all *modifications* will be discarded.
 
-# Edit Section
+## Edit Section
 
 ### Form Section Item Screenshot
 <img src="../../images/form_item_screenshot.png" alt="form-section-item" title="form-section-item" width= 350 height= 100 border= "1px solid"/>   
@@ -375,7 +375,7 @@ You can `Edit` a Form Section in the Page by following these steps:
 
 - By clicking **Cancel** button, all *modifications* will be discarded.
 
-# Edit Field
+## Edit Field
 
 ### Form Field Item Screenshot
 <img src="../../images/form_item_screenshot.png" alt="form-field-item" title="form-field-item" width= 350 height= 100 border= "1px solid"/>   
@@ -419,7 +419,7 @@ You can `Edit` a Form Field in the Form Section by following these steps:
 
 - By clicking **Cancel** button, all *modifications* will be discarded.
 
-# Re-Arrange
+## Re-Arrange
 You can perform the `Re-arrange` action just by dragging the **page, section** or **field** item *upwards* or *downwards*.
 
 <img src="../../images/re_arrange_form_pages_01.png" alt="re-arrange-form-pages-01" title="re-arrange-form-pages-01" width= 400 height= 350 border= "1px solid"/> 
