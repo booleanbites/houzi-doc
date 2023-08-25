@@ -35,8 +35,10 @@ On the Right side, there is a cloumn with options to customize the **Search Scre
       4. `string_picker:` If you want to search properties w.r.t. specific attributes like
          - **Bedrooms**
          - **Bathrooms**
-      5. `keyword_picker:` If you want to search properties w.r.t. some specific keyword.
-      6. `custom_field_picker:` If you want to search properties w.r.t. some custom field attributes.
+      5. `keyword_picker:` If you want to search properties w.r.t. some keywords e.g. Modern appartment with 2 bedrooms and 2 bathrooms etc.
+      6. `custom_keyword_picker:` If you want to search properties w.r.t. some specified keywords.
+      7. `keyword_custom_query_picker:` If you want to search properties w.r.t. some customized keyword query. You can define the *keyword* and send your custom query on its behalf.
+      8. `custom_field_picker:` If you want to search properties w.r.t. some custom field attributes.
     > **Custom Field Picker** depends upon the data of you website. If you have not defined any custom field, this picker would not available.
   - **Second**, you have to define the **Title** of the section.
   - **Third**, you have to define the **Data Type** of the section as follows:
@@ -65,13 +67,43 @@ On the Right side, there is a cloumn with options to customize the **Search Scre
     <img src="../../images/search-string-picker-pickertype-screenshot.png" alt="search-string-picker-pickertype-screenshot" title="search-string-picker-pickertype-screenshot" border= "1px solid"/>
       - **chips** (To view properties related arrtibutes in the form of `Chips`.)
       - **tabs** (To view properties related arrtibutes in the form of `Tabs`.)
-        > All the other *Widget Types* have *Default* Picker Type. 
+    - If selected *Widget Type* is `custom_keyword_picker`, you can select from following picker types:  
+    <img src="../../images/search-custom-keyword-picker-pickertype-screenshot.png" alt="search-custom-keyword-picker-pickertype-screenshot" title="search-custom-keyword-picker-pickertype-screenshot" border= "1px solid"/>
+      - **text_field** (To take *Keyword* input from the user.)
+      - **dropdown** (To provide users, a list of specified keywords in the form of `Dropdown Menu`.)
+      - **string_picker** (To provide users, specified keywords in the form of `Tabs` or `Chips`.)
+    - If selected *Widget Type* is `keyword_custom_query_picker`, you can select from following picker types:  
+    <img src="../../images/search-keyword-custom-query-picker-pickertype-screenshot.png" alt="search-keyword-custom-query-picker-pickertype-screenshot" title="search-keyword-custom-query-picker-pickertype-screenshot" border= "1px solid"/>
+      - **switch**
+      - **checkbox** 
+      > All the other *Widget Types* have *Default* Picker Type. 
   - **Sixth**, for the following *Widget Types* you can define some **Additional fields**.
     - If selected *Widget Type* is `location_picker`, you can choose either to show **Search By City** or **Search By Location**.  
     <img src="../../images/search-location-picker-screenshot.png" alt="search-location-picker-screenshot" title="search-location-picker-screenshot" border= "1px solid"/>
         > If you want to show both sections (i.e. `Search By City` and `Search By Location`, simply select both.)
     - If selected *Widget Type* is `range_picker`, you can define the minimun and maximun range of section in **Min Value** and **Max Value** fields.  
     <img src="../../images/search-range-picker-screenshot.png" alt="search-range-picker-screenshot" title="search-range-picker-screenshot" border= "1px solid"/>
+    - If selected *Widget Type* is `custom_keyword_picker`, you can define the **Unique key** and **Query Type**.  
+    <img src="../../images/search-custom-keyword-picker-dialog.png" alt="search-custom-keyword-picker-dialog" title="search-custom-keyword-picker-dialog" border= "1px solid"/>
+    - **Unique key** (Assign a unique key to this field e.g. *keyword-some-text*.)
+    - **Query Type**: (Assign a query type to this field from the dropdown menu.) It has two following types:
+      - **OR Query Type** If you want that search properties which may include this specific keyword, use *OR* query type.
+      - **AND Query Type** If you want that search properties which must include this specific keyword, use *AND* query type.  
+    - If selected *Widget Type* is `custom_keyword_picker` and *Picker Type* is **dropdown** or **string_picker**. There are some additional fields. If the selecetd field is
+      - **dropdown** you can define your comma seperated specific keywords in **Options** field.
+        <img src="../../images/search-custom-keyword-picker-dialog-01.png" alt="search-custom-keyword-picker-dialog-01" title="search-custom-keyword-picker-dialog-01" border= "1px solid"/>
+      - **string_picker** you can define your comma seperated specific keywords in **Options** field. You can also specify *Sub-Picker Type* of *string_picker* i.e. `Chips` or `Tabs`.
+        <img src="../../images/search-custom-keyword-picker-dialog-02.png" alt="search-custom-keyword-picker-dialog-02" title="search-custom-keyword-picker-dialog-02" border= "1px solid"/>
+      - **Sub-Picker Types:**
+        <img src="../../images/search-custom-keyword-picker-dialog-03.png" alt="search-custom-keyword-picker-dialog-03" title="search-custom-keyword-picker-dialog-03" border= "1px solid"/>
+    - If selected *Widget Type* is `keyword_custom_query_picker`, you can define the **Options**, **Unique key** and **Query Type**.  
+    <img src="../../images/search-keyword-custom-query-picker-dialog.png" alt="search-keyword-custom-query-picker-dialog" title="search-keyword-custom-query-picker-dialog" border= "1px solid"/>
+    - **Options** (Define your comma seperated custom keyword query in this field.)
+    - **Unique key** (Assign a unique key to this field e.g. *keyword-some-text*.)
+    - **Query Type**: (Assign a query type to this field from the dropdown menu.) It has two following types:
+      - **OR Query Type** If you want that search properties which may include this specific keyword, use *OR* query type.
+      - **AND Query Type** If you want that search properties which must include this specific keyword, use *AND* query type.
+    
 > Click `Done` to *add* the new section.  
     Click `Cancel` to *discard* the action.
 * You can `Re-arrange` the sections on **Search Screen** just by dragging them *upwards* or *downwards*.
