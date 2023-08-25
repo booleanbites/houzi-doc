@@ -13,25 +13,40 @@ order: 412
 
 This guide consists of following sections.
 
-[Add New Page](#add-new-page)  
+[Detailed Add Property](#detailed-add-property)  
+This section guides through all the steps related to detailed add property form. This section consists of following sub-sections.
+
+- [Add New Page](#add-new-page)  
 This section guides through all the steps related to adding new Form Page. You can have *single* or *multiple* form pages (as per you desired) for **Add Property** purposes.
 
-[Add New Section](#add-new-section)  
+- [Add New Section](#add-new-section)  
 This section guides through all the steps related to adding new Form Section. In a Form Page, you can have *single* or *multiple* form sections (as per you desired).
 
-[Add New Field](#add-new-field)  
+- [Add New Field](#add-new-field)  
 This section guides through all the steps related to adding new Form Field. In a Form Page, you can have *single* or *multiple* form fields (as per you desired). 
 
-[Edit Page](#edit-page)  
+- [Edit Page](#edit-page)  
 This section guides through all the steps related to editing Form Page. You can *Re-arrange, Hide or Delete* a form page. You can also *Add new sections or Remove existing sections* in the form page.
 
-[Edit Section](#edit-section)  
+- [Edit Section](#edit-section)  
 This section guides through all the steps related to editing Form Section. You can *Re-arrange, Hide or Delete* a form section. You can also *Add new fields or Remove existing fields* in the form section.
 
-[Edit Field](#edit-field)  
+- [Edit Field](#edit-field)  
 This section guides through all the steps related to editing Form Field.  You can *Re-arrange, Hide or Delete* a form field. You can also *customize* the existing form field.
 
-[Re-arrange](#re-arrange)  
+- [Re-arrange](#re-arrange)  
+This section guides through all the steps related to *Re-arrange* a Form Page, Form Section and Form Field.
+
+[Quick Add Property](#quick-add-property)  
+This section guides through all the steps related to quick add property form. This section consists of following sub-sections.
+
+- [Add New Field](#add-new-field)  
+This section guides through all the steps related to adding new Form Field. In a Form Page, you can have *single* or *multiple* form fields (as per you desired). 
+
+- [Edit Field](#edit-field)  
+This section guides through all the steps related to editing Form Field.  You can *Re-arrange, Hide or Delete* a form field. You can also *customize* the existing form field.
+
+- [Re-arrange](#re-arrange)  
 This section guides through all the steps related to *Re-arrange* a Form Page, Form Section and Form Field.
 
 
