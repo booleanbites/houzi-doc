@@ -14,9 +14,9 @@ order: 407
 You can fully customize the **Search Screen** of your app. This guide consists of following sections:
 
 [Add New Section](#add-new-section)  
-[Edit a Section](#edit-a-section)  
-[Delete a Section](#delete-a-section)  
 [Re-arrange a Section](#re-arrange-a-section)  
+[Delete a Section](#delete-a-section)  
+[Edit a Section](#edit-a-section)  
 
 Let's dive into the details of each section.  
 
@@ -132,19 +132,27 @@ Go to the `Search` section. On the Right side, there is a cloumn with options to
 
 * **Sixth**, for the following *Widget Types* you can define some **Additional fields**.
 
-  - If selected *Widget Type* is `location_picker`, you can choose either to show **Search By City** or **Search By Location**.  
+  - If selected *Widget Type* is `location_picker`, you can choose either to show **Search By City** or **Search By Location** or you can choose to show both.  
+  
+    <img src="../../images/location-picker-additional-fields.png" alt="location-picker-additional-fields" title="location-picker-additional-fields" width= 300 border= "1px solid"/> 
 
-    <img src="../../images/search-location-picker-screenshot.png" alt="search-location-picker-screenshot" title="search-location-picker-screenshot" width=300 height=600 border= "1px solid"/>  
+  - If selected *Widget Type* is `range_picker`, you can define the minimun and maximun range of section in **Min Value**, **Max Value** and **Steps** fields. 
 
-    > If you want to show both sections (i.e. `Search By City` and `Search By Location`, simply select both.)
+    <img src="../../images/range-picker-additional-fields.png" alt="range-picker-additional-fields" title="range-picker-additional-fields" width= 300 border= "1px solid"/>  
 
-  - If selected *Widget Type* is `range_picker`, you can define the minimun and maximun range of section in **Min Value** and **Max Value** fields. 
+  - If selected *Widget Type* is `term_picker`, you can define the query type from dropdown menu in **Query Type** field. 
 
-    <img src="../../images/search-range-picker-screenshot.png" alt="search-range-picker-screenshot" title="search-range-picker-screenshot" width=300 height=600 border= "1px solid"/>
+    - **OR Query Type** If you want that search properties which may include this specific **term**, use *OR* query type.
+
+    - **AND Query Type** If you want that search properties which must include this specific **term**, use *AND* query type. 
+
+      <img src="../../images/query-type-field-screenshot.png" alt="query-type-field-screenshot" title="query-type-field-screenshot" width= 300 border= "1px solid"/> 
+
+      <img src="../../images/query-type-options-screenshot.png" alt="query-type-options-screenshot" title="query-type-options-screenshot" width= 300 border= "1px solid"/> 
 
   - If selected *Widget Type* is `custom_keyword_picker`, you can define the **Unique key** and **Query Type**.  
 
-    <img src="../../images/search-custom-keyword-picker-dialog.png" alt="search-custom-keyword-picker-dialog" title="search-custom-keyword-picker-dialog" width=300 height=600 border= "1px solid"/>
+    <img src="../../images/search-custom-keyword-picker-dialog.png" alt="search-custom-keyword-picker-dialog" title="search-custom-keyword-picker-dialog" width=300 height=650 border= "1px solid"/>
 
   - **Unique key** (Assign a unique key to this field e.g. *keyword-some-text*.)
 
@@ -153,6 +161,10 @@ Go to the `Search` section. On the Right side, there is a cloumn with options to
     - **OR Query Type** If you want that search properties which may include this specific keyword, use *OR* query type.
 
     - **AND Query Type** If you want that search properties which must include this specific keyword, use *AND* query type.  
+
+      <img src="../../images/query-type-field-screenshot.png" alt="query-type-field-screenshot" title="query-type-field-screenshot" width= 300 border= "1px solid"/> 
+
+      <img src="../../images/query-type-options-screenshot.png" alt="query-type-options-screenshot" title="query-type-options-screenshot" width= 300 border= "1px solid"/> 
 
   - If selected *Widget Type* is `custom_keyword_picker` and *Picker Type* is **dropdown** or **string_picker**. There are some additional fields. If the selecetd field is:
 
@@ -181,6 +193,10 @@ Go to the `Search` section. On the Right side, there is a cloumn with options to
     - **OR Query Type** If you want that search properties which may include this specific keyword, use *OR* query type.
 
     - **AND Query Type** If you want that search properties which must include this specific keyword, use *AND* query type.
+
+      <img src="../../images/query-type-field-screenshot.png" alt="query-type-field-screenshot" title="query-type-field-screenshot" width= 300 border= "1px solid"/> 
+
+      <img src="../../images/query-type-options-screenshot.png" alt="query-type-options-screenshot" title="query-type-options-screenshot" width= 300 border= "1px solid"/> 
     
 > Click `Done` to *add* the new section.  
   Click `Cancel` to *discard* the action. 
@@ -191,6 +207,10 @@ Go to the `Search` section. On the Right side, there is a cloumn with options to
 ## Re-arrange a Section
 
 You can `Re-arrange` the sections just by dragging them *upwards* or *downwards*.  
+
+<img src="../../images/search-re-arrange-01.png" alt="search-re-arrange-01" title="search-re-arrange-01" width= 400 height= 350 border= "1px solid"/> 
+
+<img src="../../images/search-re-arrange-02.png" alt="search-re-arrange-02" title="search-re-arrange-02" width= 400 height= 350 border= "1px solid"/> 
 
 ---
 
@@ -217,17 +237,14 @@ You can `Edit` the sections just by clicking on **Edit Icon** of respective sect
 - You can change the **Data Type** of following sections:
 
   - **term_picker**
-
   - **range_picker**
-
-  - **string_picker** 
+  - **string_picker**   
 
   > All the other *Widget Types* have *Default* Data Types. 
 
 -  You can change the **Picker Type** of following sections:
     
     - **term_picker**
-
     - **string_picker**
 
     > All the other *Widget Types* have *Default* Picker Type.  
@@ -236,4 +253,8 @@ You can `Edit` the sections just by clicking on **Edit Icon** of respective sect
 
     - If selected *Widget Type* is `location_picker`, you can choose either to show **Search By City** or **Search By Location** or you can choose to show both.
 
-    - If selected *Widget Type* is `range_picker`, you can change the **minimun** and **maximun** range of section.
+      <img src="../../images/location-picker-additional-fields.png" alt="location-picker-additional-fields" title="location-picker-additional-fields" width= 300 border= "1px solid"/> 
+
+    - If selected *Widget Type* is `range_picker`, you can change the **minimun** and **maximun** range of section. You can also change the **steps** of section.
+
+      <img src="../../images/range-picker-additional-fields.png" alt="range-picker-additional-fields" title="range-picker-additional-fields" width= 300 border= "1px solid"/> 
