@@ -68,10 +68,19 @@ Go to the `Search` section. On the Right side, there is a cloumn with options to
 
     - **property_status** (To search properties w.r.t. their status e.g. for-rent, for-sale etc.)
 
-    - **property_label** (To search properties w.r.t. their Label e.g. hot-offer, open-house etc.)
-
     - **property_feature** (To search properties w.r.t. their features e.g. Air-Conditioning, Swimming-pool etc.)
 
+    - **property_label** (To search properties w.r.t. their Label e.g. hot-offer, open-house etc.)
+
+    - **property_country** (To search properties w.r.t. Country)
+
+    - **property_state** (To search properties w.r.t. States)
+
+    - **property_city** (To search properties w.r.t. City)
+
+    - **property_area** (To search properties w.r.t. Area)
+
+    
   - If selected *Widget Type* is `range_picker`, you can select from following data types:  
 
     <img src="../../images/search-range-picker-area-datatype-screenshot.png" alt="search-range-picker-area-datatype-screenshot" title="search-range-picker-area-datatype-screenshot" width=300 height=600 border= "1px solid"/>  
