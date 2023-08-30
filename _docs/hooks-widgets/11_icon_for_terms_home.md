@@ -44,8 +44,26 @@ You can also provide your own colored icon or image for a term. This will allow 
 The process is as below:
 
 1. Start by adding the desired icon to your assets folder.
-2. Add references to your project pubspect.yaml file as follow:
+2. Add references to your project pubspec file by opening `Project_HOME  > pubspec.yaml` and add reference to the newly added icons under `assets:` keyword, so they're bundled in your app.
 
-`Project_HOME  > pubspec.yaml`
+```
+assets:
+    ...
+    existing assets references
+    ...
+    - assets/new_icon_here.png
+```
 
-and the newly added icons 
+3. Then open `Project_HOME  > lib > hooks_v2.dart` and find `getElegantHomeTermsIconMap()` and make changes as below:
+
+```dart
+Map<String, dynamic> _iconMap = {
+    "for-rent": Image.asset('assets/for-rent.png'),
+    "for-sale": Image.asset('assets/for-sale.png'),
+    "commercial": Image.asset('assets/commercial.png'),
+    "residential": Image.asset('assets/residential.png'),
+    ...
+};
+```
+
+The recommended size for the custom icon image is 100x100.
