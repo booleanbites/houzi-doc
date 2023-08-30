@@ -11,10 +11,17 @@ order: 412
 
 <img src="../../images/add-property-screen.png" alt="add-property-screen" title="add-property-screen" border= "1px solid"/>
 
-This guide consists of following sections.
+This guide consists of following sections:
+
+[Detailed Add Property ](#detailed-add-property)  
+[Quick Add Property ](#quick-add-property)  
+
+Let's dive into the details of each section.
+
+---
 
 # Detailed Add Property 
-This section guides through all the steps related to detailed add property form. This section consists of following sub-sections.
+This section guides through all the steps related to detailed add property form. This section consists of following sub-sections:
 
 - [Add New Page](#add-new-page)  
 This section guides through all the steps related to adding new Form Page. You can have *single* or *multiple* form pages (as per you desired) for **Add Property** purposes.
@@ -35,7 +42,9 @@ This section guides through all the steps related to editing Form Section. You c
 This section guides through all the steps related to editing Form Field.  You can *Re-arrange, Hide or Delete* a form field. You can also *customize* the existing form field.
 
 - [Re-arrange](#re-arrange)  
-This section guides through all the steps related to *Re-arrange* a Form Page, Form Section and Form Field.
+This section guides through all the steps related to *Re-arrange* a Form Page, Form Section and Form Field.  
+
+---
 
 # Quick Add Property  
 This section guides through all the steps related to quick add property form. This section consists of following sub-sections.
@@ -47,7 +56,9 @@ This section guides through all the steps related to adding new Form Field. In a
 This section guides through all the steps related to editing Form Field.  You can *Re-arrange, Hide or Delete* a form field. You can also *customize* the existing form field.
 
 - [Re-arrange](#re-arrange)  
-This section guides through all the steps related to *Re-arrange* a Form Page, Form Section and Form Field.
+This section guides through all the steps related to *Re-arrange* a Form Page, Form Section and Form Field.  
+
+---
 
 
 ## Add New Page  
@@ -69,7 +80,9 @@ You can `Add` a new Page in **Add Property Form** by following these steps:
 
 - By clicking **Cancel** button, all changes will be discarded and page will not be added in the **Add Property Form**.
 
-- If you have *multiple* form pages and you want to re-arrnage the posotion of a particular form page, you can simply [Re-arrange the form page](#re-arrange) as per your desire.
+- If you have *multiple* form pages and you want to re-arrnage the posotion of a particular form page, you can simply [Re-arrange the form page](#re-arrange) as per your desire.  
+
+---
 
 ## Add New Section
 You can `Add` a new Section in Page by following these steps:
@@ -88,7 +101,9 @@ You can `Add` a new Section in Page by following these steps:
 
 - By clicking **Cancel** button, all changes will be discarded and section will not be added in the page.
 
-- If you have *multiple* form sections and you want to re-arrnage the posotion of a particular form section, you can simply [Re-arrange the form section](#re-arrange) as per your desire.
+- If you have *multiple* form sections and you want to re-arrnage the posotion of a particular form section, you can simply [Re-arrange the form section](#re-arrange) as per your desire.  
+
+---
 
 ## Add New Field
 You can `Add` a new Field in Section by following these steps: 
@@ -289,7 +304,9 @@ You can `Add` a new Field in Section by following these steps:
 
 - By clicking **Cancel** button, all changes will be discarded and field will not be added in the section.
 
-- If you have *multiple* form fields and you want to re-arrnage the posotion of a particular form field, you can simply [Re-arrange the form field](#re-arrange) as per your desire.
+- If you have *multiple* form fields and you want to re-arrnage the posotion of a particular form field, you can simply [Re-arrange the form field](#re-arrange) as per your desire.  
+
+---
 
 
 ## Edit Page
@@ -334,7 +351,9 @@ You can `Edit` a Form Page by following these steps:
 
 - Click **Done** button, all *modifications* will applied to the page.
 
-- By clicking **Cancel** button, all *modifications* will be discarded.
+- By clicking **Cancel** button, all *modifications* will be discarded.  
+
+---
 
 ## Edit Section
 
@@ -373,7 +392,9 @@ You can `Edit` a Form Section in the Page by following these steps:
 
 - Click **Done** button, all *modifications* will applied to the section.
 
-- By clicking **Cancel** button, all *modifications* will be discarded.
+- By clicking **Cancel** button, all *modifications* will be discarded.  
+
+---
 
 ## Edit Field
 
@@ -417,7 +438,9 @@ You can `Edit` a Form Field in the Form Section by following these steps:
 
 - Click **Done** button, all *modifications* will applied to the field.
 
-- By clicking **Cancel** button, all *modifications* will be discarded.
+- By clicking **Cancel** button, all *modifications* will be discarded.  
+
+---
 
 ## Re-Arrange
 You can perform the `Re-arrange` action just by dragging the **page, section** or **field** item *upwards* or *downwards*.

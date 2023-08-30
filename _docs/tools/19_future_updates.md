@@ -7,6 +7,21 @@ order: 19
 
 Always make a backup before updating to the next version.
 
+
+## Update to 1.3.7.1
+
+We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
+Let's assume you simply want to update your houzi_package, updating to 1.3.7.1 requires you following things:
+
+- Always make a backup. (copy in separate folder or use git)
+- Update Flutter to 3.13.XX 
+- Copy `Project_HOME > packages > houzi_package` from 1.3.7.1 and replace houzi_package in your existing project.
+- Copy new main.dart and replace existing `Project_HOME > lib > main.dart` (if you have made any changes to existing main.dart, then you need to carefully review and migrate new changes from main.dart into your existing main.dart)
+- Upgrade your wordpress plugin to version 1.3.7.1
+- For in-app-purchase based membership, please follow guide here: [Docs](https://houzi-docs.booleanbites.com/tools/in_app_purchase).
+- Rest of configurations like configuration.json, you android project folders, ios project folders should remain same.
+
+
 ## Update to 1.3.7
 
 We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
