@@ -15,7 +15,11 @@ Each Term has title, slug and other meta-data. So lets say you’ve a term Shop,
 
 `Project_HOME  > lib > hooks_v2.dart`
 
-Look for the `getElegantHomeTermsIconMap()` method. Then look for _iconMap, and edit existing or add new entry for your desired term, add the slug-name of your term eg: 
+Look for the `getElegantHomeTermsIconMap()` method. Then look for _iconMap, and edit existing or add new entry for your desired term, add the slug-name of your term.
+
+#### Use Google Material Icon
+
+You can return Google Material Icon library icon as term for a slug, as below:
 
 ```dart
 Map<String, dynamic> _iconMap = {
@@ -30,3 +34,18 @@ Map<String, dynamic> _iconMap = {
 
 
 The Icons.xxxxx are coded from Google Material icons here: https://fonts.google.com/icons
+
+#### Use custom icon or image
+
+You can also provide your own colored icon or image for a term. This will allow you to provide more customized and brand aligned icons for your app.
+
+![Houzi home term custom icon](../../images/houzi-home-custom-term-icons.jpg)
+
+The process is as below:
+
+1. Start by adding the desired icon to your assets folder.
+2. Add references to your project pubspect.yaml file as follow:
+
+`Project_HOME  > pubspec.yaml`
+
+and the newly added icons 
