@@ -4,16 +4,22 @@ category: Hooks & Widgets
 permalink: hooks-widgets/add_custom_widget_in_property_details
 order: 324
 ---
+You can show custom widgets to your property details pages easily via hooks.
 
-If you want to add a 'Custom widget' in Property Details page, you need to open following file:
+![adding custom widget placeholder](../../images/custom-widget-property-details.jpeg)
 
-`Project_HOME  > lib > hooks_v2.dart`
+If you want to show a 'custom widget' in property details page, you need to do following things:
 
-Look for the `getWidgetHook()` method. You are provided with `hook` and `article` parameters. In the `if_statement()` comparison, replace the `HOOK_NAME` with your specific hook name (which you have already defined in the HouziBuilder Desktop Application.) and replace your Custom widget with `WIDGET`.  
+- Add a custom widget section to your property details page via Houzi Builder.
+- Name it something unique like `'banner-notification-section'`. You'll use this name in hooks section in code.
+- Export your configuration and save to the app source code. (increase version number if required.)
+- Open file: `Project_HOME  > lib > hooks_v2.dart` and look for the `getWidgetHook()` method.
+- You are provided with `hook` and `article` parameters. In the `if_statement()` comparison, replace the `HOOK_NAME` with your specific hook name (which you have already defined in the HouziBuilder Desktop Application.) and replace your Custom widget with `WIDGET`.  
 
 You are provided with the Property Article Information as the object 'article'. You and get your desired information from the 'article' and display in your Custom Widget.
 
-For Example: If you have a custom widget named as 'custom-widget'. Just replace the 'HOOK_NAME' with 'custom-widget' and return your widget as follows:
+For Example: If you have a custom widget named as `'banner-notification-section'`, just replace the 'HOOK_NAME' with `'banner-notification-section'` and return your widget as follows:
+
 ```dart
   PropertyPageWidgetsHook detailsHook = (
       BuildContext context,
@@ -26,7 +32,7 @@ For Example: If you have a custom widget named as 'custom-widget'. Just replace 
       ///   return WIDGET;
       /// }
 
-      if (hook == 'custom-widget') {
+      if (hook == 'banner-notification-section') {
           return Conatiner(
             height: 120,
             child: Text("I'm custom widget"),
@@ -41,7 +47,7 @@ For Example: If you have a custom widget named as 'custom-widget'. Just replace 
     
     
     
-> **Note**: You can **re-arrange** the position of your `custom widget` & you can **re-name** your `custom widget` from the **HouziBuilder** Desktop App. 
+> **Note**: You can **re-arrange** the position of your `banner-notification-section` & you can **re-name** your `banner-notification-section` from the **HouziBuilder** Desktop App. 
 
 *Added in version 1.3.0*
 
