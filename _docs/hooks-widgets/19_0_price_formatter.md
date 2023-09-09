@@ -21,7 +21,7 @@ If you want to format the price in the Property Detail page or any other place, 
    @override
    PriceFormatterHook getPriceFormatterHook() {
      PriceFormatterHook priceFormatterHook = (String propertyPrice, String firstPrice) {
-       // Define your own method here and return the formatted string
+       // Define your own formatting here and return the formatted price string
        return null;
      };
 
@@ -43,7 +43,7 @@ If you want to format the price on the Property Card, follow these steps:
    @override
    CompactPriceFormatterHook getCompactPriceFormatterHook() {
      CompactPriceFormatterHook compactPriceFormatterHook = (String inputPrice) {
-       // Define your own method here and return the formatted string
+       // Define your own formatting here and return the formatted price string
        return null;
      };
 
