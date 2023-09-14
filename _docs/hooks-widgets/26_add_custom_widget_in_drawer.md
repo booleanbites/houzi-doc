@@ -26,7 +26,7 @@ For Example: If you have a custom widget named as `custom-widget`. Just replace 
         //      }
 
         if (hookName == 'custom-widget') {
-          return Conatiner(
+          return Container(
             height: 100,
             child: Text("I'm custom widget"),
           );
