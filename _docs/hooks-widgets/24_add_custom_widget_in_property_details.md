@@ -33,7 +33,7 @@ For Example: If you have a custom widget named as `'banner-notification-section'
       /// }
 
       if (hook == 'banner-notification-section') {
-          return Conatiner(
+          return Container(
             height: 120,
             child: Text("I'm custom widget"),
           );
