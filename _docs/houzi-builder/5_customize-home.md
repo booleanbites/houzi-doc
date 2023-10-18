@@ -7,87 +7,133 @@ order: 405
 
 > **Important**: You are required to install the Houzi Rest Api Plugin on your Houzez wordpress. To install the Plug-in, click on [Houzi Rest Api Plugin Link](https://github.com/booleanbites/houzi-rest-api).
 
-You can fully customize the **Home Screen** of your app. You can **add** new sections to your home screen and you can also **re-arrange** them according to your likings. You can also **remove** undesired sections from the Home screen. You can easily **Edit** an existing section and modify it as you like.
-
 > A **Mobile App View** is provided in the center of screen, so you can see how the modifications will look on real device.
 
-<img src="../../images/houzi-builder.png" alt="houzi-builder" title="houzi-builder"/>
+<img src="../../images/houzi-app-builder-for-houzez.png" alt="houzi-app-builder-for-houzez" title="houzi-app-builder-for-houzez"/>
 
-Go to the `Home` section.
+This guide consists of following sections:  
 
-On the Right side, there is a cloumn with options to customize the **Home Screen**. You can do customization as follows:  
-* When you're using Home-Carousel, you can add or reduce the **Search Type** options with the help of stepper.
+[Change Home Design](#change-home-design)  
+[Add New Section](#add-new-section)  
+[Edit a Section](#edit-a-section)  
+[Delete a Section](#delete-a-section)  
+[Re-arrange a Section](#re-arrange-a-section)  
+[Additional Customization](#additional-customization)
 
-#### Add new section to home
-* You can `Add` a new section to **Home Screen** by following these steps:
-  - There is a **Add** button at the bottom of the column. Press this button and a dialog box will open.  
+Let's dive into the details of each section.
+
+---
+
+# Add New Section
+
+---
+
+# Add New Section
+
+For adding new section in Home Screen, follow these steps:
+
+- There is a **Add** button at the bottom of the column, press this button and a dialog box will open.  
    
-    <img src="../../images/home-add-section-screenshot.jpg" alt="home-add-section-screenshot" title="home-add-section-screenshot" border= "1px solid"/>
-  - First of all, you have to define the **Widget Type** of the section that you want to add to *Home Screen*. There are many widget types as:   
-    <img src="../../images/home-add-section-widget-types-screenshot.jpg" alt="home-add-section-widget-types-screenshot" title="home-add-section-widget-types-screenshot" border= "1px solid"/> 
-      - `ad` (If you want to show **Ad** on *Home Screen*).
-      - `recent_searches` (If you want to show **Recent Searches** on *Home Screen*).
-      - `property` (If you want to show **Specific Properties** on *Home Screen* e.g. *Properties by Rent* etc.).
-      - `term` (If you want to show **Particular Properties** on *Home Screen* e.g. *Properties by property_Type / property_city* etc.).
-      - `agents` (If you want to show **Agents** on *Home Screen*).
-      - `agencies` (If you want to show **Agencies** on *Home Screen*).
-      - `terms_with_icon` (If you want to show **Terms** on a circular view on *Home Screen*. i.e For Sale, For Rent etc).
-  - Second, you have to define the **Title** of the section.
-  - Third, you can define **Design** of any Property related section. Property related sections are as follows:
-    - all_properties.
-    - featured_properties.
-    - property.
-    - term.   
-    > You can choose from *Design # 01* to *Design # 08* for the first three sections. Section **term** has only two designs i.e. *Design # 01* and *Design # 02*.  
-    **Design** for non-proprety related sections can not be defined.    
-    
-     <img src="../../images/home-add-section-property-designs-screenshot.png" alt="home-add-section-property-designs-screenshot" title="home-add-section-property-designs-screenshot" border= "1px solid"/>    
-    
-  - Forth, you can define **List-Type** of any Property related section. List-Types are as follows:  
-    <img src="../../images/home-add-section-list-types-screenshot.png" alt="home-add-section-list-types-screenshot" title="home-add-section-list-types-screenshot" border= "1px solid"/> 
-    - `all` (If you want to show latest listings. It is by default selected option).
-    - `property_type` (If you want to show listings by their **Types** e.g. Apartments, Offices, Shops etc.).
-    - `property_status` (If you want to show listings by their **Status** e.g. for-rent, for-sale etc.).
-    - `property_feature` (If you want to show listings by their **Features** e.g. Air-Conditioning, Swimming-pool etc.).
-    - `property_label` (If you want to show listings by their **Labels** e.g. hot-offer, open-house etc.).
-    - `property_state` (If you want to show listings by their **States**).
-    - `property_city` (If you want to show listings by their **Cities**).
-    - `property_area` (If you want to show listings by their **Areas**).
-    - `property_country` (If you want to show listings by their **Countries**).
-    > Above mentioed **List-Types** are *generic houzez List-Type options*. You may encounter all or some of these options, according to the data of your website.
-  - Fifth, you can define **List-Type Value** of any Property related section. List-Types Values are as follows:
-    - `all` (If you want to show all the listings of specific List-Type).
-    - If selected List-Type is `property_type` and you want to show listings according to some particular list-type value (e.g. Apartments, Offices, Shops etc.), select your desired option.
-    - If selected List-Type is `property_status` and you want to show listings according to some particular list-type value (e.g. for-rent, for-sale etc.), select your desired option.
-    - If selected List-Type is `property_feature` and you want to show listings according to some particular list-type value (e.g. Air-Conditioning, Swimming-pool etc.), select your desired option.
-    - If selected List-Type is `property_label` and you want to show listings according to some particular list-type value (e.g. hot-offer, open-house etc.), select your desired option.
-    - If selected List-Type is `property_state` and you want to show listings according to some particular list-type value (i.e. some particular state), select your desired option.
-    - If selected List-Type is `property_city` and you want to show listings according to some particular list-type value (i.e. some particular city), select your desired option.
-    - If selected List-Type is `property_area` and you want to show listings according to some particular list-type value (i.e. some particular area), select your desired option.
-    - If selected List-Type is `property_country` and you want to show listings according to some particular list-type value (i.e. some particular country), select your desired option.
-    - Check `Show Featured` to show Featured Properties in property section type only.
-    - Check `Show Nearby Properties` to show nearby Properties in property section type only. *Please consider the fact that you won't have properties available for all users locations. Also consider Location permission and other gps related issues as well.*
-    - Click `Done` to *add* the new section.  
-    - Click `Cancel` to *discard* the action.
+  <img src="../../images/home-add-section-screenshot.png" alt="home-add-section-screenshot" title="home-add-section-screenshot" width=300 height=600 border="1px solid"/>  
 
-#### Re-arrange Re-order sections in home
+
+- First of all, you have to define the **Widget Type** of the section. There are many widget types as: 
+  - **ad:** If you want to show *ads*.
+  - **recent_searches:** If you want to show *Recent Searches*.
+  - **property:** If you want to show *Specific Properties* e.g. *Properties by Rent* etc.
+  - **term:** If you want to show *Particular Properties* e.g. *Properties by property_Type or property_city* etc.
+  - **agents:** If you want to show *Agents*.
+  - **agencies:** If you want to show *Agencies*.
+  - **terms_with_icon:** If you want to show *Terms* on a circular view e.g. For Sale, For Rent etc.
+  - **place_holder:** If you want to show your *Custom Widget*.
+  - **partners:** If you want to show *Partners*.
+
+  <img src="../../images/home-add-section-widget-types-screenshot.png" alt="home-add-section-widget-types-screenshot" title="home-add-section-widget-types-screenshot" width=300 border= "1px solid"/>   
+  
+- Second, you have to define the **Title** of the section.
+
+- Third, you can define **Design** of any Property related section. Property related sections are as follows:
+  - property.
+  - term.   
+
+  > You can choose from *Design # 01* to *Design # 08* for the *property* sections. *term* section has only two designs i.e. *Design # 01* and *Design # 02*.  
+    **Design** for *non-proprety* related sections can not be defined.    
+    
+    <img src="../../images/home-add-section-property-designs-screenshot.png" alt="home-add-section-property-designs-screenshot" title="home-add-section-property-designs-screenshot" width=300 height=600 border= "1px solid"/>    
+    
+- Forth, you can define **List-Type** of any *Property* related section. List-Types are as follows:   
+
+  - **all:** If you want to show latest listings. (It is by default selected option).
+  - **property_type:** If you want to show listings by their *Types* e.g. Apartments, Offices, Shops etc.
+  - **property_status:** If you want to show listings by their *Status* e.g. for-rent, for-sale etc.
+  - **property_feature:** If you want to show listings by their *Features* e.g. Air-Conditioning, Swimming-pool etc.
+  - **property_label:** If you want to show listings by their *Labels* e.g. hot-offer, open-house etc.
+  - **property_state:** If you want to show listings by their *States*.
+  - **property_city:** If you want to show listings by their *Cities*.
+  - **property_area:** If you want to show listings by their *Areas*.
+  - **property_country:** If you want to show listings by their *Countries*.
+
+    <img src="../../images/home-add-section-list-types-screenshot.png" alt="home-add-section-list-types-screenshot" title="home-add-section-list-types-screenshot" width=300 height=500 border= "1px solid"/>
+
+  > Above mentioed **List-Types** are *generic houzez List-Type options*. You may encounter all or some of these options, according to the data of your website.
+
+- Fifth, you can define **List-Type Value** of any *Property* related section. List-Types Values are as follows:
+  - **all:** If you want to show all the listings of specific List-Type.
+  - If selected List-Type is **property_type** and you want to show listings according to some particular *property_type* e.g. Apartments, Offices, Shops etc.
+  - If selected List-Type is **property_status** and you want to show listings according to some particular *property_status* e.g. for-rent, for-sale etc.
+  - If selected List-Type is **property_feature** and you want to show listings according to some particular *property_feature* e.g. Air-Conditioning, Swimming-pool etc.
+  - If selected List-Type is **property_label** and you want to show listings according to some particular property_label e.g. hot-offer, open-house etc.
+  - If selected List-Type is **property_state** and you want to show listings according to some particular *state*.
+  - If selected List-Type is **property_city** and you want to show listings according to some particular *city*.
+  - If selected List-Type is **property_area** and you want to show listings according to some particular area.
+  - If selected List-Type is **property_country** and you want to show listings according to some particular *country*.
+
+- Check **Show Featured** to show *Featured* Properties in property section type only.
+
+- Check **Show Nearby Properties** to show *Nearby Properties* in property section type only. 
+  > Please consider the fact that you won't have properties available for all user locations. Also consider *location permission* and other *gps* related issues as well.
+
+- Click **Done** to *add* the new section.
+
+- Click **Cancel** to *discard* the action.
+
+---
+
+# Re-arrange a Section
 * You can `Re-arrange` the sections on **Home Screen** just by dragging them *upwards* or *downwards*.
 
-#### Edit sections in home
-* You can `Edit` the sections just by clicking on *Edit* icon of respective section.   
-  <img src="../../images/home-screenshot-list-tile.png" alt="home-screenshot-list-tile" title="home-screenshot-list-tile" border= "1px solid"/>   
-  <img src="../../images/home-edit-section-screenshot.jpg" alt="home-edit-section-screenshot" title="home-edit-section-screenshot" border= "1px solid"/> 
+---
+
+# Edit a Section
+
+You can **Edit** any sections just by clicking on *edit icon* of respective section.   
+
+<img src="../../images/home-screenshot-list-tile.png" alt="home-screenshot-list-tile" title="home-screenshot-list-tile" width=300 border= "1px solid"/> 
+
+<img src="../../images/home-edit-section-screenshot.png" alt="home-edit-section-screenshot" title="home-edit-section-screenshot" width=300 height=600 border= "1px solid"/> 
 
   You can perform following opertions in editing a section:
-  - You can change the **Type** of any section.
+  - You can change the **Widget Type** of any section.
   - You can **Rename** any section.
   - You can change the **Design** of any Property related section.
   -  You can change the **Listing Type** of any Property related section (e.g. you can show *all properties* or just the properties based on their *property_type* or *property_status* etc.).
   -  You can change the **Listing Type Value** of any Property related section (e.g. you can show *all properties* of particular selected Listing Type or just the properties based on that selected Listing Type Value (i.e. if selected Listing Type is *Property_type*, you can choose the selected Listing Type Value to be *all* or one of the selected Listing Type values (e.g. apartment, office etc.))).
 
-#### Delete sections in home
-* You can `Remove/Delete` any section just by clicking on **Delete Icon** of respective section. A delete confirmation dialog will open.   
-  <img src="../../images/home-screenshot-list-tile.png" alt="home-screenshot-list-tile" title="home-screenshot-list-tile" border= "1px solid"/>    
-  <img src="../../images/home-delete-section-screenshot.png" alt="home-delete-section-screenshot" title="home-delete-section-screenshot" border= "1px solid"/>  
-    > Click `Yes` if you want to *delete* the section.  
-    Click `Cancel` if you want to *discard* the action.
+---
+
+# Delete a Section
+
+You can **Delete** any section just by clicking on *delete icon* of respective section. A delete confirmation dialog will open. 
+
+<img src="../../images/home-screenshot-list-tile.png" alt="home-screenshot-list-tile" title="home-screenshot-list-tile" width=300 border= "1px solid"/>    
+
+<img src="../../images/home-delete-section-screenshot.png" alt="home-delete-section-screenshot" title="home-delete-section-screenshot" width=300 border= "1px solid"/>  
+    
+> Click **Delete** if you want to *delete* the section.  
+  Click **Cancel** if you want to *discard* the action.
+
+---
+
+# Additional Customization
+
+- When you are using **Home-Carousel**, you can increase or reduce the **Search Type** options with the help of stepper.
