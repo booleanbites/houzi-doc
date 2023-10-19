@@ -2,7 +2,7 @@
 title: Customize Add Property Form
 category: Houzi Builder
 permalink: houzi-builder/customize_add_property_form
-order: 412
+order: 413
 ---
 
 > **Important**: You are required to install the Houzi Rest Api Plugin on your Houzez wordpress. To install the Plug-in, click on [Houzi Rest Api Plugin Link](https://github.com/booleanbites/houzi-rest-api).
@@ -517,6 +517,7 @@ You can `Edit` a Form Field in the Form Section by following these steps:
 ---
 
 ## Re-Arrange
+
 You can perform the `Re-arrange` action just by dragging the **page, section** or **field** item *upwards* or *downwards*.
 
 <img src="../../images/re_arrange_form_pages_01.png" alt="re-arrange-form-pages-01" title="re-arrange-form-pages-01" width= 400 height= 350 border= "1px solid"/> 

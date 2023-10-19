@@ -2,7 +2,7 @@
 title: Customize Home Screen
 category: Houzi Builder
 permalink: houzi-builder/customize_home
-order: 405
+order: 406
 ---
 
 > **Important**: You are required to install the Houzi Rest Api Plugin on your Houzez wordpress. To install the Plug-in, click on [Houzi Rest Api Plugin Link](https://github.com/booleanbites/houzi-rest-api).
@@ -13,18 +13,33 @@ order: 405
 
 This guide consists of following sections:  
 
-[Change Home Design](#change-home-design)  
+[Home Designs](#home-designs)  
 [Add New Section](#add-new-section)  
 [Edit a Section](#edit-a-section)  
 [Delete a Section](#delete-a-section)  
 [Re-arrange a Section](#re-arrange-a-section)  
-[Additional Customization](#additional-customization)
 
 Let's dive into the details of each section.
 
 ---
 
-# Add New Section
+# Home Designs
+
+Houzi provides you wide range of home designs. On the top right side of Home section, Home designs are provided. Click on any *Home design*, and you will be able to see, how it will look on real device in the *Mobile App View*. (By default, selected design is *Home Elegant*, one of most popular designs.)
+
+<img src="../../images/home-designs.png" alt="home-designs" title="home-designs" width=300 border="1px solid"/>   
+
+There are some *additional customizations* related to Home designs as follows:
+
+- If you select **Home Carousel** or **Home Location**, you can increase or reduce the *Search Type* options e.g. For Rent, For Sale etc. with the help of stepper. 
+
+  <img src="../../images/home-search-type-stepper.png" alt="home-search-type-stepper" title="home-search-type-stepper" width=300 border="1px solid"/>  
+
+  > Above displayed **Search Types** are *generic houzez List-Type: property_status options*. You may encounter these options, according to the data of your website.
+
+- If you select **Home Tabbed**, you can replace the quote 'What are you looking for?' with your custom quote, in the *Quote* text field. 
+
+  <img src="../../images/home-tabbed-quote.png" alt="home-tabbed-quote" title="home-tabbed-quote" width=300 border="1px solid"/>  
 
 ---
 
@@ -48,7 +63,7 @@ For adding new section in Home Screen, follow these steps:
   - **place_holder:** If you want to show your *Custom Widget*.
   - **partners:** If you want to show *Partners*.
 
-  <img src="../../images/home-add-section-widget-types-screenshot.png" alt="home-add-section-widget-types-screenshot" title="home-add-section-widget-types-screenshot" width=300 border= "1px solid"/>   
+    <img src="../../images/home-add-section-widget-types-screenshot.png" alt="home-add-section-widget-types-screenshot" title="home-add-section-widget-types-screenshot" width=300 border= "1px solid"/>   
   
 - Second, you have to define the **Title** of the section.
 
@@ -99,11 +114,6 @@ For adding new section in Home Screen, follow these steps:
 
 ---
 
-# Re-arrange a Section
-* You can `Re-arrange` the sections on **Home Screen** just by dragging them *upwards* or *downwards*.
-
----
-
 # Edit a Section
 
 You can **Edit** any sections just by clicking on *edit icon* of respective section.   
@@ -112,12 +122,12 @@ You can **Edit** any sections just by clicking on *edit icon* of respective sect
 
 <img src="../../images/home-edit-section-screenshot.png" alt="home-edit-section-screenshot" title="home-edit-section-screenshot" width=300 height=600 border= "1px solid"/> 
 
-  You can perform following opertions in editing a section:
-  - You can change the **Widget Type** of any section.
-  - You can **Rename** any section.
-  - You can change the **Design** of any Property related section.
-  -  You can change the **Listing Type** of any Property related section (e.g. you can show *all properties* or just the properties based on their *property_type* or *property_status* etc.).
-  -  You can change the **Listing Type Value** of any Property related section (e.g. you can show *all properties* of particular selected Listing Type or just the properties based on that selected Listing Type Value (i.e. if selected Listing Type is *Property_type*, you can choose the selected Listing Type Value to be *all* or one of the selected Listing Type values (e.g. apartment, office etc.))).
+You can perform following opertions while *editing* a section:
+- You can change the **Widget Type** of any section.
+- You can **Rename** any section.
+- You can change the **Design** of any Property related section.
+-  You can change the **Listing Type** of any Property related section (e.g. you can show *all properties* or just the properties based on their *property_type* or *property_status* etc.).
+-  You can change the **Listing Type Value** of any Property related section (e.g. you can show *all properties* of particular selected Listing Type or just the properties based on that selected Listing Type Value (i.e. if selected Listing Type is *Property_type*, you can choose the selected Listing Type Value to be *all* or one of the selected Listing Type values (e.g. apartment, office etc.))).
 
 ---
 
@@ -134,6 +144,6 @@ You can **Delete** any section just by clicking on *delete icon* of respective s
 
 ---
 
-# Additional Customization
+# Re-arrange a Section
 
-- When you are using **Home-Carousel**, you can increase or reduce the **Search Type** options with the help of stepper.
+You can **Re-arrange** the sections on **Home Screen**. Hold the section that you want to re-arrange and move it vertically (*upwards* or *downwards*). Place it on desire position in sections list.
