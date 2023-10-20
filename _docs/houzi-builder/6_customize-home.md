@@ -147,3 +147,7 @@ You can **Delete** any section just by clicking on *delete icon* of respective s
 # Re-arrange a Section
 
 You can **Re-arrange** the sections on **Home Screen**. Hold the section that you want to re-arrange and move it vertically (*upwards* or *downwards*). Place it on desire position in sections list.
+
+<img src="../../images/home-re-arrange-01.png" alt="home-re-arrange-01" title="home-re-arrange-01" width=300 border= "1px solid"/>  
+
+<img src="../../images/home-re-arrange-02.png" alt="home-re-arrange-02" title="home-re-arrange-02" width=300 border= "1px solid"/>  
