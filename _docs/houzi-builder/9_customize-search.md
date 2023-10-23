@@ -2,7 +2,7 @@
 title: Customize Search Filters
 category: Houzi Builder
 permalink: houzi-builder/customize_search_filters
-order: 408
+order: 409
 ---
 
 > **Important**: You are required to install the Houzi Rest Api Plugin on your Houzez wordpress. To install the Plug-in, click on [Houzi Rest Api Plugin Link](https://github.com/booleanbites/houzi-rest-api).

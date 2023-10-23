@@ -2,7 +2,7 @@
 title: Customize Add Property Form
 category: Houzi Builder
 permalink: houzi-builder/customize_add_property_form
-order: 413
+order: 411
 ---
 
 > **Important**: You are required to install the Houzi Rest Api Plugin on your Houzez wordpress. To install the Plug-in, click on [Houzi Rest Api Plugin Link](https://github.com/booleanbites/houzi-rest-api).
@@ -13,8 +13,8 @@ order: 413
 
 This guide consists of following sections:
 
-[Detailed Add Property ](#detailed-add-property)  
-[Quick Add Property ](#quick-add-property)  
+[Detailed Add Property](#detailed-add-property)  
+[Quick Add Property](#quick-add-property)  
 
 Let's dive into the details of each section.
 
@@ -66,7 +66,7 @@ You can `Add` a new Page in **Add Property Form** by following these steps:
 
 - Press the **Add Page** button at the right bottom of the screen, a dialog box will open.   
 
-    <img src="../../images/add_new_page_dialog.png" alt="add-new-page-dialog" title="add-new-page-dialog" width= 300 height= 550 border= "1px solid"/>  
+    <img src="../../images/add_new_page_dialog.png" alt="add-new-page-dialog" title="add-new-page-dialog" width= 300 height= 600 border= "1px solid"/>  
       
 - The value of **Enable** field determines wether to *show/hide* the page. If you and to *show* the page, set the value to **true**. If you and to *hide* the page, set the value to **false**.
 
@@ -89,7 +89,7 @@ You can `Add` a new Section in Page by following these steps:
 
 - Press the **Add Section** button at the right bottom of the screen, a dialog box will open.   
 
-    <img src="../../images/add_new_section_dialog.png" alt="add-new-section-dialog" title="add-new-section-dialog" width= 300 height= 550 border= "1px solid"/>  
+    <img src="../../images/add_new_section_dialog.png" alt="add-new-section-dialog" title="add-new-section-dialog" width= 300 height= 600 border= "1px solid"/>  
       
 - The value of **Enable** field determines wether to *show/hide* the section on page. If you and to *show* the section, set the value to **true**. If you and to *hide* the section, set the value to **false**.
 
@@ -124,7 +124,7 @@ You can `Add` a new Field in Section by following these steps:
 - #### Field Type 
     It is the type of *Form Widget* that you want to display on screen. e.g. Input Text Field, Dropdown etc. Select the desired *Form Widget Type* from **Field Type** dropdown.
 
-    <img src="../../images/field_type_dropdown.png" alt="field-type-dropdown" title="field-type-dropdown" width= 300 height= 550 border= "1px solid"/> 
+    <img src="../../images/field_type_dropdown.png" alt="field-type-dropdown" title="field-type-dropdown" width= 300 height= 600 border= "1px solid"/> 
 
     The description of **Field Type** is as follows: 
 
@@ -211,7 +211,7 @@ You can `Add` a new Field in Section by following these steps:
 - #### Api Key [ Required ]
     Select the *Api key* from the dropdown menu. The corresponding data of field will be sent to this key when **Add Property API** will be called. e.g. the data related to Property Title field will be sent against *prop_title* key etc.
 
-    <img src="../../images/api_key_dropdown.png" alt="api-key-dropdown" title="api-key-dropdown" width= 300 height= 550 border= "1px solid"/> 
+    <img src="../../images/api_key_dropdown.png" alt="api-key-dropdown" title="api-key-dropdown" width= 300 height= 600 border= "1px solid"/> 
 
     The description of **Api Keys** is as follows: 
 
@@ -329,7 +329,7 @@ You can `Add` a new Field in Section by following these steps:
     
     You can **validate** the input of your field by using validation Types. Validation Types are defined as follows:
 
-    <img src="../../images/validation_type_options.png" alt="validation-type-options" title="validation-type-options" width= 400 height= 250 border= "1px solid"/> 
+    <img src="../../images/validation_type_options.png" alt="validation-type-options" title="validation-type-options" width= 400 height= 270 border= "1px solid"/> 
 
     * **String Validation:**   
         String Validation is used to check if the input is **non-empty**. Otherwise it will return error.
@@ -352,7 +352,7 @@ You can `Add` a new Field in Section by following these steps:
 - #### Keyboard Type
     You can define the **type of Keyboard** you want to use for the input of your field. Keyboard Type are defined as follows:
 
-    <img src="../../images/keyboard_type_options.png" alt="keyboard-type-options" title="keyboard-type-options" width= 400 height= 250 border= "1px solid"/> 
+    <img src="../../images/keyboard_type_options.png" alt="keyboard-type-options" title="keyboard-type-options" width= 400 height= 260 border= "1px solid"/> 
 
     * **Text:**  
         Text is used to if you want to show normal keyboard for **text** input.
@@ -387,7 +387,7 @@ You can `Add` a new Field in Section by following these steps:
 
 ### Form Page Item Screenshot
 
-<img src="../../images/form_item_screenshot.png" alt="page-item-screenshot" title="page-item-screenshot" width= 350 height= 100 border= "1px solid"/>   
+<img src="../../images/page_item_screenshot.png" alt="page-item-screenshot" title="page-item-screenshot" width= 400 border= "1px solid"/>   
 
 You can perform following opertions while **Editing** a page.  
 
@@ -404,7 +404,7 @@ You can **show/hide** a form page just by clicking on *show/hide* icon of [Form 
 
 You can **delete** a form page just by clicking on *delete* icon of [Form Page Item](#form-page-item-screenshot). A delete confirmation dialog will open. On clicking **Cancel**, the action will be *discarded* and dialog will be closed. On clicking **Delete**, the page will be deleted (this action can not be *undone*).
 
-<img src="../../images/delete_page_dialog.png" alt="delete-page-dialog" title="delete-page-dialog" width= 400 height= 160 border= "1px solid"/>  
+<img src="../../images/delete_page_dialog.png" alt="delete-page-dialog" title="delete-page-dialog" width= 400 height=220 border= "1px solid"/>  
 
 ### Edit a Page
 You can `Edit` a Form Page by following these steps:  
@@ -432,7 +432,7 @@ You can `Edit` a Form Page by following these steps:
 ## Edit Section
 
 ### Form Section Item Screenshot
-<img src="../../images/form_item_screenshot.png" alt="form-section-item" title="form-section-item" width= 350 height= 100 border= "1px solid"/>   
+<img src="../../images/section_item_screenshot.png" alt="form-section-item" title="form-section-item" width= 400 border= "1px solid"/>   
 
 You can perform following opertions while **Editing** a section.  
 
@@ -447,7 +447,7 @@ You can **show/hide** a form section just by clicking on *show/hide* icon of [Fo
 ### Delete a Section
 You can **delete** a form section just by clicking on *delete* icon of [Form Section Item](#form-section-item-screenshot). A delete confirmation dialog will open. On clicking **Cancel**, the action will be *discarded* and dialog will be closed. On clicking **Delete**, the section will be deleted (this action can not be *undone*).
 
-<img src="../../images/delete-section-dialog.png" alt="delete-section-dialog" title="delete-section-dialog" width= 400 height= 160 border= "1px solid"/>  
+<img src="../../images/delete-section-dialog.png" alt="delete-section-dialog" title="delete-section-dialog" width= 400 height= 220 border= "1px solid"/>  
 
 ### Edit a Section
 You can `Edit` a Form Section in the Page by following these steps:
@@ -473,7 +473,7 @@ You can `Edit` a Form Section in the Page by following these steps:
 ## Edit Field
 
 ### Form Field Item Screenshot
-<img src="../../images/form_item_screenshot.png" alt="form-field-item" title="form-field-item" width= 350 height= 100 border= "1px solid"/>   
+<img src="../../images/field_item_screenshot.png" alt="form-field-item" title="form-field-item" width=400 border= "1px solid"/>   
 
 You can perform following opertions while **Editing** a field.  
 
@@ -488,7 +488,7 @@ You can **show/hide** a form field just by clicking on *show/hide* icon of [Form
 ### Delete a Field
 You can **delete** a form field just by clicking on *delete* icon of [Form Field Item](#form-field-item-screenshot). A delete confirmation dialog will open. On clicking **Cancel**, the action will be *discarded* and dialog will be closed. On clicking **Delete**, the field will be deleted (this action can not be *undone*).
 
-<img src="../../images/delete-field-dialog.png" alt="delete-field-dialog" title="delete-field-dialog" width= 400 height= 160 border= "1px solid"/>  
+<img src="../../images/delete-field-dialog.png" alt="delete-field-dialog" title="delete-field-dialog" width= 400 height=220 border= "1px solid"/>  
 
 ### Edit a Field
 You can `Edit` a Form Field in the Form Section by following these steps:
@@ -518,8 +518,8 @@ You can `Edit` a Form Field in the Form Section by following these steps:
 
 ## Re-Arrange
 
-You can perform the `Re-arrange` action just by dragging the **page, section** or **field** item *upwards* or *downwards*.
+You can perform the **Re-arrange** action just by *Holding* the **page, section** or **field** item and move it vertically (*upwards* or *downwards*). Place it on desire position in related list.
 
-<img src="../../images/re_arrange_form_pages_01.png" alt="re-arrange-form-pages-01" title="re-arrange-form-pages-01" width= 400 height= 350 border= "1px solid"/> 
+<img src="../../images/re_arrange_form_pages_01.png" alt="re-arrange-form-pages-01" title="re-arrange-form-pages-01" width= 400 border= "1px solid"/> 
 
-<img src="../../images/re_arrange_form_pages_02.png" alt="re-arrange-form-pages-02" title="re-arrange-form-pages-02" width= 400 height= 350 border= "1px solid"/> 
+<img src="../../images/re_arrange_form_pages_02.png" alt="re-arrange-form-pages-02" title="re-arrange-form-pages-02" width= 400 border= "1px solid"/> 
