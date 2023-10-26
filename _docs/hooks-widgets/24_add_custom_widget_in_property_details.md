@@ -6,7 +6,7 @@ order: 324
 ---
 You can show custom widgets to your property details pages easily via hooks.
 
-![adding custom widget placeholder](../../images/custom-widget-property-details.jpeg)
+![adding custom widget placeholder](../../images/custom-widget-property-details.png)
 
 If you want to show a 'custom widget' in property details page, you need to do following things:
 
