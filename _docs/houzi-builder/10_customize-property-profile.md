@@ -13,6 +13,7 @@ order: 410
 
 This guide consists of following sections:  
 
+[Property Profile Configurations](#property-profile-configurations)  
 [Add New Section](#add-new-section)  
 [Edit a Section](#edit-a-section)  
 [Show-Hide a Section](#show-hide-a-section)  
@@ -20,6 +21,20 @@ This guide consists of following sections:
 [Delete a Section](#delete-a-section)  
 
 Let's dive into the details of each section.
+
+---
+
+# Property Profile Configurations
+
+- You can **show** or **hide** *Print Property Button*, on the top-right side of screen, just by *Check Marking or Un-Marking* the **Show Print Property Button** checkbox field. 
+
+- You can **show** or **hide** *Email Button*, on the bottom action bar of screen, just by *Check Marking or Un-Marking* the **Show Email Button** checkbox field.
+
+- You can **show** or **hide** *Call Button*, on the bottom action bar of screen, just by *Check Marking or Un-Marking* the **Show Call Button** checkbox field. 
+
+- You can **show** or **hide** *WhatsApp Button*, on the bottom action bar of screen, just by *Check Marking or Un-Marking* the **Show WhatsApp Button** checkbox field. 
+
+- You can **show** or **hide** *Download Image Button*, on the top-right side of view image screen, just by *Check Marking or Un-Marking* the **Show Download Image Button on View Image Screen** checkbox field. 
 
 ---
 
