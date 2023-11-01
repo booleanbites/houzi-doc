@@ -15,7 +15,8 @@ This guide consists of following configuration settings:
 [Places Api Configurations](#places-api-configurations)  
 [Ads Configurations](#ads-configurations)  
 [Social Sign-On Configurations](#social-sign-on-configurations)  
-[Search Results Configurations](#search-results-configurations)
+[Search Results Configurations](#search-results-configurations)  
+[Segment Control Configuration](#segment-control-configuration)  
 
 Let's dive into the details of each section.
 
@@ -110,3 +111,13 @@ Let's dive into the details of each section.
   - You can *enable* or *disable* **Grid View Button** on *Search Results Screen*, just by check marking or check unmarking the **Show Grid View Button on Search Results Page** checkbox field.
 
     <img src="../../images/grid-button-config.png" alt="grid-button-config" title="grid-button-config" width= 400 border= "1px solid"/>
+
+---
+
+# Segment Control Configuration:
+
+You can *enable* or *disable* **Cupertino Sliding Segment Control** in *whole App*, just by check marking or check unmarking the **Show Cupertino Segment Control** checkbox field.
+
+<img src="../../images/cupertino-segment-control-config.png" alt="cupertino-segment-control-config" title="cupertino-segment-control-config" width= 400 border= "1px solid"/>
+
+> If you check unmark the **Show Cupertino Segment Control** checkbox field, the *Material Segment Control* widget will be used in the *whole app*.

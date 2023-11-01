@@ -137,7 +137,7 @@ Select the *Term Type Value* from the **Term Type Value** dropdown menu.
 
 # Edit a Section
 
-While editing a section, you can perform following actions:
+You can **Edit** the sections just by clicking on **Edit Icon** of respective section. While editing a section, you can perform following actions:
 
 - Modify section [Widget Type](#widget-type).
 - Modify section [Title](#title).

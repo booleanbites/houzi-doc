@@ -11,6 +11,8 @@ order: 409
 
 <img src="../../images/search-screenshot.png" alt="search-screenshot" title="search-screenshot" border= "1px solid"/>  
 
+> You can **Enable** *Cupertino Sliding Segment Control* instead of using Material Segment Control from [Api and Config](../houzi-builder/api_config_setup) section. 
+
 This guide consists of following sections:
 
 [Add New Section](#add-new-section)  
@@ -101,6 +103,8 @@ You are provided with the dropdown list of **Data Types**. You can define the *D
   - **property_area** (To search properties w.r.t. Area)
 
     <img src="../../images/search-property-type-datatype-screenshot.png" alt="search-property-type-datatype-screenshot" title="search-property-type-datatype-screenshot" width= 300 border= "1px solid"/>
+
+  > Above displayed **Data Types** are *generic houzez taxonomies*. You may encounter all or some of these options, according to the data of your website.
 
     
 * If selected *Widget Type* is **range_picker**, you can select from following data types:  
@@ -243,57 +247,36 @@ You can define some additional customizations for some sections. For this purpos
 
 ---
 
-## Re-arrange a Section
+## Edit a Section
 
-You can `Re-arrange` the sections just by dragging them *upwards* or *downwards*.  
+You can **Edit** the sections just by clicking on **Edit Icon** of respective section. While editing a section, you can perform following actions:
 
-<img src="../../images/search-re-arrange-01.png" alt="search-re-arrange-01" title="search-re-arrange-01" width= 400 height= 350 border= "1px solid"/> 
-
-<img src="../../images/search-re-arrange-02.png" alt="search-re-arrange-02" title="search-re-arrange-02" width= 400 height= 350 border= "1px solid"/> 
+- Modify section [Widget Type](#widget-type).
+- Modify section [Title](#title).
+- Modify section [Data Type](#data-type).
+- Modify section [Api Value](#api-value).
+- Modify section [Picker Type](#picker-type).
+- Modify section [Additional Fields](#additional-fields).
 
 ---
 
 ## Delete a Section
 
-You can `Remove/Delete` any section just by clicking on **Delete Icon** of respective section. A delete confirmation dialog will open.  
+You can **Delete** any section just by clicking on *delete icon* of respective section. A delete confirmation dialog will open.  
 
-  <img src="../../images/search-list-tile-screenshot.png" alt="search-list-tile-screenshot" title="search-list-tile-screenshot" width=400 border= "1px solid"/>
-  <img src="../../images/search-delete-section-screenshot.png" alt="search-delete-section-screenshot" title="search-delete-section-screenshot" width=400 height=200 border= "1px solid"/>  
+  <img src="../../images/search-list-tile-screenshot.png" alt="search-list-tile-screenshot" title="search-list-tile-screenshot" width=300 border= "1px solid"/>  
+
+  <img src="../../images/search-delete-section-screenshot.png" alt="search-delete-section-screenshot" title="search-delete-section-screenshot" width=300 border= "1px solid"/>  
   
-> Click `Yes` if you want to *delete* the section.  
-  Click `Cancel` if you want to *discard* the action.  
+> Click **Delete** if you want to *delete* the section.  
+  Click **Cancel** if you want to *discard* the action. 
 
 ---
 
-## Edit a Section
+## Re-arrange a Section
 
-You can `Edit` the sections just by clicking on **Edit Icon** of respective section. You can perform following opertions in editing a section:
+You can **Re-arrange** the sections on **Search Page**. Hold the section that you want to re-arrange and move it vertically (*upwards* or *downwards*). Place it on desire position in sections list.
 
-- You can change the **Type** of any section.
+<img src="../../images/search-re-arrange-01.png" alt="search-re-arrange-01" title="search-re-arrange-01" width= 400 border= "1px solid"/> 
 
-- You can **Rename** any section.
-
-- You can change the **Data Type** of following sections:
-
-  - **term_picker**
-  - **range_picker**
-  - **string_picker**   
-
-  > All the other *Widget Types* have *Default* Data Types. 
-
--  You can change the **Picker Type** of following sections:
-    
-    - **term_picker**
-    - **string_picker**
-
-    > All the other *Widget Types* have *Default* Picker Type.  
-
--  You can change **Additional Fields** of some sections as follows:
-
-    - If selected *Widget Type* is `location_picker`, you can choose either to show **Search By City** or **Search By Location** or you can choose to show both.
-
-      <img src="../../images/location-picker-additional-fields.png" alt="location-picker-additional-fields" title="location-picker-additional-fields" width= 300 border= "1px solid"/> 
-
-    - If selected *Widget Type* is `range_picker`, you can change the **minimun** and **maximun** range of section. You can also change the **steps** of section.
-
-      <img src="../../images/range-picker-additional-fields.png" alt="range-picker-additional-fields" title="range-picker-additional-fields" width= 300 border= "1px solid"/> 
+<img src="../../images/search-re-arrange-02.png" alt="search-re-arrange-02" title="search-re-arrange-02" width= 400 border= "1px solid"/> 
