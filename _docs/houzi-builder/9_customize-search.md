@@ -141,6 +141,10 @@ You are provided with the dropdown list of  **Picker Types**. The details of pic
 
   - **dropdown:** To view properties related categories and sub-categories data in the form of *Dropdown*.
 
+  - **full_screen:** To view properties related categories and sub-categories data in the form of *full_screen* menu. A new page will open, listing all the property related catagories with additional *Search Bar* to search required catagory with ease.
+
+  - **box:** To view properties related categories and sub-categories data in the form of *Grid View* having 3 catagories per row with their icons and titles.
+
     <img src="../../images/search-term-picker-pickertype-screenshot.png" alt="search-term-picker-pickertype-screenshot" title="search-term-picker-pickertype-screenshot" width=300 border= "1px solid"/>
 
   - If selected *Widget Type* is **string_picker**, you can select from following picker types:  
