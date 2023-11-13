@@ -2,7 +2,7 @@
 title: Add Custom Header in Drawer
 category: Hooks & Widgets
 permalink: hooks-widgets/add_custom_drawer_header
-order: 325
+order: 326
 ---
 
 If you want to add a custom drawer header, you need to open following file:

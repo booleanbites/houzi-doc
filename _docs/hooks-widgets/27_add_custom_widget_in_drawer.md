@@ -2,7 +2,7 @@
 title: Add Custom Widget in Drawer
 category: Hooks & Widgets
 permalink: hooks-widgets/add_custom_widget_in_drawer
-order: 326
+order: 327
 ---
 
 If you want to add a custom widget in drawer, you need to open following file:
