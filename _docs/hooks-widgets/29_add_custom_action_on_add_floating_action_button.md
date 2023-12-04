@@ -2,7 +2,7 @@
 title: Add Custom Action on Add Floating Action Button
 category: Hooks & Widgets
 permalink: hooks-widgets/add_custom_action_on_add_floating_action_button
-order: 327
+order: 329
 ---
 
 If you want to add a custom action on Add Floating Action Button on the Navigation Bar, you need to open following file:
