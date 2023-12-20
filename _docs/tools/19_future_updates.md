@@ -17,6 +17,7 @@ Let's assume you simply want to update your houzi_package, updating to 1.3.8 req
 - Update Flutter to 3.16.XX 
 - Copy `Project_HOME > packages > houzi_package` from 1.3.8 and replace houzi_package in your existing project.
 - Update the 'flutter_launcher_icons: 0.XX.X' with "flutter_launcher_icons: 0.13.1" in `Project_HOME > pubspec.yaml`.
+- Copy new hooks_v2.dart and replace existing `Project_HOME > lib > hooks_v2.dart` (if you have made any changes to existing hooks_v2.dart, then you need to carefully review and migrate new changes from hooks_v2.dart into your existing hooks_v2.dart)
 - Copy new main.dart and replace existing `Project_HOME > lib > main.dart` (if you have made any changes to existing main.dart, then you need to carefully review and migrate new changes from main.dart into your existing main.dart)
 - Upgrade your wordpress plugin to version 1.3.8
 - Rest of configurations like configuration.json, you android project folders, ios project folders should remain same.
