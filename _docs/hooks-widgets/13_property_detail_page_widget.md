@@ -27,7 +27,7 @@ Look for the `getWidgetHook()` method. The sections are provided to you, look fo
 // your customDescriptionWidget 
 static Widget customDescriptionWidget(BuildContext context, Article article) {
     return Text(
-        article.content,
+        article.content ?? "",
         maxLines: 5,
         overflow: TextOverflow.ellipsis,
         textAlign: TextAlign.justify,
