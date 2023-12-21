@@ -31,11 +31,11 @@ Houzi provides you wide range of bottom navigation bar designs. On the top right
 
 There are some *additional customizations* related to Home designs as follows:
 
-If you select **Design 01** or **Design 03**, you can **show** or **hide** a **Add Floating Action Button** on the center of Navigation Bar, just by *Check Marking or Un-Marking* the **Show Add Floating Action Button** checkbox field.
+If you select **Design 01** or **Design 03**, you can **show** or **hide** a **Floating Action Button** on the center of Navigation Bar, just by *Check Marking or Un-Marking* the **Show Add Floating Action Button** checkbox field.
 
   <img src="../../images/bottom-navbar-additional-config.png" alt="bottom-navbar-additional-config" title="bottom-navbar-additional-config" width=300 border="1px solid"/>  
 
-You can add [Custom Action on Add Floating Action Button](https://houzi-docs.booleanbites.com/hooks-widgets/add_custom_action_on_add_floating_action_button).
+By default, Floating Action Button will be a circular FAB Button with plus sign, and it'll open Quick Add Property. You can customize or add custom actions to [Floating Action Button](/hooks-widgets/add_floating_action_button).
 
 ---
 
@@ -72,7 +72,7 @@ You are provided with the dropdown list of  **Widget Types**. The details of wid
 
 * **favourites:** If you want to show the *Favourites* option.
 
-* **place_holder:** If you want to [Display your Custom Widget via Hooks](https://houzi-docs.booleanbites.com/hooks-widgets/add_custom_widget_in_navigation_bar).
+* **place_holder:** If you want to [Display your Custom Widget via Hooks](https://houzi-docs.booleanbites.com/hooks-widgets/add_custom_page_in_navigation_bar).
 
 * **web_url:** If you want to show an option which will open a *Webpage*.
 
