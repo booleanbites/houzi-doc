@@ -1,7 +1,7 @@
 ---
 title: Add Custom Page in Navigation Bar
 category: Hooks & Widgets
-permalink: hooks-widgets/add_custom_widget_in_navigation_bar
+permalink: hooks-widgets/add_custom_page_in_navigation_bar
 order: 328
 ---
 
