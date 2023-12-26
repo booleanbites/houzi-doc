@@ -5,13 +5,13 @@ permalink: hooks-widgets/add_floating_action_button
 order: 329
 ---
 
-By default when you enable [Floating Action Button from HouziBuilder](houzi-builder/customize_navigation_bar), it always open Quick Add Property.
+By default when you enable [Floating Action Button from HouziBuilder](/houzi-builder/customize_navigation_bar), it always open Quick Add Property.
 
 You can customize the Floating Action Button on the Navigation Bar (tab bar). 
 
 To customize the FAB, do following:
 
-1. You need to [Enable FAB via HouziBuilder](houzi-builder/customize_navigation_bar), then export and save configurations.
+1. You need to [Enable FAB via HouziBuilder](/houzi-builder/customize_navigation_bar), then export and save configurations.
 2. Customize it with hooks.
 
 > **Note**: Enabling FAB from Houzi Builder is necessary. For quick enabling, you can add or edit `"show_bottom_navbar_add_button": true,` to your configuration.json file.
