@@ -78,6 +78,8 @@ You are provided with the dropdown list of  **Widget Types**. The details of wid
 
 * **Term:** If you want to show *Particular Term* e.g. *Apartmets, Offices* etc.
 
+* **crm_dashboard:** If you want to show *CRM Dashboard* screen menu option.
+
 * **About_App_Screen:** If you want to show *About App* screen menu option.
 
 * **App_Theme_Setting_Screen:** If you want to show *App Theme Setting* App screen menu option.
@@ -88,7 +90,7 @@ You are provided with the dropdown list of  **Widget Types**. The details of wid
 
 * **App_Terms_and_Conditions_Screen:** If you want to show *App Terms and Conditions* screen menu option.
 
-    <img src="../../images/navbar-widget-types-dropdown.png" alt="navbar-widget-types-dropdown" title="navbar-widget-types-dropdown" width=300 height=700 border= "1px solid"/>
+    <img src="../../images/navbar-widget-types-dropdown.png" alt="navbar-widget-types-dropdown" title="navbar-widget-types-dropdown" width=300 height=720 border= "1px solid"/>
 
 
 ### Title:
