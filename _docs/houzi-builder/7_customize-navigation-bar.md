@@ -1,5 +1,5 @@
 ---
-title: Customize Home Screen
+title: Customize Navigation Bar
 category: Houzi Builder
 permalink: houzi-builder/customize_navigation_bar
 order: 407
