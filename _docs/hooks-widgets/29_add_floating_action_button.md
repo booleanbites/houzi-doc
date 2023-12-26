@@ -22,9 +22,9 @@ To customize FAB, you need to open following file:
 
 Look for the `getAddPlusButtonInBottomBarHook()` method.
 
-You will be provided with some code in this method. Just comment or remove the `return null;` statement and un-comment the commented below code.:
+You will be provided with some code in this method. Just comment or remove the `return null;` statement and un-comment the commented below code:
 
-Now define your custom *Action* ,that you want to perform when the Floating Action Button will be pressed, in the **onPressed** method.
+Now define your custom *Action*, that you want to perform when the Floating Action Button will be pressed, in the **onPressed** method.
 
 ## Code Preview:
 
