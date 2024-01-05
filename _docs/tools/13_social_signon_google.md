@@ -18,6 +18,14 @@ https://developers.google.com/android/guides/client-auth#using_play_app_signing
 
 > You might also want to set the project name and email in Firebase > Settings > General > Public settings 
 
+### Enable Google Sign-In for your Firebase project
+
+To allow users to sign in using Google Sign-In, you must first enable the Google Sign-In provider for your Firebase project:
+
+1. In the Firebase console, open the Authentication section.
+2. On the Sign in method tab, enable the Google provider.
+3. Click Save.
+
 After adding the certificates, download the `google-services.json`. Place it at following place:
 
 - Android: `Project_HOME > android > app > google-services.json`
