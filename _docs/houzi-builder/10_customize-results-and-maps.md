@@ -62,7 +62,7 @@ You are provided with the dropdown list of the self-explanatory **Sort** options
 
 ### Sort First By Configuration
 
-You can configure the *Sort First By* menu by clicking on the 'Sort First by' empty text field. 
+You can configure the *Sort First By* menu by clicking on the 'Sort First by' dropdown field. 
 
 <img src="../../images/sort-first-by-01.png" alt="sort-first-by-01" title="sort-first-by-01" width= 300 border= "1px solid"/>
 
