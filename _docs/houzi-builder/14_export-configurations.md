@@ -22,6 +22,12 @@ Once you have filled all the **required** fields, follow these steps:
  
     > *configurations.json* file path:  `Project_HOME > assets > configurations > configurations.json`
 
-4. **[Optional Task]** At the bottom of dialogbox, you will see a checkbox named as **Increase configurations version number**. If you are [**Editing/Updating**](/houzi-builder/edit_configuration) the configurations of your app, then *checkmark* it, else leave it unchecked.  
+4. **[Optional Task]** At the bottom of dialogbox, you will see a checkbox named as **Increase configurations version number**. If you are [**Editing/Updating**](/houzi-builder/edit_configuration) the configurations of your app, then *checkmark* it, else leave it unchecked. 
+
+5. Open your wordpress admin panel and navigate to the **Houzi Api Plugin**. Paste the copied json to the **App Config** text field and click on **Save Changes**.
+
+    <img src="../../images/export-config-to-houzi-plugin.png" alt="export-config-to-houzi-plugin" title="export-config-to-houzi-plugin" border= "1px solid"/>
+
+> **Note**: Always add the updated Configurations json to the Houzi Api Plugin.
 
 > **Important**: If app receives the same version number in configurations, then it'll not honor the new configurations having the same config version. So if you don't increase the version number while exporting, then delete the existing app from device and reluanch to view the changes.
