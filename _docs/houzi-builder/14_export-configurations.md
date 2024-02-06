@@ -32,7 +32,7 @@ and paste the *copied configurations* in it, replacing the old configurations.
 #### 2. **App Config field on Houzi Api on WPAdmin:**
 Open your wordpress admin panel and navigate to the **Houzi Api Plugin**. Paste the copied json to the **App Config** text field and click on **Save Changes**.
 
-    <img src="../../images/export-config-to-houzi-plugin.png" alt="export-config-to-houzi-plugin" title="export-config-to-houzi-plugin" border= "1px solid"/>
+<img src="../../images/export-config-to-houzi-plugin.png" alt="export-config-to-houzi-plugin" title="export-config-to-houzi-plugin" border= "1px solid"/>
 
 ### Benifits of saving configurations to Houzi Api
 1. The configuration saved in App Config file are served over the air, which means, when app opens, it fetches latest configurations saved in Houzi Api Plugin. If it has the latest version, it will apply the latest configurations to the app. This is helpful if you want to hide/show sections of the app that is already installed on user devices. You can change search filter layout, home sections, hide/show property details sections, add remove menus in left drawer or change property item designs in listings and many more.
