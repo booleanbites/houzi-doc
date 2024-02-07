@@ -23,9 +23,9 @@ Once you have filled all the **required** fields, follow these steps:
 ### Now you need to save it to two places:
 
 ####  1. **configurations.json** in your app source code:
-Open following file  
+Open following file *configurations.json* file path:
  
-    > *configurations.json* file path:  `Project_HOME > assets > configurations > configurations.json`
+    > Project_HOME > assets > configurations > configurations.json
 
 and paste the *copied configurations* in it, replacing the old configurations. 
 
