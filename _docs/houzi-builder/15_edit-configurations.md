@@ -22,9 +22,3 @@ If you want to **Edit/Update** configurations of your app (e.g. the changing the
 3. *Edit/Update* the required section/sections.
 
 4. [Export](/houzi-builder/export_configuration) the configurations of you project.
-
-5. Open your wordpress admin panel and navigate to the **Houzi Api Plugin**. Paste the copied json to the **App Config** text field and click on **Save Changes**.
-
-    <img src="../../images/export-config-to-houzi-plugin.png" alt="export-config-to-houzi-plugin" title="export-config-to-houzi-plugin" border= "1px solid"/>
-
-> **Note**: Always add the updated Configurations json to the Houzi Api Plugin. 
