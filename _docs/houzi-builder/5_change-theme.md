@@ -14,7 +14,7 @@ order: 405
 This guide consists of following sections:  
 
 [Style Configurations](#style-configurations)   
-[How to Customize Style Option](#how-to-customize-syle-option)  
+[How to Customize Style Option](#how-to-customize-style-option)  
 
 Let's dive into the details of each section.
 
