@@ -2,7 +2,7 @@
 title: Api and Configurations Setup
 category: Houzi Builder
 permalink: houzi-builder/api_config_setup
-order: 413
+order: 412
 ---
 
 > **Important**: You are required to install the Houzi Rest API Plug-in on your Houzez wordpress. To install the Plug-in, click on [Houzi Rest Api Plugin Link](https://github.com/booleanbites/houzi-rest-api).
@@ -15,6 +15,7 @@ This guide consists of following configuration settings:
 [Places Api Configurations](#places-api-configurations)  
 [Ads Configurations](#ads-configurations)  
 [Social Sign-On Configurations](#social-sign-on-configurations)  
+[Search Results Configurations](#search-results-configurations)  
 [Segment Control Configuration](#segment-control-configuration)  
 
 Let's dive into the details of each section.
@@ -98,6 +99,18 @@ Let's dive into the details of each section.
 
   > *Sign-in with Apple* is only available in **IOS**.  
 > Prerequisite: [Social Sign-on Configuration](/tools/setup_google_signin).
+
+---
+
+# Search Results Configurations:
+
+  - By default, when you open the **Search Results Screen**, you see property listings in **List view**. If you want that when you search something and Search Results Screen should show property listings in **Map view** instead of *List view*, check mark the **Show Map View instead List View on Search Results Page** checkbox field.
+
+    <img src="../../images/map-view-config.png" alt="map-view-config" title="map-view-config" width= 400 border= "1px solid"/>
+
+  - You can *enable* or *disable* **Grid View Button** on *Search Results Screen*, just by check marking or check unmarking the **Show Grid View Button on Search Results Page** checkbox field.
+
+    <img src="../../images/grid-button-config.png" alt="grid-button-config" title="grid-button-config" width= 400 border= "1px solid"/>
 
 ---
 
