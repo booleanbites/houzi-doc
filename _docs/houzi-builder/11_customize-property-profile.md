@@ -34,7 +34,11 @@ Let's dive into the details of each section.
 
 - You can **show** or **hide** *WhatsApp Button*, on the bottom action bar of screen, just by *Check Marking or Un-Marking* the **Show WhatsApp Button** checkbox field. 
 
-- You can **show** or **hide** *Download Image Button*, on the top-right side of view image screen, just by *Check Marking or Un-Marking* the **Show Download Image Button on View Image Screen** checkbox field. 
+- You can **show** or **hide** *Line App Button*, on the bottom action bar of screen, just by *Check Marking or Un-Marking* the **Show LineApp Button** checkbox field.  
+
+- You can **show** or **hide** *Telegram Button*, on the bottom action bar of screen, just by *Check Marking or Un-Marking* the **Show Telegram Button** checkbox field. 
+
+- You can **show** or **hide** *Download Image Button*, on the top-right side of view image screen, just by *Check Marking or Un-Marking* the **Show Download Image Button on View Image Screen** checkbox field.  
 
 ---
 
