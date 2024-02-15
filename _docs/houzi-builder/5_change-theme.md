@@ -32,13 +32,13 @@ General configurations include the style choices that stay the same no matter if
 
 Light Mode configurations include the style choices that are for the Light Mode of app. For example, App Background Color etc.  
 
-<img src="../../images/light-mode-style.png" alt="light-mode-style" title="light-mode-style" height= 400 border= "1px solid"/> 
+<img src="../../images/light-mode-style.png" alt="light-mode-style" title="light-mode-style" width= 300 height= 500 border= "1px solid"/> 
 
 ### 3. Dark Mode Configurations
 
 Dark Mode configurations include the style choices that are for the Dark Mode of app. For example, App Background Color etc.
 
-<img src="../../images/dark-mode-style.png" alt="dark-mode-style" title="dark-mode-style" height= 400 border= "1px solid"/> 
+<img src="../../images/dark-mode-style.png" alt="dark-mode-style" title="dark-mode-style" width= 300 height= 500 border= "1px solid"/> 
 
 ---
 
