@@ -179,7 +179,10 @@ You are provided with the dropdown list of  **Picker Types**. The details of pic
 
 You can define some additional customizations for some sections. For this purpose you are provided with some **Additional fields**. Their details are as follows:
 
-- If selected *Widget Type* is **location_picker**, you can choose either to show **Search By City** or **Search By Location** or you can choose to show both.  
+
+- If selected *Widget Type* is **location_picker**, you can set the value for the **Default Radius**. You can choose either to show **Search By City** or **Search By Location** or you can choose to show both.
+
+  <img src="../../images/default-radius.png" alt="default-radius" title="default-radius" width= 300 border= "1px solid"/> 
   
   <img src="../../images/location-picker-additional-fields.png" alt="location-picker-additional-fields" title="location-picker-additional-fields" width= 300 border= "1px solid"/> 
 
