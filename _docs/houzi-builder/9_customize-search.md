@@ -200,6 +200,10 @@ You can define some additional customizations for some sections. For this purpos
 
       <img src="../../images/query-type-options-screenshot.png" alt="query-type-options-screenshot" title="query-type-options-screenshot" width= 300 border= "1px solid"/> 
 
+- If the selecetd *Widget Type* is **string_picker** you can define your comma seperated specific options for the picker in the **Options** field.
+    
+    <img src="../../images/options-additonal-field.png" alt="options-additonal-field" title="options-additonal-field" width= 300 border= "1px solid"/>
+
 - If selected *Widget Type* is **custom_keyword_picker**, you can define the **Unique key** and **Query Type**.  
 
     <img src="../../images/search-custom-keyword-picker-dialog.png" alt="search-custom-keyword-picker-dialog" title="search-custom-keyword-picker-dialog" width=300 height=600 border= "1px solid"/>
