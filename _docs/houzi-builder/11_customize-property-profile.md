@@ -40,6 +40,8 @@ Let's dive into the details of each section.
 
 - You can **show** or **hide** *Download Image Button*, on the top-right side of view image screen, just by *Check Marking or Un-Marking* the **Show Download Image Button on View Image Screen** checkbox field.  
 
+- You can **enable** or **disable** the *HTML*, in the description widget, just by *Check Marking or Un-Marking* the **Enable HTML in description** checkbox field. 
+
 ---
 
 # Add New Section
