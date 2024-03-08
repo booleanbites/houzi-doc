@@ -72,6 +72,7 @@ For adding new section in Home Screen, follow these steps:
   - term.   
 
   > You can choose from *Design # 01* to *Design # 08* for the *property* sections. *term* section has only two designs i.e. *Design # 01* and *Design # 02*.  
+  [Only for **property** type widgets] If you want to [Change design of Property listing via Hooks](https://houzi-docs.booleanbites.com/hooks-widgets/property_item_design_custom), select the "**item_design_from_hook**" dropdown menu option.  
     **Design** for *non-proprety* related sections can not be defined.    
     
     <img src="../../images/home-add-section-property-designs-screenshot.png" alt="home-add-section-property-designs-screenshot" title="home-add-section-property-designs-screenshot" width=300 height=600 border= "1px solid"/>    
