@@ -41,6 +41,14 @@ There are some *additional customizations* related to Home designs as follows:
 
   <img src="../../images/home-tabbed-quote.png" alt="home-tabbed-quote" title="home-tabbed-quote" width=300 border="1px solid"/>  
 
+- If you select **Home Carousel** or **Home Elegant**, you can change the **Location Picker Hierarchy**. 
+
+  <img src="../../images/location-picker-hierarchy-01.png" alt="location-picker-hierarchy-01" title="location-picker-hierarchy-01" width=300 border="1px solid"/>  
+
+  <img src="../../images/location-picker-hierarchy-02.png" alt="location-picker-hierarchy-02" title="location-picker-hierarchy-02" width=300 border="1px solid"/>  
+
+  > Above displayed **taxonomies** are *generic houzez taxonomies*. You may encounter these options, according to the data of your website.
+
 ---
 
 # Add New Section
