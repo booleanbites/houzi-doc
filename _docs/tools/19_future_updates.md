@@ -19,13 +19,13 @@ Let's assume you simply want to update your houzi_package, updating to 1.3.9 req
 - Copy new hooks_v2.dart and replace existing `Project_HOME > lib > hooks_v2.dart` (if you have made any changes to existing hooks_v2.dart, then you need to carefully review and migrate new changes from hooks_v2.dart into your existing hooks_v2.dart)
 - Copy new main.dart and replace existing `Project_HOME > lib > main.dart` (if you have made any changes to existing main.dart, then you need to carefully review and migrate new changes from main.dart into your existing main.dart)
 - Since Flutter 3.16, Plugin DSL is used to apply Gradle plugins. Migrate your project manually using [Deprecated imperative apply of Flutter's Gradle plugins](https://docs.flutter.dev/release/breaking-changes/flutter-gradle-plugin-apply). **OR**
-- You can perform the migration by simply copying over these files:
+- Alternatively, you can copy following files from houzi-1.3.9 to your existing project:
   - `Project_HOME > android > build.gradle`.
   - `Project_HOME > android > settings.gradle`.
   - `Project_HOME > android > app > build.gradle`.
   - `Project_HOME > android > gradle > wrapper > gradle-wrapper.properties`.
-  > Note: Remember to replace the **applicationId, versionCode** and **versionName** with the previously used values.
-- Upgrade your wordpress plugin to version 1.3.8.1.
+  > Note: Remember to re-write the **applicationId, versionCode** and **versionName** with your own app details in these copied files.
+- Upgrade your Houzi Rest Api plugin to version 1.3.9. Download from here: [Houzi Rest Api](https://github.com/booleanbites/houzi-rest-api/releases/latest.zip)
 - Rest of configurations like configuration.json, you android project folders, ios project folders should remain same.
 
 
