@@ -50,6 +50,12 @@ You are provided with the dropdown list of  **Widget Types**. The details of wid
     - *Label* (e.g. hot-offer, open-house etc.)
     - *Features* (e.g. Air-Conditioning, Swimming-pool etc.)
 
+* **sequential_location_picker:** If you want to search properties w.r.t. their location and you do not want to use multiple pickers (e.g. one term picker for country, another for state, location picker for city and another term picker for the area input). You can simply use "**sequential_location_picker**".  You can enable/disable any location related term from the multi-select menu. Search with sequential_location_picker provide suppport for the following terms.
+  - *property_country*.
+  - *property_state*.
+  - *property_city*.
+  - *property_area*.
+
 * **location_picker:** If you want to search properties w.r.t. their
     - *City*
     - *Location*
@@ -179,9 +185,18 @@ You are provided with the dropdown list of  **Picker Types**. The details of pic
 
 You can define some additional customizations for some sections. For this purpose you are provided with some **Additional fields**. Their details are as follows:
 
-- If selected *Widget Type* is **location_picker**, you can choose either to show **Search By City** or **Search By Location** or you can choose to show both.  
+
+- If selected *Widget Type* is **location_picker**, you can set the value for the **Default Radius**. You can choose either to show **Search By City** or **Search By Location** or you can choose to show both.
+
+  <img src="../../images/default-radius.png" alt="default-radius" title="default-radius" width= 300 border= "1px solid"/> 
   
   <img src="../../images/location-picker-additional-fields.png" alt="location-picker-additional-fields" title="location-picker-additional-fields" width= 300 border= "1px solid"/> 
+
+- If selected *Widget Type* is **sequential_location_picker**, you can customize the **Location Picker Hierarchy** form the  multi-select dropdown menu.
+
+  <img src="../../images/slp-hierarchy-01.png" alt="slp-hierarchy-01" title="slp-hierarchy-01" width= 300 border= "1px solid"/> 
+  
+  <img src="../../images/slp-hierarchy-02.png" alt="slp-hierarchy-02" title="slp-hierarchy-02" width= 300 border= "1px solid"/> 
 
 - If selected *Widget Type* is **range_picker**, you can define the *minimun* and *maximun* range of section in **Min Value**, **Max Value** and **Steps** fields. 
 
@@ -196,6 +211,10 @@ You can define some additional customizations for some sections. For this purpos
       <img src="../../images/query-type-field-screenshot.png" alt="query-type-field-screenshot" title="query-type-field-screenshot" width= 300 border= "1px solid"/> 
 
       <img src="../../images/query-type-options-screenshot.png" alt="query-type-options-screenshot" title="query-type-options-screenshot" width= 300 border= "1px solid"/> 
+
+- If the selecetd *Widget Type* is **string_picker** you can define your comma seperated specific options for the picker in the **Options** field.
+    
+    <img src="../../images/options-additonal-field.png" alt="options-additonal-field" title="options-additonal-field" width= 300 border= "1px solid"/>
 
 - If selected *Widget Type* is **custom_keyword_picker**, you can define the **Unique key** and **Query Type**.  
 

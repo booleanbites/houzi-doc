@@ -41,6 +41,14 @@ There are some *additional customizations* related to Home designs as follows:
 
   <img src="../../images/home-tabbed-quote.png" alt="home-tabbed-quote" title="home-tabbed-quote" width=300 border="1px solid"/>  
 
+- If you select **Home Carousel** or **Home Elegant**, you can change the **Location Picker Hierarchy**. 
+
+  <img src="../../images/location-picker-hierarchy-01.png" alt="location-picker-hierarchy-01" title="location-picker-hierarchy-01" width=300 border="1px solid"/>  
+
+  <img src="../../images/location-picker-hierarchy-02.png" alt="location-picker-hierarchy-02" title="location-picker-hierarchy-02" width=300 border="1px solid"/>  
+
+  > Above displayed **taxonomies** are *generic houzez taxonomies*. You may encounter these options, according to the data of your website.
+
 ---
 
 # Add New Section
@@ -72,6 +80,7 @@ For adding new section in Home Screen, follow these steps:
   - term.   
 
   > You can choose from *Design # 01* to *Design # 08* for the *property* sections. *term* section has only two designs i.e. *Design # 01* and *Design # 02*.  
+  [Only for **property** type widgets] If you want to [Change design of Property listing via Hooks](https://houzi-docs.booleanbites.com/hooks-widgets/property_item_design_custom), select the "**item_design_from_hook**" dropdown menu option.  
     **Design** for *non-proprety* related sections can not be defined.    
     
     <img src="../../images/home-add-section-property-designs-screenshot.png" alt="home-add-section-property-designs-screenshot" title="home-add-section-property-designs-screenshot" width=300 height=600 border= "1px solid"/>    
