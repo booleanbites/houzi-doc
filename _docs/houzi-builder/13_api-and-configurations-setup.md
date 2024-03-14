@@ -2,7 +2,7 @@
 title: Api and Configurations Setup
 category: Houzi Builder
 permalink: houzi-builder/api_config_setup
-order: 412
+order: 413
 ---
 
 > **Important**: You are required to install the Houzi Rest API Plug-in on your Houzez wordpress. To install the Plug-in, click on [Houzi Rest Api Plugin Link](https://github.com/booleanbites/houzi-rest-api).

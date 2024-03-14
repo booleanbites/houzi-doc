@@ -2,7 +2,7 @@
 title: Edit/Update Configurations
 category: Houzi Builder
 permalink: houzi-builder/edit_configuration
-order: 414
+order: 415
 ---
 
 > **Important**: You are required to install the Houzi Rest Api Plugin on your Houzez wordpress. To install the Plug-in, click on [Houzi Rest Api Plugin Link](https://github.com/booleanbites/houzi-rest-api).
