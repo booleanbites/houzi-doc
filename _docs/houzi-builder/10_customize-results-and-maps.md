@@ -9,297 +9,141 @@ order: 410
 
 > A **Mobile App View** is provided in the center of screen, so you can see how the modifications will look on real device.  
 
-<img src="../../images/search-screenshot.png" alt="search-screenshot" title="search-screenshot" border= "1px solid"/>  
+<img src="../../images/results-and-maps-screen.png" alt="results-and-maps-screen" title="results-and-maps-screen" border= "1px solid"/>  
 
-> You can **Enable** *Cupertino Sliding Segment Control* instead of using Material Segment Control from [Api and Config](../houzi-builder/api_config_setup) section. 
 
 This guide consists of following sections:
 
-[Add New Section](#add-new-section)  
-[Edit a Section](#edit-a-section)  
-[Delete a Section](#delete-a-section)  
-[Re-arrange a Section](#re-arrange-a-section)  
+[Listing Item Designs](#listing-item-designs)  
+[Display Configurations](#display-configurations)  
+[Sorting Configurations](#sorting-configurations)   
 
 Let's dive into the details of each section.  
 
 ---  
 
 
-# Add New Section 
+# Listing Item Designs
 
-There is a **Add** button at the bottom of the column. Press this button and a dialog box will open.  
+Houzi provides you wide range of listing items designs. On the top right side of Results and Maps section, Listing Items designs are provided. Click on any *design*, and you will be able to see, how it will look on real device in the *Mobile App View*. (By default, selected design is *Design 01*, one of most popular designs.)
 
-  <img src="../../images/search-add-section-screenshot.png" alt="search-add-section-screenshot" title="search-add-section-screenshot" width= 300 border= "1px solid"/>  
+<img src="../../images/results-designs.png" alt="results-designs" title="results-designs" width=300 border="1px solid"/> 
 
-You will encounter following fields on the dialog box:
+---
 
-[Widget Type](#widget-type)  
+# Display Configurations
+
+- Houzi provide you with two views for the resulted listing items i.e. *List View* and *Grid View*. The default view is List view. User can switch between views by tapping on "Show Grid View" Button. If you want to restrict the user to only List view, you can hide the "Show Grid View" button from the screen. You can **show** or **hide** this button on results screen just by *Check Marking or Un-Marking* the **Show Grid View Button** checkbox field.  
+
+  <img src="../../images/show-grid-view.png" alt="show-grid-view" title="show-grid-view" width=300 border="1px solid"/>   
+
+- By default, Houzi provide a List View for the searched items on the Results screen. User can see the results on Google Maps by tapping on the Maps icon on the top search bar. If you want to display the search results on the Google Maps, by default, you can simply *Check Mark* the **Show Map View instead List View** checkbox field.  
+
+  <img src="../../images/show-map-view.png" alt="show-map-view" title="show-map-view" width=300 border="1px solid"/> 
+---
+
+# Sorting Configurations
+
+Houzi provides you with following two sorting configuration:  
+
+[Default Sort By](#default-sort-by)  
+[Sort First By](#sort-first-by)
+
+Let's dive into the details of each configuration.
+
+###  Default Sort By
+
+When you search something, the corresponding search results can be sorted w.r.t. one of the following orders:
+- Newest (newest items on the top of List).
+- Oldest (oldest items on the top of List).
+- Price (Low to High).
+- Price (High to Low).
+- Area (Low to High).
+- Area (High to Low).
+
+The default Houzi sort by order is "**Newest**". You can select the desired sort by order from the **Default Sort By** dropdown. 
+
+  <img src="../../images/sort-by-dropdown.png" alt="sort-by-dropdown" title="sort-by-dropdown" width=300 border="1px solid"/> 
+
+  <img src="../../images/sort-by-dropdown-menu.png" alt="sort-by-dropdown-menu" title="sort-by-dropdown-menu" width=300 border="1px solid"/> 
+
+
+  ---
+
+  ### Sort First By
+
+  When you search something, the corresponding search results are sort by the default sort by order. If you want to further sort these results on the basis of some specific attributes e.g. if you want to sort results w.r.t. "**Featured**" results (meaning show featured results on top) or if you want to sort results w.r.t. "**Term**", you can configure some settings in the "Sort First By" configurations. 
+
+  To configure the *Sort First By* settings, Click on the **Sort First By** dropdown menu.
+
+  <img src="../../images/sort-first-by-dropdown.png" alt="sort-first-by-dropdown" title="sort-first-by-dropdown" width=300 border="1px solid"/>
+
+  Following dialog will open:
+
+ <img src="../../images/sort-first-by-dialog.png" alt="sort-first-by-dialog" title="sort-first-by-dialog" width=300 border="1px solid"/>  
+
+You can perform following opertions while configuring the **Select First By** settings:
+
+[Add new Item](#add-new-item)  
+[Edit an Item](#edit-an-item)  
+[Delete an Item](#delete-an-item)  
+[Re-arrange an Item](#re-arrange-an-item) 
+
+You can add one or more Sort First By items to configure the sort. e.g. You can sort the searched results in such order that you want to see the newest result items on top and among these newest result items, you want to see those items on top which have the attribute of "**Hot Offer**" and among these items, you want to see the "**Featured**" items on top. To achieve such sorting, you can select the *newest* order from the **Default Sort By** dropdown. Next step will be to add the *Featured* and *Hot Offer *(which is a term attribute) in the **Sort First By** items. You can add these items by following the guide.
+
+Let's dive into the details of each operation.
+
+### Add New Item
+
+You can add a sort first by item by clicking on the "ADD NEW WIDGET" button. Following dialog will be displayed:
+
+  <img src="../../images/sort-first-by-add-dialog-01.png" alt="sort-first-by-add-dialog-01" title="sort-first-by-add-dialog-01" width=300 border="1px solid"/>   
+
+  You have to set the following fields to add the sort first by item:
+
+[Section Type](#section-type)  
 [Title](#title)  
-[Data Type](#data-type)  
-[Api Value](#api-value)  
-[Picker Type](#picker-type)  
-[Additional Fields](#additional-fields)  
-
-### Widget Type:
-
-You are provided with the dropdown list of  **Widget Types**. The details of widget types are as follows: 
-
-* **term_picker:** If you want to search properties w.r.t. their
-    - *Types* (e.g. apartment, office etc.)
-    - *Status* (e.g. for-rent, for-sale etc.)
-    - *Label* (e.g. hot-offer, open-house etc.)
-    - *Features* (e.g. Air-Conditioning, Swimming-pool etc.)
-
-* **sequential_location_picker:** If you want to search properties w.r.t. their location and you do not want to use multiple pickers (e.g. one term picker for country, another for state, location picker for city and another term picker for the area input). You can simply use "**sequential_location_picker**".  You can enable/disable any location related term from the multi-select menu. Search with sequential_location_picker provide suppport for the following terms.
-  - *property_country*.
-  - *property_state*.
-  - *property_city*.
-  - *property_area*.
-
-* **location_picker:** If you want to search properties w.r.t. their
-    - *City*
-    - *Location*
-
-* **range_picker:** If you want to search properties w.r.t. their
-    - *Area*
-    - *Price*
-
-* **string_picker:** If you want to search properties w.r.t. specific attributes like
-    - *Bedrooms*
-    - *Bathrooms*
- 
-* **keyword_picker:** If you want to search properties w.r.t. some keywords e.g. Modern appartment with 2 bedrooms and 2 bathrooms etc.
-
-* **custom_keyword_picker:** If you want to search properties w.r.t. some specified keywords.
-
-* **keyword_custom_query_picker:** If you want to search properties w.r.t. some customized keyword query. You can define the *keyword* and send your custom query on its behalf.  
-
-* **custom_field_picker:** If you want to search properties w.r.t. some custom field attributes. 
-
-  <img src="../../images/search-widget-types-screenshot.png" alt="search-widget-types-screenshot" title="search-widget-types-screenshot" width= 300 border= "1px solid"/>   
-
-  > **Custom Field Picker** depends upon the data of you website. If you have not defined any custom field, this picker would not available.  
-
-
-### Title:
-
-*Title* is label that will be displayed on the *Search Page. Define the **Title** of the section.
-
-
-### Data Type:
-
-You are provided with the dropdown list of **Data Types**. You can define the *Data Type* of the various sections as follows: 
-
-* If selected *Widget Type* is **term_picker**, you can select from following data types:  
-
-  - **property_type** (To search properties w.r.t. their type e.g. apartment, office etc.)
-
-  - **property_status** (To search properties w.r.t. their status e.g. for-rent, for-sale etc.)
-
-  - **property_feature** (To search properties w.r.t. their features e.g. Air-Conditioning, Swimming-pool etc.)
-
-  - **property_label** (To search properties w.r.t. their Label e.g. hot-offer, open-house etc.)
-
-  - **property_country** (To search properties w.r.t. Country)
-
-  - **property_state** (To search properties w.r.t. States)
-
-  - **property_city** (To search properties w.r.t. City)
-
-  - **property_area** (To search properties w.r.t. Area)
-
-    <img src="../../images/search-property-type-datatype-screenshot.png" alt="search-property-type-datatype-screenshot" title="search-property-type-datatype-screenshot" width= 300 border= "1px solid"/>
-
-  > Above displayed **Data Types** are *generic houzez taxonomies*. You may encounter all or some of these options, according to the data of your website.
-
-    
-* If selected *Widget Type* is **range_picker**, you can select from following data types:  
-
-  - **area** (To search properties within specific range of *area*)
-
-  - **price** (To search properties within specific range of *price*)
-
-    <img src="../../images/search-range-picker-area-datatype-screenshot.png" alt="search-range-picker-area-datatype-screenshot" title="search-range-picker-area-datatype-screenshot" width=300 border= "1px solid"/>  
-
-* If selected *Widget Type* is **string_picker**, you can select from following data types:  
-
-  - **bedrooms** (To search properties w.r.t. specific number of *bedrooms*)
-
-  - **bathrooms** (To search properties w.r.t. specific number of *bathrooms*)
-
-    <img src="../../images/search-string-picker-bedrooms-datatype-screenshot.png" alt="search-string-picker-bedrooms-datatype-screenshot" title="search-string-picker-bedrooms-datatype-screenshot" width=300 border= "1px solid"/>
-
-> All the other *Widget Types* have *Default* Data Types. 
-
-### Api Value:
-
-Each section has its by default **Api Value**.
-
-
-### Picker Type:
-
-You are provided with the dropdown list of  **Picker Types**. The details of picker types are as follows: 
-
-
-- If selected *Widget Type* is **term_picker**, you can select from following picker types:  
-
-  - **tabs and chips:** To view properties related categories and sub-categories data in the form of *Tabs and Chips*.
-
-  - **dropdown:** To view properties related categories and sub-categories data in the form of *Dropdown*.
-
-  - **full_screen:** To view properties related categories and sub-categories data in the form of *full_screen* menu. A new page will open, listing all the property related catagories with additional *Search Bar* to search required catagory with ease.
-
-  - **box:** To view properties related categories and sub-categories data in the form of *Grid View* having 3 catagories per row with their icons and titles.
-
-    <img src="../../images/search-term-picker-pickertype-screenshot.png" alt="search-term-picker-pickertype-screenshot" title="search-term-picker-pickertype-screenshot" width=300 border= "1px solid"/>
-
-  - If selected *Widget Type* is **string_picker**, you can select from following picker types:  
-
-  - **chips:** To view properties related arrtibutes in the form of *Chips*.
-
-  - **tabs:** To view properties related arrtibutes in the form of *Tabs*.
-
-    <img src="../../images/search-string-picker-pickertype-screenshot.png" alt="search-string-picker-pickertype-screenshot" title="search-string-picker-pickertype-screenshot" width=300 border= "1px solid"/>
-
-- If selected *Widget Type* is **custom_keyword_picker**, you can select from following picker types:  
-
-  - **text_field:** To take *Keyword* input from the user.
-
-  - **dropdown:** To provide users, a list of specified keywords in the form of *Dropdown Menu*.
-
-  - **string_picker:** To provide users, specified keywords in the form of *Tabs* or *Chips*.
-
-    <img src="../../images/search-custom-keyword-picker-pickertype-screenshot.png" alt="search-custom-keyword-picker-pickertype-screenshot" title="search-custom-keyword-picker-pickertype-screenshot" width=300 border= "1px solid"/>
-
-- If selected *Widget Type* is **keyword_custom_query_picker**, you can select from following picker types:
-
-  - **switch**
-
-  - **checkbox**
-
-    <img src="../../images/search-keyword-custom-query-picker-pickertype-screenshot.png" alt="search-keyword-custom-query-picker-pickertype-screenshot" title="search-keyword-custom-query-picker-pickertype-screenshot" width=300 border= "1px solid"/>
-
-> All the other *Widget Types* have *Default* Picker Type. 
-
-### Additional Fields
-
-You can define some additional customizations for some sections. For this purpose you are provided with some **Additional fields**. Their details are as follows:
-
-
-- If selected *Widget Type* is **location_picker**, you can set the value for the **Default Radius**. You can choose either to show **Search By City** or **Search By Location** or you can choose to show both.
-
-  <img src="../../images/default-radius.png" alt="default-radius" title="default-radius" width= 300 border= "1px solid"/> 
-  
-  <img src="../../images/location-picker-additional-fields.png" alt="location-picker-additional-fields" title="location-picker-additional-fields" width= 300 border= "1px solid"/> 
-
-- If selected *Widget Type* is **sequential_location_picker**, you can customize the **Location Picker Hierarchy** form the  multi-select dropdown menu.
-
-  <img src="../../images/slp-hierarchy-01.png" alt="slp-hierarchy-01" title="slp-hierarchy-01" width= 300 border= "1px solid"/> 
-  
-  <img src="../../images/slp-hierarchy-02.png" alt="slp-hierarchy-02" title="slp-hierarchy-02" width= 300 border= "1px solid"/> 
-
-- If selected *Widget Type* is **range_picker**, you can define the *minimun* and *maximun* range of section in **Min Value**, **Max Value** and **Steps** fields. 
-
-    <img src="../../images/range-picker-additional-fields.png" alt="range-picker-additional-fields" title="range-picker-additional-fields" width= 300 border= "1px solid"/>  
-
-- If selected *Widget Type* is **term_picker**, you can define the query type from dropdown menu in **Query Type** field. 
-
-  - **OR Query Type:** If you want that search properties which may include this specific **term**, use *OR* query type.
-
-  - **AND Query Type:** If you want that search properties which must include this specific **term**, use *AND* query type. 
-
-      <img src="../../images/query-type-field-screenshot.png" alt="query-type-field-screenshot" title="query-type-field-screenshot" width= 300 border= "1px solid"/> 
-
-      <img src="../../images/query-type-options-screenshot.png" alt="query-type-options-screenshot" title="query-type-options-screenshot" width= 300 border= "1px solid"/> 
-
-- If the selecetd *Widget Type* is **string_picker** you can define your comma seperated specific options for the picker in the **Options** field.
-    
-    <img src="../../images/options-additonal-field.png" alt="options-additonal-field" title="options-additonal-field" width= 300 border= "1px solid"/>
-
-- If selected *Widget Type* is **custom_keyword_picker**, you can define the **Unique key** and **Query Type**.  
-
-    <img src="../../images/search-custom-keyword-picker-dialog.png" alt="search-custom-keyword-picker-dialog" title="search-custom-keyword-picker-dialog" width=300 height=600 border= "1px solid"/>
-
-  - **Unique key** (Assign a unique key to this field e.g. *keyword-some-text*.)
-
-  - **Query Type**: (Assign a query type to this field from the dropdown menu.) It has two following types:
-
-    - **OR Query Type:** If you want that search properties which may include this specific keyword, use *OR* query type.
-
-    - **AND Query Type:** If you want that search properties which must include this specific keyword, use *AND* query type.  
-
-      <img src="../../images/query-type-field-screenshot.png" alt="query-type-field-screenshot" title="query-type-field-screenshot" width= 300 border= "1px solid"/> 
-
-      <img src="../../images/query-type-options-screenshot.png" alt="query-type-options-screenshot" title="query-type-options-screenshot" width= 300 border= "1px solid"/> 
-
-- If selected *Widget Type* is **custom_keyword_picker** and *Picker Type* is **dropdown** or **string_picker**. There are some additional fields as:
-
-    - If the selecetd field is **dropdown** you can define your comma seperated specific keywords in **Options** field.  
-
-      <img src="../../images/search-custom-keyword-picker-dialog-01.png" alt="search-custom-keyword-picker-dialog-01" title="search-custom-keyword-picker-dialog-01" width=300 border= "1px solid"/>  
-      
-    - If the selecetd field is **string_picker** you can define your comma seperated specific keywords in **Options** field. You can also specify *Sub-Picker Type* of *string_picker* i.e. *Chips* or *Tabs*.  
-
-      <img src="../../images/search-custom-keyword-picker-dialog-02.png" alt="search-custom-keyword-picker-dialog-02" title="search-custom-keyword-picker-dialog-02" width=300 border= "1px solid"/>  
-
-    - **Sub-Picker Types:**  
-
-      <img src="../../images/search-custom-keyword-picker-dialog-03.png" alt="search-custom-keyword-picker-dialog-03" title="search-custom-keyword-picker-dialog-03" width=300 border="1px solid"/>  
-
-  - If selected *Widget Type* is **keyword_custom_query_picker**, you can define the **Options**, **Unique key** and **Query Type**.  
-
-    <img src="../../images/search-keyword-custom-query-picker-dialog.png" alt="search-keyword-custom-query-picker-dialog" title="search-keyword-custom-query-picker-dialog" width=300 height=650 border= "1px solid"/>  
-
-  - **Options** (Define your comma seperated custom keyword query in this field.)
-
-  - **Unique key** (Assign a unique key to this field e.g. *keyword-some-text*.)
-
-  - **Query Type**: (Assign a query type to this field from the dropdown menu.) It has two following types:
-
-    - **OR Query Type** If you want that search properties which may include this specific keyword, use *OR* query type.
-
-    - **AND Query Type** If you want that search properties which must include this specific keyword, use *AND* query type.
-
-      <img src="../../images/query-type-field-screenshot.png" alt="query-type-field-screenshot" title="query-type-field-screenshot" width= 300 border= "1px solid"/> 
-
-      <img src="../../images/query-type-options-screenshot.png" alt="query-type-options-screenshot" title="query-type-options-screenshot" width= 300 border= "1px solid"/> 
-    
-> Click `Done` to *add* the new section.  
-  Click `Cancel` to *discard* the action. 
-
+[Default Value](#default-value)  
+[Icon](#icon)  
+[Term](#term)   
+[Sub-Term](#sub-term)
 
 ---
 
-## Edit a Section
+#### Section Type
 
-You can **Edit** the sections just by clicking on **Edit Icon** of respective section. While editing a section, you can perform following actions:
+You can add sort first by items based on following two types of attributes from the **Section Type** dropdown menu:
+1. Featured.
+2. Term. 
 
-- Modify section [Widget Type](#widget-type).
-- Modify section [Title](#title).
-- Modify section [Data Type](#data-type).
-- Modify section [Api Value](#api-value).
-- Modify section [Picker Type](#picker-type).
-- Modify section [Additional Fields](#additional-fields).
+**Featured**   
+If you want to show the results items that have the attribute "*Featured*" on the top of results items listing.
 
----
+**Term**  
+If you want to show the results items that have the attribute "*Term*" (some specific term e.g. result item with property_label *Hot Offer*) on the top of results items listing.
 
-## Delete a Section
+<img src="../../images/sfb-section-type-01.png" alt="sfb-section-type-01" title="sfb-section-type-01" width=300 border="1px solid"/>   
 
-You can **Delete** any section just by clicking on *delete icon* of respective section. A delete confirmation dialog will open.  
-
-  <img src="../../images/search-list-tile-screenshot.png" alt="search-list-tile-screenshot" title="search-list-tile-screenshot" width=300 border= "1px solid"/>  
-
-  <img src="../../images/search-delete-section-screenshot.png" alt="search-delete-section-screenshot" title="search-delete-section-screenshot" width=300 border= "1px solid"/>  
-  
-> Click **Delete** if you want to *delete* the section.  
-  Click **Cancel** if you want to *discard* the action. 
+<img src="../../images/sfb-section-type-02.png" alt="sfb-section-type-02" title="sfb-section-type-02" width=300 border="1px solid"/>  
 
 ---
 
-## Re-arrange a Section
+#### Title
 
-You can **Re-arrange** the sections on **Search Page**. Hold the section that you want to re-arrange and move it vertically (*upwards* or *downwards*). Place it on desire position in sections list.
+You can define the title of the item in **Title** field.
 
-<img src="../../images/search-re-arrange-01.png" alt="search-re-arrange-01" title="search-re-arrange-01" width= 400 border= "1px solid"/> 
+<img src="../../images/sfb-title.png" alt="sfb-title" title="sfb-title" width=300 border="1px solid"/>  
 
-<img src="../../images/search-re-arrange-02.png" alt="search-re-arrange-02" title="search-re-arrange-02" width= 400 border= "1px solid"/> 
+---
+
+#### Default Value
+
+The default value indicates that either you want to apply this sort order on the search result items by default or let the user decide to use this sort order from the sort menu on the Results screen. You can choose the default value of an item to be **on** or **off**. On indicates that this sort option will be applied by default. 
+
+<img src="../../images/sfb-default-value-01.png" alt="sfb-default-value-01" title="sfb-default-value-01" width=300 border="1px solid"/>  
+
+<img src="../../images/sfb-default-value-02.png" alt="sfb-default-value-02" title="sfb-default-value-02" width=300 border="1px solid"/>  
+
+> User can manually *turn on* or *turn off* the value of sort first by item from the sort menu on Results screen.
+
+---
