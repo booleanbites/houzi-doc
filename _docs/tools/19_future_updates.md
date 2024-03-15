@@ -13,8 +13,8 @@ Always make a backup before updating to the next version.
 We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
 Let's assume you simply want to update your houzi_package, updating to 1.3.9 requires you following things:
 
-- Always make a backup. (copy in separate folder or use git)
-- Update Flutter to 3.19.XX 
+- Always make a backup. (copy in separate folder or use git).
+- Update Flutter to 3.19.XX.
 - Copy `Project_HOME > packages > houzi_package` from 1.3.9 and replace houzi_package in your existing project.
 - Copy new hooks_v2.dart and replace existing `Project_HOME > lib > hooks_v2.dart` (if you have made any changes to existing hooks_v2.dart, then you need to carefully review and migrate new changes from hooks_v2.dart into your existing hooks_v2.dart)
 - Copy new main.dart and replace existing `Project_HOME > lib > main.dart` (if you have made any changes to existing main.dart, then you need to carefully review and migrate new changes from main.dart into your existing main.dart)
@@ -26,6 +26,7 @@ Let's assume you simply want to update your houzi_package, updating to 1.3.9 req
   - `Project_HOME > android > gradle > wrapper > gradle-wrapper.properties`.
   > Note: Remember to re-write the **applicationId, versionCode** and **versionName** with your own app details in these copied files.
 - Upgrade your Houzi Rest Api plugin to version 1.3.9. Download from here: [Houzi Rest Api](https://github.com/booleanbites/houzi-rest-api/releases/latest.zip)
+- Copy translation files or at least copy over new translations from this release.
 - Rest of configurations like configuration.json, you android project folders, ios project folders should remain same.
 
 
