@@ -39,7 +39,9 @@ Houzi provides you wide range of listing items designs. On the top right side of
 
 - By default, Houzi provide a List View for the searched items on the Results screen. User can see the results on Google Maps by tapping on the Maps icon on the top search bar. If you want to display the search results on the Google Maps, by default, you can simply *Check Mark* the **Show Map View instead List View** checkbox field.  
 
-  <img src="../../images/show-map-view.png" alt="show-map-view" title="show-map-view" width=300 border="1px solid"/> 
+  <img src="../../images/show-map-view.png" alt="show-map-view" title="show-map-view" width=300 border="1px solid"/>   
+  
+
 ---
 
 # Sorting Configurations
@@ -70,7 +72,7 @@ The default Houzi sort by order is "**Newest**". You can select the desired sort
 
   ---
 
-  ### Sort First By
+### Sort First By
 
   When you search something, the corresponding search results are sort by the default sort by order. If you want to further sort these results on the basis of some specific attributes e.g. if you want to sort results w.r.t. "**Featured**" results (meaning show featured results on top) or if you want to sort results w.r.t. "**Term**", you can configure some settings in the "Sort First By" configurations. 
 
