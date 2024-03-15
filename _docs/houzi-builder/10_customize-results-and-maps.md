@@ -147,3 +147,94 @@ The default value indicates that either you want to apply this sort order on the
 > User can manually *turn on* or *turn off* the value of sort first by item from the sort menu on Results screen.
 
 ---
+
+#### Icon
+
+You can define the icon of your sort first by menu item. Click on the icon button, an icon picker dialog will open. You can either choose from **Material Icons** or **Cupertino Icons**. Just search and click the required icon, it will be displayed and previous icon will be replaced.
+
+<img src="../../images/sfb-icon-01.png" alt="sfb-icon-01" title="sfb-icon-01" width=300 border="1px solid"/>  
+
+<img src="../../images/sfb-icon-02.png" alt="sfb-icon-02" title="sfb-icon-02" width=300 border="1px solid"/>   
+
+---
+
+#### Term
+
+> This field is only available if you have chosen the **Term** section type.
+
+You are provided with following three Houzez taxonomies to select your term:
+
+- property_type.
+- property_status.
+- property_label.
+
+Click on the **Term** dropdown menu and select your required taxonomy as *Term*.
+
+<img src="../../images/sfb-term-01.png" alt="sfb-term-01" title="sfb-term-01" width=300 border="1px solid"/>  
+
+<img src="../../images/sfb-term-02.png" alt="sfb-term-02" title="sfb-term-02" width=300 border="1px solid"/>  
+
+---
+
+#### Sub-Term
+
+> This field is only available if you have chosen the **Term** section type.
+
+You select the sub-term, you must first select a term from the *Term* dropdown menu. After selecting the required term let say property_label, now its related sub-terms will be available for selection in the *Sub-Term* dropdown menu. Click on the **Sub-Term** dropdown menu and select your required *sub-term*.
+
+<img src="../../images/sfb-sub-term-01.png" alt="sfb-sub-term-01" title="sfb-sub-term-01" width=300 border="1px solid"/>  
+
+<img src="../../images/sfb-sub-term-02.png" alt="sfb-sub-term-02" title="sfb-sub-term-02" width=300 border="1px solid"/> 
+
+---
+
+After defining all the above sections, click on the **Done** button on the bottom of the dialog. Your item will added like following screenshot:
+
+<img src="../../images/sfb-dialog-02.png" alt="sfb-dialog-02" title="sfb-dialog-02" width=300 border="1px solid"/> 
+
+Click on the **Done** button on the bottom of the dialog.
+
+> You can see the view of Sort menu on the **Mobile App View** in the center of screen.
+
+---
+
+
+### Edit an Item
+
+You can **Edit** the itme just by clicking on **Edit Icon** of respective section. While editing a section, you can perform following actions:
+
+- Modify section [Section Type](#section-type).
+- Modify section [Title](#title).
+- Modify section [Default Value](#default-value).
+- Modify section [Icon](#icon).
+- Modify section [Term](#term).
+- Modify section [Sub-Term](#sub-term).
+
+> Term and Sub-Term are only section type "Term" related fields.
+
+<img src="../../images/sfb-edit-01.png" alt="sfb-edit-01" title="sfb-edit-01" width=300 height=400 border="1px solid"/>
+
+<img src="../../images/sfb-edit-02.png" alt="sfb-edit-02" title="sfb-edit-02" width=300 height=550 border="1px solid"/>
+
+---
+
+# Delete an Item
+
+You can **Delete** any item just by clicking on *delete icon* of respective item. A delete confirmation dialog will open. 
+
+<img src="../../images/sfb-delete-01.png" alt="sfb-delete-01" title="sfb-delete-01" width=300 border= "1px solid"/>    
+
+<img src="../../images/sfb-delete-02.png" alt="sfb-delete-02" title="sfb-delete-02" width=300 border= "1px solid"/>   
+    
+> Click **Delete** if you want to *delete* the item.  
+  Click **Cancel** if you want to *discard* the action.
+
+---
+
+# Re-arrange an Item
+
+You can **Re-arrange** the **Sort First By** items. Hold the item that you want to re-arrange and move it vertically (*upwards* or *downwards*). Place it on desire position in items list.
+
+<img src="../../images/sfb-re-arrange-01.png" alt="sfb-re-arrange-01" title="sfb-re-arrange-01" width=300 border= "1px solid"/>  
+
+<img src="../../images/sfb-re-arrange-02.png" alt="sfb-re-arrange-02" title="sfb-re-arrange-02" width=300 border= "1px solid"/>  
