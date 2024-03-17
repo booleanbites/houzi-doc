@@ -28,6 +28,7 @@ Let's assume you simply want to update your houzi_package, updating to 1.3.9.1 r
 - Upgrade your Houzi Rest Api plugin to version 1.3.9.1 Download from here: [Houzi Rest Api](https://github.com/booleanbites/houzi-rest-api/releases/latest.zip)
 - Copy translation files or at least copy over new translations from this release.
 - Add the line and telegram icon from `Project_HOME > assets > icon` and paste to same location. Don't forget to list them in `Project_HOME > pubspec.yaml` along with other icons.
+- Add the PrivacyInfo.xcprivacy file from 1.3.9.1 Xcode project. It can be found here: `Project_Home/ios/Runner/PrivacyInfo.xcprivacy`. Simply drag the file and drop in your Xcode project.
 - Rest of configurations like configuration.json, you android project folders, ios project folders should remain same.
 
 
