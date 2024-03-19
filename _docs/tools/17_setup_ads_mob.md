@@ -16,7 +16,7 @@ To setup ads on Houzi app, you need following things:
 
 Register your app as an AdMob app by completing the following steps:
 1. [Sign in](https://admob.google.com/home/) to or [Sign up](https://support.google.com/admob/answer/7356219) for an AdMob account.
-2. Register your app with AdMob. This step creates an AdMob app with a unique AdMob App ID for each platform.
+2. Register your app with AdMob. This step creates an AdMob app with a unique AdMob App ID for each platform. You can also choose your already released app on both stores.
 3. Copy App ID of both apps.
 
 #### Create Native Advanced Ad Unit
