@@ -203,7 +203,7 @@ Click on the **Done** button on the bottom of the dialog.
 
 ### Edit an Item
 
-You can **Edit** the itme just by clicking on **Edit Icon** of respective section. While editing a section, you can perform following actions:
+You can **Edit** the item just by clicking on **Edit Icon** of respective section. While editing a section, you can perform following actions:
 
 - Modify section [Section Type](#section-type).
 - Modify section [Title](#title).
