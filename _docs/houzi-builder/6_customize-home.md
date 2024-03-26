@@ -71,32 +71,23 @@ Let's dive into the details of each section.
 
 Houzi offers a diverse selection of widget types for your home screen, making it easy to personalize and enhance your user experience. Details of these widget types is as follows:
 
-#### ad:
-Select this widget type, if you want to shows "**Ads Listing**" on you home screen.
+- **ad:** Select this widget type, if you want to shows "**Ads Listing**" on you home screen.
 
-#### recent_searches:
-Select this widget type, if you want to shows "**Recent Searches Listing**" on you home screen.
+- **recent_searches:** Select this widget type, if you want to shows "**Recent Searches Listing**" on you home screen.
 
-#### property:
-Select this widget type, if you want to shows "**Properties Listing**" on you home screen.
+- **property:** Select this widget type, if you want to shows "**Properties Listing**" on you home screen.
 
-#### term:
-Select this widget type, if you want to shows specific "**Properties Listing**" which are catagoriezed w.r.t Houzez Taxonomies (e.g. Properties Listing w.r.t. property_type/property_status etc.) on you home screen.
+- **term:** Select this widget type, if you want to shows specific "**Properties Listing**" which are catagoriezed w.r.t Houzez Taxonomies (e.g. Properties Listing w.r.t. property_type/property_status etc.) on you home screen.
 
-#### agents:
-Select this widget type, if you want to shows "**Agents Listing**" on you home screen.
+- **agents:** Select this widget type, if you want to shows "**Agents Listing**" on you home screen.
 
-#### agencies:
-Select this widget type, if you want to shows "**Agencies Listing**" on you home screen.
+- **agencies:** Select this widget type, if you want to shows "**Agencies Listing**" on you home screen.
 
-#### terms_with_icon:
-Select this widget type, if you want to shows some specific "**Houzez Terms**" (e.g. For Rent, For Sale, Commercial, Residential etc. ) for quick search purposes.
+- **terms_with_icon:** Select this widget type, if you want to shows some specific "**Houzez Terms**" (e.g. For Rent, For Sale, Commercial, Residential etc. ) for quick search purposes.
 
-#### place_holder:
-Select this widget type, if you want to shows "**Custom Widget**" on you home screen.
+- **place_holder:** Select this widget type, if you want to shows "**Custom Widget**" on you home screen.
 
-#### partners:
-Select this widget type, if you want to shows "**Partners  Listing**" on you home screen.
+- **partners:** Select this widget type, if you want to shows "**Partners  Listing**" on you home screen.
 
   <img src="../../images/home-add-section-widget-types-screenshot.png" alt="home-add-section-widget-types-screenshot" title="home-add-section-widget-types-screenshot" width=300 border= "1px solid"/>   
   
@@ -123,7 +114,7 @@ Select the **Design** as follows:
 
 ### List Type
 
-> List Type field is only available for the Properties Listing related sections (i.e. section with the types **property** or **term**).
+> List Type field is only available for the Properties Listing related sections (i.e. section with the widget types **property** or **term**).
 
 List types are the Houzez taxonomies. You can customize the **Properties Listing** on home screen by selecting the *one* or *multiple* *List Type*.
 
@@ -149,11 +140,11 @@ The details of the List Types are as follows:
 
   <img src="../../images/home-add-section-list-types-screenshot.png" alt="home-add-section-list-types-screenshot" title="home-add-section-list-types-screenshot" width=300 height=500 border= "1px solid"/>
 
-> Above mentioed **List-Types** are *generic houzez taxonomies/List-Type options*. You may encounter all or some of these options, according to the data of your website.
+> Above mentioed **List-Types** are *generic Houzez Taxonomies/List-Type options*. You may encounter all or some of these options, according to the data of your website.
 
 ### List Type Value
 
-> List Type Value field is only available for the Properties Listing related sections (i.e. section with the types **property** or **term**).
+> List Type Value field is only available for the Properties Listing related sections (i.e. section with the widget types **property** or **term**).
 
 List type values are the Houzez taxonomies related data. You can customize the **Properties Listing** on home screen by selecting the *one* or *multiple* *List Type value*.
 
@@ -183,13 +174,13 @@ The details of the List Types are as follows:
 
 You can define the view of a section (e.g. vertical or horizontal) from the **View Type** dropdown menu. Views are of following types:
 
-- Carousel (horizontal listing view).
+- **Carousel** (horizontal listing view).
 
-- List (vertical listing view).
+- **List** (vertical listing view).
 
-- Slider (sliding listing view).
+- **Slider** (sliding listing view).
 
-> **Slider** View Type field is only available for the **property** widget type sections.
+> *Slider View Type* field is only available for the **property** widget type sections.
 
 ### Additional Fields
 
@@ -200,6 +191,33 @@ There are following additonal fields related to the **property** widget type sec
 - **Show Nearby Properties:** Check-mark this field to show *Nearby* Properties listing on home screen.
 
 > Please consider the fact that you won't have properties available for all user locations. Also consider *location permission* and other *gps* related issues as well.
+
+#### Terms With Icons Customization
+
+Houzi provides you some by default Houzez Taxonomies Terms (e.g. For Rent, For Sale, Commercial, Residential etc.). These terms have by default icons assosiated with them. You can simply select the *term_with_icons* widget type and provide the section name and Terms with icons widget with by default attributes will be added to your home screen. You can [change the icons](https://houzi-docs.booleanbites.com/hooks-widgets/term_icon_item_design_custom) of these by default terms.
+
+If you want to customize the Terms also, Houzi Builder provides you a convinent way to do so.  You just have to **Add** a new *terms_with_icon* type widget or you can **Edit** a existing one. If you are adding a new *terms_with_icon* type widget or editing the existing one, you will see **Widget Configurations** field. Click on this field and a **Terms with icon configurations** dialog will open. Follow these steps and you can add you customized Terms along your custom Icons.
+
+1. Click on *ADD NEW WIDGET* button, a dialog will open.
+
+2. Select **Term** (e.g. *property_type* etc.) from the dropdown menu. 
+
+3. Select **Sub-Term** (e.g. *Commercial* etc.) from the dropdown menu. 
+
+4. Select the **Icon** by clicking on the icon button field.
+
+5. Click on the *Done* Text Button and your added Term will be displayed in the *Terms with icon configurations* dialog.
+
+6. Repeat these steps if you want to add more Terms.
+
+7. You can **re-arrange** the added term widget just by clicking and holding a widget and dragging it upwards or downward.
+
+8. You can **edit** any term widget just by clicking on the edit icon. 
+
+9. You can **delete** any un-necessary term widget just by clicking on the delete icon. After clicking *delete* from the confirmation dialog box, your widget will be deleted.
+
+10. Click on *Done* Text button and your customized Terms with custom icons will be added on Home Screen.
+
 
 - Click **Done** to *add* the new section.
 
