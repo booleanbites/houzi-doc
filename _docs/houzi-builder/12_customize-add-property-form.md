@@ -132,6 +132,11 @@ You can `Add` a new Field in Section by following these steps:
     * **formTextField:**   
         formTextField should be used, if you want to take **text** input from user. e.g. Property Title, Property Price etc. You can define some assisting attributes like *Hint, Additional Hint, Validation Types, Max Lines and Keyboard Type etc.*
 
+    * **formPricePlaceHolderField:**   
+        formPricePlaceHolderField should be used, if you want to take **Price Placeholder** text value from the user.
+
+        > **Note**: *formPricePlaceHolderField* is non-editable field (attributes like **Api Key** and **Title** are *fixed*.)
+
     * **formMultiSelectField:**  
         formMultiSelectField should be used, if you want to take *single/multiple* inputs of any *Houzez Taxonomies*, from the user. e.g. *Property Features (e.g. Garage, Pool etc.), Property Type (Commercail, Office etc.)* etc. You have to choose the **Term type** e.g. *property_type, property_status, property_feature* etc. from the *Term Type* dropdown. You can define some assisting attributes like *Hint, Additional Hint etc.*
 
