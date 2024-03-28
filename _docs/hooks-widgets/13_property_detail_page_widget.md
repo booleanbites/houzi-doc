@@ -85,3 +85,5 @@ static Widget customDescriptionWidget(BuildContext context, Article article) {
         textAlign: TextAlign.justify,
       );
 ```
+
+> After modifications, restart the app and the changes will reflect in your app.
