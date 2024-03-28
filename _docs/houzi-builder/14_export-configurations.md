@@ -30,7 +30,7 @@ Open following file *configurations.json* file path:
 and paste the *copied configurations* in it, replacing the old configurations. 
 
 #### 2. **App Config field on Houzi Api on WPAdmin:**
-Open your wordpress admin panel and navigate to the **Houzi Api Plugin**. Paste the copied json to the **App Config** text field and click on **Save Changes**.
+Although optional, you can save and server and update your config from website. Open your wordpress admin panel and navigate to the **Houzi Api Plugin**. Paste the copied json to the **App Config** text field and click on **Save Changes**.
 
 <img src="../../images/export-config-to-houzi-plugin.png" alt="export-config-to-houzi-plugin" title="export-config-to-houzi-plugin" border= "1px solid"/>
 
