@@ -87,6 +87,8 @@ Houzi offers a diverse selection of widget types for your home screen, making it
 
 - **place_holder:** Select this widget type, if you want to shows "**Custom Widget**" on you home screen.
 
+- **blogs:** Select this widget type, if you want to shows "**Houzez Posts**" or "**Blogs**" on you home screen.
+
 - **partners:** Select this widget type, if you want to shows "**Partners  Listing**" on you home screen.
 
   <img src="../../images/home-add-section-widget-types-screenshot.png" alt="home-add-section-widget-types-screenshot" title="home-add-section-widget-types-screenshot" width=300 border= "1px solid"/>   
@@ -104,7 +106,7 @@ Define the **"Title"** of the section.
 
 Select the **Design** as follows:
 
-- You can choose from *Design # 01* and *Design # 02* for the **term** widget type sections. 
+- You can choose from *Design # 01* and *Design # 02* for the **term** and **blogs** widget type sections. 
 
 - You can choose from *Design # 01* to *Design # 08* for the **property** widget type sections. 
 
@@ -180,7 +182,7 @@ You can define the view of a section (e.g. vertical or horizontal) from the **Vi
 
 - **Slider** (sliding listing view).
 
-> *Slider View Type* field is only available for the **property** widget type sections.
+> *Slider View Type* field is only available for the **property**  and **blogs** widget type sections.
 
 ### Additional Fields
 
