@@ -40,6 +40,8 @@ You will encounter following fields on the dialog box:
 
 You are provided with the dropdown list of  **Widget Types**. The details of widget types are as follows: 
 
+* **blogs:** If you want to show the *Houzez Posts/ Blogs* screen menu option.
+
 * **place_holder:** If you want to [Display your Custom Widget via Hooks](https://houzi-docs.booleanbites.com/hooks-widgets/add_custom_widget_in_drawer).
 
 * **web_url:** If you want to show an option which will open a *Webpage*.
@@ -58,7 +60,7 @@ You are provided with the dropdown list of  **Widget Types**. The details of wid
 
 * **App_Terms_and_Conditions_Screen:** If you want to show *App Terms and Conditions* screen menu option.
 
-    <img src="../../images/drawer-add-widget-section-types-dialog.png" alt="drawer-add-widget-section-types-dialog" title="drawer-add-widget-section-types-dialog" width=300 height=420 border= "1px solid"/>
+    <img src="../../images/drawer-add-widget-section-types-dialog.png" alt="drawer-add-widget-section-types-dialog" title="drawer-add-widget-section-types-dialog" width=300 border= "1px solid"/>
 
 
 ### Title:
