@@ -17,6 +17,7 @@ Look for the `getDrawerMenuItemDesignHook()` method.
     DrawerMenuItemDesignHook drawerMenuItemDesignHook = ({
       required iconData, required label, required onTap, required selectedItem}) {
       // return your design widget here
+      return null;
     };
 
     // return drawerMenuItemDesignHook;
