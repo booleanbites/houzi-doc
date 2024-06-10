@@ -14,6 +14,7 @@ This guide consists of following configuration settings:
 [Google Maps Api Key](#google-maps-api-key)  
 [Places Api Configurations](#places-api-configurations)  
 [Ads Configurations](#ads-configurations)  
+[Push Notification Configurations](#push-notification-configurations)  
 [Social Sign-On Configurations](#social-sign-on-configurations)  
 [Search Results Configurations](#search-results-configurations)  
 [Segment Control Configuration](#segment-control-configuration)  
@@ -88,6 +89,16 @@ Let's dive into the details of each section.
     <img src="../../images/ads-screenshot-01.png" alt="ads-screenshot-01" title="ads-screenshot-01" width= 400 border="1px solid"/>
 
   > Prerequisite: **Android/IOS Native Ad Id**.  
+
+---
+
+# Push Notification Configurations
+
+  Please provide your **One Signal App Id** in the respective text field. 
+
+  <img src="../../images/one-signal-app-id.png" alt="one-signal-app-id" title="one-signal-app-id" width=400 border="1px solid"/>  
+
+  > Prerequisite: [Push Notifications Integration](/tools/push_notifications_integration).  
 
 ---
 
