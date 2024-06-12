@@ -26,6 +26,8 @@ Look for `versionCode` and replace the value with your own. `versionCode` is for
 
 Look for `versionName` and replace the value with your own. `versionName` is for the public.
 
+Look for `namespace` in the **android** block and replace the value with your own.
+
 
 ### Change package in AndroidManifest.xml:
 
