@@ -66,7 +66,7 @@ Let's dive into the details of each section.
 
 # Ads Configurations:
 
-  #### Ads Key:
+  ### Ads Key:
 
   Please provide **Android/IOS Native Ad Id** in the respective text fields.  
 
@@ -77,7 +77,7 @@ Let's dive into the details of each section.
   > 2. Register your app with AdMob. This step creates an AdMob app with a unique AdMob App ID for each platform.  
 
 
-  #### Enable/ Disable Ads:
+  ### Enable/ Disable Ads:
 
   - You can *enable* or *disable* **Ads** in *whole* app by check marking or check unmarking the **Show Ads** checkbox. 
 
