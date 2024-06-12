@@ -66,18 +66,18 @@ Let's dive into the details of each section.
 
 # Ads Configurations:
 
-  ### Ads Key:
+### Ads Key:
 
   Please provide **Android/IOS Native Ad Id** in the respective text fields.  
 
-  <img src="../../images/ads-screenshot-02.png" alt="ads-screenshot-02" title="ads-screenshot-02" width= 400 border="1px solid"/>
+<img src="../../images/ads-screenshot-02.png" alt="ads-screenshot-02" title="ads-screenshot-02" width= 400 border="1px solid"/>
 
   > **AdMob App ID** is prerequisite. If you do not have *AdMob App ID*, you can aquire *AdMob App ID* by registering your app as an AdMob app. Simply follow these steps:   
   > 1. [Sign in](https://admob.google.com/home/) to or [Sign up](https://support.google.com/admob/answer/7356219) for an AdMob account.
   > 2. Register your app with AdMob. This step creates an AdMob app with a unique AdMob App ID for each platform.  
 
 
-  ### Enable/ Disable Ads:
+### Enable/ Disable Ads:
 
   - You can *enable* or *disable* **Ads** in *whole* app by check marking or check unmarking the **Show Ads** checkbox. 
 
