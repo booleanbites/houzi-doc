@@ -18,7 +18,7 @@ Please perform the following upgradations to run your project on new Android Stu
         id "dev.flutter.flutter-plugin-loader" version "1.0.0"
         id "com.android.application" version '8.4.0' apply false
         id "org.jetbrains.kotlin.android" version '1.9.23' apply false
-        id "com.google.gms.google-services" version "4.4.1" apply false
+        id "com.google.gms.google-services" version "4.3.8" apply false
     }
     ```
 
@@ -37,7 +37,24 @@ Please perform the following upgradations to run your project on new Android Stu
         }
     ```
 
-    b. Add following **compileOptions** block and **kotlinOptions** block in the *android block* as following:
+    b. Replace the **release** block in the **buildTypes** block with the following:
+
+    ```groovy
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled true
+
+            proguardFiles(
+                    getDefaultProguardFile("proguard-android-optimize.txt"),
+                    // List additional ProGuard rules for the given build type here. By default,
+                    // Android Studio creates and includes an empty rules file for you (located
+                    // at the root directory of each module).
+                    "proguard-rules.pro"
+            )
+        }
+    ```
+
+    c. Add following **compileOptions** block and **kotlinOptions** block in the *android block* as following:
 
     ```groovy
         android {
@@ -56,7 +73,7 @@ Please perform the following upgradations to run your project on new Android Stu
         }
     ```
 
-    c. Add following dependency in *dependencies block*
+    d. Add following dependency in *dependencies block*
 
     ```groovy
         dependencies {
@@ -66,14 +83,16 @@ Please perform the following upgradations to run your project on new Android Stu
         }
     ```
 
-    d. Replace the *1.9.10* with **1.9.23** in following dependency of dependencies block
+    e. Replace the *1.9.10* with **1.9.23** in following dependency of dependencies block
 
     ```groovy
         implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10" [OLD]
         implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.23" [UPDATED]
     ```
 
-3. Go to app **AndroidManifest.xml** file by following this path:  
+3. Copy the file **progurad-rules.pro** from the `PROJECT_HOME > android > app > progurad-rules.pro` and paste it in the app folder (path: `PROJECT_HOME > android > app`) of your project.
+
+4. Go to app **AndroidManifest.xml** file by following this path:  
 
     `PROJECT-NAME/android/app/src/main/AndroidManifest.xml`  
     
@@ -107,7 +126,7 @@ Please perform the following upgradations to run your project on new Android Stu
             tools:replace="android:resource"/>
     ```
 
-4. Go to **gradle-wrapper.properties** file by following this path:   
+5. Go to **gradle-wrapper.properties** file by following this path:   
 
     `PROJECT-NAME/android/gradle/wrapper/gradle-wrapper.properties` 
     
@@ -115,7 +134,7 @@ Please perform the following upgradations to run your project on new Android Stu
 
     https\://services.gradle.org/distributions/gradle-8.6-all.zip
 
-5. Go to package**pubspec.yaml** file by following this path:    
+6. Go to package**pubspec.yaml** file by following this path:    
 
     `PROJECT-NAME/packages/houzi_package/pubspec.yaml` 
 
@@ -127,7 +146,7 @@ Please perform the following upgradations to run your project on new Android Stu
         flutter_local_notifications: 17.1.1
     ```
 
-6. Go to the project **build.gradle** file by following this path:  
+7. Go to the project **build.gradle** file by following this path:  
     
     `PROJECT-NAME/android/build.gradle`  
      
@@ -147,9 +166,9 @@ Please perform the following upgradations to run your project on new Android Stu
             }
     ```
     
-7. Delete the **pubspec.lock** file (path: `PROJECT-NAME/pubspec.lock`).
+8. Delete the **pubspec.lock** file (path: `PROJECT-NAME/pubspec.lock`).
 
-8. Perform Flutter clean from top menu as
+9. Perform Flutter clean from top menu as
     `Tools > Flutter > Flutter Clean`.
 
-9. Run the app.
+10. Run the app.

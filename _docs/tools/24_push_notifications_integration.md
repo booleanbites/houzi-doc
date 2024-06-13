@@ -57,20 +57,16 @@ Or go to **Settings** tab and find in **Keys and Ids** section of settings.
 
 You will have to provide this app id in the following destinations:
 
-### 1. Houzi Package:
-
-Go to the `Project_HOME > packages > houzi_package > lib > common > constants.dart` file, and look for `ONE_SIGNAL_APP_ID`. Replace its value with your app id.
-
-### 2. Android Directory:
+### 1. Android Directory:
 
 Go to the `Project_HOME > android > app > src > main > res > values > strings.xml` file, and look for `onesignal_app_id`. Replace its value with your app id.
 
-### 3. iOS Directory:
+### 2. iOS Directory:
 
  and go to the `Project_HOME > ios > Runner > AppDelegate.swift` file, and look for `ONE_SIGNAL_APP_ID`. Replace its value with your app id.
 
 
- ## OneSignal setup on Houzi Builder
+ ## 3. Houzi Package via Houzi Builder
 
  Go to the **Api & Config** section of  the Houzi Builder and provide the One *Signal App ID* in the respective text field. 
  
