@@ -1,11 +1,11 @@
 ---
-title: Push Notifications integration
+title: Push Notifications
 category: Tools Setup
 permalink: tools/push_notifications_integration
 order: 23
 ---
 
-We’re using OneSignal for the push notification purpose. You can set up OneSignal on your wordpress and your app. This guide consists of following sections:
+We’re using OneSignal for the push notification purpose. You need to set up OneSignal on your wordpress and your app. This guide consists of following sections:
 
 - [OneSignal setup](#onesignal-setup)
 - [OneSignal setup on Wordpress](#onesignal-setup-on-wordpress)
@@ -13,36 +13,39 @@ We’re using OneSignal for the push notification purpose. You can set up OneSig
   - [2. OneSingnal API Key Token:](#2-onesingnal-api-key-token)
   - [3. OneSingnal User Key Token:](#3-onesingnal-user-key-token)
 - [OneSignal setup on App](#onesignal-setup-on-app)
-  - [1. Android Directory:](#1-android-directory)
-  - [2. iOS Directory:](#2-ios-directory)
+  - [1. Android native project:](#1-android-native-project)
+  - [2. iOS native project:](#2-ios-native-project)
   - [3. Houzi Package via Houzi Builder](#3-houzi-package-via-houzi-builder)
 
 ## OneSignal setup
 
-Use the following link to sign-up/login in.
+We require three things from OneSignal.
+1. OneSignal App ID
+2. OneSingnal API Key Token
+3. OneSingnal User Key Token
 
-https://app.onesignal.com/login
+To acquire these, use the following link to sign-up/login in. `https://app.onesignal.com/login`
 
 A typical flow should like this:
 
-0. You use social login or signup with email & password.
+1. You use social login or signup with email & password.
    - You will be asked to choose the plan. Choose Free plan and Click on Get Started Now.
-1. Provide your info in About You section. Choose "Drive Visits to Website/App" and Choose "Push Notification" for channel options.
-2. Provide info about your organization.
-3. Provide info about your app.
-4. In the following Welcome page, choose below options
+2. Provide your info in About You section. Choose "Drive Visits to Website/App" and Choose "Push Notification" for channel options.
+3. Provide info about your organization.
+4. Provide info about your app.
+5. In the following Welcome page, choose below options
    1. Messaging Channels -> Push Notifications.
-   2. Android:
+   2. **Android:**
       1. Choose Android. and continue, you will be asked to upload your firebase configruation file. Follow the guide by OneSignal. [Android Guide](https://documentation.onesignal.com/docs/android-firebase-credentials) to get the firebase configruation file.
       2. Once firebase-adminsdk-key is uploaded, You can choose Flutter in next step. Click save and Continue.
       3. Copy the app id and click done.
-   3. iOS
+   3. **iOS**
       1. From the Inactive platforms, choose iOS. You need paid Apple Developer Membership program for this step.
       2. You will be asked to provide APNs info. Follow the guide by OneSignal for acquiring the p8 file from AppleDeveloper portal. [iOS Guide](https://documentation.onesignal.com/docs/ios-p8-token-based-connection-to-apns)
       3. Once .p8 key file is uploaded, You can enter the other info and Save And Continue. You can choose Flutter in next step. Click save and Continue.
       4. Copy the app id and click done. Both app id should be same.
 
-Keep in mind that we have installed the SDKs in the project, you just need app id so don’t follow steps to integrate sdks.
+> Keep in mind that we already have integrated the SDKs in the project, you just need app id so don’t follow steps to integrate sdks.
 
 ## OneSignal setup on Wordpress
 
@@ -81,16 +84,20 @@ Or go to **Settings** tab and find in **Keys and Ids** section of settings.
 
 You will have to provide this app id in the following destinations (Mandatory):
 
-### 1. Android Directory:
+### 1. Android native project:
+Nees to setup two things:
+1. Open AndroidManifest.xml and Find meta tag and change its value to your own package for NotificationServiceExtension, if you haven't done already. Follow guide here: [OneSignal Push Configurations for Android](#onesignal-push-configurations-for-android)
+2. Go to the `Project_HOME > android > app > src > main > res > values > strings.xml` file, and look for `onesignal_app_id`. Replace its value with your app id.
 
-Go to the `Project_HOME > android > app > src > main > res > values > strings.xml` file, and look for `onesignal_app_id`. Replace its value with your app id.
-
-### 2. iOS Directory:
-
- and go to the `Project_HOME > ios > Runner > AppDelegate.swift` file, and look for `ONE_SIGNAL_APP_ID`. Replace its value with your app id.
+### 2. iOS native project:
+Nees to setup two things:
+1. Setup App group bundle identfier for App Groups for NotificationServiceExtension, if you haven't done already. App Group identifier help share resources between app and NotificationServiceExtension. Follow guide here: [OneSignal Push Configurations for iOS](#onesignal-push-configurations-for-ios)
+2. Go to the `Project_HOME > ios > Runner > AppDelegate.swift` file, and look for `ONE_SIGNAL_APP_ID`. Replace its value with your app id.
 
 ### 3. Houzi Package via Houzi Builder
 
- Go to the **Api & Config** section of  the Houzi Builder and provide the *One Signal App ID* in the respective text field. 
- 
-For further assiatance [Push Notifications Configurations](/houzi-builder/api_config_setup#push-notification-configurations).   
+Go to the **Api & Config** section of  the Houzi Builder and provide the *OneSignal App ID* in the respective text field. Checkout HouziBuilder [Push Notifications Configurations](/houzi-builder/api_config_setup#push-notification-configurations).   
+
+If you don't want to use HouziBuilder, open configuration.json and find `one_signal_app_id` and provide your OneSignal App ID as its value. If the key doesn't exist in your configuration, you can add as a new key in the root object of json.
+
+ *Added in version 1.4.0*
