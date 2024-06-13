@@ -27,25 +27,25 @@ Let's dive into the details of each section.
 
 Houzi provides you wide range of home designs. On the top right side of Home section, Home designs are provided. Click on any *Home design*, and you will be able to see, how it will look on real device in the *Mobile App View*. (By default, selected design is *Home Elegant*, one of most popular designs.)
 
-<img src="../../images/home-designs.png" alt="home-designs" title="home-designs" width=300 border="1px solid"/>   
+<img src="../../images/home-designs.png" alt="home-designs" title="home-designs" width="300" border="1px solid"/>   
 
 There are some *additional customizations* related to Home designs as follows:
 
 - If you select **Home Carousel** or **Home Location**, you can increase or reduce the *Search Type* options e.g. For Rent, For Sale etc. with the help of stepper. 
 
-  <img src="../../images/home-search-type-stepper.png" alt="home-search-type-stepper" title="home-search-type-stepper" width=300 border="1px solid"/>  
+  <img src="../../images/home-search-type-stepper.png" alt="home-search-type-stepper" title="home-search-type-stepper" width="300" border="1px solid"/>  
 
   > Above displayed **Search Types** are *generic houzez List-Type: property_status options*. You may encounter these options, according to the data of your website.
 
 - If you select **Home Tabbed**, you can replace the quote 'What are you looking for?' with your custom quote, in the *Quote* text field. 
 
-  <img src="../../images/home-tabbed-quote.png" alt="home-tabbed-quote" title="home-tabbed-quote" width=300 border="1px solid"/>  
+  <img src="../../images/home-tabbed-quote.png" alt="home-tabbed-quote" title="home-tabbed-quote" width="300" border="1px solid"/>  
 
 - If you select **Home Carousel** or **Home Elegant**, you can change the **Location Picker Hierarchy**. 
 
-  <img src="../../images/location-picker-hierarchy-01.png" alt="location-picker-hierarchy-01" title="location-picker-hierarchy-01" width=300 border="1px solid"/>  
+  <img src="../../images/location-picker-hierarchy-01.png" alt="location-picker-hierarchy-01" title="location-picker-hierarchy-01" width="300" border="1px solid"/>  
 
-  <img src="../../images/location-picker-hierarchy-02.png" alt="location-picker-hierarchy-02" title="location-picker-hierarchy-02" width=300 border="1px solid"/>  
+  <img src="../../images/location-picker-hierarchy-02.png" alt="location-picker-hierarchy-02" title="location-picker-hierarchy-02" width="300" border="1px solid"/>  
 
   > Above displayed **taxonomies** are *generic houzez taxonomies*. You may encounter these options, according to the data of your website.
 
@@ -63,7 +63,7 @@ Click the **ADD NEW WIDGET** button at the right bottom of the screen, a dialog 
 [View Type](#view-type)  
 [Additional Fields](#additional-fields)  
 
- <img src="../../images/home-add-section-screenshot.png" alt="home-add-section-screenshot" title="home-add-section-screenshot" width=300 height=600 border="1px solid"/>  
+ <img src="../../images/home-add-section-screenshot.png" alt="home-add-section-screenshot" title="home-add-section-screenshot" width="300" height="600" border="1px solid"/>  
 
 Let's dive into the details of each section.
 
@@ -91,7 +91,7 @@ Houzi offers a diverse selection of widget types for your home screen, making it
 
 - **partners:** Select this widget type, if you want to shows "**Partners  Listing**" on you home screen.
 
-  <img src="../../images/home-add-section-widget-types-screenshot.png" alt="home-add-section-widget-types-screenshot" title="home-add-section-widget-types-screenshot" width=300 border= "1px solid"/>   
+  <img src="../../images/home-add-section-widget-types-screenshot.png" alt="home-add-section-widget-types-screenshot" title="home-add-section-widget-types-screenshot" width="300" border= "1px solid"/>   
   
 
   ### Title
@@ -112,7 +112,7 @@ Select the **Design** as follows:
 
 - You can choose *item_design_from_hook*, if you want to [provide your custom design for the Properites Listing section](https://houzi-docs.booleanbites.com/hooks-widgets/property_item_design_custom) for the **property** widget type sections.  
     
-  <img src="../../images/home-add-section-property-designs-screenshot.png" alt="home-add-section-property-designs-screenshot" title="home-add-section-property-designs-screenshot" width=300 height=440 border= "1px solid"/>    
+  <img src="../../images/home-add-section-property-designs-screenshot.png" alt="home-add-section-property-designs-screenshot" title="home-add-section-property-designs-screenshot" width="300" height="440" border= "1px solid"/>    
 
 ### List Type
 
@@ -140,7 +140,7 @@ The details of the List Types are as follows:
 
 - **property_country:** If you want to show listings by their *Countries*.
 
-  <img src="../../images/home-add-section-list-types-screenshot.png" alt="home-add-section-list-types-screenshot" title="home-add-section-list-types-screenshot" width=300 height=500 border= "1px solid"/>
+  <img src="../../images/home-add-section-list-types-screenshot.png" alt="home-add-section-list-types-screenshot" title="home-add-section-list-types-screenshot" width="300" height="500" border= "1px solid"/>
 
 > Above mentioed **List-Types** are *generic Houzez Taxonomies/List-Type options*. You may encounter all or some of these options, according to the data of your website.
 
@@ -231,9 +231,9 @@ If you want to customize the Terms also, Houzi Builder provides you a convinent 
 
 You can **Edit** any section just by clicking on its **Edit Icon**. While editing a section, you can perform following actions: 
 
-<img src="../../images/home-screenshot-list-tile.png" alt="home-screenshot-list-tile" title="home-screenshot-list-tile" width=300 border= "1px solid"/> 
+<img src="../../images/home-screenshot-list-tile.png" alt="home-screenshot-list-tile" title="home-screenshot-list-tile" width="300" border= "1px solid"/> 
 
-<img src="../../images/home-edit-section-screenshot.png" alt="home-edit-section-screenshot" title="home-edit-section-screenshot" width=300 height=600 border= "1px solid"/> 
+<img src="../../images/home-edit-section-screenshot.png" alt="home-edit-section-screenshot" title="home-edit-section-screenshot" width="300" height="600" border= "1px solid"/> 
 
 
 - Modify section [Widget Type](#widget-type)  
@@ -250,9 +250,9 @@ You can **Edit** any section just by clicking on its **Edit Icon**. While editin
 
 You can **Delete** any section just by clicking on *delete icon* of respective section. A delete confirmation dialog will open. 
 
-<img src="../../images/home-screenshot-list-tile.png" alt="home-screenshot-list-tile" title="home-screenshot-list-tile" width=300 border= "1px solid"/>    
+<img src="../../images/home-screenshot-list-tile.png" alt="home-screenshot-list-tile" title="home-screenshot-list-tile" width="300" border= "1px solid"/>    
 
-<img src="../../images/home-delete-section-screenshot.png" alt="home-delete-section-screenshot" title="home-delete-section-screenshot" width=300 border= "1px solid"/>  
+<img src="../../images/home-delete-section-screenshot.png" alt="home-delete-section-screenshot" title="home-delete-section-screenshot" width="300" border= "1px solid"/>  
     
 > Click **Delete** if you want to *delete* the section.  
   Click **Cancel** if you want to *discard* the action.
@@ -263,6 +263,6 @@ You can **Delete** any section just by clicking on *delete icon* of respective s
 
 You can **Re-arrange** the sections on **Home Screen**. Hold the section that you want to re-arrange and move it vertically (*upwards* or *downwards*). Place it on desire position in sections list.
 
-<img src="../../images/home-re-arrange-01.png" alt="home-re-arrange-01" title="home-re-arrange-01" width=300 border= "1px solid"/>  
+<img src="../../images/home-re-arrange-01.png" alt="home-re-arrange-01" title="home-re-arrange-01" width="300" border= "1px solid"/>  
 
-<img src="../../images/home-re-arrange-02.png" alt="home-re-arrange-02" title="home-re-arrange-02" width=300 border= "1px solid"/>  
+<img src="../../images/home-re-arrange-02.png" alt="home-re-arrange-02" title="home-re-arrange-02" width="300" border= "1px solid"/>  

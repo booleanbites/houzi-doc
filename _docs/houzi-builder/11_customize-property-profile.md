@@ -48,7 +48,7 @@ Let's dive into the details of each section.
 
 You can **Add** a new **place_holder** widget in *Property Profile Screen* with ease. There is a **Add New Widget** button at the right-bottom of the screen. Press this *Add New Widge* button, a dialog box will open.
     
-<img src="../../images/pp-add-widget-dialog.png" alt="pp-add-widget-dialog" title="pp-add-widget-dialog" width=300 border= "1px solid"/> 
+<img src="../../images/pp-add-widget-dialog.png" alt="pp-add-widget-dialog" title="pp-add-widget-dialog" width="300" border= "1px solid"/> 
 
 You will encounter following fields on the dialog box:
 
@@ -62,7 +62,7 @@ You are provided with the dropdown list of  **Section Types**. The details of se
 
 * **place_holder:** If you want to [Display your Custom widget via Hooks](https://houzi-docs.booleanbites.com/hooks-widgets/add_custom_widget_in_property_details).
 
-    <img src="../../images/pp-widget-type.png" alt="pp-widget-type" title="pp-widget-type" width=300 border= "1px solid"/>
+    <img src="../../images/pp-widget-type.png" alt="pp-widget-type" title="pp-widget-type" width="300" border= "1px solid"/>
 
 
 ### Section Name:
@@ -90,9 +90,9 @@ There are two type of sections in property profile screen as follows:
 
 While editing a *default section*, you only get to **Rename** the section. Just click on **Edit Icon** of respective section. A dialog will open. **Rename** the section as you like. 
 
-<img src="../../images/pp-list-tile-screenshot.png" alt="pp-list-tile-screenshot" title="pp-list-tile-screenshot" width=300 border="1px solid"/>
+<img src="../../images/pp-list-tile-screenshot.png" alt="pp-list-tile-screenshot" title="pp-list-tile-screenshot" width="300" border="1px solid"/>
 
-<img src="../../images/pp-edit-section-screenshot.png" alt="pp-edit-section-screenshot" title="pp-edit-section-screenshot" width=300 border="1px solid"/>    
+<img src="../../images/pp-edit-section-screenshot.png" alt="pp-edit-section-screenshot" title="pp-edit-section-screenshot" width="300" border="1px solid"/>    
 
 - Click `Done` if you want to *Rename* the section.  
 - Click `Cancel` if you want to *discard* the action.
@@ -104,7 +104,7 @@ While editing a *custom section*, you can perform following actions:
 - Modify section [Section Name](#section-name).
 - Modify section [Enable Widget](#enable-widget).
 
-<img src="../../images/pp-edit-section-screenshot-02.png" alt="pp-edit-section-screenshot-02" title="pp-edit-section-screenshot-02" width=300 border="1px solid"/>
+<img src="../../images/pp-edit-section-screenshot-02.png" alt="pp-edit-section-screenshot-02" title="pp-edit-section-screenshot-02" width="300" border="1px solid"/>
 
 ---
 
@@ -112,9 +112,9 @@ While editing a *custom section*, you can perform following actions:
 
 You can **show** or **hide** any section just by clicking on **Visibility / Invisibility Icon** of respective section.  
  
-<img src="../../images/pp-list-tile-screenshot.png" alt="drawer-list-tile-screenshot" title="drawer-list-tile-screenshot" width=300 border= "1px solid"/>
+<img src="../../images/pp-list-tile-screenshot.png" alt="drawer-list-tile-screenshot" title="drawer-list-tile-screenshot" width="300" border= "1px solid"/>
 
-<img src="../../images/pp-list-tile-01-screenshot.png" alt="pp-list-tile-01-screenshot" title="pp-list-tile-01-screenshot" width=300 border= "1px solid"/> 
+<img src="../../images/pp-list-tile-01-screenshot.png" alt="pp-list-tile-01-screenshot" title="pp-list-tile-01-screenshot" width="300" border= "1px solid"/> 
 
 ---
 
@@ -122,9 +122,9 @@ You can **show** or **hide** any section just by clicking on **Visibility / Invi
 
 You can `Re-arrange` the sections on **Property Profile Screen**. Hold the section that you want to re-arrange and move it vertically (*upwards* or *downwards*). Place it on desire position in sections list.
 
-<img src="../../images/pp-re-arrange-01.png" alt="pp-re-arrange-01" title="pp-re-arrange-01" width=300 border= "1px solid"/>  
+<img src="../../images/pp-re-arrange-01.png" alt="pp-re-arrange-01" title="pp-re-arrange-01" width="300" border= "1px solid"/>  
 
-<img src="../../images/pp-re-arrange-02.png" alt="pp-re-arrange-02" title="pp-re-arrange-02" width=300 border= "1px solid"/> 
+<img src="../../images/pp-re-arrange-02.png" alt="pp-re-arrange-02" title="pp-re-arrange-02" width="300" border= "1px solid"/> 
 
 ---
 
@@ -141,9 +141,9 @@ There are two type of sections in drawer screen as follows:
 
 You can **Delete** any custom section just by clicking on **delete icon** of respective section. A *delete* confirmation dialog will open. 
 
-<img src="../../images/pp-delete-section-screenshot-01.png" alt="pp-delete-section-screenshot-01" title="pp-delete-section-screenshot-01" width=300 border= "1px solid"/>    
+<img src="../../images/pp-delete-section-screenshot-01.png" alt="pp-delete-section-screenshot-01" title="pp-delete-section-screenshot-01" width="300" border= "1px solid"/>    
 
-<img src="../../images/pp-delete-section-screenshot-02.png" alt="pp-delete-section-screenshot-02" title="pp-delete-section-screenshot-02" width=300 border= "1px solid"/>  
+<img src="../../images/pp-delete-section-screenshot-02.png" alt="pp-delete-section-screenshot-02" title="pp-delete-section-screenshot-02" width="300" border= "1px solid"/>  
     
 - Click **Delete** if you want to *delete* the section.   
 - Click **Cancel** if you want to *discard* the action.
