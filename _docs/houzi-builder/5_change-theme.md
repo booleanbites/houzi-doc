@@ -32,13 +32,13 @@ General configurations include the style choices that stay the same no matter if
 
 Light Mode configurations include the style choices that are for the Light Mode of app. For example, App Background Color etc.  
 
-<img src="../../images/light-mode-style.png" alt="light-mode-style" title="light-mode-style" width= 300 height= 500 border= "1px solid"/> 
+<img src="../../images/light-mode-style.png" alt="light-mode-style" title="light-mode-style" width= "300" height= "500" border= "1px solid"/> 
 
 ### 3. Dark Mode Configurations
 
 Dark Mode configurations include the style choices that are for the Dark Mode of app. For example, App Background Color etc.
 
-<img src="../../images/dark-mode-style.png" alt="dark-mode-style" title="dark-mode-style" width= 300 height= 500 border= "1px solid"/> 
+<img src="../../images/dark-mode-style.png" alt="dark-mode-style" title="dark-mode-style" width= "300" height= "500" border= "1px solid"/> 
 
 ---
 
@@ -48,11 +48,11 @@ If you want to change the **Primary Color** of the app, follow these steps:
 
 1. Click on the *Colored circle* or *Droper icon* of **App Primary Color **field.    
  
-    <img src="../../images/app-primary-color-field-screenshot.png" alt="app-primary-color-field-screenshot" title="app-primary-color-field-screenshot" width= 350 border= "1px solid"/>
+    <img src="../../images/app-primary-color-field-screenshot.png" alt="app-primary-color-field-screenshot" title="app-primary-color-field-screenshot" width= "350" border= "1px solid"/>
 
 2. A color picker dialog will open. Choose you desired color, its opacity (optional) and press **Done**.  
  
-    <img src="../../images/color-picker-screenshot.png" alt="color-picker-screenshot" title="color-picker-screenshot" width= 350 height= 550 border= "1px solid"/>
+    <img src="../../images/color-picker-screenshot.png" alt="color-picker-screenshot" title="color-picker-screenshot" width= "350" height= "550" border= "1px solid"/>
 
 3. If you have a **Hex value** of the desired color, you can simply put it in **App Primary Color** field or color picker dialog **Hex** field and press **Done** button.
 

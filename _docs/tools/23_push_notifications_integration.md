@@ -2,7 +2,7 @@
 title: Push Notifications integration
 category: Tools Setup
 permalink: tools/push_notifications_integration
-order: 24
+order: 23
 ---
 
 We’re using OneSignal for the push notification purpose. You can set up OneSignal on your wordpress and your app. This guide consists of following sections:
@@ -27,17 +27,17 @@ A typical flow should like this:
 
 0. You use social login or signup with email & password.
    - You will be asked to choose the plan. Choose Free plan and Click on Get Started Now.
-1. Provide your info in About You section. Choose Drive Visits to Web/App and Choose Push Notification for channel options.
+1. Provide your info in About You section. Choose "Drive Visits to Website/App" and Choose "Push Notification" for channel options.
 2. Provide info about your organization.
 3. Provide info about your app.
 4. In the following Welcome page, choose below options
    1. Messaging Channels -> Push Notifications.
    2. Android:
-      1. Choose Android. and continue, you will be asked to upload your firebase configruation file. Follow the guide by OneSignal. [Android Guide](https://documentation.onesignal.com/docs/android-firebase-credentials)
+      1. Choose Android. and continue, you will be asked to upload your firebase configruation file. Follow the guide by OneSignal. [Android Guide](https://documentation.onesignal.com/docs/android-firebase-credentials) to get the firebase configruation file.
       2. Once firebase-adminsdk-key is uploaded, You can choose Flutter in next step. Click save and Continue.
       3. Copy the app id and click done.
    3. iOS
-      1. From the Inactive platforms, choose iOS. You need paid Apple Membership for this.
+      1. From the Inactive platforms, choose iOS. You need paid Apple Developer Membership program for this step.
       2. You will be asked to provide APNs info. Follow the guide by OneSignal for acquiring the p8 file from AppleDeveloper portal. [iOS Guide](https://documentation.onesignal.com/docs/ios-p8-token-based-connection-to-apns)
       3. Once .p8 key file is uploaded, You can enter the other info and Save And Continue. You can choose Flutter in next step. Click save and Continue.
       4. Copy the app id and click done. Both app id should be same.
