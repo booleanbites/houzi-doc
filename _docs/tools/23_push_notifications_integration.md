@@ -2,7 +2,7 @@
 title: Push Notifications integration
 category: Tools Setup
 permalink: tools/push_notifications_integration
-order: 24
+order: 23
 ---
 
 We’re using OneSignal for the push notification purpose. You can set up OneSignal on your wordpress and your app. This guide consists of following sections:
@@ -10,7 +10,6 @@ We’re using OneSignal for the push notification purpose. You can set up OneSig
 1. [OneSignal setup](#onesignal-setup)  
 2. [OneSignal setup on Wordpress](#onesignal-setup-on-wordpress)
 3. [OneSignal setup on App](#onesignal-setup-on-app)  
-4. [OneSignal setup on Houzi Builder](#onesignal-setup-on-houzi-builder)
 
 ## OneSignal setup
 
