@@ -5,7 +5,13 @@ permalink: tools/push_notifications_integration
 order: 23
 ---
 
-We’re using OneSignal for the push notification purpose. You need to set up OneSignal on your wordpress and your app. This guide consists of following sections:
+Push notifications play a crucial role in keeping your real estate business updated. We’ve incorporated this feature to enhance engagement with your app and website. 
+
+>  **❗️❗️IMPORTANT❗️❗️**
+>
+>  <u>Houzez v 3.1.0</u> or later is required. This version introduces the ability to send push notifications for important actions. Please ensure you update to Houzez v 3.1.0 before implementing push notifications on your website.
+
+We utilize OneSignal for push notifications. You will need to configure OneSignal on both your WordPress site and your app. This guide includes the following sections:
 
 - [OneSignal setup](#onesignal-setup)
 - [OneSignal setup on Wordpress](#onesignal-setup-on-wordpress)
@@ -16,6 +22,8 @@ We’re using OneSignal for the push notification purpose. You need to set up On
   - [1. Android native project:](#1-android-native-project)
   - [2. iOS native project:](#2-ios-native-project)
   - [3. Houzi Package via Houzi Builder](#3-houzi-package-via-houzi-builder)
+
+
 
 ## OneSignal setup
 
