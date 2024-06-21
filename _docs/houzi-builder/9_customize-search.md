@@ -29,7 +29,7 @@ Let's dive into the details of each section.
 
 There is a **Add** button at the bottom of the column. Press this button and a dialog box will open.  
 
-  <img src="../../images/search-add-section-screenshot.png" alt="search-add-section-screenshot" title="search-add-section-screenshot" width= 300 border= "1px solid"/>  
+  <img src="../../images/search-add-section-screenshot.png" alt="search-add-section-screenshot" title="search-add-section-screenshot" width="300" border= "1px solid"/>  
 
 You will encounter following fields on the dialog box:
 
@@ -76,7 +76,7 @@ You are provided with the dropdown list of  **Widget Types**. The details of wid
 
 * **custom_field_picker:** If you want to search properties w.r.t. some custom field attributes. 
 
-  <img src="../../images/search-widget-types-screenshot.png" alt="search-widget-types-screenshot" title="search-widget-types-screenshot" width= 300 border= "1px solid"/>   
+  <img src="../../images/search-widget-types-screenshot.png" alt="search-widget-types-screenshot" title="search-widget-types-screenshot" width="300" border= "1px solid"/>   
 
   > **Custom Field Picker** depends upon the data of you website. If you have not defined any custom field, this picker would not available.  
 
@@ -108,7 +108,7 @@ You are provided with the dropdown list of **Data Types**. You can define the *D
 
   - **property_area** (To search properties w.r.t. Area)
 
-    <img src="../../images/search-property-type-datatype-screenshot.png" alt="search-property-type-datatype-screenshot" title="search-property-type-datatype-screenshot" width= 300 border= "1px solid"/>
+    <img src="../../images/search-property-type-datatype-screenshot.png" alt="search-property-type-datatype-screenshot" title="search-property-type-datatype-screenshot" width="300" border= "1px solid"/>
 
   > Above displayed **Data Types** are *generic houzez taxonomies*. You may encounter all or some of these options, according to the data of your website.
 
@@ -119,7 +119,7 @@ You are provided with the dropdown list of **Data Types**. You can define the *D
 
   - **price** (To search properties within specific range of *price*)
 
-    <img src="../../images/search-range-picker-area-datatype-screenshot.png" alt="search-range-picker-area-datatype-screenshot" title="search-range-picker-area-datatype-screenshot" width=300 border= "1px solid"/>  
+    <img src="../../images/search-range-picker-area-datatype-screenshot.png" alt="search-range-picker-area-datatype-screenshot" title="search-range-picker-area-datatype-screenshot" width="300" border= "1px solid"/>  
 
 * If selected *Widget Type* is **string_picker**, you can select from following data types:  
 
@@ -127,7 +127,7 @@ You are provided with the dropdown list of **Data Types**. You can define the *D
 
   - **bathrooms** (To search properties w.r.t. specific number of *bathrooms*)
 
-    <img src="../../images/search-string-picker-bedrooms-datatype-screenshot.png" alt="search-string-picker-bedrooms-datatype-screenshot" title="search-string-picker-bedrooms-datatype-screenshot" width=300 border= "1px solid"/>
+    <img src="../../images/search-string-picker-bedrooms-datatype-screenshot.png" alt="search-string-picker-bedrooms-datatype-screenshot" title="search-string-picker-bedrooms-datatype-screenshot" width="300" border= "1px solid"/>
 
 > All the other *Widget Types* have *Default* Data Types. 
 
@@ -151,7 +151,7 @@ You are provided with the dropdown list of  **Picker Types**. The details of pic
 
   - **box:** To view properties related categories and sub-categories data in the form of *Grid View* having 3 catagories per row with their icons and titles.
 
-    <img src="../../images/search-term-picker-pickertype-screenshot.png" alt="search-term-picker-pickertype-screenshot" title="search-term-picker-pickertype-screenshot" width=300 border= "1px solid"/>
+    <img src="../../images/search-term-picker-pickertype-screenshot.png" alt="search-term-picker-pickertype-screenshot" title="search-term-picker-pickertype-screenshot" width="300" border= "1px solid"/>
 
   - If selected *Widget Type* is **string_picker**, you can select from following picker types:  
 
@@ -159,7 +159,7 @@ You are provided with the dropdown list of  **Picker Types**. The details of pic
 
   - **tabs:** To view properties related arrtibutes in the form of *Tabs*.
 
-    <img src="../../images/search-string-picker-pickertype-screenshot.png" alt="search-string-picker-pickertype-screenshot" title="search-string-picker-pickertype-screenshot" width=300 border= "1px solid"/>
+    <img src="../../images/search-string-picker-pickertype-screenshot.png" alt="search-string-picker-pickertype-screenshot" title="search-string-picker-pickertype-screenshot" width="300" border= "1px solid"/>
 
 - If selected *Widget Type* is **custom_keyword_picker**, you can select from following picker types:  
 
@@ -169,7 +169,7 @@ You are provided with the dropdown list of  **Picker Types**. The details of pic
 
   - **string_picker:** To provide users, specified keywords in the form of *Tabs* or *Chips*.
 
-    <img src="../../images/search-custom-keyword-picker-pickertype-screenshot.png" alt="search-custom-keyword-picker-pickertype-screenshot" title="search-custom-keyword-picker-pickertype-screenshot" width=300 border= "1px solid"/>
+    <img src="../../images/search-custom-keyword-picker-pickertype-screenshot.png" alt="search-custom-keyword-picker-pickertype-screenshot" title="search-custom-keyword-picker-pickertype-screenshot" width="300" border= "1px solid"/>
 
 - If selected *Widget Type* is **keyword_custom_query_picker**, you can select from following picker types:
 
@@ -177,7 +177,7 @@ You are provided with the dropdown list of  **Picker Types**. The details of pic
 
   - **checkbox**
 
-    <img src="../../images/search-keyword-custom-query-picker-pickertype-screenshot.png" alt="search-keyword-custom-query-picker-pickertype-screenshot" title="search-keyword-custom-query-picker-pickertype-screenshot" width=300 border= "1px solid"/>
+    <img src="../../images/search-keyword-custom-query-picker-pickertype-screenshot.png" alt="search-keyword-custom-query-picker-pickertype-screenshot" title="search-keyword-custom-query-picker-pickertype-screenshot" width="300" border= "1px solid"/>
 
 > All the other *Widget Types* have *Default* Picker Type. 
 
@@ -188,19 +188,19 @@ You can define some additional customizations for some sections. For this purpos
 
 - If selected *Widget Type* is **location_picker**, you can set the value for the **Default Radius**. You can choose either to show **Search By City** or **Search By Location** or you can choose to show both.
 
-  <img src="../../images/default-radius.png" alt="default-radius" title="default-radius" width= 300 border= "1px solid"/> 
+  <img src="../../images/default-radius.png" alt="default-radius" title="default-radius" width="300" border= "1px solid"/> 
   
-  <img src="../../images/location-picker-additional-fields.png" alt="location-picker-additional-fields" title="location-picker-additional-fields" width= 300 border= "1px solid"/> 
+  <img src="../../images/location-picker-additional-fields.png" alt="location-picker-additional-fields" title="location-picker-additional-fields" width="300" border= "1px solid"/> 
 
 - If selected *Widget Type* is **sequential_location_picker**, you can customize the **Location Picker Hierarchy** form the  multi-select dropdown menu.
 
-  <img src="../../images/slp-hierarchy-01.png" alt="slp-hierarchy-01" title="slp-hierarchy-01" width= 300 border= "1px solid"/> 
+  <img src="../../images/slp-hierarchy-01.png" alt="slp-hierarchy-01" title="slp-hierarchy-01" width="300" border= "1px solid"/> 
   
-  <img src="../../images/slp-hierarchy-02.png" alt="slp-hierarchy-02" title="slp-hierarchy-02" width= 300 border= "1px solid"/> 
+  <img src="../../images/slp-hierarchy-02.png" alt="slp-hierarchy-02" title="slp-hierarchy-02" width="300" border= "1px solid"/> 
 
 - If selected *Widget Type* is **range_picker**, you can define the *minimun* and *maximun* range of section in **Min Value**, **Max Value** and **Steps** fields. 
 
-    <img src="../../images/range-picker-additional-fields.png" alt="range-picker-additional-fields" title="range-picker-additional-fields" width= 300 border= "1px solid"/>  
+    <img src="../../images/range-picker-additional-fields.png" alt="range-picker-additional-fields" title="range-picker-additional-fields" width="300" border= "1px solid"/>  
 
 - If selected *Widget Type* is **term_picker**, you can define the query type from dropdown menu in **Query Type** field. 
 
@@ -208,17 +208,17 @@ You can define some additional customizations for some sections. For this purpos
 
   - **AND Query Type:** If you want that search properties which must include this specific **term**, use *AND* query type. 
 
-      <img src="../../images/query-type-field-screenshot.png" alt="query-type-field-screenshot" title="query-type-field-screenshot" width= 300 border= "1px solid"/> 
+      <img src="../../images/query-type-field-screenshot.png" alt="query-type-field-screenshot" title="query-type-field-screenshot" width="300" border= "1px solid"/> 
 
-      <img src="../../images/query-type-options-screenshot.png" alt="query-type-options-screenshot" title="query-type-options-screenshot" width= 300 border= "1px solid"/> 
+      <img src="../../images/query-type-options-screenshot.png" alt="query-type-options-screenshot" title="query-type-options-screenshot" width="300" border= "1px solid"/> 
 
 - If the selecetd *Widget Type* is **string_picker** you can define your comma seperated specific options for the picker in the **Options** field.
     
-    <img src="../../images/options-additonal-field.png" alt="options-additonal-field" title="options-additonal-field" width= 300 border= "1px solid"/>
+    <img src="../../images/options-additonal-field.png" alt="options-additonal-field" title="options-additonal-field" width="300" border= "1px solid"/>
 
 - If selected *Widget Type* is **custom_keyword_picker**, you can define the **Unique key** and **Query Type**.  
 
-    <img src="../../images/search-custom-keyword-picker-dialog.png" alt="search-custom-keyword-picker-dialog" title="search-custom-keyword-picker-dialog" width=300 height=600 border= "1px solid"/>
+    <img src="../../images/search-custom-keyword-picker-dialog.png" alt="search-custom-keyword-picker-dialog" title="search-custom-keyword-picker-dialog" width="300" height="600" border= "1px solid"/>
 
   - **Unique key** (Assign a unique key to this field e.g. *keyword-some-text*.)
 
@@ -228,27 +228,27 @@ You can define some additional customizations for some sections. For this purpos
 
     - **AND Query Type:** If you want that search properties which must include this specific keyword, use *AND* query type.  
 
-      <img src="../../images/query-type-field-screenshot.png" alt="query-type-field-screenshot" title="query-type-field-screenshot" width= 300 border= "1px solid"/> 
+      <img src="../../images/query-type-field-screenshot.png" alt="query-type-field-screenshot" title="query-type-field-screenshot" width="300" border= "1px solid"/> 
 
-      <img src="../../images/query-type-options-screenshot.png" alt="query-type-options-screenshot" title="query-type-options-screenshot" width= 300 border= "1px solid"/> 
+      <img src="../../images/query-type-options-screenshot.png" alt="query-type-options-screenshot" title="query-type-options-screenshot" width="300" border= "1px solid"/> 
 
 - If selected *Widget Type* is **custom_keyword_picker** and *Picker Type* is **dropdown** or **string_picker**. There are some additional fields as:
 
     - If the selecetd field is **dropdown** you can define your comma seperated specific keywords in **Options** field.  
 
-      <img src="../../images/search-custom-keyword-picker-dialog-01.png" alt="search-custom-keyword-picker-dialog-01" title="search-custom-keyword-picker-dialog-01" width=300 border= "1px solid"/>  
+      <img src="../../images/search-custom-keyword-picker-dialog-01.png" alt="search-custom-keyword-picker-dialog-01" title="search-custom-keyword-picker-dialog-01" width="300" border= "1px solid"/>  
       
     - If the selecetd field is **string_picker** you can define your comma seperated specific keywords in **Options** field. You can also specify *Sub-Picker Type* of *string_picker* i.e. *Chips* or *Tabs*.  
 
-      <img src="../../images/search-custom-keyword-picker-dialog-02.png" alt="search-custom-keyword-picker-dialog-02" title="search-custom-keyword-picker-dialog-02" width=300 border= "1px solid"/>  
+      <img src="../../images/search-custom-keyword-picker-dialog-02.png" alt="search-custom-keyword-picker-dialog-02" title="search-custom-keyword-picker-dialog-02" width="300" border= "1px solid"/>  
 
     - **Sub-Picker Types:**  
 
-      <img src="../../images/search-custom-keyword-picker-dialog-03.png" alt="search-custom-keyword-picker-dialog-03" title="search-custom-keyword-picker-dialog-03" width=300 border="1px solid"/>  
+      <img src="../../images/search-custom-keyword-picker-dialog-03.png" alt="search-custom-keyword-picker-dialog-03" title="search-custom-keyword-picker-dialog-03" width="300" border="1px solid"/>  
 
   - If selected *Widget Type* is **keyword_custom_query_picker**, you can define the **Options**, **Unique key** and **Query Type**.  
 
-    <img src="../../images/search-keyword-custom-query-picker-dialog.png" alt="search-keyword-custom-query-picker-dialog" title="search-keyword-custom-query-picker-dialog" width=300 height=650 border= "1px solid"/>  
+    <img src="../../images/search-keyword-custom-query-picker-dialog.png" alt="search-keyword-custom-query-picker-dialog" title="search-keyword-custom-query-picker-dialog" width="300" height="650" border= "1px solid"/>  
 
   - **Options** (Define your comma seperated custom keyword query in this field.)
 
@@ -260,9 +260,9 @@ You can define some additional customizations for some sections. For this purpos
 
     - **AND Query Type** If you want that search properties which must include this specific keyword, use *AND* query type.
 
-      <img src="../../images/query-type-field-screenshot.png" alt="query-type-field-screenshot" title="query-type-field-screenshot" width= 300 border= "1px solid"/> 
+      <img src="../../images/query-type-field-screenshot.png" alt="query-type-field-screenshot" title="query-type-field-screenshot" width="300" border= "1px solid"/> 
 
-      <img src="../../images/query-type-options-screenshot.png" alt="query-type-options-screenshot" title="query-type-options-screenshot" width= 300 border= "1px solid"/> 
+      <img src="../../images/query-type-options-screenshot.png" alt="query-type-options-screenshot" title="query-type-options-screenshot" width="300" border= "1px solid"/> 
     
 > Click `Done` to *add* the new section.  
   Click `Cancel` to *discard* the action. 
@@ -287,9 +287,9 @@ You can **Edit** the sections just by clicking on **Edit Icon** of respective se
 
 You can **Delete** any section just by clicking on *delete icon* of respective section. A delete confirmation dialog will open.  
 
-  <img src="../../images/search-list-tile-screenshot.png" alt="search-list-tile-screenshot" title="search-list-tile-screenshot" width=300 border= "1px solid"/>  
+  <img src="../../images/search-list-tile-screenshot.png" alt="search-list-tile-screenshot" title="search-list-tile-screenshot" width="300" border= "1px solid"/>  
 
-  <img src="../../images/search-delete-section-screenshot.png" alt="search-delete-section-screenshot" title="search-delete-section-screenshot" width=300 border= "1px solid"/>  
+  <img src="../../images/search-delete-section-screenshot.png" alt="search-delete-section-screenshot" title="search-delete-section-screenshot" width="300" border= "1px solid"/>  
   
 > Click **Delete** if you want to *delete* the section.  
   Click **Cancel** if you want to *discard* the action. 
@@ -300,6 +300,6 @@ You can **Delete** any section just by clicking on *delete icon* of respective s
 
 You can **Re-arrange** the sections on **Search Page**. Hold the section that you want to re-arrange and move it vertically (*upwards* or *downwards*). Place it on desire position in sections list.
 
-<img src="../../images/search-re-arrange-01.png" alt="search-re-arrange-01" title="search-re-arrange-01" width= 400 border= "1px solid"/> 
+<img src="../../images/search-re-arrange-01.png" alt="search-re-arrange-01" title="search-re-arrange-01" width= "400" border= "1px solid"/> 
 
-<img src="../../images/search-re-arrange-02.png" alt="search-re-arrange-02" title="search-re-arrange-02" width= 400 border= "1px solid"/> 
+<img src="../../images/search-re-arrange-02.png" alt="search-re-arrange-02" title="search-re-arrange-02" width= "400" border= "1px solid"/> 

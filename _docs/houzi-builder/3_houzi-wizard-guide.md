@@ -7,7 +7,7 @@ order: 403
 
 > **Important**: You are required to install the Houzi Rest Api Plugin on your Houzez wordpress. To install the Plug-in, click on [Houzi Rest Api Plugin Link](https://github.com/booleanbites/houzi-rest-api).
 
-After activating the *Houzi Builder* application, the nexr screen, that you will encounter, will be the **Houzi Wizard Screen**. *Houzi Wizard* will analyze your website for API connectivity and it will detect any possible issues.
+After activating the *Houzi Builder* application, the next screen, that you will encounter, will be the **Houzi Wizard Screen**. *Houzi Wizard* will analyze your website for API connectivity and it will detect any possible issues.
 
 <img src="../../images/houzi-wizard-screenshot-idle.png" alt="houzi-wizard-screenshot-idle" title="houzi-wizard-screenshot-idle" border= "1px solid"/> 
 

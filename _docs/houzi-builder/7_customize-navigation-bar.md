@@ -27,13 +27,13 @@ Let's dive into the details of each section.
 
 Houzi provides you wide range of bottom navigation bar designs. On the top right side of Navigation Bar section, Navigation Bar designs are provided. Click on any *Navigation Bar design*, and you will be able to see, how it will look on real device in the *Mobile App View*. (By default, selected design is *Design 02*, one of most popular designs.)
 
-<img src="../../images/bottom-navbar-designs.png" alt="bottom-navbar-designs" title="bottom-navbar-designs" width=300 border="1px solid"/>   
+<img src="../../images/bottom-navbar-designs.png" alt="bottom-navbar-designs" title="bottom-navbar-designs" width="300" border="1px solid"/>   
 
 There are some *additional customizations* related to Home designs as follows:
 
 If you select **Design 01** or **Design 03**, you can **show** or **hide** a **Floating Action Button** on the center of Navigation Bar, just by *Check Marking or Un-Marking* the **Show Add Floating Action Button** checkbox field.
 
-  <img src="../../images/bottom-navbar-additional-config.png" alt="bottom-navbar-additional-config" title="bottom-navbar-additional-config" width=300 border="1px solid"/>  
+  <img src="../../images/bottom-navbar-additional-config.png" alt="bottom-navbar-additional-config" title="bottom-navbar-additional-config" width="300" border="1px solid"/>  
 
 By default, Floating Action Button will be a circular FAB Button with plus sign, and it'll open Quick Add Property. You can customize or add custom actions to [Floating Action Button](/hooks-widgets/add_floating_action_button).
 
@@ -47,7 +47,7 @@ For adding new section in Navigation Bar, follow these steps:
 
 - There is a **Add** button at the right-bottom side of the screen, press this button and a dialog box will open.  
    
-  <img src="../../images/navbar-add-section-dialog-01.png" alt="navbar-add-section-dialog-01" title="navbar-add-section-dialog-01" width=300 border="1px solid"/>  
+  <img src="../../images/navbar-add-section-dialog-01.png" alt="navbar-add-section-dialog-01" title="navbar-add-section-dialog-01" width="300" border="1px solid"/>  
 
 You will encounter following fields on the dialog box:
 
@@ -72,6 +72,8 @@ You are provided with the dropdown list of  **Widget Types**. The details of wid
 
 * **favourites:** If you want to show the *Favourites* option.
 
+* **blogs:** If you want to show the *Houzez Posts/ Blogs* option.
+
 * **place_holder:** If you want to [Display your Custom Widget via Hooks](https://houzi-docs.booleanbites.com/hooks-widgets/add_custom_page_in_navigation_bar).
 
 * **web_url:** If you want to show an option which will open a *Webpage*.
@@ -90,7 +92,7 @@ You are provided with the dropdown list of  **Widget Types**. The details of wid
 
 * **App_Terms_and_Conditions_Screen:** If you want to show *App Terms and Conditions* screen menu option.
 
-    <img src="../../images/navbar-widget-types-dropdown.png" alt="navbar-widget-types-dropdown" title="navbar-widget-types-dropdown" width=300 height=720 border= "1px solid"/>
+    <img src="../../images/navbar-widget-types-dropdown.png" alt="navbar-widget-types-dropdown" title="navbar-widget-types-dropdown" width="300" height="720" border= "1px solid"/>
 
 
 ### Title:
@@ -105,7 +107,7 @@ If you want that only *logged-in* user will be able to see the content of this p
 
 You can define the icon of your navigation bar item. Click on the icon button, an icon picker dialog will open. You can either choose from **Material Icons** or **Cupertino Icons**. Just search and click the required icon, it will be displayed and previous icon will be replaced.
 
-<img src="../../images/icon-picker.png" alt="icon-picker" title="icon-picker" width=400 border= "1px solid"/>
+<img src="../../images/icon-picker.png" alt="icon-picker" title="icon-picker" width="400" border= "1px solid"/>
 
 ### Term Type:
 
@@ -113,11 +115,11 @@ You can define the icon of your navigation bar item. Click on the icon button, a
 
 If you have selected the **Term** widget type, an additional field will be visible to you named as *Term Type*. 
     
-<img src="../../images/navbar-term-related-fields.png" alt="navbar-term-related-fields" title="navbar-term-related-fields" width=300 border= "1px solid"/>
+<img src="../../images/navbar-term-related-fields.png" alt="navbar-term-related-fields" title="navbar-term-related-fields" width="300" border= "1px solid"/>
 
 Select the *Term Type* from the **Term Type** dropdown menu.
 
-  <img src="../../images/navbar-term-type.png" alt="navbar-term-type" title="navbar-term-type" width=300 height=500 border= "1px solid"/>
+  <img src="../../images/navbar-term-type.png" alt="navbar-term-type" title="navbar-term-type" width="300" height="500" border= "1px solid"/>
 
 ### Term Type Value:
 
@@ -125,11 +127,11 @@ Select the *Term Type* from the **Term Type** dropdown menu.
 
 If you have selected the **Term** widget type, an additional field will be visible to you named as *Term Type Value*. 
     
-<img src="../../images/navbar-term-type-related.png" alt="navbar-term-type-related" title="navbar-term-type-related" width=300 border= "1px solid"/>
+<img src="../../images/navbar-term-type-related.png" alt="navbar-term-type-related" title="navbar-term-type-related" width="300" border= "1px solid"/>
 
 Select the *Term Type Value* from the **Term Type Value** dropdown menu.
 
-  <img src="../../images/navbar-term-type-value.png" alt="navbar-term-type-value" title="navbar-term-type-value" width=300 height=700 border= "1px solid"/>
+  <img src="../../images/navbar-term-type-value.png" alt="navbar-term-type-value" title="navbar-term-type-value" width="300" height="700" border= "1px solid"/>
 
 
   > Above displayed **Term Type** and **Term Type Value** are *generic houzez options*. You may encounter all or some of these options, according to the data of your website.
@@ -150,9 +152,9 @@ You can **Edit** the sections just by clicking on **Edit Icon** of respective se
 
 > Term Type and Term Type Value are only section type "Term" related fields.
 
-<img src="../../images/edit-navbar-section-01.png" alt="edit-navbar-section-01" title="edit-navbar-section-01" width=300 height=400 border="1px solid"/>
+<img src="../../images/edit-navbar-section-01.png" alt="edit-navbar-section-01" title="edit-navbar-section-01" width="300" height="400" border="1px solid"/>
 
-<img src="../../images/edit-navbar-section-02.png" alt="edit-navbar-section-02" title="edit-navbar-section-02" width=300 height=550 border="1px solid"/>
+<img src="../../images/edit-navbar-section-02.png" alt="edit-navbar-section-02" title="edit-navbar-section-02" width="300" height="550" border="1px solid"/>
 
 ---
 
@@ -162,9 +164,9 @@ You can **Edit** the sections just by clicking on **Edit Icon** of respective se
 
 You can **Delete** any section just by clicking on *delete icon* of respective section. A delete confirmation dialog will open. 
 
-<img src="../../images/navbar-delete-section-01.png" alt="navbar-delete-section-01" title="navbar-delete-section-01" width=300 border= "1px solid"/>    
+<img src="../../images/navbar-delete-section-01.png" alt="navbar-delete-section-01" title="navbar-delete-section-01" width="300" border= "1px solid"/>    
 
-<img src="../../images/navbar-delete-section-02.png" alt="navbar-delete-section-02" title="navbar-delete-section-02" width=300 border= "1px solid"/>  
+<img src="../../images/navbar-delete-section-02.png" alt="navbar-delete-section-02" title="navbar-delete-section-02" width="300" border= "1px solid"/>  
     
 > Click **Delete** if you want to *delete* the section.  
   Click **Cancel** if you want to *discard* the action.
@@ -175,6 +177,6 @@ You can **Delete** any section just by clicking on *delete icon* of respective s
 
 You can **Re-arrange** the sections on **Navigation Bar**. Hold the section that you want to re-arrange and move it vertically (*upwards* or *downwards*). Place it on desire position in sections list.
 
-<img src="../../images/navbar-re-arrange-01.png" alt="navbar-re-arrange-01" title="navbar-re-arrange-01" width=300 border= "1px solid"/>  
+<img src="../../images/navbar-re-arrange-01.png" alt="navbar-re-arrange-01" title="navbar-re-arrange-01" width="300" border= "1px solid"/>  
 
-<img src="../../images/navbar-re-arrange-02.png" alt="navbar-re-arrange-02" title="navbar-re-arrange-02" width=300 border= "1px solid"/>  
+<img src="../../images/navbar-re-arrange-02.png" alt="navbar-re-arrange-02" title="navbar-re-arrange-02" width="300" border= "1px solid"/>  

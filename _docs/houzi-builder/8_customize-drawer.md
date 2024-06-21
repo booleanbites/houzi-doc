@@ -27,7 +27,7 @@ Let's dive into the details of each section.
 
 You can **Add** a new section in *Drawer Menu* with ease. There is a **Add** button at the right-bottom of the screen. Press this *Add* button, a dialog box will open.
      
-<img src="../../images/drawer-add-widget-dialog.png" alt="drawer-add-widget-dialog" title="drawer-add-widget-dialog" width=300 border= "1px solid"/>  
+<img src="../../images/drawer-add-widget-dialog.png" alt="drawer-add-widget-dialog" title="drawer-add-widget-dialog" width="300" border= "1px solid"/>  
 
 You will encounter following fields on the dialog box:
 
@@ -39,6 +39,8 @@ You will encounter following fields on the dialog box:
 ### Widget Type:
 
 You are provided with the dropdown list of  **Widget Types**. The details of widget types are as follows: 
+
+* **blogs:** If you want to show the *Houzez Posts/ Blogs* screen menu option.
 
 * **place_holder:** If you want to [Display your Custom Widget via Hooks](https://houzi-docs.booleanbites.com/hooks-widgets/add_custom_widget_in_drawer).
 
@@ -58,7 +60,7 @@ You are provided with the dropdown list of  **Widget Types**. The details of wid
 
 * **App_Terms_and_Conditions_Screen:** If you want to show *App Terms and Conditions* screen menu option.
 
-    <img src="../../images/drawer-add-widget-section-types-dialog.png" alt="drawer-add-widget-section-types-dialog" title="drawer-add-widget-section-types-dialog" width=300 height=420 border= "1px solid"/>
+    <img src="../../images/drawer-add-widget-section-types-dialog.png" alt="drawer-add-widget-section-types-dialog" title="drawer-add-widget-section-types-dialog" width="300" border= "1px solid"/>
 
 
 ### Title:
@@ -73,28 +75,28 @@ If you want that only *logged-in* user will be able to see the content of this p
 
 If you have selected the **Term** widget type, an additional field will be visible to you named as *Initialize Data*. 
     
-<img src="../../images/drawer-add-widget-term.png" alt="drawer-add-widget-term" title="drawer-add-widget-term" width=300 border= "1px solid"/>
+<img src="../../images/drawer-add-widget-term.png" alt="drawer-add-widget-term" title="drawer-add-widget-term" width="300" border= "1px solid"/>
 
 You can initialize the data of your term by following these steps:
 
 - Click on the empty text field, an *Initialize Data* dialog will be opened.
 
-    <img src="../../images/drawer-add-widget-term-initialize-data-dialog.png" alt="drawer-add-widget-term-initialize-data-dialog" title="drawer-add-widget-term-initialize-data-dialog" width=300 border= "1px solid"/>
+    <img src="../../images/drawer-add-widget-term-initialize-data-dialog.png" alt="drawer-add-widget-term-initialize-data-dialog" title="drawer-add-widget-term-initialize-data-dialog" width="300" border= "1px solid"/>
 
 - Select the *Term/Terms* from the **Term** dropdown menu.
 
-    <img src="../../images/drawer-add-widget-select-term.png" alt="drawer-add-widget-select-term" title="drawer-add-widget-select-term" width=300 height=500 border= "1px solid"/>
+    <img src="../../images/drawer-add-widget-select-term.png" alt="drawer-add-widget-select-term" title="drawer-add-widget-select-term" width="300" height="500" border= "1px solid"/>
 
 - Select the *Sub-Term/Sub-Terms* from the **Sub-Term** dropdown menu.
 
-    <img src="../../images/drawer-add-widget-select-sub-term.png" alt="drawer-add-widget-select-sub-term" title="drawer-add-widget-select-sub-term" width=300 height=700 border= "1px solid"/> 
+    <img src="../../images/drawer-add-widget-select-sub-term.png" alt="drawer-add-widget-select-sub-term" title="drawer-add-widget-select-sub-term" width="300" height="700" border= "1px solid"/> 
 
     > Above displayed **Terms** and **Sub-Terms** are *generic houzez options*. You may encounter all or some of these options, according to the data of your website.
 
 - Click `Done` to *perfrom* the action. 
 - Click `Cancel` to *discard* the action.
 
-    <img src="../../images/drawer-add-widget-term-initialized-data.png" alt="drawer-add-widget-term-initialized-data" title="drawer-add-widget-term-initialized-data" width=300 border="1px solid"/> 
+    <img src="../../images/drawer-add-widget-term-initialized-data.png" alt="drawer-add-widget-term-initialized-data" title="drawer-add-widget-term-initialized-data" width="300" border="1px solid"/> 
 
 - Click `Done` to *add* the new section.  
 - Click `Cancel` to *discard* the action.
@@ -119,9 +121,9 @@ There are two type of sections in drawer screen as follows:
 
 While editing a *default section*, you only get to **Rename** the section. Just click on **Edit Icon** of respective section. A dialog will open. **Rename** the section as you like. 
 
-<img src="../../images/drawer-list-tile-screenshot.png" alt="drawer-list-tile-screenshot" title="drawer-list-tile-screenshot" width=300 border="1px solid"/>
+<img src="../../images/drawer-list-tile-screenshot.png" alt="drawer-list-tile-screenshot" title="drawer-list-tile-screenshot" width="300" border="1px solid"/>
 
-<img src="../../images/drawer-edit-section-screenshot.png" alt="drawer-edit-section-screenshot" title="drawer-edit-section-screenshot" width=300 border="1px solid"/>    
+<img src="../../images/drawer-edit-section-screenshot.png" alt="drawer-edit-section-screenshot" title="drawer-edit-section-screenshot" width="300" border="1px solid"/>    
 
 - Click `Done` if you want to *Rename* the section.  
 - Click `Cancel` if you want to *discard* the action.
@@ -135,7 +137,7 @@ While editing a *custom section*, you can perform following actions:
 - Modify section [Check Login](#check-login).
 - Modify section [Initialize Data](#initialize-data).
 
-<img src="../../images/drawer-edit-section-screenshot-02.png" alt="drawer-edit-section-screenshot-02" title="drawer-edit-section-screenshot-02" width=300 border="1px solid"/>
+<img src="../../images/drawer-edit-section-screenshot-02.png" alt="drawer-edit-section-screenshot-02" title="drawer-edit-section-screenshot-02" width="300" border="1px solid"/>
 
 ---
 
@@ -143,9 +145,9 @@ While editing a *custom section*, you can perform following actions:
 
 You can **show** or **hide** any section just by clicking on **Visibility / Invisibility Icon** of respective section.  
  
-<img src="../../images/drawer-list-tile-screenshot.png" alt="drawer-list-tile-screenshot" title="drawer-list-tile-screenshot" width=300 border= "1px solid"/>
+<img src="../../images/drawer-list-tile-screenshot.png" alt="drawer-list-tile-screenshot" title="drawer-list-tile-screenshot" width="300" border= "1px solid"/>
 
-<img src="../../images/drawer-list-tile-01-screenshot.png" alt="drawer-list-tile-01-screenshot" title="drawer-list-tile-01-screenshot" width=300 border= "1px solid"/> 
+<img src="../../images/drawer-list-tile-01-screenshot.png" alt="drawer-list-tile-01-screenshot" title="drawer-list-tile-01-screenshot" width="300" border= "1px solid"/> 
 
 ---
 
@@ -153,9 +155,9 @@ You can **show** or **hide** any section just by clicking on **Visibility / Invi
 
 You can `Re-arrange` the sections on **Drawer Menu**. Hold the section that you want to re-arrange and move it vertically (*upwards* or *downwards*). Place it on desire position in sections list.
 
-<img src="../../images/drawer-re-arrange-01.png" alt="drawer-re-arrange-01" title="drawer-re-arrange-01" width=300 border= "1px solid"/>  
+<img src="../../images/drawer-re-arrange-01.png" alt="drawer-re-arrange-01" title="drawer-re-arrange-01" width="300" border= "1px solid"/>  
 
-<img src="../../images/drawer-re-arrange-02.png" alt="drawer-re-arrange-02" title="drawer-re-arrange-02" width=300 border= "1px solid"/> 
+<img src="../../images/drawer-re-arrange-02.png" alt="drawer-re-arrange-02" title="drawer-re-arrange-02" width="300" border= "1px solid"/> 
 
 ---
 
@@ -172,9 +174,9 @@ There are two type of sections in drawer screen as follows:
 
 You can **Delete** any custom section just by clicking on **delete icon** of respective section. A *delete* confirmation dialog will open. 
 
-<img src="../../images/drawer-delete-section-screenshot-01.png" alt="drawer-delete-section-screenshot-01" title="drawer-delete-section-screenshot-01" width=300 border= "1px solid"/>    
+<img src="../../images/drawer-delete-section-screenshot-01.png" alt="drawer-delete-section-screenshot-01" title="drawer-delete-section-screenshot-01" width="300" border= "1px solid"/>    
 
-<img src="../../images/drawer-delete-section-screenshot-02.png" alt="drawer-delete-section-screenshot-02" title="drawer-delete-section-screenshot-02" width=300 border= "1px solid"/>  
+<img src="../../images/drawer-delete-section-screenshot-02.png" alt="drawer-delete-section-screenshot-02" title="drawer-delete-section-screenshot-02" width="300" border= "1px solid"/>  
     
 - Click **Delete** if you want to *delete* the section.   
 - Click **Cancel** if you want to *discard* the action.
