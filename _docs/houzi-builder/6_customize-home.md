@@ -87,7 +87,7 @@ Houzi offers a diverse selection of widget types for your home screen, making it
 
 - **place_holder:** Select this widget type, if you want to shows "**Custom Widget**" on you home screen.
 
-- **blogs:** Select this widget type, if you want to shows "**Houzez Posts**" or "**Blogs**" on you home screen.
+- **blogs:** Select this widget type, if you want to shows Wordpress Posts as "**Blogs**" on you home screen.
 
 - **partners:** Select this widget type, if you want to shows "**Partners  Listing**" on you home screen.
 
