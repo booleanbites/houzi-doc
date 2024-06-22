@@ -29,7 +29,7 @@ Let's assume you simply want to update your houzi_package, updating to 1.4.0 req
 #### Push Notification with OneSignal
 We have provide support for the push notifications in the Houzi 1.4.0 release. You need to perform following configurtion to enable push notifications in your existing apps.
 
-- You need to integrate the push notifications. For more information [Push Notifications Integration](.../push_notifications_integration). 
+- You need to integrate the push notifications. For more information [Push Notifications Integration](../push_notifications_integration). 
 - Copy the **MainActivity**, **ApplicationClass** and **NotificationServiceExtension** files from Houzi 1.4.0 to your existing project. 
     - File path: `PROJECT_HOME > android > app > src > main > kotlin > com > houzi > app`
     - Destination file path: `PROJECT_HOME > android > app > src > main > kotlin > your > package > name > all_kotlin_files`.
