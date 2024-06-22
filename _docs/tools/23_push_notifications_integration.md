@@ -94,12 +94,12 @@ You will have to provide this app id in the following destinations (Mandatory):
 
 ### 1. Android native project:
 Nees to setup two things:
-1. Open AndroidManifest.xml and Find meta tag and change its value to your own package for NotificationServiceExtension, if you haven't done already. Follow guide here: [OneSignal Push Configurations for Android](app-setup/change_app_identifier#onesignal-push-configurations-for-android)
+1. Open AndroidManifest.xml and Find meta tag and change its value to your own package for NotificationServiceExtension, if you haven't done already. Follow guide here: [OneSignal Push Configurations for Android](../app-setup/change_app_identifier#onesignal-push-configurations-for-android)
 2. Go to the `Project_HOME > android > app > src > main > res > values > strings.xml` file, and look for `onesignal_app_id`. Replace its value with your app id.
 
 ### 2. iOS native project:
 Nees to setup two things:
-1. Setup App group bundle identfier for App Groups for NotificationServiceExtension, if you haven't done already. App Group identifier help share resources between app and NotificationServiceExtension. Follow guide here: [OneSignal Push Configurations for iOS](app-setup/change_app_identifier#onesignal-push-configurations-for-ios)
+1. Setup App group bundle identfier for App Groups for NotificationServiceExtension, if you haven't done already. App Group identifier help share resources between app and NotificationServiceExtension. Follow guide here: [OneSignal Push Configurations for iOS](../app-setup/change_app_identifier#onesignal-push-configurations-for-ios)
 2. Go to the `Project_HOME > ios > Runner > AppDelegate.swift` file, and look for `ONE_SIGNAL_APP_ID`. Replace its value with your app id.
 
 ### 3. Houzi Package via Houzi Builder
