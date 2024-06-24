@@ -22,8 +22,7 @@ We utilize OneSignal for push notifications. You will need to configure OneSigna
   - [1. Android native project:](#1-android-native-project)
   - [2. iOS native project:](#2-ios-native-project)
   - [3. Houzi Package via Houzi Builder](#3-houzi-package-via-houzi-builder)
-- [Change Notification Icon Android](#change-notification-icon-android)
-- [Change Notification Icon iOS](#change-notification-icon-ios)
+- [Change Notification Icon](#change-notification-icon)
 
 
 
@@ -110,16 +109,13 @@ Go to the **Api & Config** section of  the Houzi Builder and provide the *OneSig
 
 If you don't want to use HouziBuilder, open configuration.json and find `one_signal_app_id` and provide your OneSignal App ID as its value. If the key doesn't exist in your configuration, you can add as a new key in the root object of json.
 
-## Change Notification Icon Android
+## Change Notification Icon
 
-Please follow this guide to change the  notifcation icon on Android:
+Please follow this guide to change the  notifcation icon:
 
-[How to change notifcation icon on Android](https://documentation.onesignal.com/docs/android-notification-icons#how-to-add-default-icons)
+- [Change notifcation icon on Android](https://documentation.onesignal.com/docs/android-notification-icons#how-to-add-default-icons)
 
-## Change Notification Icon iOS
+- [Change notifcation icon on iOS](https://documentation.onesignal.com/docs/ios-customizations#notification-icons)
 
-Please follow this guide to change the  notifcation icon on iOS:
-
-[How to change notifcation icon on iOS](https://documentation.onesignal.com/docs/ios-customizations#notification-icons)
 
  *Added in version 1.4.0*
