@@ -114,12 +114,12 @@ If you don't want to use HouziBuilder, open configuration.json and find `one_sig
 
 Please follow this guide to change the  notifcation icon on Android:
 
-https://documentation.onesignal.com/docs/android-notification-icons#how-to-add-default-icons
+[How to change notifcation icon on Android](https://documentation.onesignal.com/docs/android-notification-icons#how-to-add-default-icons)
 
 ## Change Notification Icon iOS
 
 Please follow this guide to change the  notifcation icon on iOS:
 
-https://documentation.onesignal.com/docs/ios-customizations#notification-icons
+[How to change notifcation icon on iOS](https://documentation.onesignal.com/docs/ios-customizations#notification-icons)
 
  *Added in version 1.4.0*
