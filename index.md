@@ -35,6 +35,9 @@ At this point, the app will show your branding, with your data with firebase and
 3. Do any customization from [Houzi Builder](houzi-builder/intro) or [Hooks & Widgets](hooks-widgets/add_item_in_drawer).
 4. Launch on device.
 
+Houzi also supports push notifications. So if you want to configure push notification, follow this:
+1. Configure [Push Notificatons](tools/push_notifications_integration)
+
 
 ### Documentation
 
