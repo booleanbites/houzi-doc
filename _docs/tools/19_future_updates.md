@@ -36,13 +36,18 @@ We have provide support for the push notifications in the Houzi 1.4.0 release. Y
 - Copy the **AndroidMenifest.xml** file from Houzi 1.4.0 to your existing project. Path: `PROJECT_HOME > android > app > src > main`.
 - Remember to rename the app name in *AndroidMenifest.xml*.
 - Remember to replace the package declaration in kotlin files, i.e. replace com.houzi.app to your.package.name.
+- Add new key value to strings.xml here at `PROJECT_HOME > android > app > src > main > res > values > strings.xml` as below
+ ```xml
+ <string name="onesignal_app_id">YOUR_ONESIGNAL_APP_ID_OR_EMPTY</string>
+ ``` 
+
 - If you have made any changes to existing *MainActivity* and *AndroidMenifest.xml*, then you need to carefully review and migrate new changes from these files into your existing ones.
 - Add following dependency into the dependency block of the **build.gradle** file. File path `PROJECT_HOME > android > app > build.gradle`.
 
 ```groovy
   implementation 'com.onesignal:OneSignal:5.1.13'
   ```
-- Follow the [iOS setup guide](https://documentation.onesignal.com/docs/flutter-sdk-setup#2-ios-setup).
+- Follow the [iOS setup guide](https://documentation.onesignal.com/docs/flutter-sdk-setup#2-ios-setup). It'll help you add an extension target to your iOS project for one signal notifications.
 - Copy the **AppDelegate.swift** from Houzi 1.4.0 to your existing project. File path: `PROJECT_HOME > ios > Runner > AppDelegate.swift`. If you have made any changes to existing *AppDelegate.swift*, then you need to carefully review and migrate new changes from this file into your AppDelegate.swift file.
 - Remember to replace the **ONE_SIGNAL_APP_ID** with yours in the AppDelegate.swift.
 - Set the minimum deployment iOS to 14.0 in *Runner*, *OneSignalNotificationServiceExtension* and *Podfile*.
