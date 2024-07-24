@@ -37,6 +37,7 @@ We have provide support for the push notifications in the Houzi 1.4.0 release. Y
 - Remember to rename the app name in *AndroidMenifest.xml*.
 - Remember to replace the package declaration in kotlin files, i.e. replace com.houzi.app to your.package.name.
 - Add new key value to strings.xml here at `PROJECT_HOME > android > app > src > main > res > values > strings.xml` as below
+  
  ```xml
  <string name="onesignal_app_id">YOUR_ONESIGNAL_APP_ID_OR_EMPTY</string>
  ``` 
