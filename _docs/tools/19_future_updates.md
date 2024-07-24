@@ -34,7 +34,7 @@ We have provide support for the push notifications in the Houzi 1.4.0 release. Y
     - File path: `PROJECT_HOME > android > app > src > main > kotlin > com > houzi > app`
     - Destination file path: `PROJECT_HOME > android > app > src > main > kotlin > your > package > name > all_kotlin_files`.
 - Copy the **AndroidMenifest.xml** file from Houzi 1.4.0 to your existing project. Path: `PROJECT_HOME > android > app > src > main`.
-- Remember to rename the app name in *AndroidMenifest.xml*.
+- Remember to set package name and the app name in *AndroidMenifest.xml*.
 - Remember to replace the package declaration in kotlin files, i.e. replace com.houzi.app to your.package.name.
 - Add new key value to strings.xml here at `PROJECT_HOME > android > app > src > main > res > values > strings.xml` as below
   
