@@ -10,6 +10,8 @@ order: 7
 
 Firebase is necessary to be set up if you want analytics, planning to support push notifications and other diagnostic related data.
 
+> It is good to have signing keys setup before setting firebase project. So you can generate SHA keys and add them to firebase project configurations.
+
 ### Android setup (mandatory)
 https://firebase.google.com/docs/android/setup
 

@@ -5,8 +5,8 @@ permalink: tools/setup_google_signin
 order: 15
 ---
 
-## Google sign in
-The keystore that you intend to use to sign the Android app will be used in this step. YOu might have already created this keystore in previous sections. After generating a signing key, the next step is to add SHA-1 and SHA-256 certificates to the firebase project. You go to the `Firebase console > project > project settings > Add fingerprint`
+## Google Sign in
+The keystore that you intend to use to sign the Android app will be used in this step. You might have already created this keystore in previous sections. After generating a signing key, the next step is to add SHA-1 and SHA-256 certificates to the firebase project. You go to the `Firebase console > project > project settings > Add fingerprint`
 Here you add your SHA-1 and SHA-256 certificates, that you generated from your signing key and from the Google play console.
 
 To generate SHA-1 and SHA-256 certificates from the key:
