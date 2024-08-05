@@ -42,6 +42,10 @@ Let's dive into the details of each section.
 
 - You can **enable** or **disable** the *HTML*, in the description widget, just by *Check Marking or Un-Marking* the **Enable HTML in description** checkbox field. 
 
+- You can **show** or **hide** *Direct Message Button*, on the bottom action bar of screen, just by *Check Marking or Un-Marking* the **Show Messages Button** checkbox field. 
+
+> If you are unable to find the 'Direct Message Button config' on the property profile page, you need to [Configure the Direct Messages](/tools/direct_messages#direct-messages-setup-on-wordpress).
+
 ---
 
 # Add New Section

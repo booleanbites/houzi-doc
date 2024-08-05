@@ -7,19 +7,19 @@ order: 19
 
 Always make a backup before updating to the next version.
 
-## Migration Guide for 1.4.0.1
+## Migration Guide for 1.4.2
 
-> **Important Notice:** 1.4.0.1 is the updated version of 1.4.0. If you have already migrated to 1.4.0 or you are configuring new project, you can follow this guide and update/setup your project. If you have older version than 1.4.0, we recommend you to first perform the migration for 1.4.0, then migrate to 1.4.0.1.
+> **Important Notice:** 1.4.2 is the updated version of 1.4.0. If you have already migrated to 1.4.0 or you are configuring new project, you can follow this guide and update/setup your project. If you have older version than 1.4.0, we recommend you to first perform the migration for 1.4.0, then migrate to 1.4.2.
 
 We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
 
-Let's assume you simply want to update your houzi_package, updating to 1.4.0.1 requires you following things:
+Let's assume you simply want to update your houzi_package, updating to 1.4.2 requires you following things:
 
 - Always make a backup. (copy in separate folder or use git).
-- Copy `Project_HOME > packages > houzi_package` from 1.4.0.1 and replace houzi_package in your existing project.
+- Copy `Project_HOME > packages > houzi_package` from 1.4.2 and replace houzi_package in your existing project.
 - Copy new hooks_v2.dart and replace existing `Project_HOME > lib > hooks_v2.dart` (if you have made any changes to existing hooks_v2.dart, then you need to carefully review and migrate new changes from hooks_v2.dart into your existing hooks_v2.dart)
 - Copy new main.dart and replace existing `Project_HOME > lib > main.dart` (if you have made any changes to existing main.dart, then you need to carefully review and migrate new changes from main.dart into your existing main.dart)
-- Upgrade your Houzi Rest Api plugin to version 1.4.0.1 download from here: [Houzi Rest Api](https://github.com/booleanbites/houzi-rest-api/releases/latest.zip)
+- Upgrade your Houzi Rest Api plugin to version 1.4.2 download from here: [Houzi Rest Api](https://github.com/booleanbites/houzi-rest-api/releases/latest.zip)
 - Copy translation files or at least copy over new translations from this release.
 - Rest of configurations like configuration.json, you android project folders, ios project folders should remain same.
 

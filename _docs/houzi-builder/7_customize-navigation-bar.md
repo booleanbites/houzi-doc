@@ -74,6 +74,8 @@ You are provided with the dropdown list of  **Widget Types**. The details of wid
 
 * **blogs:** If you want to show the *Wordpress Posts/ Blogs* option.
 
+* **messages:** If you want to show the *Direct Messages* option.
+
 * **place_holder:** If you want to [Display your Custom Widget via Hooks](https://houzi-docs.booleanbites.com/hooks-widgets/add_custom_page_in_navigation_bar).
 
 * **web_url:** If you want to show an option which will open a *Webpage*.
@@ -93,6 +95,9 @@ You are provided with the dropdown list of  **Widget Types**. The details of wid
 * **App_Terms_and_Conditions_Screen:** If you want to show *App Terms and Conditions* screen menu option.
 
     <img src="../../images/navbar-widget-types-dropdown.png" alt="navbar-widget-types-dropdown" title="navbar-widget-types-dropdown" width="300" height="720" border= "1px solid"/>
+
+
+> If you are unable to find the 'messages' in the list, you need to [Configure the Direct Messages](/tools/direct_messages#direct-messages-setup-on-wordpress).
 
 
 ### Title:
