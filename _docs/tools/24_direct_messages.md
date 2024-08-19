@@ -36,6 +36,28 @@ Go to the `Theme Options > Contact Forms`.  Enable the *Direct Message Button* s
 
 <img src="../../images/messages-setup-wordpress-02.png" alt="messages-setup-wordpress-02" title="messages-setup-wordpress-02" border="1px solid"/>  
 
+### 3. Edit Houzez Theme File:
+
+- Go to the **Theme File Editor** (path: `Appearance > Theme File Editor`).
+- Select the **Houzez** theme from the dropdown and click the *Select* button.
+- Go to the **emails-function.php** (path: `framework > functions > emails-function.php`). 
+- Find the function `houzez_send_messages_emails`.
+- Add these lines just before **@wp_mail**.
+- Click the **Update File** button.
+
+```php
+$notificationArgs = array(
+            "title" => $subject,
+            "message" => $message,
+            "type" => "messages",
+            "to" => $user_email,
+        );
+
+do_action('houzez_send_notification', $notificationArgs);
+```
+
+<img src="../../images/messages-setup-wordpress-03.png" alt="messages-setup-wordpress-03" title="messages-setup-wordpress-03" border="1px solid"/>  
+
 
 ## Houzi Package via Houzi Builder
 
