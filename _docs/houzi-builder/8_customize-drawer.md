@@ -42,6 +42,8 @@ You are provided with the dropdown list of  **Widget Types**. The details of wid
 
 * **blogs:** If you want to show the *Wordpress Posts/ Blogs* screen menu option.
 
+* **messages:** If you want to show the *Direct Messages* option.
+
 * **place_holder:** If you want to [Display your Custom Widget via Hooks](https://houzi-docs.booleanbites.com/hooks-widgets/add_custom_widget_in_drawer).
 
 * **web_url:** If you want to show an option which will open a *Webpage*.
