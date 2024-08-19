@@ -14,7 +14,9 @@ This guide includes the following sections:
 - [Direct Messages Setup on WordPress](#direct-messages-setup-on-wordpress)
     - [1. Enable Direct Message Button:](#1-enable-direct-message-button)
     - [2. Create Message Page:](#2-create-message-page)
+    - [3. Edit Houzez Theme File: ](#3-edit-houzez-theme-file)
 - [Houzi Package via Houzi Builder](#houzi-package-via-houzi-builder)
+- [Direct Messages Configuration via Hooks](#direct-messages-configuration-via-hooks)
 
 
 ## Direct Messages Setup on WordPress
@@ -61,13 +63,18 @@ do_action('houzez_send_notification', $notificationArgs);
 
 ## Houzi Package via Houzi Builder
 
->  **❗️❗️IMPORTANT❗️❗️**
->
->  [Direct Messages Setup on WordPress](#direct-messages-setup-on-wordpress) is required. Please ensure that you have configured Direct Messages on your Wordpress before configuring via HouziBuilder.
-
 - Go to the **Property Profile** section of the Houzi Builder and enable/disable the *Direct Message* button. Checkout HouziBuilder [Property Profile Configurations](/houzi-builder/customize_property_profile#property-profile-configurations). 
 
 - Go to the **Navigation Bar** section of the Houzi Builder and configure the *Direct Messages*. Checkout HouziBuilder [Navigation Bar Configurations](/houzi-builder/customize_navigation_bar#add-new-section). 
 
+## Direct Messages Configuration via Hooks
+
+Checkout [Direct Messages Hooks](/hooks-widgets/direct_messages_hooks) for further direct messages configurations. 
+
+
+
+>  **❗️❗️IMPORTANT❗️❗️**
+>
+>  [Direct Messages Setup on WordPress](#direct-messages-setup-on-wordpress) is required. Please ensure that you have configured Direct Messages on your Wordpress before configuring via **HouziBuilder** and **Hooks**.
 
  *Added in version 1.4.2*
