@@ -7,7 +7,7 @@ order: 6
 
 ### Install Flutter
 
-Download the Flutter SDK version eg *3.10.XX* for your platform from below URL:
+Download the Flutter SDK version eg *3.24.XX* for your platform from below URL:
 
 #### Windows: 
 [flutter_windows](https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.24.1-stable.zip)
