@@ -5,6 +5,17 @@ permalink: tools/setup_phone_signin
 order: 16
 ---
 
+The phone signup feature allows users to register for the mobile app using their phone numbers. Users will receive a verification code via SMS, which they must enter to complete the registration process. We have integrated firebase phone signup feature in the app. Make sure you have done following things before continuing:
+
+1. [Changed App Identifier](../app-setup/change_app_identifier) 
+2. Have setup [Custom Keystore](../tools/setup_android_signing)
+3. [Firebase integrated](../tools/tools/firebase_setup)
+4. [GoogleCloud integrated](../tools/google_cloud_setup)
+5. Attached a payment method to your GoogleCloud.
+   
+> Important: Adding a payment method to your Google Cloud Project is necessary for firebase to send an sms. Firebase allows **10 Free SMS per day**. But it requires you to have payment method added.
+
+
 The keystore that you intend to use to sign the Android app will be used in this step. You might have already created this keystore in previous sections. After generating a signing key, the next step is to add SHA-1 and SHA-256 certificates to the firebase project. You go to the `Firebase console > project > project settings > Add fingerprint`
 Here you add your SHA-1 and SHA-256 certificates, that you generated from your signing key and from the Google play console.
 

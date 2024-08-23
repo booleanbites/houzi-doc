@@ -9,7 +9,7 @@ Always make a backup before updating to the next version.
 
 ## Migration Guide for 1.4.2
 
-> **Important Notice:** 1.4.2 is the updated version of 1.4.0. If you have already migrated to 1.4.0 or you are configuring new project, you can follow this guide and update/setup your project. If you have older version than 1.4.0, we recommend you to first perform the migration for 1.4.0, then migrate to 1.4.2.
+> **Important Notice:** If you are updating from version lower than 1.4.0, we recommend you to first perform the migration for 1.4.0, then migrate to 1.4.2.
 
 We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
 
@@ -22,6 +22,7 @@ Let's assume you simply want to update your houzi_package, updating to 1.4.2 req
 - Upgrade your Houzi Rest Api plugin to version 1.4.2 download from here: [Houzi Rest Api](https://github.com/booleanbites/houzi-rest-api/releases/latest.zip)
 - Copy translation files or at least copy over new translations from this release.
 - Rest of configurations like configuration.json, you android project folders, ios project folders should remain same.
+- Enable Direct Messages if required. Read Guide here: [Direct Messages](../tools/direct_messages).
 
 ## Migration Guide for 1.4.0
 

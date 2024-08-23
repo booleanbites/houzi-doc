@@ -21,7 +21,7 @@ We utilize OneSignal for push notifications. You will need to configure OneSigna
 - [OneSignal setup on App](#onesignal-setup-on-app)
   - [1. Android native project:](#1-android-native-project)
   - [2. iOS native project:](#2-ios-native-project)
-  - [3. Houzi Package via Houzi Builder](#3-houzi-package-via-houzi-builder)
+  - [3. Houzi Flutter App](#3-houzi-flutter-app)
 - [Change Notification Icon](#change-notification-icon)
 
 
@@ -103,9 +103,9 @@ Nees to setup two things:
 1. Setup App group bundle identfier for App Groups for NotificationServiceExtension, if you haven't done already. App Group identifier help share resources between app and NotificationServiceExtension. Follow guide here: [OneSignal Push Configurations for iOS](../app-setup/change_app_identifier#onesignal-push-configurations-for-ios)
 2. Go to the `Project_HOME > ios > Runner > AppDelegate.swift` file, and look for `ONE_SIGNAL_APP_ID`. Replace its value with your app id.
 
-### 3. Houzi Package via Houzi Builder
+### 3. Houzi Flutter App
 
-Go to the **Api & Config** section of  the Houzi Builder and provide the *OneSignal App ID* in the respective text field. Checkout HouziBuilder [Push Notifications Configurations](/houzi-builder/api_config_setup#push-notification-configurations).   
+Open your configuration.json in HouziBuilder Go to the **Api & Config** section of  the Houzi Builder and provide the *OneSignal App ID* in the respective text field. Checkout HouziBuilder [Push Notifications Configurations](/houzi-builder/api_config_setup#push-notification-configurations).   
 
 If you don't want to use HouziBuilder, open configuration.json and find `one_signal_app_id` and provide your OneSignal App ID as its value. If the key doesn't exist in your configuration, you can add as a new key in the root object of json.
 

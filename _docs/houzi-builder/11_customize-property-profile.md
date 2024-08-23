@@ -1,5 +1,5 @@
 ---
-title: Customize Property Profile
+title: Customize Listing Details
 category: Houzi Builder
 permalink: houzi-builder/customize_property_profile
 order: 411
