@@ -21,6 +21,22 @@ Let's assume you simply want to update your houzi_package, updating to 1.4.2 req
 - Copy new main.dart and replace existing `Project_HOME > lib > main.dart` (if you have made any changes to existing main.dart, then you need to carefully review and migrate new changes from main.dart into your existing main.dart)
 - Upgrade your Houzi Rest Api plugin to version 1.4.2 download from here: [Houzi Rest Api](https://github.com/booleanbites/houzi-rest-api/releases/latest.zip)
 - Copy translation files or at least copy over new translations from this release.
+
+- Add following code into the subprojects block, below the code line `rootProject.buildDir = '../build`, of the **build.gradle** file. File path `PROJECT_HOME > android > build.gradle`.
+
+```groovy
+  subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+
+    // add this line for onesignal_flutter to work in android device
+    afterEvaluate {
+        android {
+            compileSdkVersion 34
+        }
+    }
+}
+  ```
+
 - Rest of configurations like configuration.json, you android project folders, ios project folders should remain same.
 
 ## Migration Guide for 1.4.0
