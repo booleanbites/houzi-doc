@@ -41,7 +41,10 @@ Go to the `Theme Options > Contact Forms`.  Enable the *Direct Message Button* s
 <img src="../../images/messages-setup-wordpress-02.png" alt="messages-setup-wordpress-02" title="messages-setup-wordpress-02" border="1px solid"/>  
 
 ### 3. Enable Push Notification:
-To Enable Push Notifications for Messages Houzez version 3.2.5 and below, you will need to do following changes manually:
+
+**Houzez v3.3.0** already sends the push notification for direct messages. 
+
+To Enable Push Notifications for Messages in Houzez version 3.2.5 and below, you will need to do following changes manually:
 
 - Go to the **Theme File Editor** (path: `Appearance > Theme File Editor`). (If it is not available for you, you will need to enable it via hosting panel. Please consult Wordpress Doc or Youtube to enable this.).
 - Select the **Houzez** theme from the dropdown and click the *Select* button.
@@ -62,8 +65,6 @@ do_action('houzez_send_notification', $notificationArgs);
 
 <img src="../../images/messages-setup-wordpress-03.png" alt="messages-setup-wordpress-03" title="messages-setup-wordpress-03" border="1px solid"/>  
 - Click the **Update File** button. Now the the app should receive message push notifications.
-
-*We have sent a proposal to Houzez Team to include this by default in next update.*
 
 ## Houzi Package via Houzi Builder
 
