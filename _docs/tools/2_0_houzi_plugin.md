@@ -5,6 +5,13 @@ permalink: tools/houzi_plugin
 order: 2
 ---
 
+
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ySUh_J0BgPw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+<br/>
+
 We’ve developed a plugin that extends the default rest api functionality of Houzez theme to mobile apps.
 You can find the plugin inside your downloaded folder after purchase on codecanyon. It should be located in houzi / wordpress-plugin / houzi-rest-api-x.x.x.zip
 

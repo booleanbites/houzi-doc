@@ -5,7 +5,13 @@ permalink: app-setup/change_app_display_name
 order: 203
 ---
 
-By default the display name for the app is set to Houzi. For Android, you can change it in AndroidManifest.xml. For iOS, you can change it in info.plist.
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tL7JDxXxfJQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+<br/>
+
+By default the display name for the app is set to **Houzi**. For Android, you can change it in AndroidManifest.xml. For iOS, you can change it in info.plist.
 
 ## Android
 

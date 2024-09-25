@@ -5,6 +5,13 @@ permalink: tools/firebase_setup
 order: 7
 ---
 
+
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rqFHfPzougk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+<br/>
+
 > Make sure your desired app bundle identifiers are set before setting up firebase.
 
 

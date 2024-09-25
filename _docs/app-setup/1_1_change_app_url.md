@@ -5,6 +5,15 @@ permalink: app-setup/change_app_url
 order: 201
 ---
 
+
+
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ySUh_J0BgPw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+<br/>
+
+
 ## Change URL by Houzi Config
  You can use Houzi Config Builder to [Change Website URL](/houzi-builder/basic_setup) and provide many other URLs required for the app. 
 

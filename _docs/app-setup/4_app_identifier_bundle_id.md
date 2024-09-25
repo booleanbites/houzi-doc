@@ -5,6 +5,11 @@ permalink: app-setup/change_app_identifier
 order: 204
 ---
 
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tL7JDxXxfJQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+<br/>
 
 > **Mandatory** App bundle identifiers are unique identifiers for your apps, they’re globally unique. Most of the time, you can reverse your website domain to create an identifier for your app. For example: `com.domain.app_name`
 

@@ -5,6 +5,13 @@ permalink: tools/app_secret
 order: 2
 ---
 
+
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w1YWWA9umXM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+<br/>
+
 Security is really importan, so we need to make communication between app and website secure. App Secret is a secret key that is used by your app when communicating with Wordpress and Rest Api.
 
 > **Important** This feature requires Houzi Rest Api Plugin version 1.2.0 or greater. You also need to activate your rest api plugin and also unlock it with your purchase code. Otherwise you won't be able to setup Secret Key and many other configurations.
