@@ -110,6 +110,6 @@ To add support for themed icons in your app, follow these steps:
        <foreground android:drawable="@drawable/icon_foreground"/>
        <monochrome android:drawable="@drawable/monochrome_icon"/>   <!-- this can be icon_foreground or a separate monocrhome icon>
    </adaptive-icon>
-
+   ```
 
 If you want to know more about adaptive icons, read more here: [Adaptive Icons](https://developer.android.com/develop/ui/views/launch/icon_design_adaptive)
