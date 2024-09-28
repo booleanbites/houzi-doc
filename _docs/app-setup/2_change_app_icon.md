@@ -5,6 +5,13 @@ permalink: app-setup/change_app_icon
 order: 202
 ---
 
+
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1aBe9ircyGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+<br/>
+
 Since this is a Flutter app, and it generates both Android and iOS projects. You'll need to change icons in each platform project.
 
 #### Automatic Way
