@@ -83,4 +83,33 @@ res / drawable / icon_foreground.xml
 res / mipmap-anydpi-v26 / ic_launcher.xml 
 ```
 
+
+#### Themed Icons (Android API 33 and Above)
+
+Starting from **Android 13 (API level 33)**, Android introduced a feature for **Themed Icons**. Themed icons dynamically adjust their color based on the user's chosen wallpaper and system-wide theme, giving your app a modern and personalized look. When a user applies a new wallpaper, the icon color will adapt to complement the overall theme of the device, ensuring visual harmony.
+<img src="../../images/adaptive-icon-themed-icons.png" alt="adaptive-icon-themed-icons" title="adaptive icon themed icons screenshot"/>
+<br/>
+To add support for themed icons in your app, follow these steps:
+
+1. **Create a Monochrome Icon**:
+   Your themed icon needs to be a monochrome version of your primary icon. This will be used for theming purposes.
+   
+   - Design a single-color SVG or PNG icon.
+   - Ensure that it’s suitable for all background and theme colors.
+   - You can also use the icon_foreground.xml for themed icon if it is suitable.
+
+2. **Add to Android Project**:
+   Add the monochrome icon file in the Android project and update the launcher configuration.
+
+   - Place the icon in `res/drawable/monochrome_icon.xml` if it is a new icon
+   - Reference the monochrome icon in the `res/mipmap-anydpi-v26/ic_launcher.xml` file like so:
+   
+   ```xml
+   <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+       <background android:drawable="@drawable/icon_background"/>
+       <foreground android:drawable="@drawable/icon_foreground"/>
+       <monochrome android:drawable="@drawable/monochrome_icon"/>   <!-- this can be icon_foreground or a separate monocrhome icon>
+   </adaptive-icon>
+
+
 If you want to know more about adaptive icons, read more here: [Adaptive Icons](https://developer.android.com/develop/ui/views/launch/icon_design_adaptive)
