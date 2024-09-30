@@ -5,6 +5,12 @@ permalink: tools/setup_phone_signin
 order: 16
 ---
 
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_pMm2CIjy2o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+<br/>
+
 The phone signup feature allows users to register for the mobile app using their phone numbers. Users will receive a verification code via SMS, which they must enter to complete the registration process. We have integrated firebase phone signup feature in the app. Make sure you have done following things before continuing:
 
 1. [Changed App Identifier](../app-setup/change_app_identifier) 

@@ -5,6 +5,12 @@ permalink: tools/setup_maps_api
 order: 9
 ---
 
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zTwFI-cPgtk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+<br/>
+
 Once you have setup the project on [Google Cloud](https://developers.google.com/maps/documentation/android-sdk/start#get-key), you need to acquire the [Key](https://developers.google.com/maps/documentation/android-sdk/get-api-key), and place it in Android and iOS projects.
 
 You've to put the API key in configuration.json (automatically or manually) as well as in native project files. This API key is used for Maps, Places search and Static Maps.

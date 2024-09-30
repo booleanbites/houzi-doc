@@ -5,6 +5,14 @@ permalink: tools/google_cloud_setup
 order: 7
 ---
 
+
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zTwFI-cPgtk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+<br/>
+
+
 When you create a Firebase project, a corresponding Google Cloud project is automatically created. This Google Cloud project serves as the underlying infrastructure for your Firebase project, allowing you to use various Google Cloud services (such as Maps, Places Api, Play Integrity, etc.) in conjunction with Firebase.
 
 Headover to Google [Google Cloud Console](https://console.cloud.google.com/). Click the Project dropdown in the top-left corner.
