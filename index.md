@@ -21,12 +21,13 @@ We've compiled a list of the most required things that you need to do in order t
 
 At this point, the app will still show Houzi branding, but it'll show your website data. Now to do the branding, you'll need to do following things:
 
-1. Change [App Identifier](app-setup/change_app_identifier) AND [App name](app-setup/change_app_display_name) AND [App Icon](app-setup/change_app_icon) AND [Splash screen](app-setup/change_app_splash_screen)
-2. [Create your own keystore](tools/setup_android_signing)
-3. [Setup firebase](tools/firebase_setup)
-4. [Setup GoogleCloud](tools/google_cloud_setup)
-5. [Change App Theme](app-setup/change_app_theme)
-6. Launch on device
+1. Set [App Identifier](app-setup/change_app_identifier) AND [App name](app-setup/change_app_display_name) 
+2. Set [App Icon](app-setup/change_app_icon) AND [Splash screen](app-setup/change_app_splash_screen)
+3. [Create your own keystore](tools/setup_android_signing)
+4. [Setup firebase](tools/firebase_setup)
+5. [Setup GoogleCloud](tools/google_cloud_setup)
+6. [Change App Theme](app-setup/change_app_theme)
+7. Launch on device
 
 At this point, the app will show your branding, with your data with firebase and google cloud project integrated. Go ahead and configure following things:
 

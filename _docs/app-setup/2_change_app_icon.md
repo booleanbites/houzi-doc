@@ -1,5 +1,5 @@
 ---
-title: Changing App Icon
+title: Set App Icon
 category: App Setup
 permalink: app-setup/change_app_icon
 order: 202
