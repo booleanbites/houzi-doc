@@ -5,6 +5,13 @@ permalink: app-setup/change_app_splash_screen
 order: 206
 ---
 
+
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j5ovgRkrI-Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+<br/>
+
 **Flutter command:** You can change splash background by adding this flutter library: 
 https://pub.dev/packages/flutter_native_splash
 Follow instructions for changing splash from one place.
