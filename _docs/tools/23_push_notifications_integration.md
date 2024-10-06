@@ -5,6 +5,13 @@ permalink: tools/push_notifications_integration
 order: 23
 ---
 
+
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OMgi2bFTc9w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+<br/>
+
 Push notifications play a crucial role in keeping your real estate business updated. We’ve incorporated this feature to enhance engagement with your app and website. 
 
 >  **❗️❗️IMPORTANT❗️❗️**
@@ -114,7 +121,6 @@ If you don't want to use HouziBuilder, open configuration.json and find `one_sig
 Please follow this guide to change the  notifcation icon:
 
 - [Change notifcation icon on Android](https://documentation.onesignal.com/docs/android-notification-icons#how-to-add-default-icons)
-
 - [Change notifcation icon on iOS](https://documentation.onesignal.com/docs/ios-customizations#notification-icons)
 
 
