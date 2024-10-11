@@ -5,6 +5,12 @@ permalink: tools/android_setup
 order: 4
 ---
 
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zyj1fEJ72lA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+<br/>
+
 ### Install Android Studio
 
 Head over to this link to get the Android Studio executable or zip file. Follow instructions 

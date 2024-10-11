@@ -5,6 +5,15 @@ permalink: tools/flutter_setup
 order: 6
 ---
 
+
+
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zyj1fEJ72lA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>
+<br/>
+
+
 ### Install Flutter
 
 Download the Flutter SDK version eg *3.24.XX* for your platform from below URL:
