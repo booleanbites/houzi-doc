@@ -67,4 +67,83 @@ CompactPriceFormatterHook getCompactPriceFormatterHook() {
 }
 ```
 
+### 3. Displaying Indian Compact Currency on Property Card
+
+If you want to show the Indian compact price on the Property Card, you can use the following code in the `getCompactPriceFormatterHook()` method:
+
+```dart
+@override
+CompactPriceFormatterHook getCompactPriceFormatterHook() {
+  CompactPriceFormatterHook compactPriceFormatterHook = (String inputPrice) {
+    // Define your own formatting here and return the formatted price string
+    String compactPrice = '';
+    String postfix = '';
+    String additionalCharacter = '';
+    String defaultCurrency = '₹';
+
+    RegExp pattern = RegExp(r"\b(\d+(\.\d+)?)(M|K)\b"); //Checks for normal compact price
+
+    pattern = RegExp(r'^[\d,.]+[KkLlCcRr]+$'); //Checks for Indian compact prices
+
+    /// Return Input Price If already in Compact State
+    if (pattern.hasMatch(inputPrice)) {
+      return inputPrice;
+    }
+
+    /// Remove Currency from Input Price
+    if(inputPrice.contains(defaultCurrency)) {
+      inputPrice = inputPrice.replaceAll(defaultCurrency, '');
+    }
+    /// Remove ',' from Input Price
+    if(inputPrice.contains(',')) {
+      inputPrice = inputPrice.replaceAll(',', '');
+    }
+    /// Separate Postfix from Input Price, like 2000/per month or 400/per sq yd
+    if(inputPrice.contains('/')){
+      postfix = inputPrice.split('/')[1];
+      inputPrice = inputPrice.split('/')[0];
+    }
+    /// Round of Input Price to One Digit
+    if (inputPrice.contains('.')) {
+      var priceDouble = double.tryParse(inputPrice);
+      if (priceDouble == null) return inputPrice;
+
+      inputPrice = priceDouble.toStringAsFixed(0);
+    }
+    /// Check for any plus sign and append later
+    if(inputPrice.contains('+')){
+      inputPrice = inputPrice.split('+')[0];
+      additionalCharacter = "+";
+    }
+    /// Strip any pipe sign
+    if(inputPrice.contains('|')){
+      inputPrice = inputPrice.split('|')[0];
+    }
+
+    /// Make the Input Price Compact
+    var priceDouble = double.tryParse(inputPrice);
+    if (priceDouble == null) return inputPrice;
+    NumberFormat compactFormat = NumberFormat.compactCurrency(
+      decimalDigits: 2,
+      symbol: defaultCurrency, // Currency symbol (e.g., ₹)
+      locale: 'en_IN', // Indian locale
+    );
+    compactPrice = compactFormat.format(priceDouble);
+
+    ///  Add PostFix to Input Price
+    if(postfix.isNotEmpty) {
+      compactPrice = '$compactPrice/$postfix';
+    }
+
+    if(additionalCharacter.isNotEmpty) {
+      compactPrice = '$compactPrice$additionalCharacter';
+    }
+
+    return compactPrice;
+  };
+
+  return compactPriceFormatterHook;
+}
+```
+
 By following these instructions, you can customize the price formatting in the Houzi app according to your requirements.
