@@ -67,7 +67,7 @@ CompactPriceFormatterHook getCompactPriceFormatterHook() {
 }
 ```
 
-### 3. Displaying Indian Compact Currency on Property Card
+### 4. Displaying Indian Compact Currency on Property Card
 
 If you want to show the Indian compact price on the Property Card, you can use the following code in the `getCompactPriceFormatterHook()` method:
 
@@ -110,7 +110,7 @@ CompactPriceFormatterHook getCompactPriceFormatterHook() {
 
       inputPrice = priceDouble.toStringAsFixed(0);
     }
-    /// Check for any plus sign and append later
+    /// Check for any plus sign and append later like 400+
     if(inputPrice.contains('+')){
       inputPrice = inputPrice.split('+')[0];
       additionalCharacter = "+";
