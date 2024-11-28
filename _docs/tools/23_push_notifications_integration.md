@@ -18,13 +18,16 @@ Push notifications play a crucial role in keeping your real estate business upda
 >
 >  <u>Houzez v 3.1.0</u> or later is required. This version introduces the ability to send push notifications for important actions. Please ensure you update to Houzez v 3.1.0 before implementing push notifications on your website.
 
+>  **❗️❗️IMPORTANT NOV 28, 2024❗️❗️**
+>
+>  <u>OneSignal</u> has recently updated to new rich api, where they only need OneSignal **App ID**, OneSingnal **API Key**. We've patched the Houzi Rest API Plugin in version 1.4.2.2. Please download the latest plugin from here: [Houzi Rest API 1.4.2.2](https://github.com/booleanbites/houzi-rest-api/releases/latest.zip)
+
 We utilize OneSignal for push notifications. You will need to configure OneSignal on both your WordPress site and your app. This guide includes the following sections:
 
 - [OneSignal setup](#onesignal-setup)
 - [OneSignal setup on Wordpress](#onesignal-setup-on-wordpress)
   - [1. OneSignal App ID:](#1-onesignal-app-id)
   - [2. OneSingnal API Key Token:](#2-onesingnal-api-key-token)
-  - [3. OneSingnal User Key Token:](#3-onesingnal-user-key-token)
 - [OneSignal setup on App](#onesignal-setup-on-app)
   - [1. Android native project:](#1-android-native-project)
   - [2. iOS native project:](#2-ios-native-project)
@@ -35,10 +38,10 @@ We utilize OneSignal for push notifications. You will need to configure OneSigna
 
 ## OneSignal setup
 
-We require three things from OneSignal.
+We require two things from OneSignal.
 1. OneSignal App ID
 2. OneSingnal API Key Token
-3. OneSingnal User Key Token
+
 
 To acquire these, use the following link to sign-up/login in. `https://app.onesignal.com/login`
 
@@ -67,7 +70,7 @@ A typical flow should like this:
 
 Go to the `Houzi Api > Push Notification > OneSignal Configurations`.
 
-<img src="../../images/one-signal-wordpress-config.png" alt="one-signal-wordpress-config" title="one-signal-wordpress-config" border="1px solid"/>  
+<img src="../../images/one-signal-wordpress-config.jpg" alt="one-signal-wordpress-config" title="one-signal-wordpress-config" border="1px solid"/>  
 
 You have to provide these following configurations:
 
@@ -82,12 +85,6 @@ Provide your *OneSingnal API Key Token* in the respective text field. If you do 
 
 > If you don't have a Rest API Key already generated, please generate a new one by clicking the **Generate New API Key** button.
 
-
-### 3. OneSingnal User Key Token:
-
-Provide your *OneSingnal User Key Token* in the respective text field. If you do not know how to get the *OneSingnal User Key Token*, Go to https://app.onesignal.com/profile page and scroll down to the **User Auth Key** section.
-
-> If you don't have a key already generated, please generate a new one by clicking the **Generate New User Auth Key** button.
 
 
 After providing the configurations, click on the **Save Changes** button.
