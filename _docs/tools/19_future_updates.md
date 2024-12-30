@@ -7,7 +7,7 @@ order: 19
 
 Always make a backup before updating to the next version.
 
-## Migration Guide for 1.4.2
+## Migration Guide for 1.4.3
 
 > **Important Notice:** If you are updating from version lower than 1.4.0, we recommend you to first perform the migration for 1.4.0, then do essentials listed in 1.4.2 migration and then perform migration to 1.4.3. Upgrading from 1.4.2 should be easy as below.
 
