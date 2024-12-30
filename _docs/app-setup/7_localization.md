@@ -34,5 +34,5 @@ Add missing / non translated strings to the English file, and then copy this fil
 
 If you need to use this custom translation at any place, use following method:
 ```dart
-String localized = GenericMethods.getLocalizedString("String Key in json");
+String localized = UtilityMethods.getLocalizedString("String Key in json");
 ```

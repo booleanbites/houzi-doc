@@ -23,7 +23,9 @@ This guide consists of following sections:
     - [Change App Bundle Identifier](#change-app-bundle-identifier)
     - [OneSignal Push Configurations for iOS](#onesignal-push-configurations-for-ios)
 
-Once you’ve decided the unique identifiers, you need to replace existing with your own:
+Once you’ve decided the unique identifiers, you need to replace existing with your own package identifier.
+
+> **Important** Once you have changed the bundle identifier, you will be required to setup your own firebase projects. App will not compile if you just change your package identifier and not setup your own firebase.
 
 # Android:
 
