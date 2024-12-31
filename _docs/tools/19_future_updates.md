@@ -20,6 +20,15 @@ Let's assume you simply want to update your houzi_package, updating to 1.4.3 req
 - Important to copy ios/Runner/AppDelegate.swift from 1.4.3 and replace in your existing ios project in the same path. It adds support for deep-link when iOS app is in quit state. Also fixes double notification permission dialog.
 - Optionally for update to android 35 open android/app/build.gradle and set `compileSdkVersion 35` and `targetSdkVersion 35`. It will require you to download android 35 sdk.
 - Optionally download and update to Flutter 3.27.xx. It adds Impeller rendering to Android apps. (iOS already had Impeller). [Flutter Download](../tools/flutter_setup).
+- Open your hooks_v2.dart file at `Project_HOME > lib > hooks_v2.dart` and fix follow imports.
+    - Replace Map Marker Data
+      - Old `import 'package:houzi_package/models/map_marker_data.dart';`
+      - New `import 'package:houzi_package/models/search/map_marker_data.dart';`
+    - Replace Drawer Menu Item
+      - Old `import 'package:houzi_package/models/drawer_menu_item.dart';`
+      - New `import 'package:houzi_package/models/drawer/drawer_menu_item.dart';`
+    - Add intl package import
+      - `import 'package:intl/intl.dart';`
 - Rest of configurations like configuration.json, you android project folders, ios project folders should remain same.
 - Do a project clean. Remove pubspec.lock, ios/Podfile.lock.
 - For iOS, you might also need to run `pod install --repo-update` from terminal to referesh the local pod repo. Important: Run this only after you have run the `flutter pub get` in your project root via terminal or from UI.
