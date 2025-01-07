@@ -7,17 +7,19 @@ order: 19
 
 Always make a backup before updating to the next version.
 
-## Migration Guide for 1.4.3
+## Migration Guide for 1.4.3.1
 
 > **Important Notice:** If you are updating from version lower than 1.4.0, we recommend you to first perform the migration for 1.4.0, then do essentials listed in 1.4.2 migration and then perform migration to 1.4.3. Upgrading from 1.4.2 should be easy as below.
 
 We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
 
-Let's assume you simply want to update your houzi_package, updating to 1.4.3 requires following things:
+> **Note:** If you are updating from version 1.4.3, just replacing the houzi_package from step one below should suffice. Everything else remain same.
+
+Let's assume you simply want to update your houzi_package, updating to 1.4.3.1 requires following things:
 
 - Always make a backup. (copy in separate folder or use git).
-- Copy `Project_HOME > packages > houzi_package` from 1.4.3 and replace houzi_package in your existing project.
-- Important to copy ios/Runner/AppDelegate.swift from 1.4.3 and replace in your existing ios project in the same path. It adds support for deep-link when iOS app is in quit state. Also fixes double notification permission dialog.
+- Copy `Project_HOME > packages > houzi_package` from 1.4.3.1 and replace houzi_package in your existing project.
+- Important to copy ios/Runner/AppDelegate.swift from 1.4.3.1 and replace in your existing ios project in the same path. It adds support for deep-link when iOS app is in quit state. Also fixes double notification permission dialog.
 - Optionally for update to android 35 open android/app/build.gradle and set `compileSdkVersion 35` and `targetSdkVersion 35`. It will require you to download android 35 sdk.
 - Optionally download and update to Flutter 3.27.xx. It adds Impeller rendering to Android apps. (iOS already had Impeller). [Flutter Download](../tools/flutter_setup).
 - Open your hooks_v2.dart file at `Project_HOME > lib > hooks_v2.dart` and fix follow imports.
@@ -38,6 +40,7 @@ On the wordpress admin panel:
 - Remove existing plugin, and upload and activate your Houzi Rest Api version 1.4.3 plugin. Download from here: [Houzi Rest Api](https://github.com/booleanbites/houzi-rest-api/releases/latest.zip) 
 - Update to new rich api token for OneSignal. It requires new Rest API Key. Simply put, generate new rich api key and save to Houzi Rest Api plugin. Read Guide here: [Push Notification](../tools/push_notifications_integration).
 - Rest of configurations like configuration.json, you android project folders, ios project folders should remain same.
+
 
 
 ## Migration Guide for 1.4.2
