@@ -1,5 +1,5 @@
 ---
-title: Direct Messages
+title: Publishing to the App Store
 category: Tools Setup
 permalink: tools/publish_on_appstore
 order: 25
@@ -13,7 +13,6 @@ order: 25
 <br/>
 <br/>
 
-# Publishing Your Houzi Flutter App on the Apple App Store
 
 This guide walks you through the step-by-step process of publishing your Houzi Flutter app on the Apple App Store, from setting up your developer account to making your app live.
 
