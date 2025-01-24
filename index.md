@@ -39,6 +39,8 @@ At this point, the app will show your branding, with your data with firebase and
 Houzi also supports push notifications. So if you want to configure push notification, follow this:
 1. Configure [Push Notificatons](tools/push_notifications_integration)
 
+Once you are ready:
+1. Publish your app to [iOS AppStore](tools/publish_on_appstore)
 
 ### Documentation
 
