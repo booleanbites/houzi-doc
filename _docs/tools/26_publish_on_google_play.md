@@ -108,9 +108,9 @@ Google Requires Some Configurations Before Applying to Production
 Once app is approved for closed testing. Now is the time to share link with closed testers.
 1. In **Google Play Console**, go to **Testers**.
 2. Add **at least 12 testers** if not already added. 
-3. Copy the link for Androdi app.
-4. Share the with your testers.
-5. Get the app downloaded on at leaster 12 tester phones.
+3. Copy the link for Android app.
+4. Share the link with your testers.
+5. Get the app downloaded on at least 12 tester phones.
 
 ## Running Closed Testing for 14 Days
 
