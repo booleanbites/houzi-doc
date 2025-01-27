@@ -1,9 +1,9 @@
-
+---
 title: Publishing to the GooglePlay
 category: Tools Setup
 permalink: tools/publish_on_google_play
 order: 26
-
+---
 
 
 
