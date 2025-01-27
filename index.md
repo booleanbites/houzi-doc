@@ -41,6 +41,7 @@ Houzi also supports push notifications. So if you want to configure push notific
 
 Once you are ready:
 1. Publish your app to [iOS AppStore](tools/publish_on_appstore)
+2. Publish your app to [GooglePlay](tools/publish_on_google_play)
 
 ### Documentation
 
