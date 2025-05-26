@@ -7,6 +7,32 @@ order: 19
 
 Always make a backup before updating to the next version.
 
+
+## Migration Guide for 1.4.4
+
+> **Important Notice:** If you are updating from version lower than 1.4.0, we recommend you to first perform the migration for 1.4.0, then do essentials listed in 1.4.2 migration and then perform migration to 1.4.4. Upgrading from 1.4.2 should be easy as below.
+
+We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
+
+Let's assume you simply want to update your houzi_package, updating to 1.4.4 requires following things:
+
+- Always make a backup. (copy in separate folder or use git).
+- Copy `Project_HOME > packages > houzi_package` from 1.4.4 and replace houzi_package in your existing project.
+- Important to copy ios/Runner/AppDelegate.swift from 1.4.4 and replace in your existing ios project in the same path.
+- Optionally for update to android 35 open android/app/build.gradle and set `compileSdkVersion 35` and `targetSdkVersion 35`. It will require you to download android 35 sdk. 
+- Optionally download and update to Flutter 3.32.xx. [Flutter Download](../tools/flutter_setup).
+- Open `Project_HOME/android/app/src/main/kotlin/com/houzi/app/ApplicationClass.kt` and change its parent class from FlutterApplication to Application. Check `ApplicationClass.kt` from 1.4.3.4 for reference. (Note: Your package directory and hirarchy may vary).
+- Rest of configurations like configuration.json, you android project folders, ios project folders should remain same.
+- Do a project clean. Remove pubspec.lock, ios/Podfile.lock.
+- For iOS, you might also need to run `pod install --repo-update` from terminal to referesh the local pod repo. Important: Run this only after you have run the `flutter pub get` in your project root via terminal or from UI.
+- Run and Launch your app on device.
+
+On the wordpress admin panel:
+- Remove existing plugin, and upload and activate your Houzi Rest Api version 1.4.4 plugin. Download from here: [Houzi Rest Api](https://github.com/booleanbites/houzi-rest-api/releases/latest.zip) 
+
+
+
+
 ## Migration Guide for 1.4.3.4
 
 > **Important Notice:** If you are updating from version lower than 1.4.0, we recommend you to first perform the migration for 1.4.0, then do essentials listed in 1.4.2 migration and then perform migration to 1.4.3. Upgrading from 1.4.2 should be easy as below.

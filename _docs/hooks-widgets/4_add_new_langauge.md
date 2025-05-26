@@ -31,7 +31,7 @@ assets:
   ...
 ```
 
-
+ 
 #### Step 3
 Now go to `Project_HOME  > lib > hooks_v2.dart` and look for the `getLanguageCodeAndName()` method. Specify your language code and language name.
 
@@ -44,7 +44,8 @@ Now go to `Project_HOME  > lib > hooks_v2.dart` and look for the `getLanguageCod
 
       Map<String,dynamic> russianLanguageMap = {
         "languageName": "Russian",          
-        "languageCode": "ru"                
+        "languageCode": "ru",
+        "languageCodeForURL": "/ru"
       };
 
        Map<String,String> chineseLanguageMap = {
@@ -61,6 +62,8 @@ Now go to `Project_HOME  > lib > hooks_v2.dart` and look for the `getLanguageCod
         "scriptCode": "YOUR-SCRIPT-CODE"       // [Optional] Specify your script code
         "countryCode": "YOUR-COUNTRY-CODE"       // [Optional] Specify your country code
         "languageFileName": "YOUR-LANGUAGE-FILE-NAME"       // [Optional] Specify your language file name
+        /// Optional for routing/localized URL:
+        "languageCodeForURL": "/uk"                   // "/uk" or simply "uk"
       };
 
       List<dynamic> languageList = [russianLanguageMap, chineseLanguageMap, yourLanguageMap];  //add your map here
