@@ -1,5 +1,5 @@
 ---
-title: Direct Messages Hooks
+title: Home Background Hook
 category: Hooks & Widgets
 permalink: hooks-widgets/home_sliver_app_bar_background_image
 order: 343
@@ -39,7 +39,7 @@ HomeSliverAppBarBGImageHook getHomeSliverAppBarBGImageHook() {
 
 ## Asset Configuration
 
-Make sure your background image is properly configured in your `pubspec.yaml` file:
+Make sure your  `pubspec.yaml` is properly configured to load your background image:
 
 ```yaml
 flutter:

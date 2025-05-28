@@ -1,5 +1,5 @@
 ---
-title: Direct Messages Hooks
+title: Phone Signup Countries
 category: Hooks & Widgets
 permalink: hooks-widgets/add_custom_country
 order: 342
@@ -7,27 +7,10 @@ order: 342
 
 # CustomCountryHook
 
-Houzi provides the **`CustomCountryHook()`** to **customize the country calling codes** available in the phone field. This hook allows you to either:
+Houzi provides the **`CustomCountryHook()`** to **customize the country list** available in the phone signup page. This hook allows you to either:
 
 - Show **all countries** (default), or  
-- Limit the list to **specific countries** based on your app’s requirements.
-
-## Required Package
-
-Make sure to include the following dependency in your project pubspec.yaml:
-Add the above dependency in:
-
-`[houzi-directory]/pubspec.yaml`
-
-```yaml
-intl_phone_field: 3.2.0
-```
-
-## Import Statement
-
-To Modify the hook and to use the Country model, add the following import in your hooks_v2.dart file at `Project_HOME > lib > hooks_v2.dart`:
-
-`import 'package:intl_phone_field/countries.dart';`
+- Show specific **countries**.
 
 
 ## How It Works
@@ -97,13 +80,11 @@ To correctly display country flags using emoji, follow the platform-specific ins
 ### On Windows:
 - Press `Windows` + `.` (period) to open the emoji panel.
 - Search for the country (e.g., `United Kingdom`).
-- Select the 🇮🇳 flag emoji from the list.
+- Select the 🇬🇧 flag emoji from the list.
 
 > ⚠️ **Important**  
 > Ensure you're using **valid Regional Indicator Symbols**.  
 > Using incorrect or unsupported emoji may result in display/rendering issues or show as blank squares or placeholders.
-
-
 
 
 >  After modifications, restart the app and the changes will reflect in your app.

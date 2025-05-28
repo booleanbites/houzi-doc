@@ -1,5 +1,5 @@
 ---
-title: Direct Messages Hooks
+title: Hide Fields in Edit Profile
 category: Hooks & Widgets
 permalink: hooks-widgets/edit_profile_show_field
 order: 341
