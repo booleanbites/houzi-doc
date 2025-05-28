@@ -17,7 +17,7 @@ Let's assume you simply want to update your houzi_package, updating to 1.4.4 req
 - Always make a backup. (copy in separate folder or use git).
 - Copy `Project_HOME > packages > houzi_package` from 1.4.4 and replace houzi_package in your existing project. 
 - Optionally download and update to Flutter 3.32.xx. [Flutter Download](../tools/flutter_setup).
-- We added new hooks in hooks_v2.dart. So copy `Project_HOME/lib/hooks_v2.dart` and `Project_HOME/lib/main.dart` and configure your hooks again. (Mandatory if you are updating.)
+- We added new hooks in hooks_v2.dart. So copy `Project_HOME/lib/hooks_v2.dart` and `Project_HOME/lib/main.dart` and replace both in your existing project. Then configure your hooks again. (Mandatory if you are updating.)
 - Rest of configurations like configuration.json, you android project folders, ios project folders should remain same.
 - Do a project clean. Remove pubspec.lock, ios/Podfile.lock.
 - For iOS, you might also need to run `pod install --repo-update` from terminal to referesh the local pod repo. Important: Run this only after you have run the `flutter pub get` in your project root via terminal or from UI.

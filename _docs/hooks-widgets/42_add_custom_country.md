@@ -5,7 +5,7 @@ permalink: hooks-widgets/add_custom_country
 order: 342
 ---
 
-# CustomCountryHook
+
 
 Houzi provides the **`CustomCountryHook()`** to **customize the country list** available in the phone signup page. This hook allows you to either:
 

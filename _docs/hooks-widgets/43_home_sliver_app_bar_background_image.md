@@ -5,7 +5,7 @@ permalink: hooks-widgets/home_sliver_app_bar_background_image
 order: 343
 ---
 
-# HomeSliverAppBarBGImageHook
+
 
 Houzi provides the **`HomeSliverAppBarBGImageHook()`** to **customize the background image** displayed in the Sliver AppBar on the home screen. This hook allows you to either:
 

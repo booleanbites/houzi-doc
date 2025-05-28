@@ -5,7 +5,6 @@ permalink: hooks-widgets/edit_profile_show_field
 order: 341
 ---
 
-# EditProfileShowFieldHook
 
 Houzi provides you with the **`EditProfileShowFieldHook()`** which allows you to dynamically **show or hide specific profile fields** in the Edit Profile screen—such as Facebook, Instagram, WhatsApp, etc.
 
