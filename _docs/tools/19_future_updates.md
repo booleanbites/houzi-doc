@@ -8,25 +8,26 @@ order: 19
 Always make a backup before updating to the next version.
 
 
-## Migration Guide for 1.4.0.1
+## Migration Guide for 1.4.4.1
 
 We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
 
-Let's assume you simply want to update your houzi_package, updating to 1.4.0.1 requires following things:
+Let's assume you simply want to update your houzi_package, updating to 1.4.4.1 requires following things:
 
 - Always make a backup. (copy in separate folder or use git).
-- Copy `Project_HOME > packages > houzi_package` from 1.4.0.1 and replace houzi_package in your existing project. 
+- Copy `Project_HOME > packages > houzi_package` from 1.4.4.1 and replace houzi_package in your existing project. 
 - Optionally download and update to Flutter 3.32.xx. [Flutter Download](../tools/flutter_setup).
 - Upgrade the Kotlin Gradle plugin version to 2.1.21 by updating the line in android/settings.gradle if you have updated Flutter to version 3.32.x:
-    - `id "org.jetbrains.kotlin.android" version "2.1.21" apply false // Required for Flutter 3.32.x compatibility`
+- `id "org.jetbrains.kotlin.android" version "2.1.21" apply false // Required for Flutter 3.32.x compatibility`
 - We added new hooks in hooks_v2.dart. So copy `Project_HOME/lib/hooks_v2.dart` and `Project_HOME/lib/main.dart` and replace both in your existing project. Then configure your hooks again. (Mandatory if you are updating.)
-- Rest of configurations like configuration.json, you android project folders, ios project folders should remain same.
+- Copy required translation files from `Project_HOME / assets/localization/` or at least copy new keys from en file and add to your existing translation files.
+- Rest of configurations like configuration.json, android project folders, ios project directories should remain same.
 - Do a project clean. Remove pubspec.lock, ios/Podfile.lock.
 - For iOS, you might also need to run `pod install --repo-update` from terminal to referesh the local pod repo. Important: Run this only after you have run the `flutter pub get` in your project root via terminal or from UI.
 - Run and Launch your app on device.
 
 On the wordpress admin panel:
-- Remove existing plugin, and upload and activate your Houzi Rest Api version 1.4.0.1 plugin. Download from here: [Houzi Rest Api](https://github.com/booleanbites/houzi-rest-api/releases/latest.zip) 
+- Remove existing plugin, and upload and activate your Houzi Rest Api version 1.4.4.1 plugin. Download from here: [Houzi Rest Api](https://github.com/booleanbites/houzi-rest-api/releases/latest.zip) 
 
 
 
