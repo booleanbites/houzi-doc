@@ -17,8 +17,7 @@ Let's assume you simply want to update your houzi_package, updating to 1.4.4.1 r
 - Always make a backup. (copy in separate folder or use git).
 - Copy `Project_HOME > packages > houzi_package` from 1.4.4.1 and replace houzi_package in your existing project. 
 - Optionally download and update to Flutter 3.32.xx. [Flutter Download](../tools/flutter_setup).
-- Upgrade the Kotlin Gradle plugin version to 2.1.21 by updating the line in android/settings.gradle if you have updated Flutter to version 3.32.x:
-- `id "org.jetbrains.kotlin.android" version "2.1.21" apply false // Required for Flutter 3.32.x compatibility`
+- Upgrade the Kotlin Gradle plugin version to 2.1.21 by updating the line in android/settings.gradle if you have updated Flutter to version 3.32.x: `id "org.jetbrains.kotlin.android" version "2.1.21" apply false`. It is required for Flutter 3.32.x compatibility
 - We added new hooks in hooks_v2.dart. So copy `Project_HOME/lib/hooks_v2.dart` and `Project_HOME/lib/main.dart` and replace both in your existing project. Then configure your hooks again. (Mandatory if you are updating.)
 - Copy required translation files from `Project_HOME / assets/localization/` or at least copy new keys from en file and add to your existing translation files.
 - Rest of configurations like configuration.json, android project folders, ios project directories should remain same.
