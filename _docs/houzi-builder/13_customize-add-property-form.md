@@ -250,6 +250,9 @@ You can `Add` a new Field in Section by following these steps:
     * **prop_video_url:**  
         This key must be selected if you are taking user input related to *Property Video URL*. (Video could be uploaded on Youtube, Vimeo or as SWF File, MOV Files etc.)
 
+    * **prop_rooms:**  
+        This key must be selected if you are taking user input related to *Property Rooms*.
+
     * **prop_beds:**  
         This key must be selected if you are taking user input related to *Property Bedrooms*.
 
