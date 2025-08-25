@@ -8,6 +8,56 @@ order: 20
 Always make a backup before updating to the next version.
 
 
+## Android 15+ Migration Guide - 16KB Page Size Support
+
+### Step 1: Update Flutter to Latest Version
+- Navigate to your project.
+- Upgrade Flutter: `flutter upgrade`
+- Verify version: `flutter --version` (should be 3.5.1+)
+- For new installs: [Flutter Setup Guide](https://houzi-docs.booleanbites.com/tools/flutter_setup)
+
+### Step 2: Update Dependencies and Configurations
+- Update in `[Your-Project]/packages/houzi_package/pubspec.yaml`:
+```yaml
+pinput: 5.0.1
+package_info_plus: 8.3.1
+in_app_purchase: 3.2.3
+timeago: 3.7.1
+```
+
+## Step 3: AGP and SDK Updates
+
+### Update Android SDK
+- Open Android Studio → SDK Manager
+- Install Android SDK 36 (Android 15+)
+- Install latest Build Tools
+- Update NDK to version 29.0.13846066 or newer
+
+### Update Build Configurations And AGP
+- Update in `android/settings.gradle`:
+```gradle
+id "com.android.application" version '8.7.3' apply false
+```
+- Update in `android/gradle/wrapper/gradle-wrapper.properties`:
+```properties
+distributionUrl=https\://services.gradle.org/distributions/gradle-8.12-all.zip
+```
+- Update in `android/app/build.gradle`:
+```gradle
+compileSdkVersion 36
+minSdkVersion 24
+targetSdkVersion 36
+ndkVersion "29.0.13846066" // Incase If your using ndk
+```
+
+### Step 4: Clean and Rebuild
+- Run: `flutter clean`
+- Run: `flutter pub get`
+- Build release: `flutter build appbundle --release` // Depends up on your choice
+
+> **Note**: Always backup your project before migration. Test on Android 15+ devices if available.
+
+
 ## Migration Guide for 1.4.5
 
 We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
@@ -16,9 +66,9 @@ Let's assume you simply want to update your houzi_package, updating to 1.4.5 req
 
 - Always make a backup. (copy in separate folder or use git).
 - Copy `Project_HOME > packages > houzi_package` from 1.4.5 and replace houzi_package in your existing project. 
-- Optionally download and update to Flutter 3.32.xx. [Flutter Download](../tools/flutter_setup).
-- Upgrade the Kotlin Gradle plugin version to 2.1.21 by updating the line in android/settings.gradle if you have updated Flutter to version 3.32.x:
-    - `id "org.jetbrains.kotlin.android" version "2.1.21" apply false // Required for Flutter 3.32.x compatibility`
+- Optionally download and update to Flutter 3.35.xx. [Flutter Download](../tools/flutter_setup).
+- Upgrade the Kotlin Gradle plugin version to 2.1.21 by updating the line in android/settings.gradle if you have updated Flutter to version 3.35.x:
+    - `id "org.jetbrains.kotlin.android" version "2.1.21" apply false // Required for Flutter 3.35.x compatibility`
 - Rest of configurations like configuration.json, you android project folders, ios project folders should remain same.
 - Do a project clean. Remove pubspec.lock, ios/Podfile.lock.
 - For iOS, you might also need to run `pod install --repo-update` from terminal to referesh the local pod repo. Important: Run this only after you have run the `flutter pub get` in your project root via terminal or from UI.
