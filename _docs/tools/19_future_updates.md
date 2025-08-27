@@ -50,7 +50,7 @@ On the wordpress admin panel:
 
 
 
-## Migration Guide for 1.4.0.1
+## Migration Guide for 1.4.4.1
 
 We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
 
