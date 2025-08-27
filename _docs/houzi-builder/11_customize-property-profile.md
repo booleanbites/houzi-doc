@@ -26,6 +26,8 @@ Let's dive into the details of each section.
 
 # Property Profile Configurations
 
+- You can **show** or **hide** *Featured Room*, on the top-right side of screen, just by *Check Marking or Un-Marking* the **Show Featured Room Detail** checkbox field.
+
 - You can **show** or **hide** *Print Property Button*, on the top-right side of screen, just by *Check Marking or Un-Marking* the **Show Print Property Button** checkbox field. 
 
 - You can **show** or **hide** *Email Button*, on the bottom action bar of screen, just by *Check Marking or Un-Marking* the **Show Email Button** checkbox field.

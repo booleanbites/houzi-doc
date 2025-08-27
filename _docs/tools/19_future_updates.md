@@ -2,31 +2,73 @@
 title: Migration Guide
 category: Tools Setup
 permalink: tools/upgrading_future_version
-order: 19
+order: 20
 ---
 
 Always make a backup before updating to the next version.
 
 
-## Migration Guide for 1.4.4.1
+## Migration Guide for 1.4.5
 
 We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
 
-Let's assume you simply want to update your houzi_package, updating to 1.4.4.1 requires following things:
+Let's assume you simply want to update your houzi_package, updating to 1.4.5 requires following things:
 
 - Always make a backup. (copy in separate folder or use git).
-- Copy `Project_HOME > packages > houzi_package` from 1.4.4.1 and replace houzi_package in your existing project. 
+- Copy `Project_HOME > packages > houzi_package` from 1.4.5 and replace houzi_package in your existing project. 
+- Download and update to Flutter 3.35.xx. [Flutter Download](../tools/flutter_setup).
+- If you are upgrading from an older version to 1.4.5, you must also update your project for Android 15+ (API 36) and 16KB page size support:
+  - Open Android Studio → SDK Manager, install Android SDK 36 (Android 15+), install latest Build Tools, and update NDK to version 29.0.13846066 or newer.
+  
+  - Open `Project_HOME/android/settings.gradle`, update AGP version:
+    - `id "com.android.application" version '8.7.3' apply false`
+
+  - Open `Project_HOME/android/gradle/wrapper/gradle-wrapper.properties`, update:
+    - `distributionUrl=https\://services.gradle.org/distributions/gradle-8.12-all.zip`
+  
+  - Open `Project_HOME/android/app/build.gradle`, update:
+    - find and set `compileSdkVersion 36`
+    - find and set `minSdkVersion 24`
+    - find and set `targetSdkVersion 36`
+- Migrate iOS Project to minimum iOS 15 and make following changes:
+  - Open `Project_HOME/ios/Podfile`, update:
+    - `platform :ios, '15.0` at line number 2.
+  - Open `Project_HOME/ios/Runner/HomeNativeAdViewFactory.swift`, find and replace:
+    - find `GADNativeAdView` and replace with `NativeAdView`.
+    - find `GADNativeAd` and replace with `NativeAd`.
+  - Open `Project_HOME/ios/Runner/ListTileNativeAdViewFactory.swift`, find and replace:
+    - find `GADNativeAdView` and replace with `NativeAdView`.
+    - find `GADNativeAd` and replace with `NativeAd`.
+- Do a project clean. Remove pubspec.lock, ios/Podfile.lock.
+- For iOS, you might also need to run `pod install --repo-update` from terminal to referesh the local pod repo. Important: Run this only after you have run the `flutter pub get` in your project root via terminal or from UI.
+- Rest of configurations like configuration.json, ios project folders should remain same.
+- Run and Launch your app on device.
+
+On the wordpress admin panel:
+- Remove existing plugin, and upload and activate your Houzi Rest Api version 1.4.5 plugin. Download from here: [Houzi Rest Api](https://github.com/booleanbites/houzi-rest-api/releases/latest.zip) 
+
+
+
+
+## Migration Guide for 1.4.0.1
+
+We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
+
+Let's assume you simply want to update your houzi_package, updating to 1.4.0.1 requires following things:
+
+- Always make a backup. (copy in separate folder or use git).
+- Copy `Project_HOME > packages > houzi_package` from 1.4.0.1 and replace houzi_package in your existing project. 
 - Optionally download and update to Flutter 3.32.xx. [Flutter Download](../tools/flutter_setup).
-- Upgrade the Kotlin Gradle plugin version to 2.1.21 by updating the line in android/settings.gradle if you have updated Flutter to version 3.32.x: `id "org.jetbrains.kotlin.android" version "2.1.21" apply false`. It is required for Flutter 3.32.x compatibility
+- Upgrade the Kotlin Gradle plugin version to 2.1.21 by updating the line in android/settings.gradle if you have updated Flutter to version 3.32.x:
+    - `id "org.jetbrains.kotlin.android" version "2.1.21" apply false // Required for Flutter 3.32.x compatibility`
 - We added new hooks in hooks_v2.dart. So copy `Project_HOME/lib/hooks_v2.dart` and `Project_HOME/lib/main.dart` and replace both in your existing project. Then configure your hooks again. (Mandatory if you are updating.)
-- Copy required translation files from `Project_HOME / assets/localization/` or at least copy new keys from en file and add to your existing translation files.
-- Rest of configurations like configuration.json, android project folders, ios project directories should remain same.
+- Rest of configurations like configuration.json, you android project folders, ios project folders should remain same.
 - Do a project clean. Remove pubspec.lock, ios/Podfile.lock.
 - For iOS, you might also need to run `pod install --repo-update` from terminal to referesh the local pod repo. Important: Run this only after you have run the `flutter pub get` in your project root via terminal or from UI.
 - Run and Launch your app on device.
 
 On the wordpress admin panel:
-- Remove existing plugin, and upload and activate your Houzi Rest Api version 1.4.4.1 plugin. Download from here: [Houzi Rest Api](https://github.com/booleanbites/houzi-rest-api/releases/latest.zip) 
+- Remove existing plugin, and upload and activate your Houzi Rest Api version 1.4.0.1 plugin. Download from here: [Houzi Rest Api](https://github.com/booleanbites/houzi-rest-api/releases/latest.zip) 
 
 
 

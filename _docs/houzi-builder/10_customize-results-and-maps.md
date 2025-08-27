@@ -40,7 +40,10 @@ Houzi provides you wide range of listing items designs. On the top right side of
 - By default, Houzi provide a List View for the searched items on the Results screen. User can see the results on Google Maps by tapping on the Maps icon on the top search bar. If you want to display the search results on the Google Maps, by default, you can simply *Check Mark* the **Show Map View instead List View** checkbox field.  
 
   <img src="../../images/show-map-view.png" alt="show-map-view" title="show-map-view" width="300" border="1px solid"/>   
-  
+
+- By default, Houzez displays the room details in both the Property Details section and Article Boxes. If you want to hide the room information from these sections, you can simply uncheck the Show Rooms option in the configuration.json file. This gives you control over whether or not to display room-related data, allowing for a more tailored presentation based on your project needs. 
+
+  <img src="../../images/show-rooms-view.png" alt="show-rooms-view" title="show-room-view" width="300" border="1px solid"/>  
 
 ---
 
