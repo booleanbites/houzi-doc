@@ -20,21 +20,28 @@ Let's assume you simply want to update your houzi_package, updating to 1.4.5 req
 - If you are upgrading from an older version to 1.4.5, you must also update your project for Android 15+ (API 36) and 16KB page size support:
   - Open Android Studio → SDK Manager, install Android SDK 36 (Android 15+), install latest Build Tools, and update NDK to version 29.0.13846066 or newer.
   
-  - In `android/settings.gradle`, update AGP version:
+  - Open `Project_HOME/android/settings.gradle`, update AGP version:
     - `id "com.android.application" version '8.7.3' apply false`
 
-  - In `android/gradle/wrapper/gradle-wrapper.properties`, update:
+  - Open `Project_HOME/android/gradle/wrapper/gradle-wrapper.properties`, update:
     - `distributionUrl=https\://services.gradle.org/distributions/gradle-8.12-all.zip`
   
-  - In `android/app/build.gradle`, update:
-    - `compileSdkVersion 36`
-    - `minSdkVersion 24`
-    - `targetSdkVersion 36`
-    - `ndkVersion "29.0.13846066" // Incase If your using ndk`
-
-- Rest of configurations like configuration.json, ios project folders should remain same.
+  - Open `Project_HOME/android/app/build.gradle`, update:
+    - find and set `compileSdkVersion 36`
+    - find and set `minSdkVersion 24`
+    - find and set `targetSdkVersion 36`
+- Migrate iOS Project to minimum iOS 15 and make following changes:
+  - Open `Project_HOME/ios/Podfile`, update:
+    - `platform :ios, '15.0` at line number 2.
+  - Open `Project_HOME/ios/Runner/HomeNativeAdViewFactory.swift`, find and replace:
+    - find `GADNativeAdView` and replace with `NativeAdView`.
+    - find `GADNativeAd` and replace with `NativeAd`.
+  - Open `Project_HOME/ios/Runner/ListTileNativeAdViewFactory.swift`, find and replace:
+    - find `GADNativeAdView` and replace with `NativeAdView`.
+    - find `GADNativeAd` and replace with `NativeAd`.
 - Do a project clean. Remove pubspec.lock, ios/Podfile.lock.
 - For iOS, you might also need to run `pod install --repo-update` from terminal to referesh the local pod repo. Important: Run this only after you have run the `flutter pub get` in your project root via terminal or from UI.
+- Rest of configurations like configuration.json, ios project folders should remain same.
 - Run and Launch your app on device.
 
 On the wordpress admin panel:
