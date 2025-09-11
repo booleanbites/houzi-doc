@@ -8,7 +8,7 @@ order: 20
 Always make a backup before updating to the next version.
 
 
-## Migration Guide for 1.4.5
+## Migration Guide for 1.4.5.1
 
 We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
 
