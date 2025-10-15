@@ -4,7 +4,7 @@ title: Welcome
 
 ![Houzi real estate](images/banner.jpg)
 
-Houzi a real estate mobile application for real estate agents and agencies. Its build with Flutter so it can be deployed to Android and iOS.
+Houzi a real estate mobile application for real estate agents and agencies. It is build with Flutter so it can be deployed to Android and iOS.
 
 ### Pathway
 
