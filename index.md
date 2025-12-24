@@ -65,4 +65,5 @@ Houzi Builder is a desktop visual config builder. This section talks about desig
 
  [![Houzi real estate](images/apple_store.png)](https://apps.apple.com/us/app/id1598357211)  [![Houzi real estate](images/google_play.png)](https://play.google.com/store/apps/details?id=com.booleanbites.houzez)
 
- 
+ ### Useful Links
+ [Houzi real estate app](https://houzi.booleanbites.com) | [BooleanBites Ltd](https://booleanbites.com)
