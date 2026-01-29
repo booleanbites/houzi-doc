@@ -26,7 +26,7 @@ dev_dependencies:
 ```
 3. Within the `pubspec.yaml` file specify the path of the icon you wish to use for the app and then choose whether you want to use the icon for the iOS app, Android app or both.
 ```yaml
-flutter_icons:
+flutter_launcher_icons:
   android: true
   ios: true
   image_path: "assets/icon/icon.png"
@@ -35,7 +35,7 @@ flutter_icons:
 4. After setting up the configuration, all that is left to do is run the package.
 ```yaml
 flutter pub get
-flutter pub run flutter_launcher_icons:main
+dart run flutter_launcher_icons
 ```
 
 The default launcher icons have now been replaced with your custom icon.
