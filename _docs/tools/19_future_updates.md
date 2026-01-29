@@ -8,6 +8,78 @@ order: 20
 Always make a backup before updating to the next version.
 
 
+## Migration Guide for 1.4.7
+
+We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
+
+> If you are upgrading from an older version than 1.4.7, you must follow _Migration Guide 1.4.5_ to update your project for Android 15+ (API 36) and 16KB page size support.
+
+Let's assume you simply want to update your houzi_package, updating to 1.4.7 requires following things:
+
+- Always make a backup. (copy in separate folder or use git).
+- Copy `Project_HOME > packages > houzi_package` from 1.4.7 and replace houzi_package in your existing project. 
+- Download and update to Flutter 3.38.xx. [Flutter Download](../tools/flutter_setup).
+- Copy `Project_HOME/android/app/src/main/res/drawable/download_icon.xml` to your project in the same location.
+- Open AppDelegate.swift at `Project_HOME/ios/Runner/AppDelegate.swift` and find
+        `let controller = window.rootViewController as! FlutterViewController`
+        replace with
+        `let controller = window?.rootViewController as! FlutterViewController` //Notice the ? after window
+- Do a project clean. Remove pubspec.lock, ios/Podfile.lock.
+- For iOS, you might also need to run `pod install --repo-update` from terminal to referesh the local pod repo. Important: Run this only after you have run the `flutter pub get` in your project root via terminal or from UI.
+- **Update Configuration**: You can easily export the latest configuration using the Houzi Builder.
+  - Download for Windows: [Houzi Builder](https://github.com/booleanbites/houzi-builder-release/releases/download/1.4.7/HouziBuilder-windows-1.4.7.zip)
+  - Download for macOS: [Houzi Builder](https://github.com/booleanbites/houzi-builder-release/releases/download/1.4.7/HouziBuilder-mac-1.4.7.zip)
+  
+  Once downloaded, use the builder to export the updated configuration.
+  
+  Alternatively, you can manually update your `configuration.json` with the following:
+  ```json
+  "home_layout_config": {
+       "section_type": "app_bar",
+       "layout_tabs": [
+            {
+                 "term": "all",
+                 "sub_term": "all"
+            },
+            {
+                 "term": "property_status",
+                 "sub_term": "For Rent",
+                 "title": "For Rent",
+                 "icon_data": "{\"name\":\"adb_outlined\",\"fontFamily\":\"MaterialIcons\",\"codePoint\":60984}",
+                 "search_route_map": {
+                      "property_type": [
+                           "For Rent"
+                      ],
+                      "property_type_slug": [
+                           "For Rent"
+                      ]
+                 }
+            },
+            {
+                 "term": "property_status",
+                 "sub_term": "For Sale",
+                 "title": "For Sale",
+                 "icon_data": "{\"name\":\"adb_outlined\",\"fontFamily\":\"MaterialIcons\",\"codePoint\":60984}",
+                 "search_route_map": {
+                      "property_type": [
+                           "For Sale"
+                      ],
+                      "property_type_slug": [
+                           "For Sale"
+                      ]
+                 }
+            }
+       ]
+  },
+  "show_floating_map_widget": false,
+  ```
+- Rest of configurations like ios project folders should remain same.
+- Run and Launch your app on device.
+
+On the wordpress admin panel:
+- Remove existing plugin, and upload and activate your Houzi Rest Api version 1.4.7 plugin. Download from here: [Houzi Rest Api](https://github.com/booleanbites/houzi-rest-api/releases/latest.zip)
+ 
+
 ## Migration Guide for 1.4.6
 
 We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
