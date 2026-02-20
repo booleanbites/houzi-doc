@@ -18,12 +18,17 @@ Let's assume you simply want to update your houzi_package, updating to 1.4.7 req
 
 - Always make a backup. (copy in separate folder or use git).
 - Copy `Project_HOME > packages > houzi_package` from 1.4.7 and replace houzi_package in your existing project. 
-- Download and update to Flutter 3.38.xx. [Flutter Download](../tools/flutter_setup).
+- Download and update to Flutter 3.41.xx. [Flutter Download](../tools/flutter_setup).
 - Copy `Project_HOME/android/app/src/main/res/drawable/download_icon.xml` to your project in the same location.
 - Open AppDelegate.swift at `Project_HOME/ios/Runner/AppDelegate.swift` and find
         `let controller = window.rootViewController as! FlutterViewController`
         replace with
         `let controller = window?.rootViewController as! FlutterViewController` //Notice the ? after window
+- Open your hooks_v2.dart file at `Project_HOME > lib > hooks_v2.dart` and copy and paste the following hooks code from following links:
+  - [CustomSearchWebParamsHook](/hooks-widgets/custom_search_web_params)
+  - [Houzi Map Provider Hook](/hooks-widgets/houzi_map_provider_hook)
+  - [OSM Geo Admin Email Hook](/hooks-widgets/osm_geo_admin_email_hook)
+  - [OSM Geo Admin Email Hook](/hooks-widgets/osm_geo_admin_email_hook)
 - Do a project clean. Remove pubspec.lock, ios/Podfile.lock.
 - For iOS, you might also need to run `pod install --repo-update` from terminal to referesh the local pod repo. Important: Run this only after you have run the `flutter pub get` in your project root via terminal or from UI.
 - **Update Configuration**: You can easily export the latest configuration using the Houzi Builder.
