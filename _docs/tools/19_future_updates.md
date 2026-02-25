@@ -24,11 +24,37 @@ Let's assume you simply want to update your houzi_package, updating to 1.4.7 req
         `let controller = window.rootViewController as! FlutterViewController`
         replace with
         `let controller = window?.rootViewController as! FlutterViewController` //Notice the ? after window
-- Open your hooks_v2.dart file at `Project_HOME > lib > hooks_v2.dart` and copy and paste the following hooks code from following links:
+- Open your hooks_v2.dart file at `Project_HOME > lib > hooks_v2.dart` and copy and paste the following hook code from following link:
   - [CustomSearchWebParamsHook](/hooks-widgets/custom_search_web_params)
-  - [Houzi Map Provider Hook](/hooks-widgets/houzi_map_provider_hook)
-  - [OSM Geo Admin Email Hook](/hooks-widgets/osm_geo_admin_email_hook)
-  - [OSM Geo Admin Email Hook](/hooks-widgets/osm_geo_admin_email_hook)
+- Open `Project_HOME/android/settings.gradle`, update to these latest:
+  - `id "com.android.application" version '8.11.1' apply false`
+  - `id "org.jetbrains.kotlin.android" version '2.2.20' apply false`
+  - `id "com.google.gms.google-services" version "4.4.2" apply false`
+- Open `Project_HOME/android/gradle/wrapper/gradle-wrapper.properties`, update your current to this:
+  - `distributionUrl=https\://services.gradle.org/distributions/gradle-8.14-all.zip`
+- Open `Project_HOME/android/app/build.gradle`, update the following dependencies:
+  ```gradle
+  dependencies {
+      coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.5'
+
+      implementation 'com.google.firebase:firebase-analytics:22.5.0'
+      implementation 'com.google.android.gms:play-services-ads:24.1.0'
+
+      // We commented this out because we are using minSdk 26 (Android 8) which is above 21,
+      // so Android handles multidex automatically. Also this is old support library which
+      // is no longer maintained by Google and conflicts with AndroidX.
+      // If you ever need multidex library, use androidx.multidex:multidex:2.0.1 instead.
+      // implementation 'com.android.support:multidex:1.0.3'
+
+      implementation 'androidx.cardview:cardview:1.0.0'
+      implementation 'androidx.appcompat:appcompat:1.7.0'
+      implementation 'com.google.android.play:integrity:1.4.0'
+      implementation 'androidx.browser:browser:1.8.0'
+      implementation 'androidx.activity:activity:1.10.1'
+      implementation 'com.onesignal:OneSignal:5.1.26'
+  }
+  ```
+- Open `Project_HOME/android/gradle.properties`, remove `android.enableR8=true`, because it is deprecated now.
 - Do a project clean. Remove pubspec.lock, ios/Podfile.lock.
 - For iOS, you might also need to run `pod install --repo-update` from terminal to referesh the local pod repo. Important: Run this only after you have run the `flutter pub get` in your project root via terminal or from UI.
 - **Update Configuration**: You can easily export the latest configuration using the Houzi Builder.
