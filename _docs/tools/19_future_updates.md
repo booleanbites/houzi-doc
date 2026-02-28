@@ -24,8 +24,12 @@ Let's assume you simply want to update your houzi_package, updating to 1.4.7 req
         `let controller = window.rootViewController as! FlutterViewController`
         replace with
         `let controller = window?.rootViewController as! FlutterViewController` //Notice the ? after window
-- Open your hooks_v2.dart file at `Project_HOME > lib > hooks_v2.dart` and copy and paste the following hook code from following link:
+- Open your hooks_v2.dart file at `Project_HOME > lib > hooks_v2.dart` and copy and paste the following hooks code from following link:
   - [CustomSearchWebParamsHook](/hooks-widgets/custom_search_web_params)
+  - [Houzi Map Provider Hook](/hooks-widgets/houzi_map_provider_hook)
+  - [OSM Geo Admin Email Hook](/hooks-widgets/osm_geo_admin_email_hook)
+  - [MapView Initial Location Hook](/hooks-widgets/map_view_initial_location_hook)
+  - [Map Box Api Key Hook](/hooks-widgets/map_box_api_key_hook)
 - Open `Project_HOME/android/settings.gradle`, update to these latest:
   - `id "com.android.application" version '8.11.1' apply false`
   - `id "org.jetbrains.kotlin.android" version '2.2.20' apply false`
