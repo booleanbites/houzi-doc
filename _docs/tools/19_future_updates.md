@@ -20,6 +20,7 @@ Let's assume you simply want to update your houzi_package, updating to 1.4.7 req
 - Copy `Project_HOME > packages > houzi_package` from 1.4.7 and replace houzi_package in your existing project. 
 - Download and update to Flutter 3.41.xx. [Flutter Download](../tools/flutter_setup).
 - Copy `Project_HOME/android/app/src/main/res/drawable/download_icon.xml` to your project in the same location.
+- Copy `Project_HOME/assets/icon/compass_icon.png` to your project in the same location.
 - Open AppDelegate.swift at `Project_HOME/ios/Runner/AppDelegate.swift` and find
         `let controller = window.rootViewController as! FlutterViewController`
         replace with
