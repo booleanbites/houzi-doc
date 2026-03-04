@@ -8,6 +8,30 @@ order: 20
 Always make a backup before updating to the next version.
 
 
+## Migration Guide for 1.4.7.1
+
+We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
+
+> If you are upgrading from an older version than 1.4.7.1, you must follow _Migration Guide 1.4.5_ to update your project for Android 15+ (API 36) and 16KB page size support.
+
+Let's assume you simply want to update your houzi_package, updating to 1.4.7.1 requires following things:
+
+- Always make a backup. (copy in separate folder or use git).
+- Open `Project_HOME/android/app/src/main/AndroidManifest.xml` and remove the permission `android.permission.READ_EXTERNAL_STORAGE`.
+- Copy `Project_HOME > packages > houzi_package` from 1.4.7.1 and replace houzi_package in your existing project. 
+- Download and update to Flutter 3.41.xx. [Flutter Download](../tools/flutter_setup).
+- Open AppDelegate.swift at `Project_HOME/ios/Runner/AppDelegate.swift` and find
+        `let controller = window.rootViewController as! FlutterViewController`
+        replace with
+        `let controller = window?.rootViewController as! FlutterViewController` //Notice the ? after window
+- Do a project clean. Remove pubspec.lock, ios/Podfile.lock.
+- For iOS, you might also need to run `pod install --repo-update` from terminal to referesh the local pod repo. Important: Run this only after you have run the `flutter pub get` in your project root via terminal or from UI.
+- Rest of configurations like ios project folders should remain same.
+- Run and Launch your app on device.
+
+On the wordpress admin panel:
+- Remove existing plugin, and upload and activate your Houzi Rest Api version 1.4.7 plugin. Download from here: [Houzi Rest Api](https://github.com/booleanbites/houzi-rest-api/releases/latest.zip)
+
 ## Migration Guide for 1.4.7
 
 We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
