@@ -1,0 +1,16 @@
+---
+layout: null
+---
+# Houzi Documentation - Full Content
+
+This file contains the complete documentation for Houzi, a white-label real estate Flutter application.
+
+{% assign docs = site.docs | sort: "order" %}
+{% for doc in docs %}
+## {{ doc.title }}
+URL: {{ site.url }}{{ doc.url }}
+
+{{ doc.content }}
+
+---
+{% endfor %}

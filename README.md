@@ -29,6 +29,17 @@ We have designed many hooks to provide way of customise styles, designs, designs
 
 Houzi Builder is visual config builder. This section talks about designing and generating configuration with Houzi Builder, that can be used in the app.
 
+#### [AI Agents](ai-agents/houzi_skill)
+
+Learn how to leverage AI coding agents with the Houzi AI Skill to implement features and configurations quickly using natural language.
+
+### LLM Discoverability
+
+This documentation site is optimized for AI agents and LLMs.
+- [llms.txt](/llms.txt): Summary for all LLMs.
+- [llms-full.txt](/llms-full.txt): Full documentation content in a single file.
+- [ai-instructions.md](/ai-instructions.md): Detailed AI instructions.
+
 ### Try the demo app here:
 
  [![Houzi real estate](images/apple_store.png)](https://apps.apple.com/us/app/id1598357211)  [![Houzi real estate](images/google_play.png)](https://play.google.com/store/apps/details?id=com.booleanbites.houzez)

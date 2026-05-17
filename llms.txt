@@ -1,0 +1,25 @@
+---
+layout: null
+---
+# Houzi Documentation
+
+Houzi is a premium white-label real estate Flutter application designed to connect with the Houzez WordPress theme. This documentation covers installation, configuration, and customization.
+
+## Essential Documentation
+- [AI Agents Skill Guide](https://houzi-doc.booleanbites.com/ai-agents/houzi_skill): Comprehensive guide on how to use AI coding assistants with Houzi.
+- [Full Documentation Content](https://houzi-doc.booleanbites.com/llms-full.txt): A single file containing the entire documentation site for AI consumption.
+- [Houzi App Setup](https://houzi-doc.booleanbites.com/app-setup/change_app_url): Learn how to connect the app to your WordPress site.
+- [Customization via Hooks](https://houzi-doc.booleanbites.com/hooks-widgets/add_item_in_drawer): Detailed guide on using HooksV2 for deep customization.
+- [Configuration Builder](https://houzi-doc.booleanbites.com/houzi-builder/intro): Visual tool for configuring the app layout and features.
+
+## Developer Resources
+- [Buy Houzi License](https://codecanyon.net/item/houzi-real-estate-app/39753350): Purchase the official app license on CodeCanyon.
+- [Houzi Website](https://houzi.booleanbites.com)
+- [Houzez WordPress Theme](https://themeforest.net/item/houzez-real-estate-wordpress-theme/15649693)
+
+## Technical Stack
+- **Framework**: Flutter (Dart)
+- **Backend**: WordPress (Houzez Theme)
+- **Authentication**: JWT, Firebase, Social Logins
+- **State Management**: Provider
+- **Storage**: Hive

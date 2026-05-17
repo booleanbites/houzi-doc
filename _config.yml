@@ -10,6 +10,7 @@ show_full_navigation: true
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 description: Documentation for Houzi real estate app.
+image: /images/banner.jpg
 author:
   name: Adil Soomro
   email: houziapp@gmail.com
@@ -20,6 +21,8 @@ social:
     - https://houzi.booleanbites.com
     - https://play.google.com/store/apps/details?id=com.booleanbites.houzez
     - https://apps.apple.com/us/app/id1598357211
+  twitter: booleanbites
+  facebook: booleanbites
 
 # -----
 # Build

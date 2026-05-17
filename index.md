@@ -6,6 +6,9 @@ title: Welcome
 
 Houzi a real estate mobile application for real estate agents and agencies. It is build with Flutter so it can be deployed to Android and iOS.
 
+> **Tip**: **Leverage AI for implementation!** Houzi now includes a built-in **AI Agent Skill** that allows coding assistants like Antigravity, Cursor, Claude, or Copilot to understand your app architecture and perform complex configurations automatically. [Learn how to use it](ai-agents/houzi_skill).
+
+
 ### Pathway
 
 We've compiled a list of the most required things that you need to do in order to launch the app on device. We assume you have a website setup with Houzez. We also assume that you've purchased [Houzi app from CodeCanyon](https://codecanyon.net/item/houzi-real-estate-app/39753350).
@@ -60,6 +63,11 @@ We have designed many hooks to provide way of customizing styles, designs and pr
 #### [Houzi Config Builder](houzi-builder/intro)
 
 Houzi Builder is a desktop visual config builder. This section talks about designing and generating configuration with Houzi Builder, that can be used in the app.
+
+#### [AI Agents](ai-agents/houzi_skill)
+
+Learn how to leverage AI coding agents with the Houzi AI Skill to implement features and configurations quickly using natural language.
+
 
 ### Try the demo app here:
 
