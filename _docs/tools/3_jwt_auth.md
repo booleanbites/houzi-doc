@@ -17,7 +17,7 @@ To install this plugin, you go into your wordpress dashboard, from left menu sel
 1. Wordpress > Left Menu > Plugin
 2. From plugin choose Add New
 3. Search 'JWT Auth'.
-4. From the Results, Choose 'JWT Authentication for WP REST API' by 'Enrique Chavez' and Click Install
+4. From the Results, Choose 'JWT Authentication for WP REST API' by 'tmeister' and Click Install
 5. Activate the Plugin.
 
 ![how to add new wordpress plugin](../../images/install-wp-plugin.jpg)
@@ -35,4 +35,4 @@ JWT Auth Plugin require a unique key to be setup in your wordpress installation.
 
 ![JWT Auth Secret Key](../../images/jwt_auth_secret_key_setup.jpg)
 
-Conslut Description of JWT Auth Plugin for more guidance here: https://wordpress.org/plugins/jwt-authentication-for-wp-rest-api
+Consult Description of JWT Auth Plugin for more guidance here: https://wordpress.org/plugins/jwt-authentication-for-wp-rest-api/
