@@ -22,7 +22,7 @@ Let's assume you simply want to update your houzi_package, updating to 1.4.7.2 r
   ```dart
   hooksMap["valuedFeatureDesignHook"] = v2Hooks.getValuedFeatureDesignHook();
   ```
-- Copy `Project_HOME > .agents > skills > houzi` directory and all AI skill-related configuration files (`Project_HOME > claude.md`, `Project_HOME > .cursorrules`, `Project_HOME > .github > copilot-instructions.md` and `Project_HOME > AGENTS.md`) from 1.4.7.2 to your own project root if you want to leverage the built-in **AI Agent Skill** in AI coding assistants (such as Antigravity, Cursor, Claude Code, or GitHub Copilot).
+- Copy `Project_HOME > .agents > skills > houzi` directory and all AI skill-related configuration files (`Project_HOME > claude.md`, `Project_HOME > .cursorrules`, `Project_HOME > .github > copilot-instructions.md` and `Project_HOME > AGENTS.md`) from 1.4.7.2 to your own project root if you want to leverage the built-in [AI Agent Skill](../ai-agents/houzi_skill) in AI coding assistants (such as Antigravity, Cursor, Claude Code, or GitHub Copilot).
 - Do a project clean. Remove pubspec.lock, ios/Podfile.lock.
 - Rest of configurations like configurations.json, android/ios folders should remain same.
 - Run and Launch your app on device.
