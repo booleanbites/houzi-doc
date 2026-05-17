@@ -1,5 +1,5 @@
 ---
-title: AI Agent Skill
+title: Houzi AI Agent Skill
 category: AI Agents
 permalink: ai-agents/houzi_skill
 order: 1
@@ -43,13 +43,54 @@ Using an AI agent with the Houzi Skill allows you to leverage these systems seam
 -   **Accurately Navigate the Dynamic Layout Engine**: The configuration JSON spans thousands of lines and controls all app sections. The agent knows exactly where and how to modify search filters, home screen blocks, navigation structures, and details page modules.
 -   **Enable Risk-Free OTA Updates**: The agent automatically adheres to configuration schema compliance and OTA versioning protocols, ensuring seamless runtime integration.
 
+---
+
 ## How to use the Skill
 
 The skill is stored in the project at:
 `[project-root]/.agents/skills/houzi/`
 
-### 1. Automatic Discovery
-Most modern AI coding agents will automatically discover this skill. When you open the project in an IDE with an AI agent (like Cursor), it reads the `.agents/` directory and immediately gains "expert knowledge" of Houzi.
+While the examples below demonstrate how to use **Antigravity** to execute customizations step-by-step, the Houzi Skill system is fully universal and works out-of-the-box with any modern AI coding assistant (like Cursor, Claude Code, or GitHub Copilot).
+
+### Step-by-Step Guide: Customizing Houzi with Antigravity
+
+<img src="../../images/houzi-ai-skill.jpeg" alt="Houzi AI Skill in Action" title="Houzi AI Skill in Action"/>
+
+#### Step 1: Install & Set Up Antigravity
+Download and install the **Antigravity** IDE or command-line agent. Antigravity is a state-of-the-art agentic AI coding companion designed specifically to pair-program, analyze architectures, and execute codebase refactoring safely.
+
+#### Step 2: Open Your Houzi Project
+Launch Antigravity and open your Houzi Flutter project folder. 
+
+#### Step 3: Automatic Skill Detection
+Once opened, Antigravity's indexing engine scans your workspace. It will automatically detect the `.agents/skills/houzi/` directory containing all schema definitions, layout details, hook customization registries, and system configurations. You don't need to configure anything—the AI immediately becomes an "expert Houzi developer".
+
+#### Step 4: Ask & Automate
+Now, simply open the AI chat panel and start instructing the agent. Here are step-by-step examples of how to run your commands:
+
+##### Example A: Customizing App Name, Bundle ID, & Launcher Icons
+1. Ask Antigravity:
+   > *"Update my app's name to 'PisoCasa', change the iOS and Android bundle identifiers to 'com.pisocasa.app', and use assets/icons/logo.png to generate all launcher icons."*
+2. **What Antigravity does**:
+   - Updates the app name across native Android and iOS configurations.
+   - Replaces bundle identifiers in `build.gradle` and Xcode project settings.
+   - Safely updates dependencies, configures `flutter_launcher_icons.yaml`, and runs the generator command to rebuild all launcher resolutions.
+
+##### Example B: Updating Theme Colors & Fonts
+1. Ask Antigravity:
+   > *"Change the app theme's primary color to a premium Indigo (#3F51B5), background to off-white, and switch the font family to 'Outfit'."*
+2. **What Antigravity does**:
+   - Safely updates hex values in the configurations.
+   - Inspects `configurations.json` structure, increments the `api_config_version` to trigger an Over-The-Air (OTA) update so your users get the new design instantly.
+   - Generates the necessary fonts configuration and localizations.
+
+##### Example C: Advanced Layout Tweaks
+1. Ask Antigravity:
+   > *"Add feature taxonomy terms as tabs in Home Air and also add its icons. Use wordpress api to fetch taxonomy from my website."*
+2. **What Antigravity does**:
+   - Inspects your backend connection config.
+   - Rewrites your Home Air section layout inside `configurations.json` with the newly dynamic taxonomy terms tabs.
+   - Adds custom icons mappings safely matching your WordPress REST API taxonomy terms metadata.
 
 ---
 
