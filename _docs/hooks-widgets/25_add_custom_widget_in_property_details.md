@@ -16,9 +16,27 @@ If you want to show a 'custom widget' in property details page, you need to do f
 - Open file: `Project_HOME  > lib > hooks_v2.dart` and look for the `getWidgetHook()` method.
 - You are provided with `hook` and `article` parameters. In the `if_statement()` comparison, replace the `HOOK_NAME` with your specific hook name (which you have already defined in the HouziBuilder Desktop Application.) and replace your Custom widget with `WIDGET`.  
 
-You are provided with the Property Article Information as the object 'article'. You and get your desired information from the 'article' and display in your Custom Widget.
+You are provided with the Property Article Information as the object 'article'. You can get your desired information from the 'article' and display in your Custom Widget.
 
-For Example: If you have a custom widget named as `'banner-notification-section'`, just replace the 'HOOK_NAME' with `'banner-notification-section'` and return your widget as follows:
+### Configuration Structure
+
+The configuration entry in `configurations.json` for a custom widget must follow this structure:
+
+```json
+{
+  "widget_type": "place_holder",
+  "widget_title": "banner-notification-section",
+  "widget_enable": true,
+  "widget_view_type": ""
+}
+```
+
+- **widget_type**: Must always be `"place_holder"` for custom hook widgets.
+- **widget_title**: This serves as the identifier for your hook in `hooks_v2.dart`.
+
+### Hook Implementation
+
+In `lib/hooks_v2.dart`, replace the `HOOK_NAME` with the value you provided in `widget_title`:
 
 ```dart
   PropertyPageWidgetsHook detailsHook = (
@@ -27,11 +45,6 @@ For Example: If you have a custom widget named as `'banner-notification-section'
       String hook,
     ) {
       
-      /// This is sample code:
-      /// if (hook == 'HOOK_NAME') {
-      ///   return WIDGET;
-      /// }
-
       if (hook == 'banner-notification-section') {
           return Container(
             height: 120,
@@ -41,7 +54,6 @@ For Example: If you have a custom widget named as `'banner-notification-section'
 
       return null;
     };
-  
 ```
 
     

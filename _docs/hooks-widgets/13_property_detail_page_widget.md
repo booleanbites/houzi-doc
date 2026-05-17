@@ -33,7 +33,12 @@ You can visit the following file to learn more about *article*.
 
 #### hook
 
-The parameter *hook* represents the name of Houzi default Section/Widget name  that is being build on the Property Details Screen. If you provide your custom widget/section against the desired section/widget, the default Houzi section/widget will be replaced with your custom section/widget on the Property Details Screen.
+The parameter *hook* represents the identifier for the widget being built. 
+
+- **For Built-in Widgets**: The *hook* represents the name of the Houzi default Section/Widget (e.g., `'article_title'`, `'article_description'`).
+- **For Custom Widgets**: If you add a custom section with `widget_type: "place_holder"`, the *hook* parameter will match the `widget_title` you defined in the configuration.
+
+If you provide your custom widget against the desired hook, the default Houzi widget (or an empty space) will be replaced with your custom widget.
 
 ### Hook
 

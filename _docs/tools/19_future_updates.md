@@ -8,11 +8,33 @@ order: 20
 Always make a backup before updating to the next version.
 
 
+## Migration Guide for 1.4.7.2
+
+We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
+
+> If you are upgrading from an older version than 1.4.7.1, you must follow the previous migration guides below.
+
+Let's assume you simply want to update your houzi_package, updating to 1.4.7.2 requires following things:
+
+- Always make a backup. (copy in separate folder or use git).
+- Copy `Project_HOME > packages > houzi_package` from 1.4.7.2 and replace houzi_package in your existing project. 
+- Open hooks_v2.dart at `Project_HOME > lib > hooks_v2.dart` and configure `getValuedFeatureDesignHook()` to return `'v2'` if you want to switch from the horizontal scroll layout to the new 3-column grid design for bedrooms, bathrooms, etc. on the property details page. Note that when configuring or adding a new hook in `lib/hooks_v2.dart`, you must also register it in `lib/main.dart` inside the `hooksMap` by adding:
+  ```dart
+  hooksMap["valuedFeatureDesignHook"] = v2Hooks.getValuedFeatureDesignHook();
+  ```
+- Copy `Project_HOME > .agents > skills > houzi` directory and all AI skill-related configuration files (`Project_HOME > claude.md`, `Project_HOME > .cursorrules`, `Project_HOME > .github > copilot-instructions.md` and `Project_HOME > AGENTS.md`) from 1.4.7.2 to your own project root if you want to leverage the built-in **AI Agent Skill** in AI coding assistants (such as Antigravity, Cursor, Claude Code, or GitHub Copilot).
+- Do a project clean. Remove pubspec.lock, ios/Podfile.lock.
+- Rest of configurations like configurations.json, android/ios folders should remain same.
+- Run and Launch your app on device.
+
+On the wordpress admin panel:
+- Remove existing plugin, and upload and activate your Houzi Rest Api version 1.4.7 plugin. Download from here: [Houzi Rest Api](https://github.com/booleanbites/houzi-rest-api/releases/latest.zip)
+
 ## Migration Guide for 1.4.7.1
 
 We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
 
-> If you are upgrading from an older version than 1.4.7.1, you must follow _Migration Guide 1.4.5_ to update your project for Android 15+ (API 36) and 16KB page size support.
+> If you are upgrading from an older version than 1.4.7, you must follow _Migration Guide 1.4.5_ to update your project for Android 15+ (API 36) and 16KB page size support.
 
 Let's assume you simply want to update your houzi_package, updating to 1.4.7.1 requires following things:
 
@@ -55,6 +77,14 @@ Let's assume you simply want to update your houzi_package, updating to 1.4.7 req
   - [OSM Geo Admin Email Hook](/hooks-widgets/osm_geo_admin_email_hook)
   - [MapView Initial Location Hook](/hooks-widgets/map_view_initial_location_hook)
   - [Map Box Api Key Hook](/hooks-widgets/map_box_api_key_hook)
+  - Additionally, register these hooks inside `hooksMap` in `Project_HOME/lib/main.dart` by adding:
+  ```dart
+  hooksMap["customSearchWebParamsHook"] = v2Hooks.getCustomSearchWebParamsHook();
+  hooksMap["houziMapProviderHook"] = v2Hooks.getHouziMapProviderHook();
+  hooksMap["osmGeoAdminEmailHook"] = v2Hooks.getOsmGeoAdminEmailHook();
+  hooksMap["mapViewInitialLocationHook"] = v2Hooks.getMapViewInitialLocationHook();
+  hooksMap["mapBoxApiKeyHook"] = v2Hooks.getMapBoxApiKeyHook();
+  ```
 - Open `Project_HOME/android/settings.gradle`, update to these latest:
   - `id "com.android.application" version '8.11.1' apply false`
   - `id "org.jetbrains.kotlin.android" version '2.2.20' apply false`
