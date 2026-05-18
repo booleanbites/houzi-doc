@@ -52,6 +52,11 @@ The skill is stored in the project at:
 
 While the examples below demonstrate how to use **Antigravity** to execute customizations step-by-step, the Houzi Skill system is fully universal and works out-of-the-box with any modern AI coding assistant (like Cursor, Claude Code, or GitHub Copilot).
 
+> **💡 Pro Tip: Direct Skill Invocation**
+> Since the Houzi configurations and hooks guidance is registered as a custom workspace skill, you can directly activate it by prefixing your prompt with `/houzi` in your AI chat panel:
+> 
+> `/houzi change the app bundle identifier to com.pisocasa.app`
+
 ### Step-by-Step Guide: Customizing Houzi with Antigravity
 
 <img src="../../images/houzi-ai-skill.jpeg" alt="Houzi AI Skill in Action" title="Houzi AI Skill in Action"/>
