@@ -8,6 +8,92 @@ order: 20
 Always make a backup before updating to the next version.
 
 
+## Migration Guide for 1.4.8
+
+**1.4.8** introduces Houzi AI (AI-powered search, AI-first home, and ask-the-listing), upgrades all Android and iOS dependencies to their latest versions, and migrates the iOS project from **CocoaPods** to **Swift Package Manager (SPM)**.
+
+We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
+
+> **Important — iOS is different this time.** This release moves iOS from CocoaPods to Swift Package Manager. Hand-migrating an existing `ios` folder (removing the Podfile, de-integrating CocoaPods, and re-wiring OneSignal and Google Maps through SPM) is highly technical and error-prone, so we do **not** ask you to migrate it. Instead, **replace your `ios` folder with the one we provide in 1.4.8 and reconfigure it** with your own app details (see the iOS section below). This also raises the **minimum iOS version to 15**.
+
+Let's assume you simply want to update your houzi_package, updating to 1.4.8 requires the following:
+
+- Always make a backup. (copy in a separate folder or use git).
+- Download and update to **Flutter 3.44.xx**. [Flutter Download](../tools/flutter_setup).
+- Copy `Project_HOME > packages > houzi_package` from 1.4.8 and replace houzi_package in your existing project. This brings Houzi AI, the upgraded dependencies, and all related code changes (no app-level hook changes are required this release).
+- Open your **app-level** `Project_HOME/pubspec.yaml` and add the SPM-compatible Google Maps iOS implementation under `dependencies:`
+  ```yaml
+  google_maps_flutter_ios_sdk9: 2.18.6
+  ```
+  > This must live in your **app-level** `pubspec.yaml` (not in houzi_package). Flutter only honors an alternative plugin implementation when it is a direct app dependency; placed in houzi_package it is ignored and iOS silently falls back to the CocoaPods Google Maps. It requires a minimum iOS deployment target of **15**.
+- Update your app localization for the new AI features. The Houzi AI screens (AI Search, voice search, AI matches, status messages, example prompts, etc.) rely on new `ai_*` localization keys added in 1.4.8. These live in your **app-level** `Project_HOME/assets/localization/*.json` files, so they do **not** come with houzi_package — if you skip this step, the AI screens will display raw keys (e.g. `ai_search`) instead of text.
+  - If you have **not** customized your localization strings: copy the updated `Project_HOME/assets/localization/*.json` files from 1.4.8 and replace yours.
+  - If you **have** customized them: merge the new `ai_*` keys from each 1.4.8 file into your existing `*.json` files so your customizations are preserved.
+  - New keys were added to every bundled language: `en, ar, am, es, fa, fr, ku, pt, ro, ru, tr, ur`.
+- **(Optional — only if you build with AI coding agents.)** Copy `Project_HOME > .agents > skills > houzi` directory and the AI assistant config files (`Project_HOME > CLAUDE.md`, `Project_HOME > .cursorrules`, `Project_HOME > .github > copilot-instructions.md`, and `Project_HOME > AGENTS.md`) from 1.4.8 to your own project root. This is only needed if you want to leverage the built-in [AI Agent Skill](../ai-agents/houzi_skill) in AI coding assistants (such as Antigravity, Cursor, Claude Code, or GitHub Copilot); you can skip it entirely otherwise. The skill was updated in 1.4.8 for the new AI features.
+
+#### Android
+
+- Open `Project_HOME/android/settings.gradle`, update the Android Gradle Plugin version:
+  - `id "com.android.application" version '8.13.2' apply false`
+- Open `Project_HOME/android/gradle.properties`, add the following lines:
+  ```properties
+  org.gradle.caching=true
+  # This builtInKotlin flag was added automatically by Flutter migrator
+  android.builtInKotlin=false
+  # This newDsl flag was added automatically by Flutter migrator
+  android.newDsl=false
+  ```
+- Open `Project_HOME/android/app/src/main/AndroidManifest.xml`, add the microphone permission (required for AI voice search):
+  ```xml
+  <uses-permission android:name="android.permission.RECORD_AUDIO" />
+  ```
+  and, inside the existing `<queries>` block, add the speech recognizer intent (required on Android 11+):
+  ```xml
+  <intent>
+      <action android:name="android.speech.RecognitionService" />
+  </intent>
+  ```
+- Update the Google Mobile Ads native ad factories for the new `google_mobile_ads` API. Open both `Project_HOME/android/app/src/main/kotlin/<your app package>/HomeNativeAdFactory.kt` and `ListTileNativeAdFactory.kt`, and in each file:
+  - Replace the import:
+    - Old: `import io.flutter.plugins.googlemobileads.GoogleMobileAdsPlugin`
+    - New: `import io.flutter.plugins.googlemobileads.NativeAdFactory`
+  - Replace the class declaration:
+    - Old: `... : GoogleMobileAdsPlugin.NativeAdFactory {`
+    - New: `... : NativeAdFactory {`
+
+  (`MainActivity.kt` needs no change; its `registerNativeAdFactory(...)` calls resolve once the factories implement the new interface.)
+
+#### iOS (replace & reconfigure)
+
+Because iOS moved to Swift Package Manager, **replace** your `ios` folder instead of migrating it:
+
+- Copy the `Project_HOME/ios` folder from 1.4.8 and replace the `ios` folder in your existing project.
+- Reconfigure it with your own app details:
+  - **Bundle identifier** — [Change App Identifier / Bundle ID](../app-setup/change_app_identifier)
+  - **App display name** — [Change App Display Name](../app-setup/change_app_display_name)
+  - **App icon** — [Change App Icon](../app-setup/change_app_icon)
+  - **Signing** — set your Team and provisioning profiles in Xcode. [Xcode Setup](../tools/xcode_setup)
+  - **Firebase** — replace `ios/Runner/GoogleService-Info.plist` with your own.
+  - **Google Maps API key** — in `ios/Runner/AppDelegate.swift`, set your key in `GMSServices.provideAPIKey("your-maps-api-key")`.
+  - **OneSignal App ID** — in `ios/Runner/AppDelegate.swift`, set `ONE_SIGNAL_APP_ID`.
+  - **AdMob** — set your `GADApplicationIdentifier` in `ios/Runner/Info.plist`.
+  - **Social sign-in** — reconfigure your URL schemes in `ios/Runner/Info.plist` and follow each provider's guide:
+    - [Sign in with Apple](../tools/setup_apple_signin)
+    - [Facebook Sign-in](../tools/setup_facebook_signin)
+    - [Google Sign-in](../tools/setup_google_signin)
+- The provided `ios` folder already includes the full SPM setup, the OneSignal Notification Service Extension wired through SPM (linked as `OneSignalExtension`, Do Not Embed), and the microphone/speech-recognition usage descriptions. There is **no `Podfile`** — do not run `pod install`.
+
+#### Finish
+
+- Do a project clean. Remove `pubspec.lock` (there is no `ios/Podfile.lock` anymore once you use the provided `ios` folder).
+- Run `flutter pub get`.
+- Run and launch your app on a device.
+
+On the wordpress admin panel:
+- Remove existing plugin, and upload and activate your Houzi Rest Api version 1.4.8 plugin. Download from here: [Houzi Rest Api](https://github.com/booleanbites/houzi-rest-api/releases/latest.zip)
+
+
 ## Migration Guide for 1.4.7.2
 
 We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
