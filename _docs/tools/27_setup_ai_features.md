@@ -11,7 +11,7 @@ There are three AI features in the app:
 
 ## 1. AI Home — Tailored for You
 
-The home screen greets users with a natural language search box and a **Tailored for You** section — AI-generated shortcuts based on the taxonomies of your website (property types, statuses, and features), along with **Top Matches for You**.
+The home screen greets users with a natural language search box and a **Tailored for You** section — AI-generated shortcuts based on the taxonomies of your website (property types, statuses, and features), along with **Top Matches for You**. See the [Home AI Layout guide](/houzi-builder/customize_home_ai) to select this design and configure the AI widgets.
 
 <img src="../../images/ai-home-screenshot.jpeg" alt="AI home screen with Tailored for You suggestions" title="AI Home — Tailored for You" width="400" border="1px solid"/>
 

@@ -31,6 +31,8 @@ Houzi provides you wide range of home designs. On the top right side of Home sec
 
 There are some *additional customizations* related to Home designs as follows:
 
+- If you select **Home AI** (new in 1.4.8), see the dedicated [Home AI Layout guide](/houzi-builder/customize_home_ai) for the AI header and the AI widgets (`ai_smart_terms`, `ai_matches`).
+
 - If you select **Home Carousel** or **Home Location**, you can increase or reduce the *Search Type* options e.g. For Rent, For Sale etc. with the help of stepper. 
 
   <img src="../../images/home-search-type-stepper.png" alt="home-search-type-stepper" title="home-search-type-stepper" width="300" border="1px solid"/>  
