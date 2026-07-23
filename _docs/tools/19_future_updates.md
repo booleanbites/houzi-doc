@@ -12,6 +12,8 @@ Always make a backup before updating to the next version.
 
 **1.4.8** introduces Houzi AI (AI-powered search, AI-first home, and ask-the-listing), upgrades all Android and iOS dependencies to their latest versions, and migrates the iOS project from **CocoaPods** to **Swift Package Manager (SPM)**.
 
+> Once you're done migrating, follow the [AI Features setup guide](../tools/setup_ai_features) to see what the new AI features look like and enable them on the Houzi Rest Api plugin.
+
 We always assume, you haven't made changes to files in houzi_package. If you made changes in your houzi_package then you'll need to move over those manually (again).
 
 > **Important — iOS is different this time.** This release moves iOS from CocoaPods to Swift Package Manager. Hand-migrating an existing `ios` folder (removing the Podfile, de-integrating CocoaPods, and re-wiring OneSignal and Google Maps through SPM) is highly technical and error-prone, so we do **not** ask you to migrate it. Instead, **replace your `ios` folder with the one we provide in 1.4.8 and reconfigure it** with your own app details (see the iOS section below). This also raises the **minimum iOS version to 15**.
@@ -92,6 +94,7 @@ Because iOS moved to Swift Package Manager, **replace** your `ios` folder instea
 
 On the wordpress admin panel:
 - Remove existing plugin, and upload and activate your Houzi Rest Api version 1.4.8 plugin. Download from here: [Houzi Rest Api](https://github.com/booleanbites/houzi-rest-api/releases/latest.zip)
+- Enable and configure the new AI features on the plugin — see the [AI Features setup guide](../tools/setup_ai_features).
 
 
 ## Migration Guide for 1.4.7.2

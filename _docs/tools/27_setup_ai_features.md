@@ -38,7 +38,7 @@ The AI features require:
 - **Houzi Rest Api plugin** version **1.4.8** or above
 - **Houzi app** version **1.4.8** or above
 
-Update the [Houzi Rest Api plugin](/tools/houzi_plugin) on your WordPress site and rebuild your app with the latest Houzi version.
+Update the [Houzi Rest Api plugin](/tools/houzi_plugin) on your WordPress site and rebuild your app with the latest Houzi version. If you're upgrading an existing project, follow the [1.4.8 Migration Guide](/tools/upgrading_future_version) first.
 
 ## 2. Enable AI on the plugin
 
