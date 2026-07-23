@@ -16,15 +16,15 @@ order: 6
 
 ### Install Flutter
 
-Download the Flutter SDK version eg *3.35.XX* for your platform from below URL:
+Download the Flutter SDK version eg *3.44.XX* for your platform from below URL:
 
 #### Windows: 
-[flutter_windows](https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.41.2-stable.zip)
+[flutter_windows](https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.44.7-stable.zip)
 
 #### MacOS (Intel):
-[flutter_macos](https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.41.2-stable.zip)
+[flutter_macos](https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.44.7-stable.zip)
 
 #### MacOS (Apple Silicon):
-[flutter_macos_arm](https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.41.2-stable.zip)
+[flutter_macos_arm](https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.44.7-stable.zip)
 
 Go to URL, https://docs.flutter.dev/get-started/install and follow setup instructions.
