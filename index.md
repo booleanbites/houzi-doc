@@ -4,9 +4,34 @@ title: Welcome
 
 ![Houzi real estate](images/banner.jpg)
 
-Houzi a real estate mobile application for real estate agents and agencies. It is build with Flutter so it can be deployed to Android and iOS.
+Houzi is a **real estate mobile app** for agents and agencies — now supercharged with **Houzi AI**. Built with Flutter, it ships to both Android and iOS from a single codebase and connects to your Houzez-powered website out of the box.
 
-> **Tip**: **Leverage AI for implementation!** Houzi now includes a built-in **AI Agent Skill** that allows coding assistants like Antigravity, Cursor, Claude, or Copilot to understand your app architecture and perform complex configurations automatically. [Learn how to use it](ai-agents/houzi_skill).
+---
+
+## 🤖 Meet Houzi AI
+
+**New in [1.4.8](changelog)** — a suite of AI-powered experiences woven across the app, so home seekers can **search, discover, and ask in plain language**. It runs on a **bring-your-own-key** model, so *you* stay in full control of the provider, the model, and the cost. Works with **Google Gemini**, **Claude (Anthropic)**, and **OpenAI**.
+
+<table width="100%" border="0" cellpadding="10">
+<tr align="center" valign="top">
+<td width="33%"><img src="images/ai-home-screenshot.jpeg" alt="AI Home — Tailored for You" style="width:100%;max-width:240px;height:auto;" border="1px solid"/></td>
+<td width="33%"><img src="images/ai-search-screenshot.jpeg" alt="AI Property Search with voice" style="width:100%;max-width:240px;height:auto;" border="1px solid"/></td>
+<td width="33%"><img src="images/ai-ask-about-property-screenshot.jpeg" alt="Ask About This Listing" style="width:100%;max-width:240px;height:auto;" border="1px solid"/></td>
+</tr>
+<tr align="center" valign="top">
+<td><strong>Tailored for You</strong><br/>An AI-first home that greets each user with a natural-language search box and personalized shortcuts built from <em>your own</em> property types, statuses, and features — plus a <em>Top Matches for You</em> row.</td>
+<td><strong>AI Property Search + Voice</strong><br/>Users type — or <em>speak</em> — what they want (<em>“residential in Miami with a pool”</em>). Houzi AI turns it into real filters and refines as you go with follow-up chips.</td>
+<td><strong>Ask About This Listing</strong><br/>Buyers chat with AI about any property. Answers stay grounded in that listing and come back as actionable cards — map directions, call the agent, floor details, and more.</td>
+</tr>
+</table>
+
+**Bring Your Own Key (BYOK)** — your API key lives on *your* WordPress server; the app never sees it. Built-in per-user and per-site rate limits keep your AI bill in check.
+
+[**Enable Houzi AI →**](tools/setup_ai_features) &nbsp;•&nbsp; [Design your AI home](houzi-builder/customize_home_ai) &nbsp;•&nbsp; [Read the 1.4.8 release notes](changelog)
+
+---
+
+> **Building with AI?** Houzi also includes a built-in **AI Agent Skill** that lets coding assistants like Antigravity, Cursor, Claude, or Copilot understand your app architecture and perform complex configurations automatically. [Learn how to use it](ai-agents/houzi_skill).
 
 
 ### Pathway
