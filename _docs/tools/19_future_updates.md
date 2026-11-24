@@ -33,22 +33,31 @@ Updating to 1.4.9 requires the following:
       id "com.google.gms.google-services" version "4.4.2" apply false
   }
   ```
-- Open `Project_HOME/android/app/build.gradle` and ensure Java 17 compatibility and Kotlin compiler options:
-  ```groovy
-  compileOptions {
-      coreLibraryDesugaringEnabled true
-      sourceCompatibility JavaVersion.VERSION_17
-      targetCompatibility JavaVersion.VERSION_17
-  }
-  ```
-  And add the top-level Kotlin options block:
-  ```groovy
-  kotlin {
-      compilerOptions {
-          jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17
-      }
-  }
-  ```
+- Open `Project_HOME/android/app/build.gradle`:
+  1. Remove `id "kotlin-android"` from the `plugins` block:
+     ```groovy
+     plugins {
+         id "com.android.application"
+         id "dev.flutter.flutter-gradle-plugin"
+         id "com.google.gms.google-services"
+     }
+     ```
+  2. Update `compileOptions` inside `android { ... }` to Java 17 (and remove any `kotlinOptions { ... }` block inside `android { ... }`):
+     ```groovy
+     compileOptions {
+         coreLibraryDesugaringEnabled true
+         sourceCompatibility JavaVersion.VERSION_17
+         targetCompatibility JavaVersion.VERSION_17
+     }
+     ```
+  3. Add the top-level Kotlin options block:
+     ```groovy
+     kotlin {
+         compilerOptions {
+             jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17
+         }
+     }
+     ```
 - Open `Project_HOME/android/gradle.properties` and add/verify compatibility settings:
   ```properties
   android.builtInKotlin=false
