@@ -8,6 +8,68 @@ order: 20
 Always make a backup before updating to the next version.
 
 
+## Migration Guide for 1.4.9
+
+**1.4.9** updates the Flutter toolchain to **Flutter 3.50.x**, migrates Android build tooling to **Android Gradle Plugin (AGP) 9.3.1** and **Gradle 9.5.0**, upgrades Java source/target compatibility to **Java 17**, and updates `houzi-rest-api` plugin to **1.4.9**.
+
+Updating to 1.4.9 requires the following:
+
+- Always make a backup (copy in a separate folder or use git).
+- Download and update to **Flutter 3.50.xx**. [Flutter Download](../tools/flutter_setup).
+- Copy `Project_HOME > packages > houzi_package` from 1.4.9 and replace `houzi_package` in your existing project.
+
+#### Android
+
+- Open `Project_HOME/android/gradle/wrapper/gradle-wrapper.properties` and update the distribution URL:
+  ```properties
+  distributionUrl=https\://services.gradle.org/distributions/gradle-9.5.0-bin.zip
+  ```
+- Open `Project_HOME/android/settings.gradle` and update the plugin versions:
+  ```groovy
+  plugins {
+      id "dev.flutter.flutter-plugin-loader" version "1.0.0"
+      id "com.android.application" version '9.3.1' apply false
+      id "org.jetbrains.kotlin.android" version '2.4.20' apply false
+      id "com.google.gms.google-services" version "4.4.2" apply false
+  }
+  ```
+- Open `Project_HOME/android/app/build.gradle` and ensure Java 17 compatibility and Kotlin compiler options:
+  ```groovy
+  compileOptions {
+      coreLibraryDesugaringEnabled true
+      sourceCompatibility JavaVersion.VERSION_17
+      targetCompatibility JavaVersion.VERSION_17
+  }
+  ```
+  And add the top-level Kotlin options block:
+  ```groovy
+  kotlin {
+      compilerOptions {
+          jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17
+      }
+  }
+  ```
+- Open `Project_HOME/android/gradle.properties` and add/verify compatibility settings:
+  ```properties
+  android.builtInKotlin=false
+  android.newDsl=false
+  ```
+- Open `Project_HOME/android/build.gradle` and ensure subproject handling for plugins:
+  ```groovy
+  subprojects { project ->
+      if (project.name == 'location') {
+          project.plugins.withId('com.android.library') {
+              project.apply plugin: 'org.jetbrains.kotlin.android'
+          }
+      }
+  }
+  ```
+
+#### WordPress Plugin
+
+- Update **Houzi Rest API** plugin to **1.4.9** on your WordPress backend.
+
+
 ## Migration Guide for 1.4.8
 
 **1.4.8** introduces Houzi AI (AI-powered search, AI-first home, and ask-the-listing), upgrades all Android and iOS dependencies to their latest versions, and migrates the iOS project from **CocoaPods** to **Swift Package Manager (SPM)**.
