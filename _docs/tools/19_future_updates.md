@@ -50,12 +50,25 @@ Updating to 1.4.9 requires the following:
          targetCompatibility JavaVersion.VERSION_17
      }
      ```
-  3. Add the top-level Kotlin options block:
+  3. Replace the old `kotlinOptions` block (which lived inside `android { ... }`) with the new **top-level** `kotlin { compilerOptions { ... } }` block **outside** `android { ... }` — at the root level of `android/app/build.gradle`, right after the closing `}` of `android { ... }` and before `flutter { ... }`. This replaces the deprecated `android.kotlinOptions` DSL in AGP 9 / Kotlin 2.x and keeps Kotlin's JVM bytecode target aligned with Java 17 in `compileOptions`:
      ```groovy
+     android {
+         ...
+         compileOptions {
+             coreLibraryDesugaringEnabled true
+             sourceCompatibility JavaVersion.VERSION_17
+             targetCompatibility JavaVersion.VERSION_17
+         }
+     }
+
      kotlin {
          compilerOptions {
              jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17
          }
+     }
+
+     flutter {
+         source '../..'
      }
      ```
 - Open `Project_HOME/android/gradle.properties` and add/verify compatibility settings:
