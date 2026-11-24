@@ -10,7 +10,7 @@ Always make a backup before updating to the next version.
 
 ## Migration Guide for 1.4.9
 
-**1.4.9** updates the Flutter toolchain to **Flutter 3.50.x**, migrates Android build tooling to **Android Gradle Plugin (AGP) 9.3.1** and **Gradle 9.5.0**, upgrades Java source/target compatibility to **Java 17**, and updates `houzi-rest-api` plugin to **1.4.9**.
+**1.4.9** updates the Flutter toolchain to **Flutter 3.50.x**, migrates Android build tooling to **Android Gradle Plugin (AGP) 9.3.1** and **Gradle 9.5.0**, upgrades Java source/target compatibility to **Java 17**, migrates the iOS app lifecycle to **`UIScene`**, and updates `houzi-rest-api` plugin to **1.4.9**.
 
 Updating to 1.4.9 requires the following:
 
@@ -76,6 +76,115 @@ Updating to 1.4.9 requires the following:
   android.builtInKotlin=false
   android.newDsl=false
   ```
+
+#### iOS
+
+**1.4.9** adopts the **`UIScene`** lifecycle for modern iOS SDK and Flutter 3.41+ / 3.50.x compatibility, preventing launch-time crashes from accessing `window.rootViewController` inside `application(_:didFinishLaunchingWithOptions:)`.
+
+- Add `Project_HOME/ios/Runner/SceneDelegate.swift` (create it via Xcode inside the `Runner` group so it is included in the `Runner` target's **Compile Sources** build phase, or copy it from 1.4.9 and add it to the Xcode project):
+  ```swift
+  import Flutter
+  import UIKit
+
+  class SceneDelegate: FlutterSceneDelegate {
+
+      override func scene(
+          _ scene: UIScene,
+          openURLContexts URLContexts: Set<UIOpenURLContext>
+      ) {
+          super.scene(scene, openURLContexts: URLContexts)
+          if let url = URLContexts.first?.url {
+              (UIApplication.shared.delegate as? AppDelegate)?.handleIncomingUrl(url)
+          }
+      }
+
+      override func scene(
+          _ scene: UIScene,
+          continue userActivity: NSUserActivity
+      ) {
+          super.scene(scene, continue: userActivity)
+          if let url = userActivity.webpageURL {
+              (UIApplication.shared.delegate as? AppDelegate)?.handleIncomingUrl(url)
+          }
+      }
+  }
+  ```
+- Open `Project_HOME/ios/Runner/Info.plist` and add `UIApplicationSceneManifest` inside the root `<dict>`:
+  ```xml
+  <key>UIApplicationSceneManifest</key>
+  <dict>
+    <key>UIApplicationSupportsMultipleScenes</key>
+    <false/>
+    <key>UISceneConfigurations</key>
+    <dict>
+      <key>UIWindowSceneSessionRoleApplication</key>
+      <array>
+        <dict>
+          <key>UISceneClassName</key>
+          <string>UIWindowScene</string>
+          <key>UISceneConfigurationName</key>
+          <string>flutter</string>
+          <key>UISceneDelegateClassName</key>
+          <string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+          <key>UISceneStoryboardFile</key>
+          <string>Main</string>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+  ```
+- Open `Project_HOME/ios/Runner/AppDelegate.swift` and update it for implicit Flutter engine initialization:
+  1. Conform `AppDelegate` to `FlutterImplicitEngineDelegate`:
+     ```swift
+     @main
+     @objc class AppDelegate: FlutterAppDelegate, FlutterImplicitEngineDelegate {
+     ```
+  2. Keep `OneSignal.initialize(...)`, `UNUserNotificationCenter.current().delegate`, and `GMSServices.provideAPIKey(...)` inside `application(_:didFinishLaunchingWithOptions:)`, and **remove** `GeneratedPluginRegistrant.register(with: self)`, `window?.rootViewController` channel setup, and `FLTGoogleMobileAdsPlugin.registerNativeAdFactory(self, ...)` from `didFinishLaunchingWithOptions`.
+  3. Implement `didInitializeImplicitFlutterEngine(_ engineBridge: FlutterImplicitEngineBridge)` to register plugins, deep-link channels, and native ad factories using `engineBridge`:
+     ```swift
+     // MARK: - FlutterImplicitEngineDelegate
+     func didInitializeImplicitFlutterEngine(_ engineBridge: FlutterImplicitEngineBridge) {
+         GeneratedPluginRegistrant.register(with: engineBridge.pluginRegistry)
+
+         let messenger = engineBridge.applicationRegistrar.messenger()
+
+         // DEEP LINKING RELATED CODE
+         methodChannel = FlutterMethodChannel(name: "houzi_link_channel/channel", binaryMessenger: messenger)
+         eventChannel = FlutterEventChannel(name: "houzi_link_channel/events", binaryMessenger: messenger)
+
+         methodChannel?.setMethodCallHandler({ [weak self] (call: FlutterMethodCall, result: FlutterResult) in
+             if call.method == "initialLink" {
+                 result(self?.initialLink ?? "")
+             } else if call.method == "pushNotification" {
+                 result("")
+             } else {
+                result(FlutterMethodNotImplemented)
+             }
+         })
+
+         eventChannel?.setStreamHandler(linkStreamHandler)
+
+         // Mobile Ads - Native Ad Factories
+         let listTileFactory = ListTileNativeAdViewFactory()
+         FLTGoogleMobileAdsPlugin.registerNativeAdFactory(
+             engineBridge.pluginRegistry, factoryId: "listTile", nativeAdFactory: listTileFactory)
+
+         let homeTileFactory = HomeNativeAdViewFactory()
+         FLTGoogleMobileAdsPlugin.registerNativeAdFactory(
+             engineBridge.pluginRegistry, factoryId: "homeNativeAd", nativeAdFactory: homeTileFactory)
+     }
+     ```
+  4. Add the shared `handleIncomingUrl(_ url: URL)` helper on `AppDelegate` (called by both `SceneDelegate` and `AppDelegate`'s URL/Universal Link callbacks):
+     ```swift
+     // MARK: - Deep Linking & Universal Links Handler
+     @discardableResult
+     func handleIncomingUrl(_ url: URL) -> Bool {
+         print("url \(url)")
+         initialLink = url.absoluteString
+         eventChannel?.setStreamHandler(linkStreamHandler)
+         return linkStreamHandler.handleLink(url.absoluteString)
+     }
+     ```
 
 #### WordPress Plugin
 
