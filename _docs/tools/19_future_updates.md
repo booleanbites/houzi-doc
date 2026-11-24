@@ -54,16 +54,6 @@ Updating to 1.4.9 requires the following:
   android.builtInKotlin=false
   android.newDsl=false
   ```
-- Open `Project_HOME/android/build.gradle` and ensure subproject handling for plugins:
-  ```groovy
-  subprojects { project ->
-      if (project.name == 'location') {
-          project.plugins.withId('com.android.library') {
-              project.apply plugin: 'org.jetbrains.kotlin.android'
-          }
-      }
-  }
-  ```
 
 #### WordPress Plugin
 
